@@ -1,0 +1,60 @@
+<table class="banner">
+  <tbody>
+    <tr>
+      <td class="logo">
+    	<a href="http://www.wisc.edu"><img class="logo" alt="UW logo" src="assets/images/uwlogo.png"></a>
+      </td>
+      <td style="vertical-align: top; text-align: center;">
+          <h1>Scalable Tools Workshop</h1>
+          <h3>Granlibakken Resort<br>
+            Lake Tahoe, California<br>
+          {% assign one_day = 86400 %}
+          {% assign workshop_len = 345600 %}
+          {{site.data.dates.startdate |  date: "%A, %B %-d"}}-{{site.data.dates.startdate | date: "%s" | plus: workshop_len |  date: "%A, %B %-d, %Y"}}</h3><br>
+      </td>
+      <td class="logo">
+          <a href="http://www.rice.edu"><img class="logo" alt="Rice logo" src="assets/images/ricelogo.jpg"></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table align="center" class="sitepages" border="0" 	cellspacing="0" cellpadding="3px">
+    <tr>
+      <td><a href="index.html">Overview</a></td>
+      <td><a href="registration.html">Registration</a></td>
+      <td><a href="arrangements.html">Local Arrangements</a></td>
+      <td><a href="workshops.html">Past Workshops</a></td>
+        {% for day in (0..4) %}
+        <td>
+            {% assign offset = one_day | times: day %}
+            {% assign sched_date = site.data.dates.startdate | date: "%s" | plus: offset %}
+            {{sched_date | date: "%A, %B %-d"}}<br>
+            <a href="{{sched_date | date: "%A" | downcase }}.html">{{sched_date | date: "%A"}} Schedule</a>
+        </td>
+        {% endfor %}
+    </tr>
+</table>
+
+<script language=javascript>
+    <!-- Hide from non-JS browsers
+    /*
+     * Create a popup help window with a specific size, and raise it to the top of
+     * the window stack.  Originally we included url in the window.open call. With
+     * some browsers, this fails when the url contains a #name.  IE  4.0  crashes,
+     * and  NS can't position the text at the #name anchor.  So we first make sure
+     * the window is open, sized and visible, and then we load the URL.  There  is
+     * still  one  minor  bug  here:   When  the window is resized, the text isn't
+     * wrapped to fit, and a horizontal scrollbar appears instead.
+     */
+    function Abstract(W,H,url) {
+        helpwin = window.open('','abstract',
+            'width='+W+',height='+H+',toolbars=0,scrollbars=2,location=0,statusbars=0,menubar=0,resizable=1');
+        helpwin.focus();        // Put help window on top.
+        helpwin.location = url; // Load the URL.
+
+    }
+
+    -->
+</script>
+

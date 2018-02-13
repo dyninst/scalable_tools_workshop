@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+{% include header.html %}
+<img width="125" height="398" alt="picture of Tahoe"
+     src="assets/images/tahoe_2.JPG" class="leftdecoration">
+
+<div class="mainbody">
+
+    <h3 align="center">{{page.date}}<br>{{page.title}}</h3>
+    <h3 align="center">{{page.location}}</h3>
+    {% assign today = (site.data.schedule.sessions | where_exp: 'item', 'item.days contains page.sched_key') %}
+    {% assign sched = (today | sort: 'time') %}
+    {% for session in sched %}
+    {% include session.html session=session %}
+    {% endfor %}
+</div>
+<script>
+    $("a.tooltip").click(function() {
+        $(this).children(".abstract_text").toggleClass("visible");
+    });
+</script>
+
+{% include footer.html %}
+</body>
+</html>
