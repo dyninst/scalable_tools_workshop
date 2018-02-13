@@ -1,6 +1,7 @@
 ---
 layout: info
 title: Location
+year: 2018
 ---
 Scalable Tools Workshop {{site.data.dates.year}} will be held at the
 beautiful <a href="http://www.granlibakken.com">Granlibakken Resort</a> in Lake Tahoe,

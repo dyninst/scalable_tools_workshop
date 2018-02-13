@@ -1,0 +1,467 @@
+---
+sessions:
+  - title: Breakfast
+    time: 07:30am
+    days:
+      - monday
+      - tuesday
+      - wednesday
+      - thursday
+    class: sbreak
+  - title: Lunch
+    time: 12:00pm
+    days:
+      - monday
+      - wednesday
+      - thursday
+    class: sbreak
+  - title: Lunch
+    time: 12:30pm
+    days:
+      - tuesday
+    class: sbreak
+  - title: Reception
+    time: 17:30pm
+    days:
+      - sunday
+      - monday
+      - tuesday
+    class: sbreak
+  - title: Dinner
+    time: 18:30pm
+    days:
+      - sunday
+      - monday
+      - tuesday
+    class: sbreak
+  - title: Reception
+    time: 18:30pm
+    days:
+      - wednesday
+    class: sbreak
+  - title: Dinner
+    time: 19:30pm
+    days:
+      - wednesday
+    class: sbreak
+  - title: Break
+    time: 10:00am
+    days:
+      - monday
+      - tuesday
+      - wednesday
+      - thursday
+    class: sbreak
+  - title: Break
+    time: 15:00pm
+    days:
+      - monday
+  - title: Break
+    time: 14:30pm
+    days:
+      - tuesday
+    class: sbreak
+  - days: monday
+    time: 08:30am
+    title: "Tools Infrastructure #1"
+    talks:
+    - title: Dyninst and MRNet Update
+      author: Bill Williams and Sasha Nicolas
+      affiliation: University of Wisconsin
+      length: 1800
+      abstract: "The Dyninst suite of tools continues to evolve as we face the challenges of
+                    analyzing and instrumenting increasingly complex binaries in exascale environments.
+                    In the past year, we have continued work to improve our support for new architectures (ARM64),
+                    cross-architecture binary analysis, and performance improvements. As we work towards Dyninst 10.0,
+                    we want to share our vision for a better way to expose Dyninst's components to users and make our
+                    APIs easier to use."
+      slides: "dyninst9_3.pptx"
+    - title: Continuous Clock Synchronization for Accurate Performance Analysis
+      author: Johannes Ziegenbalg
+      affiliation: TU Dresden
+      length: 1800
+      abstract: "Clock synchronization is a key prerequisite for accurate performance analysis.
+                     This is particularly true for most HPC systems, due to the lack of a
+                     system-wide timer. The effects of different clock properties lead to false
+                     measurements and wrong conclusions. Often these errors remain undetected by the
+                     user.
+
+                     Different environmental effects cause continuous changes to clock properties
+                     over time. This behavior is ignored by the usual post-mortem approach for
+                     clock synchronization. In order to improve time measurement accuracy we
+                     implemented a method for continuous clock synchronization. In this talk we
+                     share our experiences and draw conclusions for tool development. "
+      slides: "Praesentation_16zu10.pptx"
+    - title: "SNOflake - A Scalable Network Overlay for Multi-domain HPC Environments"
+      author: Michael Brim
+      affiliation: ORNL
+      length: 1800
+      abstract: "SNOflake is a general purpose Scalable Network Overlay technology targeted at
+                     HPC environments. SNOflake supports deployments of overlay networks spanning
+                     many network domains (e.g., compute clusters, service nodes, and storage
+                     system). SNOflake extends the tree-based overlay network (TBON) technology
+                     pioneered by MRNet into a ring-of-TBONs architecture where one or more TBONs
+                     are placed on each network domain. This presentation will first cover the
+                     SNOflake design goals and architecture, and then discuss two ORNL software
+                     technologies, MELT and ExCDS, that leverage SNOflake for scalable end-to-end
+                     monitoring and management of HPC storage I/O."
+      slides: "snoflake-scalabletools-2017.pdf"
+  - days: monday
+    time: 10:30am
+    title: "Performance Tools"
+    talks:
+      - title: "Evolving the HPCToolkit"
+        author: John Mellor-Crummey
+        affiliation: Rice University
+        length: 1800
+        slides: "hpctoolkit-scalable-tools-2017-08.pdf"
+      - title: "Anticipating Aurora: Valgrind, AVX-512, and Intel HPC Analysis Tools"
+        author: Tatyana Mineeva and Rashawn Knapp
+        affiliation: Intel
+        length: 1800
+        abstract: "    In collaboration with performance tool developers, our team enables 
+                       open-source HPC analyzers and measurement tools for CORAL 
+                       (Collaboration of Oak Ridge, Argonne, and Livermore) supercomputer 
+                       installations at Argonne National Laboratory.
+ 
+                       We present our progress on adding support for AVX-512 vector instructions 
+                       to Valgrind, a dynamic instrumentation framework, widely known for its 
+                       memcheck tool. This support will allow Valgrind to instrument
+                       binaries containing AVX-512 instructions on the most current Intel(tm) Xeon 
+                       Phi processor, codenamed Knights Landing (KNL), the recent Xeon Skylake 
+                       server platforms, and Aurora, the successor to Argonne’s KNL based Theta.  
+                       We will highlight the notable features of the AVX-512 extensions, and our 
+                       contributions to date.  
+                       
+                       Additionally, we provide an HPC focused overview of capabilities available 
+                       with Intel performance analysis tools. Recently, a number of HPC-oriented 
+                       features, including a roofline model and vectorization advice, have been 
+                       added to Intel tools. We will show case several examples of using some of 
+                       features on a single KNL node and on a modest-sized KNL cluster.  
+                       
+                       Most of Intel’s performance tools are available at no cost to qualified open 
+                       source contributors, students, and educators for non-commercial use."
+        slides: "2017_0807_STW-17_rashawn.knapp.v2.final.post4archive.pptx"
+      - title: "State Of The Performance Tools (A Personal Opinion)"
+        author: "Doug Pase"
+        affiliation: "Sandia National Labs"
+        length: 1800
+        abstract: "At Sandia, it isn't the unique challenges of exascale computing that are getting in the way of tool
+        use. It is the mundane issues of reliability, robustness, being able to work with large scale applications, run
+        on large scale systems under real life environments, etc. Tools are, for the most part, light enough, fast
+        enough, and manage data well enough for very large core count applications. In the author's experience, where
+        they fail is being able to run at all on production applications in production environments. Failures often
+        occur when the application is large (in terms of LOC), or when production operating systems, compilers,
+        languages, and libraries (e.g., Kokkos, Trilinos, or MKL) are used. It's not sufficient that a tool work for
+        small applications on 100,000 cores if it doesn't also work on real codes running with systems, libraries,
+        compilers and languages found in production environments."
+        slides: "Doug Pase Scalable Tools Workshop 2017.pdf"
+                       
+
+  - days: monday
+    time: 13:30pm
+    title: "Analysis Techniques #1"
+    talks:
+      - title: "Exposing Hidden Performance Optimizations in High Performance GPU Applications"
+        author: Benjamin Welton
+        affiliation: UW-Madison
+        length: 1800
+        abstract: "The emergence of leadership class systems with nodes containing many-core accelerators, such as GPUs,
+        has the potential to vastly increase the performance of distributed applications. Exploiting the additional
+        parallelism that many-core accelerators offer is fraught with challenges. Developers and existing performance
+        tools focus on a subset of these challenges, primarily the identification of CPU code that may be suited for
+        many-core parallelization and improving the efficiency of existing many-core code. While this focus has
+        resulted in application performance improvements, a significant amount of untapped performance still remains.
+        Untapped performance opportunities take the form of missed unobvious many-core parallelization opportunities as
+        well as inefficiencies in handling interactions with the accelerator, such as memory copies and
+        synchronization. In this work we address three issues: (1) characterize the missed performance opportunities
+        in many-core applications that are not detected by current performance tools and techniques, (2) design
+        detection methods that can be used by performance tools to identify these missed opportunities, and (3) apply
+        these techniques to five large scale scientific applications (Qball, QBox, Hoomd-blue, LAMMPs, and cuIBM),
+        resulting in a reduction of their execution time by 18% and 87%."
+        slides: "welton_perf_workshop_2017_final.pdf"
+      - title: "Continuous Metric Collection and Assessment - an Ecosystem Approach"
+        author: David Montoya
+        affiliation: LANL
+        length: 1800
+        abstract: "We have traditionally assessed performance at the application internals and its immediate resources.
+        With the complexities of increasing scale and unique architectures, performance has taken a more holistic
+        perspective. How the computational environment is designed, its constraints, and ability to balance resource
+        use is a key aspect in performance. There are varying perspectives of performance depending on differing
+        stakeholders. This talk will review many of the drivers, approaches, and challenges of an integrated performance
+        environment."
+        slides: "Scalable_Tools_0817.pdf"
+      - title: "Extending Performance Monitoring Profile Guided Optimization (PGO) Capabilities"
+        author: Michael Chynoweth
+        affiliation: Intel
+        length: 1800
+        abstract: "Currently the last branch records are being used to determine the paths of
+                       execution and optimize code layout with profile guided optimizations. This
+                       presentation will cover the research we are accomplishing to take PGO beyond
+                       fixing text/code section issues and how it will be used to assist targeted
+                       optimizations through determining which portion of the pipeline is stalled
+                       and apply optimizations specifically for that bottleneck. Specifically we
+                       will cover aggressive loop optimizations, data layout, lock/cache contention
+                       determined through use of ~100 performance monitoring events and automatically
+                       apply the right compiler optimizations for the execution characteristics of
+                       each application."
+        slides: "2017.08.07_ScalableToolsConference_MChynoweth_Final_pdf.pdf"
+  - days: monday
+    time: 15:30pm
+    title: "Analysis Techniques #2"
+    talks:
+      - title: "TMAM: Top-down Microarchitecture Analysis Method simplifies Cycle Accounting"
+        author: Ahmad Yasin
+        affiliation: Intel
+        length: 1800
+        abstract: "    Top-down Microarchitecture Analysis Method (TMAM) is an industry-proven
+                       systematic approach that identifies performance bottlenecks in out-of-order
+                       cores. Identifying true bottlenecks lets developers focus software tuning to
+                       remediate them and improve efficiently on same hardware. It further enables
+                       computer architects to better understand resource demands of emerging
+                       workloads when designing future hardware. TMAM simplifies cycle-accounting
+                       using microarchitecture-independent metrics organized in one single hierarchy
+                       which makes analysis simple. Using TMAM, the high-learning curve associated
+                       with each microarchitecture generation is replaced by a structured drill-down
+                       that guides the user to true performance limiters. This talk will present the
+                       key challenges that cycle-accounting faces and how the basic metrics of TMAM
+                       address them on Intel Core/Xeon products."
+      - title: "Isoefficiency in Practice: Configuring and Understanding the Performance of Task-based Applications"
+        author: Sergei Shudler
+        affiliation: TU Darmstadt
+        length: 1800
+        abstract: "Task-based programming offers an elegant way to express units of
+                       computation and the dependencies among them, making it easier to
+                       distribute the computational load evenly across multiple cores. However, this
+                       separation of problem decomposition and parallelism requires a sufficiently
+                       large input problem to achieve satisfactory efficiency on a given number of
+                       cores. Unfortunately, finding a good match between input size and core count
+                       usually requires significant experimentation, which is expensive and sometimes
+                       even impractical. In this paper, we propose an automated empirical method for
+                       finding the isoefficiency function of a task-based program, binding
+                       efficiency, core count, and the input size in one analytical expression. This
+                       allows the latter two to be adjusted according to given (realistic) efficiency
+                       objectives. Moreover, we not only find (i) the actual isoefficiency function
+                       but also (ii) the function one would yield if the program execution was free
+                       of resource contention and (iii) an upper bound that could only be reached if
+                       the program was able to maintain its average parallelism throughout its
+                       execution. The difference between the three helps to explain low efficiency,
+                       and in particular, it helps to differentiate between resource contention and
+                       structural conflicts related to task dependencies or scheduling. The insights
+                       gained can be used to co-design programs and shared system resources."
+        slides: "shudler_scalable_tools.pdf.flv"
+      - title: "Is it me, or is it the machine?"
+        author: Judit Gimenez
+        affiliation: Barcelona Supercomputer Center
+        length: 1800
+        abstract: "Sometimes programmers do a good job but the execution does not report the
+                       expected performance. The first step to improve the performance is to
+                       understand what is going on, and flexible tools like Paraver are key to face
+                       unknown problems that can be anywhere.
+
+                       During the tools training, I used to ask for a code from the attendees to be
+                       used for the demo, but sometimes no example is provided. In these cases I run
+                       the Lulesh benchmark. As a result, I have collected Paraver traces of Lulesh
+                       running on many different systems. The talk will present the high variability
+                       I have observed on the achieved performance with the same source code, as well
+                       as the ability of our performance tools to pinpoint what is causing the loss
+                       of performance."
+        slides: "judit_tahoe17.pdf"
+  - days: tuesday
+    time: 08:30am
+    title: "Tools Infrastructure #2"
+    talks:
+      - title: Autotools for Supercomputers
+        author: Christian Feld
+        affiliation: Juelich Supercomputing Center
+        length: 1800
+        abstract: "Developing portable software is hard. To mitigate this process, leveraging
+                       the widely adopted GNU autotools can be beneficial as they significantly
+                       reduce the effort of writing portable build systems. However, assumptions
+                       made by GNU autotools do not match the obstacles developers face on today's
+                       supercomputers with their various combinations of login- and compute-node
+                       architectures, compilers, and libraries. With Autotools for Supercomputers
+                       (AfS), we propose a modular framework on top of GNU autotools that addresses
+                       this mismatch by hiding the complexities of system diversity from developers
+                       and users, offering reasonable defaults as well as fuss-free options for
+                       customization.
+
+                       For developers, AfS reduces the effort of creating portable make targets to
+                       the choice for which architecture to build them (login- and/or compute-node,
+                       MPI, accelerator), while users benefit from a unified and simplified
+                       configuration process. Last but not least, build system maintainers are
+                       provided with working solutions to produce robust and maintainable systems,
+                       at the same time preventing from common pitfalls, particularly with regard
+                       to cross-compilation. AfS is actively maintained and successfully used by
+                       several projects running on a wide variety of supercomputers."
+        slides: "AutotoolsForSupercomputers_LakeTahoe17.pdf"
+      - title: Infrastructure for Ubiquitous Performance Analysis
+        author: David Poliakoff
+        affiliation: LLNL
+        abstract: "In this talk we will discuss tightly integrating performance tools into
+                       applications.  Building tightly-coupled performance tools enables
+                       capabilities like \"always on\" performance analysis, performance history
+                       tracking, and performance introspection.  It also simplifies tool
+                       development by letting tools leverage application infrastructure.  This
+                       talk will focus on new tool components that enable tighter application and
+                       performance tool coupling.  We will discuss Gotcha, which
+                       provides a mechanism for tools to intercept application operations, and
+                       SPOT, web infrastructure for visualizing performance history.  By making
+                       our tools an essential component in applications we can raise both the
+                       visibility and importance of performance tools in the HPC community."
+        length: 1800
+      - title: Recent Advances in PAPI
+        author: Anthony Danalis
+        affiliation: University of Tennessee
+        length: 1800
+        abstract: "PAPI has been a layer that provides a consistent interface to hardware performance counters for
+        almost two decades. This talk will outline the newest developments and the future directions of PAPI.  Energy
+        and power, being important optimization parameters as we move to larger compute systems, have been one of the
+        foci of PAPI development. Another recent development within PAPI has been the effort to develop means to
+        categorize and understand the numerous counters that exist in modern hardware platforms. Lastly, this talk will
+        introduce PAPI Software-defined events and explain our effort to extend PAPI’s role as a standardizing layer for
+        monitoring performance of entire applications, including their interactions with external libraries, runtimes
+        and other software layers."
+  - days: tuesday
+    time: 10:30am
+    title: "Tools Infrastructure #3"
+    talks:
+      - title: "Flexible Data Aggregation for Performance Profiling"
+        author: "David Boehme"
+        affiliation: "LLNL"
+        length: 1800
+        abstract: "Many performance analysis tools in the HPC space perform some form of
+                   aggregation to compute summary information of a series of performance
+                   measurements, from summations to more complex operations like
+                   histograms. In current profilers, however, most aspects that control
+                   the aggregation are hard-coded, limiting results to certain
+                   pre-defined profile types (e.g., call-path time profiles).
+                   In this talk, we present Caliper's new aggregation approach, where
+                   users can define custom aggregation schemes in a simple SQL-like
+                   description language. This allows us to create performance profiles
+                   with application-specific data dimensions that would be difficult to
+                   obtain with traditional profiling tools."
+      - title: "The State and Needs of IO Tools"
+        author: "Greg Becker and Elsa Gonsiorowski"
+        affiliation: "LLNL"
+        length: 1800
+        abstract: "I/O has historically been an afterthought in application development and performance analysis. As
+                   processing power increases and accelerators increase performance, Amdahl’s law increasingly points
+                   to I/O as an opportunity for performance optimization. Unfortunately, the tool framework for analysis
+                   of I/O performance is not as robust as that for computational performance. Tools that exist, such as
+                   IOR and Darshan, target a very small slice of I/O performance. No tool exists which measures the
+                   real-world I/O performance of an application running under real workloads, and tools that create
+                   artificial I/O to model performance do not account for network contention.
+
+                   Additionally complicating this space is the introduction of hierarchical storage into the I/O space.
+                   With the increased prevalence of burst buffers and other forms of hierarchical storage, we can
+                   expect to find new answers to historically well-studied problems such as optimal checkpointing
+                   frequency.
+
+                   As user need for I/O performance increases, there will need to be a paradigm shift in the performance
+                   tools community to including I/O in our understanding of application performance. Bringing the
+                   insights of the scalable tools community to I/O performance tools will increase our total
+                   understanding of performance in the HPC sphere."
+        slides: "gonsiorowski-io-tools.pdf"
+      - title: "Update on Intra- and Inter-compiler ABI Compatibility"
+        author: "Ben Woodard"
+        affiliation : "RedHat"
+        length: 900
+        abstract: "Another year later and libabigail’s ABI verification has improved considerably. Intra-compiler
+        verification seems fairly solid and Inter-compiler ABI compatibility has become an area of more interest within
+        Red Hat due to our bootstrapping of the GPGPU toolchain based on LLVM for future products and to facilitate
+        our participation with OpenHPC. This short talk updates last year’s discussion on inter-compiler ABI
+        compatibility. It outlines some of the continuing challenges and a few breakthroughs."
+        slides: "Libabigail 2017.pdf"
+      - title: "Analyzing Data Access Latency"
+        author: "William Jalby"
+        affiliation: "University of Versailles"
+        abstract: "Data access latency can be a major performance issue and is very often overlooked.
+        Data access bandwidth is considered as a major performance limiter while in some cases, the dominating factor is latency.
+        In this talk we will present a tool for analyzing data latency impact on performance and providing some hints
+        on data access optimization."
+        length: 900
+        slides: "SWT2017_WJA_data_latency_access_V9.pdf"
+  - days: tuesday
+    time: 12:00pm
+    title: History
+    talks:
+      - title: HPC in Ancient History
+        author: Marty Itzkowitz
+        affiliation: Software Consultant
+        length: 1800
+        abstract: "Long before there was Unix, C, C++, Java, email, internet, ..., there was
+                   still High Performance Computing.  In this talk, I will describe the dominant
+                   machines of that era, the IBM 709x, and the CDC 6600 and 7600.
+
+                   I'll talk about the interesting characteristics of those machines,
+                   the software that ran on them, mass storage of that time, and the software
+                   development environment.  I will show pictures of some of the
+                   remarkable pieces of hardware from that time, and will have a show and tell
+                   of artifacts."
+        slides: "HPC.history.pdf"
+  - days: tuesday
+    time: 13:30pm
+    title: Working Group Creation
+  - days: tuesday
+    time: 15:00pm
+    title: Working Groups
+    talks:
+        - title: Tools for ARM
+          slides: "ARM_working_group.pptx"
+        - title: Machine Learning
+          slides: "ML-Session.pdf"
+        - title: Vendor-Neutral API for OMPD
+          slides: "OMPD - STWS.pptx"
+        - title: Binary Analysis of GPU code
+          
+  - days: wednesday
+    time: 08:30am
+    title: Working Groups
+    talks:
+        - title: DWARF infrastructure
+          author: "Bay (Back)"
+          slides: "DWARF.pdf"
+        - title: Expanding the scope of FDO
+          author: "Bay (Middle)"
+        - title: I/O Working Group
+          author: "Bay (Front)"
+        - title: Tool Workflows
+          author: "Lake"       
+  - days: wednesday
+    time: 10:30am
+    title: Working Groups
+    talks:
+        - title: Clang plugin development
+          author: "Bay"
+          slides: "2017-08 Clang Plugin Notes.pptx"
+        - title: Hardware Counters
+          author: "Lake"
+  - days: wednesday
+    time: 13:30pm
+    title: Informal Small Group Discussions
+    talks:
+        - title: "Mt. Rose Summit"
+          author: ""
+          slides: "2017-08-09-MtRoseHike.JPG"
+  - days: thursday
+    time: 08:30am
+    title: Working Group Concluding Sessions and Outbriefs
+    talks:
+        - title: Tools from a User's Point of View
+          author: "Lake"
+        - title: Tools for Understanding OS and GPU Bottlenecks
+          author: "Bay"      
+          slides: "GPU_Inst_notes_final.pptx" 
+  - days: thursday
+    time: 10:30am
+    title: Working Group Outbriefs
+    talks:
+  - days: sunday
+    time: 12:00pm
+    title: Arrival
+    class: sbreak
+  - days: thursday
+    time: 1:30pm
+    title: Departure
+    class: sbreak
