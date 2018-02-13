@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Scalable Tools Workshop 2017
+title: Scalable Tools Workshop
 email: dyninst\-api@cs.wisc.edu
 description: > # this means to ignore newlines until "baseurl:"
-  2017 Scalable Tools Workshop for Excscale Computing
+ Scalable Tools Workshop for Exascale Computing
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://www.paradyn.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -27,6 +27,10 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+plugins:
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from  
 exclude:
   - Gemfile
   - Gemfile.lock
