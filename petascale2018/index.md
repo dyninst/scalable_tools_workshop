@@ -1,7 +1,7 @@
 ---
 layout: info
 title: About the meeting
-year: 2018
+year: workshop2018
 ---
           {% assign workshop_len = 345600 %}
 
