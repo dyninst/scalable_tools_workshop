@@ -1,6 +1,5 @@
 ---
 layout: info
-year: 2018
 ---
 # Past Workshops
 

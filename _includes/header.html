@@ -10,7 +10,8 @@
             Lake Tahoe, California<br>
           {% assign one_day = 86400 %}
           {% assign workshop_len = 345600 %}
-          {{site.data.dates.startdate |  date: "%A, %B %-d"}}-{{site.data.dates.startdate | date: "%s" | plus: workshop_len |  date: "%A, %B %-d, %Y"}}</h3><br>
+          {% assign startdate = site.data[page.year].dates.startdate %}
+          {{startdate |  date: "%A, %B %-d"}}-{{startdate | date: "%s" | plus: workshop_len |  date: "%A, %B %-d, %Y"}}</h3><br>
       </td>
       <td class="logo">
           <a href="http://www.rice.edu"><img class="logo" alt="Rice logo" src="assets/images/ricelogo.jpg"></a>
@@ -28,7 +29,7 @@
         {% for day in (0..4) %}
         <td>
             {% assign offset = one_day | times: day %}
-            {% assign sched_date = site.data.dates.startdate | date: "%s" | plus: offset %}
+            {% assign sched_date = startdate | date: "%s" | plus: offset %}
             {{sched_date | date: "%A, %B %-d"}}<br>
             <a href="{{sched_date | date: "%A" | downcase }}.html">{{sched_date | date: "%A"}} Schedule</a>
         </td>

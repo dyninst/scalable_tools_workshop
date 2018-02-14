@@ -25,7 +25,7 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
   - jekyll-redirect-from
 whitelist:
@@ -33,3 +33,14 @@ whitelist:
 exclude:
   - Gemfile
   - Gemfile.lock
+defaults:
+  -
+    scope:
+      path: "petascale2017"
+    values: 
+        year: "workshop2017"
+  -
+    scope:
+      path: "petascale2018"
+    values: 
+        year: "workshop2018"

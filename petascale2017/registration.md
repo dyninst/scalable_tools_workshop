@@ -7,10 +7,9 @@ If you received an invitation letter to register for the workshop, then you shou
 already have the username and password to use on the Granlibakken site.
 If you do not have this information, please email
 Bart or John to ask for it.
-<P>
 The registration web page can be found
-<a href=http://granlibakken.com>here</a>, on the Event/Group Reservations link.
-<p>
+[here](http://granlibakken.com), on the Event/Group Reservations link.
+
 Meals, lodging, and workshop attendance are covered by the registration fee.
 If you are traveling with companions who are not attending the workshop,
 their meals and lodging will cost an additional $84 per person per day.
