@@ -5,7 +5,10 @@
 {% include header.html %}
 <img width="125" height="398" alt="picture of Tahoe"
      src="assets/images/tahoe_2.JPG" class="leftdecoration">
-
+<div visibility="hidden">
+  {{ page.year }}
+  {{ site.data[page.year].schedule }}
+</div>
 <div class="mainbody">
     {% assign one_day = 86400 %}
     {% assign workshop_len = 345600 %}
