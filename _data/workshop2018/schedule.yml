@@ -161,8 +161,8 @@ sessions:
     title: TBD
     talks:
     - title: "Sword: A Bounded Memory-Overhead Detector of OpenMP Data Races in Production Runs"
-      author: Simone Arzeni, Ganesh Gopalakrishnan, Zvonimir Rakamaric
-      affiliation: Nvidia, Univ of Utah, Univ of Utah
+      author: Simone Arzeni (Nvidia), Ganesh Gopalakrishnan, Zvonimir Rakamaric (Univ of Utah)
+      affiliation:
       length: 1800
           
     - title: "READEX: A Tool Suite for Dynamic Energy Tuning"
@@ -173,7 +173,7 @@ sessions:
     - title: "FLiT: Cross-Platform Floating-Point Result-Consistency Tester and Workload"
       author: Michael Bentley, Ganesh Gopalakrishnan (Univ of Utah)
               Ignacio Laguna, Greg Lee, Dong H. Ahn (LLNL)
-      affiliation: Univ of Utah, LLNL
+      affiliation:
       length: 1800
 
     - title: "A New Method for Locating and Assessing Performance Bottlenecks: Differential Analysis"
