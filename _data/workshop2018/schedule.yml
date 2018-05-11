@@ -113,7 +113,7 @@ sessions:
       affiliation: Argonne National Lab
       length: 1800
 
-    - title: Optimizing machine learning: Making the world safe for SkyNet
+    - title: "Optimizing machine learning: Making the world safe for SkyNet"
       author: David Levinthal
       affiliation: Microsoft
       length: 1800
@@ -127,7 +127,7 @@ sessions:
       affiliation: University of Wisconsin-Madison
       length: 1800
           
-    - title: Extending and Updating the Tool Interfaces in MPI: A Request for Feedback
+    - title: "Extending and Updating the Tool Interfaces in MPI: A Request for Feedback"
       author: Martin Schulz
       affiliation: Technical University of Munich
       length: 1800
@@ -171,7 +171,7 @@ sessions:
       affiliation: Technical University of Munich
       length: 1800
 
-    - title: FLiT: Cross-Platform Floating-Point Result-Consistency Tester and Workload
+    - title: "FLiT: Cross-Platform Floating-Point Result-Consistency Tester and Workload"
       author: Michael Bentley, Ganesh Gopalakrishnan (Univ of Utah)
               Ignacio Laguna, Greg Lee, Dong H. Ahn (LLNL)
       affiliation: Univ of Utah, LLNL
