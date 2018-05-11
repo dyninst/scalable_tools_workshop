@@ -63,19 +63,125 @@ sessions:
     class: sbreak
   - days: monday
     time: 08:30am
+    title: TBD
+    talks:
+    - title: Extending HPCToolkit for GPU-accelerated Platforms
+      author: John Mellor-Crummey
+      affiliation: Rice University
+      length: 1800
+
+    - title: A New Model of Performance Tool for CPU/GPU Programs
+      author: Ben Welton
+      affiliation: University of Wisconsin-Madison
+      length: 1800
+
+    - title: Watching for Software Inefficiencies with Witch 
+      author: Xu Liu
+      affiliation: College of William and Mary
+      length: 1800
 
   - days: monday
     time: 10:30am
+    title: TBD
+    talks:
+    - title: Performance Tools and Holistic HPC Workflows 
+      author: Karen Karavanic
+      affiliation: Portland State University
+      length: 1800
+          
+    - title: Spack in a Shared, Heterogeneous Supercomputing Environment
+      author: Paul Ferrell, Jennifer Green
+      affiliation: LANL
+      length: 1800
+
+    - title: A DSL for Performance Orchestration
+      author: Thiago Teixeira (Speaker), David Padua, and William Gropp
+      affiliation: University of Illinois at Urbana-Champaign
+      length: 1800
+
   - days: monday
     time: 13:30pm
+    title: TBD
+    talks:
+    - title: Scalable, Automated Characterization of Parallel Application Communication Behavior
+      author: Phil Roth
+      affiliation: Oak Ridge National Lab
+      length: 1800
+          
+    - title: Specialization of Data Services for Computational Science Applications
+      author: Robert Ross
+      affiliation: Argonne National Lab
+      length: 1800
+
+    - title: Optimizing machine learning: Making the world safe for SkyNet
+      author: David Levinthal
+      affiliation: Microsoft
+      length: 1800
+
   - days: monday
     time: 15:30pm
+    title: TBD
+    talks:
+    - title: Dyninst Update
+      author: Sasha da Rocha Pinheiro and Xiaozhu Meng
+      affiliation: University of Wisconsin-Madison
+      length: 1800
+          
+    - title: Extending and Updating the Tool Interfaces in MPI: A Request for Feedback
+      author: Martin Schulz
+      affiliation: Technical University of Munich
+      length: 1800
+
+    - title: Update on the Performance-Modeling Tool Extra-P
+      author: Felix Wolf
+      affiliation: TU Darmstadt
+      length: 1800
+
   - days: tuesday
     time: 08:30am
+    title: TBD
+    talks:
+    - title: Advanced Profiling with perf_events on Linux
+      author: Stefane Eranian
+      affiliation: Google
+      length: 1800
+          
+    - title: Trends and Challenges in Performance Analysis and How Performance Monitoring is Adapting
+      author: Michael Chynoweth
+      affiliation: Intel
+      length: 1800
+
+    - title: How Top-down Microarchitecture Analysis (TMA) Addresses Challenges in Modern Servers and
+      Enhancements Coming in IceLake
+      author: Ahmad Yasin
+      affiliation: Intel
+      length: 1800
+
   - days: tuesday
     time: 10:30am
-  - days: tuesday
-    time: 12:00pm
+    title: TBD
+    talks:
+    - title: Sword: A Bounded Memory-Overhead Detector of OpenMP Data Races in Production Runs
+      author: Simone Arzeni, Ganesh Gopalakrishnan, Zvonimir Rakamaric
+      affiliation: Nvidia, Univ of Utah, Univ of Utah
+      length: 1800
+          
+    - title: READEX: A Tool Suite for Dynamic Energy Tuning
+      author: Michael Gerndt
+      affiliation: Technical University of Munich
+      length: 1800
+
+    - title: FLiT: Cross-Platform Floating-Point Result-Consistency Tester and Workload
+      author: Michael Bentley, Ganesh Gopalakrishnan (Univ of Utah)
+              Ignacio Laguna, Greg Lee, Dong H. Ahn (LLNL)
+      affiliation: Univ of Utah, LLNL
+      length: 1800
+
+    - title: A New Method for Locating and Assessing Performance Bottlenecks: Differential Analysis
+      author: William Jalby
+      affiliation: Université de Versailles Saint-Quentin
+      length: 1800
+
   - days: tuesday
     time: 13:30pm
     title: Working Group Creation
