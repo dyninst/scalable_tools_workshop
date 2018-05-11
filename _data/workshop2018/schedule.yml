@@ -160,14 +160,19 @@ sessions:
     time: 10:30am
     title: TBD
     talks:
-    - title: "Sword: A Bounded Memory-Overhead Detector of OpenMP Data Races in Production Runs"
-      author: Simone Arzeni (Nvidia), Ganesh Gopalakrishnan, Zvonimir Rakamaric (Univ of Utah)
-      affiliation:
-      length: 1800
-          
     - title: "READEX: A Tool Suite for Dynamic Energy Tuning"
       author: Michael Gerndt
       affiliation: Technical University of Munich
+      length: 1800
+
+    - title: "A New Method for Locating and Assessing Performance Bottlenecks: Differential Analysis"
+      author: William Jalby
+      affiliation: Université de Versailles Saint-Quentin
+      length: 1800
+
+    - title: "Sword: A Bounded Memory-Overhead Detector of OpenMP Data Races in Production Runs"
+      author: Simone Arzeni (Nvidia), Ganesh Gopalakrishnan, Zvonimir Rakamaric (Univ of Utah)
+      affiliation:
       length: 1800
 
     - title: "FLiT: Cross-Platform Floating-Point Result-Consistency Tester and Workload"
@@ -176,10 +181,6 @@ sessions:
       affiliation:
       length: 1800
 
-    - title: "A New Method for Locating and Assessing Performance Bottlenecks: Differential Analysis"
-      author: William Jalby
-      affiliation: Université de Versailles Saint-Quentin
-      length: 1800
 
   - days: tuesday
     time: 13:30pm
