@@ -12,17 +12,21 @@ sessions:
     days:
       - wednesday
     class: sbreak
-  - title: Lunch
+  - title: "Lunch (Room: Last Chance Lodge)"
     time: 12:00pm
     days:
       - monday
-      - wednesday
       - thursday
     class: sbreak
-  - title: Lunch
+  - title: "Lunch (Room: Last Chance Lodge)"
     time: 12:30pm
     days:
       - tuesday
+    class: sbreak
+  - title: "Lunch (Room: St. Bernard's Restaurant)"
+    time: 12:00pm
+    days:
+      - wednesday 
     class: sbreak
   - title: Reception
     time: 17:30pm
@@ -31,10 +35,14 @@ sessions:
       - monday
       - tuesday
     class: sbreak
-  - title: Dinner
+  - title: "Dinner (Room: St. Bernard's Restaurant)"
     time: 18:30pm
     days:
       - sunday
+    class: sbreak
+  - title: "Dinner (Room: Last Chance Lodge)"
+    time: 18:30pm
+    days:
       - monday
       - tuesday
     class: sbreak
@@ -43,7 +51,7 @@ sessions:
     days:
       - wednesday
     class: sbreak
-  - title: Dinner
+  - title: "Dinner (Room: St. Bernard's Restaurant)"
     time: 19:30pm
     days:
       - wednesday
@@ -68,7 +76,7 @@ sessions:
     class: sbreak
   - days: monday
     time: 08:30am
-    title: TBD
+    title: "Room: Last Chance Lodge"
     talks:
     - title: Extending HPCToolkit for GPU-accelerated Platforms
       author: John Mellor-Crummey
@@ -87,7 +95,7 @@ sessions:
 
   - days: monday
     time: 10:30am
-    title: TBD
+    title: "Room: Last Chance Lodge"
     talks:
     - title: Performance Tools and Holistic HPC Workflows 
       author: Karen Karavanic
@@ -106,7 +114,7 @@ sessions:
 
   - days: monday
     time: 13:30pm
-    title: TBD
+    title: "Room: Last Chance Lodge"
     talks:
     - title: "Scalable, Automated Characterization of Parallel Application Communication Behavior"
       author: Phil Roth
@@ -125,7 +133,7 @@ sessions:
 
   - days: monday
     time: 15:30pm
-    title: TBD
+    title: "Room: Last Chance Lodge"
     talks:
     - title: Dyninst Update
       author: Sasha da Rocha Pinheiro and Xiaozhu Meng
@@ -144,7 +152,7 @@ sessions:
 
   - days: tuesday
     time: 08:30am
-    title: TBD
+    title: "Room: Last Chance Lodge"
     talks:
     - title: "Advanced Profiling with perf_events on Linux"
       author: Stefane Eranian
@@ -163,7 +171,7 @@ sessions:
 
   - days: tuesday
     time: 10:30am
-    title: TBD
+    title: "Room: Last Chance Lodge"
     talks:
     - title: "READEX: A Tool Suite for Dynamic Energy Tuning"
       author: Michael Gerndt
