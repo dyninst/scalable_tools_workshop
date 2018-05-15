@@ -1,6 +1,6 @@
 ---
 sessions:
-  - title: "Breakfast (Room: Last Chance Lodge)"
+  - title: "Breakfast"
     time: 07:30am
     days:
       - monday
@@ -12,13 +12,13 @@ sessions:
     days:
       - wednesday
     class: sbreak
-  - title: "Lunch (Room: Last Chance Lodge)"
+  - title: "Lunch"
     time: 12:00pm
     days:
       - monday
       - thursday
     class: sbreak
-  - title: "Lunch (Room: Last Chance Lodge)"
+  - title: "Lunch"
     time: 12:30pm
     days:
       - tuesday
@@ -40,7 +40,7 @@ sessions:
     days:
       - sunday
     class: sbreak
-  - title: "Dinner (Room: Last Chance Lodge)"
+  - title: "Dinner"
     time: 18:30pm
     days:
       - monday
@@ -76,7 +76,7 @@ sessions:
     class: sbreak
   - days: monday
     time: 08:30am
-    title: "Room: Last Chance Lodge"
+    title: TBD
     talks:
     - title: Extending HPCToolkit for GPU-accelerated Platforms
       author: John Mellor-Crummey
@@ -95,7 +95,7 @@ sessions:
 
   - days: monday
     time: 10:30am
-    title: "Room: Last Chance Lodge"
+    title: TBD
     talks:
     - title: Performance Tools and Holistic HPC Workflows 
       author: Karen Karavanic
@@ -114,7 +114,7 @@ sessions:
 
   - days: monday
     time: 13:30pm
-    title: "Room: Last Chance Lodge"
+    title: TBD
     talks:
     - title: "Scalable, Automated Characterization of Parallel Application Communication Behavior"
       author: Phil Roth
@@ -133,7 +133,7 @@ sessions:
 
   - days: monday
     time: 15:30pm
-    title: "Room: Last Chance Lodge"
+    title: TBD
     talks:
     - title: Dyninst Update
       author: Sasha da Rocha Pinheiro and Xiaozhu Meng
@@ -152,7 +152,7 @@ sessions:
 
   - days: tuesday
     time: 08:30am
-    title: "Room: Last Chance Lodge"
+    title: TBD
     talks:
     - title: "Advanced Profiling with perf_events on Linux"
       author: Stefane Eranian
@@ -171,7 +171,7 @@ sessions:
 
   - days: tuesday
     time: 10:30am
-    title: "Room: Last Chance Lodge"
+    title: TBD
     talks:
     - title: "READEX: A Tool Suite for Dynamic Energy Tuning"
       author: Michael Gerndt
