@@ -1,12 +1,16 @@
 ---
 sessions:
-  - title: Breakfast
+  - title: Breakfast (Room: Last Chance Lodge)
     time: 07:30am
     days:
       - monday
       - tuesday
-      - wednesday
       - thursday
+    class: sbreak
+  - title: Breakfast (Room: St. Bernard's Restaurant)
+    time: 07:30am
+    days:
+      - wednesday
     class: sbreak
   - title: Lunch
     time: 12:00pm
@@ -56,6 +60,7 @@ sessions:
     time: 15:00pm
     days:
       - monday
+    class: sbreak
   - title: Break
     time: 14:30pm
     days:
