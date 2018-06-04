@@ -76,7 +76,7 @@ sessions:
     class: sbreak
   - days: monday
     time: 08:30am
-    title: TBD
+    title: Session 1
     talks:
     - title: Extending HPCToolkit for GPU-accelerated Platforms
       author: John Mellor-Crummey
@@ -95,7 +95,7 @@ sessions:
 
   - days: monday
     time: 10:30am
-    title: TBD
+    title: Session 2
     talks:
     - title: Performance Tools and Holistic HPC Workflows 
       author: Karen Karavanic
@@ -114,7 +114,7 @@ sessions:
 
   - days: monday
     time: 13:30pm
-    title: TBD
+    title: Session 3
     talks:
     - title: "Scalable, Automated Characterization of Parallel Application Communication Behavior"
       author: Phil Roth
@@ -133,7 +133,7 @@ sessions:
 
   - days: monday
     time: 15:30pm
-    title: TBD
+    title: Session 4
     talks:
     - title: Dyninst Update
       author: Sasha da Rocha Pinheiro and Xiaozhu Meng
@@ -152,7 +152,7 @@ sessions:
 
   - days: tuesday
     time: 08:30am
-    title: TBD
+    title: Session 5
     talks:
     - title: "Advanced Profiling with perf_events on Linux"
       author: Stefane Eranian
@@ -171,7 +171,7 @@ sessions:
 
   - days: tuesday
     time: 10:30am
-    title: TBD
+    title: Session 6
     talks:
     - title: "READEX: A Tool Suite for Dynamic Energy Tuning"
       author: Michael Gerndt
