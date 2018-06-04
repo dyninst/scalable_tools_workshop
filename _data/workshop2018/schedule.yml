@@ -197,25 +197,25 @@ sessions:
 
   - days: tuesday
     time: 13:30pm
-    title: Working Group Creation
+    title: Working Group Creation (Last Chance)
   - days: tuesday
     time: 15:00pm
-    title: Working Groups
+    title: Working Groups (Evergreen Room, Honeycomb room, Creekside Room)
   - days: wednesday
     time: 08:30am
-    title: Working Groups
+    title: Working Groups (Evergreen Room, Honeycomb room, Creekside Room)
   - days: wednesday
     time: 10:30am
-    title: Working Groups
+    title: Working Groups (Evergreen Room, Honeycomb room, Creekside Room)
   - days: wednesday
     time: 13:30pm
     title: Informal Small Group Discussions
   - days: thursday
     time: 08:30am
-    title: Working Group Concluding Sessions and Outbriefs
+    title: Working Groups (Evergreen Room, Honeycomb room, Creekside Room)
   - days: thursday
     time: 10:30am
-    title: Working Group Outbriefs
+    title: Working Group Outbriefs (Last Chance)
     talks:
   - days: sunday
     time: 12:00pm
