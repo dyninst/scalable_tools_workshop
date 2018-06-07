@@ -1,29 +1,29 @@
 ---
 sessions:
-  - title: "Breakfast"
+  - title: "Breakfast (Last Chance)"
     time: 07:30am
     days:
       - monday
       - tuesday
       - thursday
     class: sbreak
-  - title: "Breakfast (Room: St. Bernard's Restaurant)"
+  - title: "Breakfast (St. Bernard's Restaurant)"
     time: 07:30am
     days:
       - wednesday
     class: sbreak
-  - title: "Lunch"
+  - title: "Lunch (Last Chance)"
     time: 12:00pm
     days:
       - monday
       - thursday
     class: sbreak
-  - title: "Lunch"
+  - title: "Lunch (Last Chance)"
     time: 12:30pm
     days:
       - tuesday
     class: sbreak
-  - title: "Lunch (Room: St. Bernard's Restaurant)"
+  - title: "Lunch (St. Bernard's Restaurant)"
     time: 12:00pm
     days:
       - wednesday 
@@ -35,12 +35,12 @@ sessions:
       - monday
       - tuesday
     class: sbreak
-  - title: "Dinner (Room: St. Bernard's Restaurant)"
+  - title: "Dinner (St. Bernard's Restaurant)"
     time: 18:30pm
     days:
       - sunday
     class: sbreak
-  - title: "Dinner"
+  - title: "Dinner (Last Chance)"
     time: 18:30pm
     days:
       - monday
@@ -51,7 +51,7 @@ sessions:
     days:
       - wednesday
     class: sbreak
-  - title: "Dinner (Room: St. Bernard's Restaurant)"
+  - title: "Dinner (St. Bernard's Restaurant)"
     time: 19:30pm
     days:
       - wednesday
