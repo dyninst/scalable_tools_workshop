@@ -184,7 +184,7 @@ sessions:
       length: 1800
 
     - title: "Sword: A Bounded Memory-Overhead Detector of OpenMP Data Races in Production Runs"
-      author: Simone Arzeni (Nvidia), Ganesh Gopalakrishnan, Zvonimir Rakamaric (Univ of Utah)
+      author: Simone Atzeni (Nvidia), Ganesh Gopalakrishnan, Zvonimir Rakamaric (Univ of Utah)
       affiliation:
       length: 1800
 
