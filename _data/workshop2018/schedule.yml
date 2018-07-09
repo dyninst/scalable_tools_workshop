@@ -104,7 +104,7 @@ sessions:
       author: Karen Karavanic
       affiliation: Portland State University
       length: 1800
-      slide: "Karavanic2018.pdf"
+      slides: "Karavanic2018.pdf"
           
     - title: "Spack in a Shared, Heterogeneous Supercomputing Environment"
       author: Paul Ferrell, Jennifer Green
@@ -124,7 +124,7 @@ sessions:
       author: Phil Roth
       affiliation: Oak Ridge National Lab
       length: 1800
-      slide: "Roth-ScalableTools-20180709-small.pdf"
+      slides: "Roth-ScalableTools-20180709-small.pdf"
           
     - title: Specialization of Data Services for Computational Science Applications
       author: Robert Ross
