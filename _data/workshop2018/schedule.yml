@@ -104,6 +104,7 @@ sessions:
       author: Karen Karavanic
       affiliation: Portland State University
       length: 1800
+      slide: "Karavanic2018.pdf"
           
     - title: "Spack in a Shared, Heterogeneous Supercomputing Environment"
       author: Paul Ferrell, Jennifer Green
@@ -123,6 +124,7 @@ sessions:
       author: Phil Roth
       affiliation: Oak Ridge National Lab
       length: 1800
+      slide: "Roth-ScalableTools-20180709-small.pdf"
           
     - title: Specialization of Data Services for Computational Science Applications
       author: Robert Ross
@@ -144,11 +146,13 @@ sessions:
       author: Sasha da Rocha Pinheiro and Xiaozhu Meng
       affiliation: University of Wisconsin-Madison
       length: 1800
+      slides: "dyninst_updates.pdf"
           
     - title: "Extending and Updating the Tool Interfaces in MPI: A Request for Feedback"
       author: Martin Schulz
       affiliation: Technical University of Munich
       length: 1800
+      slides: "2018-07-toolsws-mpi.pdf"
 
     - title: "Update on the Performance-Modeling Tool Extra-P"
       author: Felix Wolf
