@@ -82,6 +82,7 @@ sessions:
       author: John Mellor-Crummey
       affiliation: Rice University
       length: 1800
+      slides: "HPCToolkit-GPU-ScalableTools-2018.pdf"
 
     - title: "A New Model of Performance Tool for CPU/GPU Programs"
       author: Ben Welton
@@ -92,6 +93,7 @@ sessions:
       author: Xu Liu
       affiliation: College of William and Mary
       length: 1800
+      slides: "witch.pdf"
 
   - days: monday
     time: 10:30am
