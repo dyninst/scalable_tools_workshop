@@ -88,6 +88,7 @@ sessions:
       author: Ben Welton
       affiliation: University of Wisconsin-Madison
       length: 1800
+      slides: "welton_perfTools_2018_diogenes.pdf"
 
     - title: Watching for Software Inefficiencies with Witch 
       author: Xu Liu
@@ -127,11 +128,13 @@ sessions:
       author: Robert Ross
       affiliation: Argonne National Lab
       length: 1800
+      slides: "ross-scalable-tools-2018.pdf"
 
     - title: "Optimizing machine learning: Making the world safe for SkyNet"
       author: David Levinthal
       affiliation: Microsoft
       length: 1800
+      slides: "Performance analysis of deep neural networks_cscads.pdf"
 
   - days: monday
     time: 15:30pm
