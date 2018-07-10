@@ -115,6 +115,7 @@ sessions:
       author: Thiago Teixeira (Speaker), David Padua, and William Gropp
       affiliation: University of Illinois at Urbana-Champaign
       length: 1800
+      slides: "2018ScalableWorkshopDSLPerfOrch.pdf"
 
   - days: monday
     time: 13:30pm
@@ -158,6 +159,7 @@ sessions:
       author: Felix Wolf
       affiliation: TU Darmstadt
       length: 1800
+      slides: "ScalableTools-WS-Extra-P.pdf"
 
   - days: tuesday
     time: 08:30am
@@ -202,6 +204,7 @@ sessions:
               Ignacio Laguna, Greg Lee, Dong H. Ahn (LLNL)
       affiliation:
       length: 1800
+      slides: "2018-scalable-tools-workshop-flit-shortened.pdf"
 
 
   - days: tuesday
