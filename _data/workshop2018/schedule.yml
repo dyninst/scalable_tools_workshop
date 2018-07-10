@@ -26,7 +26,7 @@ sessions:
   - title: "Lunch (St. Bernard's Restaurant)"
     time: 12:00pm
     days:
-      - wednesday 
+      - wednesday
     class: sbreak
   - title: Reception
     time: 17:30pm
@@ -90,7 +90,7 @@ sessions:
       length: 1800
       slides: "welton_perfTools_2018_diogenes.pdf"
 
-    - title: Watching for Software Inefficiencies with Witch 
+    - title: Watching for Software Inefficiencies with Witch
       author: Xu Liu
       affiliation: College of William and Mary
       length: 1800
@@ -100,12 +100,12 @@ sessions:
     time: 10:30am
     title: Session 2
     talks:
-    - title: Performance Tools and Holistic HPC Workflows 
+    - title: Performance Tools and Holistic HPC Workflows
       author: Karen Karavanic
       affiliation: Portland State University
       length: 1800
       slides: "Karavanic2018.pdf"
-          
+
     - title: "Spack in a Shared, Heterogeneous Supercomputing Environment"
       author: Paul Ferrell, Jennifer Green
       affiliation: LANL
@@ -126,7 +126,7 @@ sessions:
       affiliation: Oak Ridge National Lab
       length: 1800
       slides: "Roth-ScalableTools-20180709-small.pdf"
-          
+
     - title: Specialization of Data Services for Computational Science Applications
       author: Robert Ross
       affiliation: Argonne National Lab
@@ -148,7 +148,7 @@ sessions:
       affiliation: University of Wisconsin-Madison
       length: 1800
       slides: "dyninst_updates.pdf"
-          
+
     - title: "Extending and Updating the Tool Interfaces in MPI: A Request for Feedback"
       author: Martin Schulz
       affiliation: Technical University of Munich
@@ -169,7 +169,7 @@ sessions:
       author: Stefane Eranian
       affiliation: Google
       length: 1800
-          
+
     - title: "Trends and Challenges in Performance Analysis and How Performance Monitoring is Adapting"
       author: Michael Chynoweth
       affiliation: Intel
@@ -212,31 +212,67 @@ sessions:
     title: Working Group Creation (Last Chance)
   - days: tuesday
     time: 15:00pm
-    title: Working Groups (Evergreen Room, Honeycomb room, Creekside Room)
+    title: Working Groups
     talks:
-        - title: Workflow issues 
+        - title: Workflow issues
           author: Honeycomb room
-        - title: GPU performance analysis 
+        - title: GPU performance analysis
           author: Creekside room
-        - title: Elastic MPI applications, called iMPI 
+        - title: Elastic MPI applications, called iMPI
           author: Evergreen room
-          
+
+  - days: tuesday
+    time: 17:30pm
+    title: Working Groups
+    talks:
+        - title: Debugging tools for codes that offload to GPUs
+        - title: Performance engineering workflow
+
   - days: wednesday
     time: 08:30am
-    title: Working Groups (Evergreen Room, Honeycomb room, Creekside Room)
+    title: Working Groups
+    talks:
+        - title: OpenMP Tools working group
+          author: Honeycomb room
+        - title: Data-centric profiling to analyze data movement in memory hierarchies
+          author: Creekside room
+
   - days: wednesday
     time: 10:30am
-    title: Working Groups (Evergreen Room, Honeycomb room, Creekside Room)
+    title: Working Groups
+    talks:
+        - title: Communication patterns in general (ala Phil Roth's talk)
+          author: Honeycomb room
+        - title: Online analysis and telemetry
+          author: Creekside room
+        - title: Parallel parsing in Dyninst
+          author: Evergreen room
+
+  - days: wednesday
+    time: 18:30am
+    title: Working Groups
+    talks:
+        - title: Parallel DWARF Reader
+        - title: QMPI Feedback and (MPI) Wrapping
+
   - days: wednesday
     time: 13:30pm
     title: Informal Small Group Discussions
+
   - days: thursday
     time: 08:30am
     title: Working Groups (Evergreen Room, Honeycomb room, Creekside Room)
+        - title: Performance analysis for SMT
+          author: Honeycomb room
+        - title: DOE ECP SDK (and spack)
+          author: Creekside room
+        - title: Analysis using Power and Energy Metrics
+          author: Evergreen room
+
   - days: thursday
     time: 10:30am
     title: Working Group Outbriefs (Last Chance)
-    talks:
+
   - days: sunday
     time: 12:00pm
     title: Arrival
