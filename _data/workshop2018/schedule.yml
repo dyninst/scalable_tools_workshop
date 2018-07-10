@@ -261,7 +261,8 @@ sessions:
 
   - days: thursday
     time: 08:30am
-    title: Working Groups (Evergreen Room, Honeycomb room, Creekside Room)
+    title: Working Groups
+    talks:
         - title: Performance analysis for SMT
           author: Honeycomb room
         - title: DOE ECP SDK (and spack)
