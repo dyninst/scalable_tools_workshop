@@ -201,6 +201,14 @@ sessions:
   - days: tuesday
     time: 15:00pm
     title: Working Groups (Evergreen Room, Honeycomb room, Creekside Room)
+    talks:
+        - title: Workflow issues 
+          author: Honeycomb room
+        - title: GPU performance analysis 
+          author: Creekside room
+        - title: Elastic MPI applications, called iMPI 
+          author: Evergreen room
+          
   - days: wednesday
     time: 08:30am
     title: Working Groups (Evergreen Room, Honeycomb room, Creekside Room)
