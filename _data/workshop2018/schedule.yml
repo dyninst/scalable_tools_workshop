@@ -179,6 +179,7 @@ sessions:
       author: Ahmad Yasin
       affiliation: Intel
       length: 1800
+      slides: "TMA addressing challenges in Icelake - Ahmad Yasin.pdf"
 
   - days: tuesday
     time: 10:30am
@@ -198,6 +199,7 @@ sessions:
       author: Simone Atzeni (Nvidia), Ganesh Gopalakrishnan, Zvonimir Rakamaric (Univ of Utah)
       affiliation:
       length: 1800
+      slides: "ScalableToolsSword_IPDPS18.pdf"
 
     - title: "FLiT: Cross-Platform Floating-Point Result-Consistency Tester and Workload"
       author: Michael Bentley, Ganesh Gopalakrishnan (Univ of Utah)
