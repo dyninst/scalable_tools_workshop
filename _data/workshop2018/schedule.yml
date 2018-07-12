@@ -189,11 +189,13 @@ sessions:
       author: Michael Gerndt
       affiliation: Technical University of Munich
       length: 1800
+      slides: "Kopie3.pdf"
 
     - title: "A New Method for Locating and Assessing Performance Bottlenecks: Differential Analysis"
       author: William Jalby
       affiliation: Université de Versailles Saint-Quentin
       length: 1800
+      slides: "DECAN_JUL18.pdf"
 
     - title: "Sword: A Bounded Memory-Overhead Detector of OpenMP Data Races in Production Runs"
       author: Simone Atzeni (Nvidia), Ganesh Gopalakrishnan, Zvonimir Rakamaric (Univ of Utah)
@@ -218,10 +220,13 @@ sessions:
     talks:
         - title: Workflow issues
           author: Honeycomb room
+          slides: "Workflow-WG-Outbrief-20180712.pdf"
         - title: GPU performance analysis
           author: Creekside room
+          slides: "GPU-Outbrief-ScalableTools-2018.pdf"
         - title: Elastic MPI applications, called iMPI
           author: Evergreen room
+          slides: "Summary Working Group.pdf"
 
   - days: tuesday
     time: 17:30pm
@@ -236,8 +241,10 @@ sessions:
     talks:
         - title: OpenMP Tools working group
           author: Honeycomb room
+          slides: "2018-07-ompt-outbrief.pdf"
         - title: Data-centric profiling to analyze data movement in memory hierarchies
           author: Creekside room
+          slides: "workgroup.pdf"
 
   - days: wednesday
     time: 10:30am
@@ -249,12 +256,14 @@ sessions:
           author: Creekside room
         - title: Parallel parsing in Dyninst
           author: Evergreen room
+          slides: "ParallelParsingWorkingGroup.pdf"
 
   - days: wednesday
     time: 18:30am
     title: Working Groups
     talks:
         - title: Parallel DWARF Reader
+          slides: "Parallel-Dwarf-Outbrief-ScalableTools-2018.pdf"
         - title: QMPI Feedback and (MPI) Wrapping
 
   - days: wednesday
@@ -269,8 +278,10 @@ sessions:
           author: Honeycomb room
         - title: DOE ECP SDK (and spack)
           author: Creekside room
+          slides: "ECP_SW_deploymentSDK-Spack.pdf"
         - title: Analysis using Power and Energy Metrics
           author: Evergreen room
+          slides: "stw-energy.pdf"
 
   - days: thursday
     time: 10:30am
