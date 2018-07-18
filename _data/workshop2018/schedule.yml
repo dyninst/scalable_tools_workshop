@@ -110,6 +110,7 @@ sessions:
       author: Paul Ferrell, Jennifer Green
       affiliation: LANL
       length: 1800
+      slides: "Spack Shared Environment_ScalableTools2018.pdf"
 
     - title: A DSL for Performance Orchestration
       author: Thiago Teixeira (Speaker), David Padua, and William Gropp
@@ -169,6 +170,7 @@ sessions:
       author: Stefane Eranian
       affiliation: Google
       length: 1800
+      slides: "CSCADS 2018 perf_events status update.pdf"
 
     - title: "Trends and Challenges in Performance Analysis and How Performance Monitoring is Adapting"
       author: Michael Chynoweth
