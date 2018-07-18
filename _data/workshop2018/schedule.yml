@@ -255,6 +255,7 @@ sessions:
     talks:
         - title: Communication patterns in general (ala Phil Roth's talk)
           author: Honeycomb room
+          slides: "CommunicationGraphsSolitudeWorkshop18.pdf"
         - title: Online analysis and telemetry
           author: Creekside room
           slides: "2018.07.11_TelemetryWG_final.pdf"
@@ -280,6 +281,7 @@ sessions:
     talks:
         - title: Performance analysis for SMT
           author: Honeycomb room
+          slides: "SMTanalysisWG-STW18.pdf"
         - title: DOE ECP SDK (and spack)
           author: Creekside room
           slides: "ECP_SW_deploymentSDK-Spack.pdf"
