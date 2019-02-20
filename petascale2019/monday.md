@@ -1,6 +1,6 @@
 ---
 layout: talk_day
-date:  Monday, August 7
+date:  Monday, July 29
 title: Talks
 sched_key: monday
 day: 1

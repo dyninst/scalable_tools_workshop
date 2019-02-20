@@ -1,6 +1,6 @@
 ---
 layout: talk_day
-date: Wednesday, August 9
+date: Wednesday, July 30
 title: Working Groups
 sched_key: wednesday
 location: TBD

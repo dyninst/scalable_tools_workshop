@@ -1,11 +1,11 @@
 ---
 layout: info
 title: About the meeting
-year: workshop2017
+year: workshop2019
 ---
           {% assign workshop_len = 345600 %}
 
-The *11th Scalable Tools Workshop*
+The *13th Scalable Tools Workshop*
 (formerly the Petascale Tools Workshop and
 CSCADS Workshop on Petascale Tools)
 will be held {{site.data[page.year].dates.startdate | date: "%A, %B %-d"}}-{{site.data[page.year].dates.startdate | date: "%s" | plus: workshop_len |  date: "%A, %B %-d"}} this year at the Granlibakken Resort in Lake Tahoe, California.
