@@ -15,11 +15,13 @@
     <h3 align="center">{{sched_date | date: "%A, %B %-d"}}<br>{{page.title}}</h3>
     <h3 align="center">{{page.location}}</h3>
     
-	{% assign today = (site.data[page.year].schedule.sessions | where_exp: 'item', 'item.days contains sched_key') %}
-	{% assign sched = (today | sort: 'time') %}
-    {% for session in sched %}
-    {% include session.html session=session %}
-    {% endfor %}
+	{% assign today = site.data[page.year].schedule.sessions | where_exp: 'item', 'item.days contains sched_key' %}
+	{% if today %}
+		{% assign sched = today | sort: 'time' %}
+		{% for session in sched %}
+		{% include session.html session=session %}
+		{% endfor %}
+    {% endif %}
 </div>
 <script>
     $("a.tooltip").click(function() {

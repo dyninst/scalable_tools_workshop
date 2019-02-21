@@ -1,1 +1,151 @@
+---
+sessions:
+  - title: "Breakfast"
+    time: 07:30am
+    days:
+      - monday
+      - tuesday
+      - thursday
+    class: sbreak
+  - title: "Breakfast"
+    time: 07:30am
+    days:
+      - wednesday
+    class: sbreak
+  - title: "Lunch"
+    time: 12:00pm
+    days:
+      - monday
+      - thursday
+    class: sbreak
+  - title: "Lunch"
+    time: 12:30pm
+    days:
+      - tuesday
+    class: sbreak
+  - title: "Lunch"
+    time: 12:00pm
+    days:
+      - wednesday
+    class: sbreak
+  - title: Reception
+    time: 17:30pm
+    days:
+      - sunday
+      - monday
+      - tuesday
+    class: sbreak
+  - title: "Dinner"
+    time: 18:30pm
+    days:
+      - sunday
+    class: sbreak
+  - title: "Dinner"
+    time: 18:30pm
+    days:
+      - monday
+      - tuesday
+    class: sbreak
+  - title: Reception
+    time: 18:30pm
+    days:
+      - wednesday
+    class: sbreak
+  - title: "Dinner"
+    time: 19:30pm
+    days:
+      - wednesday
+    class: sbreak
+  - title: Break
+    time: 10:00am
+    days:
+      - monday
+      - tuesday
+      - wednesday
+      - thursday
+    class: sbreak
+  - title: Break
+    time: 15:00pm
+    days:
+      - monday
+    class: sbreak
+  - title: Break
+    time: 14:30pm
+    days:
+      - tuesday
+    class: sbreak
+  - days: monday
+    time: 08:30am
+    title: Session 1
+    talks:
+  - days: monday
+    time: 10:30am
+    title: Session 2
+    talks:
+  - days: monday
+    time: 13:30pm
+    title: Session 3
+  - days: monday
+    time: 15:30pm
+    title: Session 4
+    talks:
 
+  - days: tuesday
+    time: 08:30am
+    title: Session 5
+    talks:
+
+  - days: tuesday
+    time: 10:30am
+    title: Session 6
+    talks:
+
+  - days: tuesday
+    time: 13:30pm
+    title: Working Group Creation
+  - days: tuesday
+    time: 15:00pm
+    title: Working Groups
+    talks:
+
+  - days: tuesday
+    time: 17:30pm
+    title: Working Groups
+    talks:
+
+  - days: wednesday
+    time: 08:30am
+    title: Working Groups
+    talks:
+
+  - days: wednesday
+    time: 10:30am
+    title: Working Groups
+    talks:
+
+  - days: wednesday
+    time: 18:30am
+    title: Working Groups
+    talks:
+
+  - days: wednesday
+    time: 13:30pm
+    title: Informal Small Group Discussions
+
+  - days: thursday
+    time: 08:30am
+    title: Working Groups
+    talks:
+
+  - days: thursday
+    time: 10:30am
+    title: Working Group Outbriefs
+
+  - days: sunday
+    time: 12:00pm
+    title: Arrival
+    class: sbreak
+  - days: thursday
+    time: 1:30pm
+    title: Departure
+    class: sbreak

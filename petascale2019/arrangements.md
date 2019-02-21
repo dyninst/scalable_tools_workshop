@@ -2,7 +2,7 @@
 layout: info
 title: Location
 ---
-Scalable Tools Workshop 2017 will be held at the
+Scalable Tools Workshop 2019 will be held at the
 beautiful <a href="http://www.granlibakken.com">Granlibakken Resort</a> in Lake Tahoe,
 California.
 <p>
@@ -19,11 +19,10 @@ Costs are as follows:
         <th bgcolor="lightblue">Room Type</th>
         <th bgcolor="lightblue">Full Workshop cost</th>
     </tr>
-    {% for p in site.data.prices %}
+    {% for p in site.data[page.year].prices %}
     <tr>
         <td>{{p[0]}}</td><td>{{p[1]}}</td>
     </tr>
 
     {% endfor %}
 </table>
-
