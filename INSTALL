@@ -1,0 +1,53 @@
+At some point, you will receive an email from Bart that contains an email template with the cost
+numbers for this year. Once you have that data, complete the steps below to create a new site.
+
+0. Clone the https://github.com/dyninst/scalable_tools_workshop repo to your local machine
+
+1. copy the previous year's "petascale20XX" directory to "petascale20YY"
+
+2. copy the previous year's "_data/workshop20XX" directory to "_data/workshop20YY"
+
+3. Run "sudo apt-get install ruby-dev bundle" to install (or update) the ruby environment
+
+4. In _config.yml, change scope/path and values/year to reflect the directory changes you made in (1) and (2)
+
+5. Change the year in petascale20YY/arrangements.md
+
+6. Change the group code in petascale20YY/registration.md
+
+7. Add links to the previous year's page in petascale20YY/workshops.md
+
+8. Add the new pricings in _data/workshop20YY/prices.yml
+
+9. Update the schedule in _data/workshop20YY/schedule.yml
+    a. Remove all of the old talk hash entries (just the talks! Don't change any of the other keys for a session!)
+
+10. Update the "Nth Scalable Tools Workshop" in index.md
+
+11. Use the instructions from the site below to install the bundles and generate a new site.
+    You don't need to do any of the optional items
+    https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll
+
+12. Delete Gemfile.lock
+
+13. Run "bundle exec jekyll serve"
+    a. If you saw no errors from jekyll and all of the content looks correct, then you can push it to GitHub.
+    b. If you get errors, you will have to search on how to fix them. The template language is Liquid and the
+       web framework is Jekyll. It's all written in ruby.
+
+14. On your local machine, set up the AFS web directory
+    a. cd /p/paradyn/public/html
+    b. cp -R petascale20XX petascale20YY
+
+You should now see your updated site at http://www.paradyn.org/petascale20YY.
+
+-- !If you receive an email from Github about security vulnerabilities
+
+1. Clone the https://github.com/dyninst/scalable_tools_workshop repo to your local machine (if it's not already there)
+
+2. Delete Gemfile.lock
+
+3. Update the entries in Gemfile as suggested by Github
+    b. e.g., gem "jekyll", ">= 3.6.3"
+
+4. Re-run step (13) from above
