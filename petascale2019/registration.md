@@ -2,13 +2,8 @@
 layout: info
 title: Registration
 ---
-This year, registration will be handled directly by the Granlibakken resort.
-If you received an invitation letter to register for the workshop, then you should
-already have the username and password to use on the Granlibakken site.
-If you do not have this information, please email
-Bart or John to ask for it.
-The registration web page can be found
-[here](http://granlibakken.com), on the Event/Group Reservations link (enter group code "TOOLS19").
+This year, [registration](https://www.secure.granlibakken.net/conference/?_ga=2.78346973.831171572.1550188711-1057628974.1512516825) will 
+be handled directly by the Granlibakken resort (enter group code "TOOLS19").
 
 Meals, lodging, and workshop attendance are covered by the registration fee.
 If you are traveling with companions who are not attending the workshop,
