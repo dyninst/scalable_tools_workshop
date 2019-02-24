@@ -7,7 +7,7 @@ numbers for this year. Once you have that data, complete the steps below to crea
 
 2. copy the previous year's "_data/workshop20XX" directory to "_data/workshop20YY"
 
-3. Run "sudo apt-get install ruby-dev bundle" to install (or update) the ruby environment
+3. Run "sudo apt-get install ruby-dev ruby-bundler" to install (or update) the ruby environment
 
 4. In _config.yml, change scope/path and values/year to reflect the directory changes you made in (1) and (2)
 
@@ -22,11 +22,11 @@ numbers for this year. Once you have that data, complete the steps below to crea
 
 9. Update the "Nth Scalable Tools Workshop" in index.md
 
-10. Use the instructions from the site below to install the bundles and generate a new site.
+10. Delete Gemfile.lock
+
+11. Use the instructions from the site below to install the bundles and generate a new site.
     You don't need to do any of the optional items
     https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll
-
-11. Delete Gemfile.lock
 
 12. Run "bundle exec jekyll serve"
     a. If you saw no errors from jekyll and all of the content looks correct, then you can push it to GitHub.
