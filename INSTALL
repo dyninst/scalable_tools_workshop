@@ -11,31 +11,29 @@ numbers for this year. Once you have that data, complete the steps below to crea
 
 4. In _config.yml, change scope/path and values/year to reflect the directory changes you made in (1) and (2)
 
-5. Change the year in petascale20YY/arrangements.md
+5. Change the group code in petascale20YY/registration.md
 
-6. Change the group code in petascale20YY/registration.md
+6. Add links to the previous year's page in petascale20YY/workshops.md
 
-7. Add links to the previous year's page in petascale20YY/workshops.md
+7. Add the new pricings in _data/workshop20YY/prices.yml
 
-8. Add the new pricings in _data/workshop20YY/prices.yml
-
-9. Update the schedule in _data/workshop20YY/schedule.yml
+8. Update the schedule in _data/workshop20YY/schedule.yml
     a. Remove all of the old talk hash entries (just the talks! Don't change any of the other keys for a session!)
 
-10. Update the "Nth Scalable Tools Workshop" in index.md
+9. Update the "Nth Scalable Tools Workshop" in index.md
 
-11. Use the instructions from the site below to install the bundles and generate a new site.
+10. Use the instructions from the site below to install the bundles and generate a new site.
     You don't need to do any of the optional items
     https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll
 
-12. Delete Gemfile.lock
+11. Delete Gemfile.lock
 
-13. Run "bundle exec jekyll serve"
+12. Run "bundle exec jekyll serve"
     a. If you saw no errors from jekyll and all of the content looks correct, then you can push it to GitHub.
     b. If you get errors, you will have to search on how to fix them. The template language is Liquid and the
        web framework is Jekyll. It's all written in ruby.
 
-14. On your local machine, set up the AFS web directory
+13. On your local machine, set up the AFS web directory
     a. cd /p/paradyn/public/html
     b. cp -R petascale20XX petascale20YY
 
