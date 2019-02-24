@@ -1,7 +1,8 @@
 ---
 layout: info
+title: Past Workshops
 ---
-# Past Workshops
+
 
 The Scalable Tools Workshop/Petascale Tools Workshop started as part of the Center for Scalable Application Development
 Software, as one of its series of four summer workshops. The programs of all past workshops, going back to the initial CScADS
