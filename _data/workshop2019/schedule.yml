@@ -46,11 +46,6 @@ sessions:
       - monday
       - tuesday
     class: sbreak
-  - title: Reception
-    time: 18:30pm
-    days:
-      - wednesday
-    class: sbreak
   - title: "Dinner"
     time: 19:30pm
     days:
@@ -108,11 +103,6 @@ sessions:
     title: Working Groups
     talks:
 
-  - days: tuesday
-    time: 17:30pm
-    title: Working Groups
-    talks:
-
   - days: wednesday
     time: 08:30am
     title: Working Groups
@@ -124,7 +114,7 @@ sessions:
     talks:
 
   - days: wednesday
-    time: 18:30am
+    time: 18:30pm
     title: Working Groups
     talks:
 
