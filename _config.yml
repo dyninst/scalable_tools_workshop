@@ -39,3 +39,13 @@ defaults:
       path: "petascale2019"
     values: 
       year: "workshop2019"
+  -
+    scope:
+      path: "petascale2018"
+    values: 
+      year: "workshop2018"
+  -
+    scope:
+      path: "petascale2017"
+    values: 
+      year: "workshop2017"
