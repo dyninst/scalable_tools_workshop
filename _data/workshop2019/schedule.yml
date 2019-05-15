@@ -73,27 +73,210 @@ sessions:
     time: 08:30am
     title: Session 1
     talks:
+    - title: "Dyninst Update"
+      author: Xiaozhu Meng, Tim Haines, and Sasha Nicolas
+      affiliation: Rice Univ. and UW-Madison
+      length: 1800
+
+    - title: "Software Tools for Mixed-Precision Program Analysis"
+      author: Mike Lam
+      affiliation: James Madison University
+      length: 1800
+      abstract: "Floating-point representation and arithmetic remain the predominant mechanism
+    for real-valued computation despite many well-known issues such as roundoff
+    error. As high-performance computing continues to scale, many computational
+    scientists are seeking to reduce precision when possible to accelerate
+    performance and alleviate memory requirements. In this talk, I will describe
+    my recent work that seeks to facilitate such reduction of precision or in
+    some other way provide insights about the accuracy or behavior of
+    floating-point code, including a recent experimental prototype of an
+    end-to-end source-level mixed-precision tuning system for HPC codes."
+
+    - title: "Exploiting Modern Hardware Features via Lightweight Profiling"
+      author: Probir Roy
+      affiliation: College of William and Mary
+      length: 1800
+      abstract: "Over the past few decades, computer systems have evolved into two
+    directions: more parallelism and deeper memory hierarchies. Software
+    needs to make an adaption to efficiently map itself to the modern
+    and emerging architectures for the optimal performance. My research
+    involves building various tools to pinpoint inefficient hardware-
+    software interactions and guide code optimization. In this talk, I
+    will discuss different forms of inefficiencies originating from
+    modern computer architectures: contention across simultaneous
+    multithreading, cache conflicts, and bandwidth under-utilization. I
+    will then present novel analysis tools to identify these
+    inefficiencies with low overhead. Guided by our tools, we can
+    successfully optimize program inefficiencies, which yields
+    significant speedups." 
+
   - days: monday
     time: 10:30am
     title: Session 2
     talks:
+
+    - title: "PMU and Linux perf_events"
+      author: Stefane Eranian
+      affiliation: Google
+      length: 1800
+      abstract: "There are new features in Icelake PMU which are very good.
+    Also, time depending, I may be able to discuss data profiling.
+    (to be updated)"
+
+    - title: "Utilizing the Latest Features of Intel's Performance Monitoring Unit"
+      author: Mike Chynoweth
+      affiliation: Intel
+      length: 1800
+      abstract: "We will demonstrate some new methodologies we have developed for usage of
+    the performance monitoring unit to debug difficult performance issues.
+    New features including Timed Last Branch Records, Adaptive Precise Event
+    Based Sampling and Extended PEBS will be utilized to debug real performance
+    issues encountered and fixed in software."
+
+    - title: "Does your tool support PAPI SDEs yet?"
+      author: Anthony Danalis
+      affiliation: Univ. of Tennessee
+      length: 1800
+      abstract: "In the past, PAPI development had focused primarily on hardware-specific
+    performance metrics. However, the rapidly increasing complexity of software
+    infrastructure poses new measurement and analysis challenges for the
+    developers of large-scale applications that make use of external libraries
+    and runtimes. 
+
+    In this talk, we will discuss our efforts to extend PAPI's role so that it becomes
+    the de facto standard for exposing Software-Defined Events (SDEs), or in
+    other words performance-critical events that originate from within layers of
+    the software stack. Extending PAPI with SDEs enables tools to acquire a more
+    complete picture regarding application performance, by monitoring both types
+    of performance events---hardware and software---in a uniform way, through the
+    same consistent PAPI interface.
+
+    In addition to describing the functionality we offer through PAPI's SDE interface,
+    we will show examples of how SDEs have been utilized by different software
+    packages, and provide a thorough performance analysis of the overhead that
+    results from inserting SDEs into performance critical codes."
+
   - days: monday
     time: 13:30pm
     title: Session 3
+    - title: "Diogenes something ..."
+      author: Ben Welton,
+      affiliation: UW-Madison
+      length: 1800
+      abstract: ""
+
+    - title: "A Tool for Performance Analysis of GPU-Accelerated Applications"
+      author: Keren Zhou
+      affiliation: Rice Univ.
+      length: 1800
+      abstract: ""
+
+    - title: "ASSIST: Using performance analysis tools for driving Feedback Directed Optimization"
+      author: William Jalby
+      affiliation: UVSQ
+      length: 1800
+      abstract: ""
+
   - days: monday
     time: 15:30pm
     title: Session 4
     talks:
+
+    - title: "Valgrind/Sanitizers 4 HPC and the Cray Tools Interface"
+      author: Andrew Gontarek
+      affiliation: Cray 
+      length: 1800
+      abstract: ""
+
+    - title: "Commonly Used C & C++ Design Patterns and How They Exacerbate the Mismatch Between
+ Processor Data Access Needs and Memory Subsystems"
+      author: Ben Woodard 
+      affiliation: Red Hat 
+      length: 1800
+      abstract: ""
+
+    - title: "Enhancing Valgrind's Cachegrind to Track How Much of the Cache Line Is Read/written
+ and Computing the Portion of Memory Bandwidth Actually Being Used"
+      author: Will Cohen
+      affiliation:  Red Hat
+      length: 1800
+      abstract: ""
 
   - days: tuesday
     time: 08:30am
     title: Session 5
     talks:
 
+    - title: "I/O Recording and Workflow Analysis with Score-P and Vampir"
+      author: Bill Williams
+      affiliation: TU Dresden
+      length: 1800
+      abstract: "As HPC tasks become larger and more complex, developers attempt to address
+    this complexity by decomposing problems into a workflow of simpler applications,
+    rather than a single application that can handle everything. These workflows
+    present multiple challenges to the tools community, but one of the chief problems
+    is the analysis of communication between jobs. In many workflows, the filesystem
+    plays an analogous role in inter-job communication to that of MPI in interprocess
+    communication. This suggests that we should adapt familiar techniques from MPI
+    instrumentation and performance analysis to the I/O domain. We present initial
+    work in enabling this analysis:
+
+    * New I/O recording features in the ScoreP measurement system
+    * A prototype suite of tools for HPC workflow instrumentation
+    * A prototype visualisation tool for analysing and displaying the results of this
+      instrumentation
+    * Preliminary results in automatically determining the I/O dependencies within a
+      workflow
+
+    Our ultimate goal is to provide the user with information about how they can
+    restructure their workflow in order to increase parallelism, improve the
+    efficiency of their use of HPC resources, and reduce or eliminate false
+    dependencies between jobs."
+
+    - title: "Pavilion 2.0: A Scalable Tool For Testing Large Scale Systems"
+      author: Paul Ferrell
+      affiliation: LANL
+      length: 1800
+      abstract: ""
+
+    - title: "Ubiquitous Performance Analysis"
+      author: David Boehme
+      affiliation: LLNL
+      length: 1800
+      abstract: ""
+
   - days: tuesday
     time: 10:30am
     title: Session 6
     talks:
+
+    - title: "Performance Analysis of Very Large Shared Memory Systems Using Intel(R) Optane DC
+ Memory"
+      author: Ramesh Peri
+      affiliation: Intel 
+      length: 1800
+      abstract: "There is a new kind of memory that was announced recently called Intel(R)
+    Optane DC memory which is lot more dense than traditional DRAM but with more
+    access latency. This introduces a new layer in the memory hierarchy and allows
+    systems with many TB of main memory to be built and use existing DDR4 as
+    another layer of cache. In this talk I will introduce the tools we built to
+    analyze performance on such large scale systems. I will also share our
+    experiences in using the performance tools to optimize  graph analytics
+    algorithms on very large graphs, containing billions of vertices and trillions
+    of edges, on this system.
+"
+
+    - title: TBA
+      author: 
+      affiliation: 
+      length: 1800
+      abstract: ""
+
+    - title: TBA
+      author: 
+      affiliation: 
+      length: 1800
+      abstract: ""
 
   - days: tuesday
     time: 13:30pm
