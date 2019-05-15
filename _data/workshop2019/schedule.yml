@@ -160,7 +160,7 @@ sessions:
     time: 13:30pm
     title: Session 3
     talks:
-    - title: "Diogenes something ..."
+    - title: "Diogenes: Looking For An Honest CPU/GPU Performance Measurement Tool"
       author: Ben Welton,
       affiliation: UW-Madison
       length: 1800
@@ -267,9 +267,9 @@ sessions:
     of edges, on this system.
 "
 
-    - title: TBA
-      author: 
-      affiliation: 
+    - title: "MuMMI: Exploring Performance and Power Trade-offs"
+      author: Valerie Taylor
+      affiliation: ANL
       length: 1800
       abstract: ""
 
