@@ -159,6 +159,7 @@ sessions:
   - days: monday
     time: 13:30pm
     title: Session 3
+    talks:
     - title: "Diogenes something ..."
       author: Ben Welton,
       affiliation: UW-Madison
