@@ -16,17 +16,9 @@ sessions:
     time: 12:00pm
     days:
       - monday
-      - thursday
-    class: sbreak
-  - title: "Lunch"
-    time: 12:30pm
-    days:
       - tuesday
-    class: sbreak
-  - title: "Lunch"
-    time: 12:00pm
-    days:
       - wednesday
+      - thursday
     class: sbreak
   - title: Reception
     time: 17:30pm
