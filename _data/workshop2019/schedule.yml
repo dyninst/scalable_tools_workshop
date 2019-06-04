@@ -181,7 +181,7 @@ sessions:
       length: 1800
       abstract: ""
 
-    - title: "TBD"
+    - title: "Optimizing Memory Bandwidth by Exploring Cache Utilization Efficiency at a Sub Cache-line Level"
       author: Ben Woodard, Will Cohen
       affiliation: Red Hat 
       length: 1800
