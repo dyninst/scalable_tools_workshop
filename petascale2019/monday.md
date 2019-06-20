@@ -4,7 +4,7 @@ date:  Monday, July 29
 title: Talks
 sched_key: monday
 day: 1
-location: TBD
+location: Mountain Room
 ---
 {% increment session_num %}
 

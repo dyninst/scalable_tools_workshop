@@ -20,7 +20,7 @@ sessions:
       - wednesday
       - thursday
     class: sbreak
-  - title: Reception
+  - title: "Reception (Mountain Deck)"
     time: 17:30pm
     days:
       - sunday
@@ -275,21 +275,25 @@ sessions:
   - days: tuesday
     time: 15:00pm
     title: Working Groups
+    author: "Rooms: Diamond Peak, Scott Peak, and Granite Peak"
     talks:
 
   - days: wednesday
     time: 08:30am
     title: Working Groups
+    author: "Rooms: Diamond Peak, Scott Peak, and Granite Peak"
     talks:
 
   - days: wednesday
     time: 10:30am
     title: Working Groups
+    author: "Rooms: Diamond Peak, Scott Peak, and Granite Peak"
     talks:
 
   - days: wednesday
     time: 18:30pm
     title: Working Groups
+    author: "Rooms: Diamond Peak, Scott Peak, and Granite Peak"
     talks:
 
   - days: wednesday
@@ -299,11 +303,13 @@ sessions:
   - days: thursday
     time: 08:30am
     title: Working Groups
+    author: "Rooms: Diamond Peak, Scott Peak, and Granite Peak"
     talks:
 
   - days: thursday
     time: 10:30am
     title: Working Group Outbriefs
+    author: "Mountain Room"
 
   - days: sunday
     time: 12:00pm
