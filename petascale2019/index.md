@@ -13,5 +13,5 @@ As in previous years, we will begin with presentations of people's work,
 and will then break up into working groups to tackle real technical problems
 for the second half of the workshop.
 
-Dinner on Sunday evening will be from 6:00 to 7:30pm.
+On Sunday evening, the welcome reception starts at 5:30pm and dinner at 6:30pm.
 
