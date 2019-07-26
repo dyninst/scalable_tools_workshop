@@ -175,11 +175,26 @@ sessions:
     title: Session 4
     talks:
 
-    - title: "Valgrind/Sanitizers 4 HPC and the Cray Tools Interface"
+    - title: "A Common Tools Interface as an MPIR Alternative"
       author: Andrew Gontarek
       affiliation: Cray 
       length: 1800
-      abstract: ""
+      abstract: "The Common Tools Interface (CTI) is an infrastructure framework focused on enabling tool developers to interact with,
+and run tool daemons alongside, applications on HPC systems. CTI is a collection of interfaces along with underlying
+utilities that export services for use by tools. The goal of CTI is to define a set of interfaces that provide a tight 
+semantic mapping between tools and the underlying HPC system. Tools have a common set of core functionality required 
+during bootstrapping to start daemons alongside running application processes. CTI enables vendors to provide 
+underlying implementations invisible to the interfacing tool to rapidly enable support on their systems. 
+
+CTI was inspired by the MPIR Process Acquisition Interface and is meant to be a more robust replacement. A problem 
+with the current MPIR design is that a tool is required to ptrace attach onto the starter process in order to harvest 
+information about the running application. This is not a good fit for current HPC system designs. Some systems allow 
+for intermediary nodes between where the user starts their application and where the starter process is actually run, 
+requiring tools to route themselves to the node where the starter process resides. CTI solves this by providing an 
+abstract API that allows the underlying implementation to handle the details transparent to the tool.
+
+Cray recently open sourced CTI as a reference implementation that can be used to explore future work related to 
+defining a cross vendor tool interface suited for the modern era of HPC systems."
 
     - title: "Optimizing Memory Bandwidth by Exploring Cache Utilization Efficiency at a Sub Cache-line Level"
       author: Ben Woodard, Will Cohen
