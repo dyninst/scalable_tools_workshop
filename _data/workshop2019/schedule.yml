@@ -91,7 +91,7 @@ sessions:
       affiliation: LANL
       length: 1800
       abstract: ""
-      slides: "Pavillion_2.0.pptx"
+      slides: "Pavilion_2.0.pptx"
 
   - days: monday
     time: 10:30am
