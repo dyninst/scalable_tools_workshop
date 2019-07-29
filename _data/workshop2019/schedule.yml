@@ -75,6 +75,7 @@ sessions:
       author: Mike Lam
       affiliation: James Madison University
       length: 1800
+      slides: lam-stw19.pdf
       abstract: "Floating-point representation and arithmetic remain the predominant mechanism
     for real-valued computation despite many well-known issues such as roundoff
     error. As high-performance computing continues to scale, many computational
@@ -90,6 +91,7 @@ sessions:
       affiliation: LANL
       length: 1800
       abstract: ""
+      slides: "Pavillion_2.0.pptx"
 
   - days: monday
     time: 10:30am
@@ -108,6 +110,7 @@ sessions:
       author: Mike Chynoweth
       affiliation: Intel
       length: 1800
+      slides: "2019.07.29_ScalableToolsConference_MChynoweth_Fina.pdf"
       abstract: "We will demonstrate some new methodologies we have developed for usage of
     the performance monitoring unit to debug difficult performance issues.
     New features including Timed Last Branch Records, Adaptive Precise Event
@@ -146,12 +149,14 @@ sessions:
       affiliation: UW-Madison
       length: 1800
       abstract: ""
+      slides: "welton_perfTools_2019_diogenes_update.pdf"
 
     - title: "A Tool for Performance Analysis of GPU-Accelerated Applications"
       author: Keren Zhou
       affiliation: Rice Univ.
       length: 1800
       abstract: ""
+      slides: "Optimizing GPU-accelerated Applications with HPCToolkit.pdf"
 
     - title: "ASSIST: Using performance analysis tools for driving Feedback Directed Optimization"
       author: William Jalby
@@ -168,6 +173,7 @@ sessions:
       author: Andrew Gontarek
       affiliation: Cray 
       length: 1800
+      slides: "cti_presentation.pdf"
       abstract: "The Common Tools Interface (CTI) is an infrastructure framework focused on enabling tool developers to interact with,
 and run tool daemons alongside, applications on HPC systems. CTI is a collection of interfaces along with underlying
 utilities that export services for use by tools. The goal of CTI is to define a set of interfaces that provide a tight 
