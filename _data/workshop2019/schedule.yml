@@ -65,10 +65,11 @@ sessions:
     time: 08:30am
     title: Session 1
     talks:
-    - title: [Dyninst Update](slides/PerfTools_2019_Dyninst.pdf)
+    - title: "Dyninst Update"
       author: Xiaozhu Meng, Tim Haines, and Sasha Nicolas
       affiliation: Rice Univ. and UW-Madison
       length: 1800
+      slides: "PerfTools_2019_Dyninst.pdf"
 
     - title: "Software Tools for Mixed-Precision Program Analysis"
       author: Mike Lam
