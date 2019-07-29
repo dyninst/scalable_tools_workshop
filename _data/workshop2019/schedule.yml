@@ -84,23 +84,11 @@ sessions:
     floating-point code, including a recent experimental prototype of an
     end-to-end source-level mixed-precision tuning system for HPC codes."
 
-    - title: "Exploiting Modern Hardware Features via Lightweight Profiling"
-      author: Probir Roy
-      affiliation: College of William and Mary
+    - title: "Pavilion 2.0: A Scalable Tool For Testing Large Scale Systems"
+      author: Paul Ferrell
+      affiliation: LANL
       length: 1800
-      abstract: "Over the past few decades, computer systems have evolved into two
-    directions: more parallelism and deeper memory hierarchies. Software
-    needs to make an adaption to efficiently map itself to the modern
-    and emerging architectures for the optimal performance. My research
-    involves building various tools to pinpoint inefficient hardware-
-    software interactions and guide code optimization. In this talk, I
-    will discuss different forms of inefficiencies originating from
-    modern computer architectures: contention across simultaneous
-    multithreading, cache conflicts, and bandwidth under-utilization. I
-    will then present novel analysis tools to identify these
-    inefficiencies with low overhead. Guided by our tools, we can
-    successfully optimize program inefficiencies, which yields
-    significant speedups." 
+      abstract: ""
 
   - days: monday
     time: 10:30am
@@ -239,12 +227,24 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
     efficiency of their use of HPC resources, and reduce or eliminate false
     dependencies between jobs."
 
-    - title: "Pavilion 2.0: A Scalable Tool For Testing Large Scale Systems"
-      author: Paul Ferrell
-      affiliation: LANL
+    - title: "Exploiting Modern Hardware Features via Lightweight Profiling"
+      author: Probir Roy
+      affiliation: College of William and Mary
       length: 1800
-      abstract: ""
-
+      abstract: "Over the past few decades, computer systems have evolved into two
+    directions: more parallelism and deeper memory hierarchies. Software
+    needs to make an adaption to efficiently map itself to the modern
+    and emerging architectures for the optimal performance. My research
+    involves building various tools to pinpoint inefficient hardware-
+    software interactions and guide code optimization. In this talk, I
+    will discuss different forms of inefficiencies originating from
+    modern computer architectures: contention across simultaneous
+    multithreading, cache conflicts, and bandwidth under-utilization. I
+    will then present novel analysis tools to identify these
+    inefficiencies with low overhead. Guided by our tools, we can
+    successfully optimize program inefficiencies, which yields
+    significant speedups." 
+    
     - title: "Ubiquitous Performance Analysis"
       author: David Boehme
       affiliation: LLNL
