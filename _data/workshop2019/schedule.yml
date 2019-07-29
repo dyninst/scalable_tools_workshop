@@ -65,7 +65,7 @@ sessions:
     time: 08:30am
     title: Session 1
     talks:
-    - title: "Dyninst Update"
+    - title: [Dyninst Update](slides/PerfTools_2019_Dyninst.pdf)
       author: Xiaozhu Meng, Tim Haines, and Sasha Nicolas
       affiliation: Rice Univ. and UW-Madison
       length: 1800
