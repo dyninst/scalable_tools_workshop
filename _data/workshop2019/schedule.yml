@@ -121,6 +121,7 @@ sessions:
       author: Anthony Danalis
       affiliation: Univ. of Tennessee
       length: 1800
+      slides: "2019_07_ScalableToolsWorkshop_Danalis.pdf"
       abstract: "In the past, PAPI development had focused primarily on hardware-specific
     performance metrics. However, the rapidly increasing complexity of software
     infrastructure poses new measurement and analysis challenges for the
