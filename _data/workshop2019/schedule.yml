@@ -198,6 +198,7 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
       affiliation: Red Hat 
       length: 1800
       abstract: ""
+      slides: "STW 2019 sub-cacheline.pdf"
 
     - title: "Hatchet: Pruning the Overgrowth in Parallel Profiles"
       author: Abhinav Bhatele
