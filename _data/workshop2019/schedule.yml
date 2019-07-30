@@ -300,12 +300,25 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
   - days: tuesday
     time: 13:30pm
     title: Working Group Creation
+    
   - days: tuesday
     time: 15:00pm
-    title: Working Groups
-    author: "Rooms: Diamond Peak, Scott Peak, and Granite Peak"
+    title: Hatchet Working Group (Diamond Peak)
+    author:
     talks:
 
+  - days: tuesday
+    time: 15:00pm
+    title: Linux Perf Working Group (Scott Peak)
+    author:
+    talks:
+  
+  - days: tuesday
+    time: 15:00pm
+    title: Test suite for compilers Working Group (Granite Peak)
+    author:
+    talks:
+    
   - days: wednesday
     time: 08:30am
     title: Working Groups
