@@ -377,7 +377,7 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
     author:
     talks:
 
-- days: thursday
+  - days: thursday
     time: 1:30pm
     title: Departure
     class: sbreak
@@ -386,4 +386,3 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
     time: 12:00pm
     title: Arrival
     class: sbreak
-    
