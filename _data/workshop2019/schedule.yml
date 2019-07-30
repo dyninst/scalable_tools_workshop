@@ -285,10 +285,11 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
 "
 
     - title: "MuMMI: Exploring Performance and Power Trade-offs"
-      author: Valerie Taylor
+      author: Xingfu Wu, Valerie Taylor
       affiliation: ANL
       length: 1800
       abstract: ""
+      slides: "Scalable_Tools_2019_Wu.pdf"
 
     - title: "Interfaces for Runtime Correctness Checking of Parallel Programs"
       author: Joachim Protze
