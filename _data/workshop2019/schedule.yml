@@ -164,7 +164,7 @@ sessions:
       affiliation: UVSQ
       length: 1800
       abstract: ""
-      slides: "Jalby-tools_WS.pdf"
+      slides: "tools_WS_S.pdf"
 
   - days: monday
     time: 15:30pm
