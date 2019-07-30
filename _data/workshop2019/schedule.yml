@@ -215,6 +215,7 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
       author: Bill Williams
       affiliation: TU Dresden
       length: 1800
+      slides: "Williams_WorkflowIO_STW19.pdf"
       abstract: "As HPC tasks become larger and more complex, developers attempt to address
     this complexity by decomposing problems into a workflow of simpler applications,
     rather than a single application that can handle everything. These workflows
