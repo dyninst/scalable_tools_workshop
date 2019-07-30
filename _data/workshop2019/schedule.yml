@@ -318,6 +318,12 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
     title: Test suite for compilers Working Group (Granite Peak)
     author:
     talks:
+
+  - days: tuesday
+    time: 16:00pm
+    title: PMM Working Group (Granite Peak)
+    author:
+    talks:
     
   - days: wednesday
     time: 08:30am
