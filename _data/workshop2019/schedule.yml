@@ -110,7 +110,7 @@ sessions:
       author: Mike Chynoweth
       affiliation: Intel
       length: 1800
-      slides: "2019.07.29_ScalableToolsConference_MChynoweth_Fina.pdf"
+      slides: "2019.07.29_ScalableToolsConference_MChynoweth_Final.pdf"
       abstract: "We will demonstrate some new methodologies we have developed for usage of
     the performance monitoring unit to debug difficult performance issues.
     New features including Timed Last Branch Records, Adaptive Precise Event
