@@ -241,6 +241,7 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
       author: Probir Roy
       affiliation: College of William and Mary
       length: 1800
+      slides: "scalable_tools_workshop_probir_for_pdf.pdf"
       abstract: "Over the past few decades, computer systems have evolved into two
     directions: more parallelism and deeper memory hierarchies. Software
     needs to make an adaption to efficiently map itself to the modern
