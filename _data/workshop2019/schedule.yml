@@ -28,7 +28,7 @@ sessions:
       - tuesday
     class: sbreak
   - title: "Reception (Mountain Deck)"
-    time: 17:30pm
+    time: 18:30pm
     days:
       - wednesday
     class: sbreak
@@ -352,12 +352,6 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
     time: 10:30am
     title: Ubiquitous Performance Analysis Working Group (Scott Peak)
     author:
-    talks:
-
-  - days: wednesday
-    time: 18:30pm
-    title: Working Groups
-    author: "Rooms: Diamond Peak, Scott Peak, and Granite Peak"
     talks:
 
   - days: wednesday
