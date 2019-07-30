@@ -327,14 +327,26 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
     
   - days: wednesday
     time: 08:30am
-    title: Working Groups
-    author: "Rooms: Diamond Peak, Scott Peak, and Granite Peak"
+    title: Data Profiling + memory allocators Working Group (Diamond Peak)
+    author:
+    talks:
+
+  - days: wednesday
+    time: 08:30am
+    title: OMPT Working Group (Scott Peak)
+    author:
+    talks:
+    
+  - days: wednesday
+    time: 10:30am
+    title: Cluster-wide Performance Monitoring Working Group (Diamond Peak)
+    author:
     talks:
 
   - days: wednesday
     time: 10:30am
-    title: Working Groups
-    author: "Rooms: Diamond Peak, Scott Peak, and Granite Peak"
+    title: Ubiquitous Performance Analysis Working Group (Scott Peak)
+    author:
     talks:
 
   - days: wednesday
@@ -349,20 +361,29 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
 
   - days: thursday
     time: 08:30am
-    title: Working Groups
-    author: "Rooms: Diamond Peak, Scott Peak, and Granite Peak"
+    title: Tool Interfaces Working Group (Diamond Peak)
+    author:
     talks:
 
   - days: thursday
-    time: 10:30am
-    title: Working Group Outbriefs
-    author: "Mountain Room"
+    time: 08:30am
+    title: Providing Actionable Insight Working Group (Scott Peak)
+    author:
+    talks:
+    
+  - days: thursday
+    time: 08:30am
+    title: Hardware Counters for non-Intel platforms, Frontier (Granite Peak)
+    author:
+    talks:
 
+- days: thursday
+    time: 1:30pm
+    title: Departure
+    class: sbreak
+    
   - days: sunday
     time: 12:00pm
     title: Arrival
     class: sbreak
-  - days: thursday
-    time: 1:30pm
-    title: Departure
-    class: sbreak
+    
