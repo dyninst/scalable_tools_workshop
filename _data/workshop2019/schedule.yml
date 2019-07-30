@@ -27,6 +27,11 @@ sessions:
       - monday
       - tuesday
     class: sbreak
+  - title: "Reception (Mountain Deck)"
+    time: 17:30pm
+    days:
+      - wednesday
+    class: sbreak
   - title: "Dinner"
     time: 18:30pm
     days:
