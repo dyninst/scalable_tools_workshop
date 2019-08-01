@@ -331,8 +331,9 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
   - days: tuesday
     time: 16:00pm
     title: PMM Working Group (Granite Peak)
-    author:
+    author: Ben Woodard
     talks:
+    slides: "PPM_WG.pptx"
     
   - days: wednesday
     time: 08:30am
