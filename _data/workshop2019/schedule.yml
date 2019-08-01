@@ -341,8 +341,9 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
   - days: wednesday
     time: 08:30am
     title: OMPT Working Group (Scott Peak)
-    author:
+    author: Joachim Protze
     talks:
+    slides: "2019-07-31_OMPT-working-group.pdf"
     
   - days: wednesday
     time: 10:30am
