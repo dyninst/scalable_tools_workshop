@@ -334,8 +334,9 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
   - days: wednesday
     time: 08:30am
     title: Data Profiling + memory allocators Working Group (Diamond Peak)
-    author:
+    author: Ben Woodard
     talks:
+    slides: "2019.07.31_ScalableToolsDataProfiling.pptx"
 
   - days: wednesday
     time: 08:30am
