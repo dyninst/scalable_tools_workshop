@@ -374,7 +374,7 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
     title: Tool Interfaces Working Group (Diamond Peak)
     author: 
     talks:
-    slides:
+    slides: "tool_interfaces_WG.pdf"
 
   - days: thursday
     time: 08:30am
