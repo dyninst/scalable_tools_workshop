@@ -360,8 +360,9 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
   - days: wednesday
     time: 10:30am
     title: Ubiquitous Performance Analysis Working Group (Scott Peak)
-    author:
+    author: Matt Legendre
     talks:
+    slides: "Ubiquitous Performance Analysis (UPA) Notes.pptx"
 
   - days: wednesday
     time: 13:30pm
