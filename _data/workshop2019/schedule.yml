@@ -376,6 +376,7 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
     title: Providing Actionable Insight Working Group (Scott Peak)
     author:
     talks:
+    slides: "2019.08.01_ProvidingActionableInsight.pdf"
     
   - days: thursday
     time: 08:30am
