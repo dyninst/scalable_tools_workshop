@@ -301,6 +301,7 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
       affiliation: RWTH Aachen University
       length: 1800
       abstract: ""
+      slides: "2019-07-30_Toolsworkshop_Interfaces.pdf"
 
   - days: tuesday
     time: 13:30pm
@@ -371,9 +372,9 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
   - days: thursday
     time: 08:30am
     title: Tool Interfaces Working Group (Diamond Peak)
-    author: Joachim Protze
+    author: 
     talks:
-    slides: "2019-07-30_Toolsworkshop_Interfaces.pdf"
+    slides:
 
   - days: thursday
     time: 08:30am
