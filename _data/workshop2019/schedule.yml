@@ -323,6 +323,7 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
     title: Test suite for compilers Working Group (Granite Peak)
     author:
     talks:
+    slides: "Compiler_testing_working_group.pdf"
 
   - days: tuesday
     time: 16:00pm
