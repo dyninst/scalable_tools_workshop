@@ -107,6 +107,7 @@ sessions:
       author: Stefane Eranian
       affiliation: Google
       length: 1800
+      slides: "CSCADS 2019 perf_events status update.pdf"
       abstract: "There are new features in Icelake PMU which are very good.
     Also, time depending, I may be able to discuss data profiling.
     (to be updated)"
