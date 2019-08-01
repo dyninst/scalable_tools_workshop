@@ -358,6 +358,7 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
     title: Cluster-wide Performance Monitoring Working Group (Granite Peak)
     author:
     talks:
+    slides: Cluster_Perf_Monitoring.pdf
 
   - days: wednesday
     time: 10:30am
