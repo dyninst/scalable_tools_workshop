@@ -16,4 +16,4 @@ for the second half of the workshop.
 On Sunday evening, the welcome reception starts at 5:30pm and dinner at 6:30pm.
 
 
-![](assets/images/20190731190835.JPG) Hike to Lake Genevieve
+![HikeGenevieve](assets/images/20190731190835.JPG) Hike to Lake Genevieve

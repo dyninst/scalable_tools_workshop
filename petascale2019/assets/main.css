@@ -184,3 +184,8 @@ tr.sbreak {
 tr.sbreak th {
    	font-style: italic;
 }
+
+img[alt=HikeGenevieve]{
+	width: 1152px;
+	height:768px;
+}
