@@ -369,8 +369,9 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
   - days: thursday
     time: 08:30am
     title: Tool Interfaces Working Group (Diamond Peak)
-    author:
+    author: Joachim Protze
     talks:
+    slides: "2019-07-30_Toolsworkshop_Interfaces.pdf"
 
   - days: thursday
     time: 08:30am
