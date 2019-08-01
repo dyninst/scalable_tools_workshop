@@ -384,8 +384,9 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
   - days: thursday
     time: 08:30am
     title: Hardware Counters for non-Intel platforms, Frontier (Granite Peak)
-    author:
+    author: Michael Brim
     talks:
+    slides: "STW2019-HWCtrsNonIntel.pdf"
 
   - days: thursday
     time: 1:30pm
