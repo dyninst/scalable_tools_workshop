@@ -319,6 +319,7 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
     title: Linux Perf Working Group (Scott Peak)
     author:
     talks:
+    slides: "WG - Perf Enhancements.pdf"
   
   - days: tuesday
     time: 15:00pm
