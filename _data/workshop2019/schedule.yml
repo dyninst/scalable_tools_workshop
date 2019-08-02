@@ -310,64 +310,58 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
     
   - days: tuesday
     time: 15:00pm
-    title: Hatchet Working Group (Diamond Peak)
-    author:
+    title: Session 7
     talks:
+    
+     - title: Hatchet Working Group (Diamond Peak)
+       author:
+       slides:
+    
+     - title: Linux Perf Working Group (Scott Peak)
+       author: Will Cohen
+       slides: "WG - Perf Enhancements.pdf"
 
-  - days: tuesday
-    time: 15:00pm
-    title: Linux Perf Working Group (Scott Peak)
-    author:
-    talks:
-    slides: "WG - Perf Enhancements.pdf"
-  
-  - days: tuesday
-    time: 15:00pm
-    title: Test suite for compilers Working Group (Granite Peak)
-    author:
-    talks:
-    slides: "Compiler_testing_working_group.pdf"
+     - title: Test suite for compilers Working Group (Granite Peak)
+       author: Thomas Gruber
+       slides: "Compiler_testing_working_group.pdf"
 
   - days: tuesday
     time: 16:00pm
-    title: PMM Working Group (Granite Peak)
-    author: Ben Woodard
+    title: Session 8
     talks:
-    slides: "PPM_WG.pptx"
+    - title: PMM Working Group (Granite Peak)
+      author: Ben Woodard
+      slides: "PPM_WG.pptx"
     
   - days: wednesday
     time: 08:30am
-    title: Data Profiling + memory allocators Working Group (Diamond Peak)
-    author: Ben Woodard
+    title: Session 9
     talks:
-    slides: "2019.07.31_ScalableToolsDataProfiling.pptx"
+    
+      - title: Data Profiling + memory allocators Working Group (Diamond Peak)
+        author: Michael Chynoweth
+        slides: "2019.07.31_ScalableToolsDataProfiling.pptx"
 
-  - days: wednesday
-    time: 08:30am
-    title: OMPT Working Group (Scott Peak)
-    author: Joachim Protze
-    talks:
-    slides: "2019-07-31_OMPT-working-group.pdf"
+      - title: OMPT Working Group (Scott Peak)
+        author: Joachim Protze
+        slides: "2019-07-31_OMPT-working-group.pdf"
     
   - days: wednesday
     time: 10:30am
-    title: Data Profiling + memory allocators Working Group (Diamond Peak)
-    author:
+    title: Session 10
     talks:
-    
-  - days: wednesday
-    time: 10:30am
-    title: Cluster-wide Performance Monitoring Working Group (Granite Peak)
-    author:
-    talks:
-    slides: Cluster_Perf_Monitoring.pdf
 
-  - days: wednesday
-    time: 10:30am
-    title: Ubiquitous Performance Analysis Working Group (Scott Peak)
-    author: Matt Legendre
-    talks:
-    slides: "Ubiquitous Performance Analysis (UPA) Notes.pptx"
+    - title: Data Profiling + memory allocators Working Group - Cont. (Diamond Peak)
+      author: Michael Chynoweth 
+      slides: "2019.07.31_ScalableToolsDataProfiling.pptx"
+          
+    - title: Ubiquitous Performance Analysis Working Group (Scott Peak)
+      author: Matt Legendre
+      slides: "Ubiquitous Performance Analysis (UPA) Notes.pptx"
+
+    - title: Cluster-wide Performance Monitoring Working Group (Granite Peak)
+      author: Thomas Gruber
+      slides: Cluster_Perf_Monitoring.pdf
 
   - days: wednesday
     time: 13:30pm
@@ -375,24 +369,20 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
 
   - days: thursday
     time: 08:30am
-    title: Tool Interfaces Working Group (Diamond Peak)
-    author: 
+    title: Session 11
     talks:
-    slides: "tool_interfaces_WG.pdf"
 
-  - days: thursday
-    time: 08:30am
-    title: Providing Actionable Insight Working Group (Scott Peak)
-    author:
-    talks:
-    slides: "2019.08.01_ProvidingActionableInsight.pdf"
+    - title: Tool Interfaces Working Group (Diamond Peak)
+      author: Andrew Gontarek
+      slides: "tool_interfaces_WG.pdf"
     
-  - days: thursday
-    time: 08:30am
-    title: Hardware Counters for non-Intel platforms, Frontier (Granite Peak)
-    author: Michael Brim
-    talks:
-    slides: "STW2019-HWCtrsNonIntel.pdf"
+    - title: Providing Actionable Insight Working Group (Scott Peak)
+      author: Ben Welton
+      slides: "2019.08.01_ProvidingActionableInsight.pdf"
+
+    - title: Hardware Counters for non-Intel platforms, Frontier (Granite Peak)
+      author: Michael Brim
+      slides: "STW2019-HWCtrsNonIntel.pdf"
 
   - days: thursday
     time: 1:30pm
