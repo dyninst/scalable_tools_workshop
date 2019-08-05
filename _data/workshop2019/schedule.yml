@@ -383,6 +383,10 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
     - title: Hardware Counters for non-Intel platforms, Frontier (Granite Peak)
       author: Michael Brim
       slides: "STW2019-HWCtrsNonIntel.pdf"
+    
+    - title: Parallel Elfutils
+      author: John Mellor-Crummey
+      slides: "ElfutilsInParallel.pdf"
 
   - days: thursday
     time: 1:30pm
