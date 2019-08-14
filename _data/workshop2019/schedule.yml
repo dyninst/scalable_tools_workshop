@@ -279,6 +279,7 @@ defining a cross vendor tool interface suited for the modern era of HPC systems.
       author: Ramesh Peri
       affiliation: Intel 
       length: 1800
+      slides: "Exascale-tools-workshop.pdf"
       abstract: "There is a new kind of memory that was announced recently called Intel(R)
     Optane DC memory which is lot more dense than traditional DRAM but with more
     access latency. This introduces a new layer in the memory hierarchy and allows
