@@ -48,4 +48,4 @@ You should now see your updated site at http://www.paradyn.org/petascale20YY.
 3. Update the entries in Gemfile as suggested by Github
     b. e.g., gem "jekyll", ">= 3.6.3"
 
-4. Re-run step (13) from above
+4. Re-run step (12) from above
