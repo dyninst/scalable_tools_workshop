@@ -36,6 +36,11 @@ exclude:
 defaults:
   -
     scope:
+      path: "petascale2020"
+    values: 
+      year: "workshop2020"
+  -
+    scope:
       path: "petascale2019"
     values: 
       year: "workshop2019"

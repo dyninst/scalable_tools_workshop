@@ -1,0 +1,317 @@
+---
+sessions:
+  - title: "Breakfast"
+    time: 07:30am
+    days:
+      - monday
+      - tuesday
+      - thursday
+    class: sbreak
+  - title: "Breakfast"
+    time: 07:30am
+    days:
+      - wednesday
+    class: sbreak
+  - title: "Lunch"
+    time: 12:00pm
+    days:
+      - monday
+      - tuesday
+      - wednesday
+      - thursday
+    class: sbreak
+  - title: "Reception (Mountain Deck)"
+    time: 17:30pm
+    days:
+      - sunday
+      - monday
+      - tuesday
+    class: sbreak
+  - title: "Reception (Mountain Deck)"
+    time: 18:30pm
+    days:
+      - wednesday
+    class: sbreak
+  - title: "Dinner"
+    time: 18:30pm
+    days:
+      - sunday
+    class: sbreak
+  - title: "Dinner"
+    time: 18:30pm
+    days:
+      - monday
+      - tuesday
+    class: sbreak
+  - title: "Dinner"
+    time: 19:30pm
+    days:
+      - wednesday
+    class: sbreak
+  - title: Break
+    time: 10:00am
+    days:
+      - monday
+      - tuesday
+      - wednesday
+      - thursday
+    class: sbreak
+  - title: Break
+    time: 15:00pm
+    days:
+      - monday
+    class: sbreak
+  - title: Break
+    time: 14:30pm
+    days:
+      - tuesday
+    class: sbreak
+  - days: monday
+    time: 08:30am
+    title: Session 1
+    talks:
+    - title: "Dyninst Update"
+      author: Xiaozhu Meng, Tim Haines, and Sasha Nicolas
+      affiliation: Rice Univ. and UW-Madison
+      length: 1800
+      slides: 
+
+    - title: 
+      author: 
+      affiliation: 
+      length: 1800
+      slides: 
+      abstract: 
+
+    - title: 
+      author: 
+      affiliation: 
+      length: 1800
+      abstract: 
+      slides: 
+
+  - days: monday
+    time: 10:30am
+    title: Session 2
+    talks:
+
+    - title: 
+      author: 
+      affiliation: 
+      length: 1800
+      slides: 
+
+    - title: 
+      author: 
+      affiliation: 
+      length: 1800
+      slides: 
+
+    - title: 
+      author: 
+      affiliation: 
+      length: 1800
+      slides: 
+      abstract: 
+
+  - days: monday
+    time: 13:30pm
+    title: Session 3
+    talks:
+    - title: 
+      author: 
+      affiliation: 
+      length: 1800
+      abstract: 
+      slides: 
+
+    - title: 
+      author: 
+      affiliation: 
+      length: 1800
+      abstract: 
+      slides: 
+
+    - title: 
+      author: 
+      affiliation: 
+      length: 1800
+      abstract: 
+      slides: 
+
+  - days: monday
+    time: 15:30pm
+    title: Session 4
+    talks:
+
+    - title: 
+      author: 
+      affiliation: 
+      length: 1800
+      slides: 
+      abstract: 
+
+    - title: 
+      author: 
+      affiliation: 
+      length: 1800
+      abstract: 
+      slides: 
+
+    - title: 
+      author: 
+      affiliation: 
+      length: 1800
+      abstract: 
+
+  - days: tuesday
+    time: 08:30am
+    title: Session 5
+    talks:
+
+    - title: 
+      author: 
+      affiliation: 
+      length: 1800
+      slides: 
+      abstract: 
+
+    - title: 
+      author: 
+      affiliation: 
+      length: 1800
+      slides: 
+      abstract: 
+    
+    - title: 
+      author: 
+      affiliation: 
+      length: 1800
+      abstract: 
+      slides: 
+
+  - days: tuesday
+    time: 10:30am
+    title: Session 6
+    talks:
+
+    - title: 
+      author: 
+      affiliation: 
+      length: 1800
+      slides: 
+      abstract: 
+
+    - title: 
+      author: 
+      affiliation: 
+      length: 1800
+      abstract: 
+      slides: 
+
+    - title: 
+      author: 
+      affiliation: 
+      length: 1800
+      abstract: 
+      slides: 
+
+  - days: tuesday
+    time: 13:30pm
+    title: Working Group Creation
+    
+  - days: tuesday
+    time: 15:00pm
+    title: Session 7
+    talks:
+    
+     - title: 
+       author:
+       slides:
+    
+     - title: 
+       author: 
+       slides: 
+
+     - title: 
+       author: 
+       slides: 
+
+  - days: tuesday
+    time: 16:00pm
+    title: Session 8
+
+    talks:
+    - title: 
+      author: 
+      slides: 
+    
+  - days: wednesday
+    time: 08:30am
+    title: Session 9
+    talks:
+    
+      - title: 
+        author: 
+        slides: 
+
+      - title: 
+        author: 
+        slides: 
+    
+  - days: wednesday
+    time: 10:30am
+    title: Session 10
+    talks:
+
+    - title: 
+      author: 
+      slides: 
+          
+    - title: 
+      author: 
+      slides: 
+
+    - title: 
+      author: 
+      slides: 
+
+  - days: wednesday
+    time: 13:30pm
+    title: 
+
+  - days: thursday
+    time: 08:30am
+    title: Session 11
+    talks:
+
+    - title: 
+      author: 
+      slides: 
+    
+    - title: 
+      author: 
+      slides: 
+
+    - title: 
+      author: 
+      slides: 
+    
+    - title: 
+      author: 
+      slides: 
+
+  - days: thursday
+    time: 1:30pm
+    title: Departure
+    class: sbreak
+    
+  - days: sunday
+    time: 12:00pm
+    title: Arrival
+    class: sbreak
+
+  - days: thursday
+    time: 10:30am
+    title: 
+    
