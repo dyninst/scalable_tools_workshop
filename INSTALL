@@ -20,7 +20,9 @@ numbers for this year. Once you have that data, complete the steps below to crea
 8. Update the schedule in _data/workshop20YY/schedule.yml
     a. Remove all of the old talk hash entries (just the talks! Don't change any of the other keys for a session!)
 
-9. Update the "Nth Scalable Tools Workshop" in index.md
+9. Update the "Nth Scalable Tools Workshop" and the 'year' key in petascale20YY/index.md
+
+9b. Update the information in _data/workshop20YY/dates.md
 
 10. Delete Gemfile.lock
 
