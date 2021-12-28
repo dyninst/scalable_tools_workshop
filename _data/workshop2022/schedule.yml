@@ -1,0 +1,405 @@
+---
+sessions:
+  - title: "Breakfast"
+    time: 07:30am
+    days:
+      - monday
+      - tuesday
+      - thursday
+    class: sbreak
+  - title: "Breakfast"
+    time: 07:30am
+    days:
+      - wednesday
+    class: sbreak
+  - title: "Lunch"
+    time: 12:00pm
+    days:
+      - monday
+      - tuesday
+      - wednesday
+      - thursday
+    class: sbreak
+  - title: "Reception (Mountain Deck)"
+    time: 17:30pm
+    days:
+      - sunday
+      - monday
+      - tuesday
+    class: sbreak
+  - title: "Reception (Mountain Deck)"
+    time: 18:30pm
+    days:
+      - wednesday
+    class: sbreak
+  - title: "Dinner"
+    time: 18:30pm
+    days:
+      - sunday
+    class: sbreak
+  - title: "Dinner"
+    time: 18:30pm
+    days:
+      - monday
+      - tuesday
+    class: sbreak
+  - title: "Dinner"
+    time: 19:30pm
+    days:
+      - wednesday
+    class: sbreak
+  - title: Break
+    time: 10:00am
+    days:
+      - monday
+      - tuesday
+      - wednesday
+      - thursday
+    class: sbreak
+  - title: Break
+    time: 15:00pm
+    days:
+      - monday
+    class: sbreak
+  - title: Break
+    time: 14:30pm
+    days:
+      - tuesday
+    class: sbreak
+  - days: monday
+    time: 08:30am
+    title: Session 1
+    talks:
+    - title: "Dyninst Update"
+      author: Xiaozhu Meng and Tim Haines
+      affiliation: Rice Univ. and UW-Madison
+      length: 1800
+      slides:
+
+    #- title: "Software Tools for Mixed-Precision Program Analysis"
+      #author: Mike Lam
+      #affiliation: James Madison University
+      #length: 1800
+      #slides: lam-stw19.pdf
+      #abstract: "Floating-point representation and arithmetic remain the predominant mechanism
+    #for real-valued computation despite many well-known issues such as roundoff
+    #error. As high-performance computing continues to scale, many computational
+    #scientists are seeking to reduce precision when possible to accelerate
+    #performance and alleviate memory requirements. In this talk, I will describe
+    #my recent work that seeks to facilitate such reduction of precision or in
+    #some other way provide insights about the accuracy or behavior of
+    #floating-point code, including a recent experimental prototype of an
+    #end-to-end source-level mixed-precision tuning system for HPC codes."
+
+    #- title: "Pavilion 2.0: A Scalable Tool For Testing Large Scale Systems"
+      #author: Paul Ferrell
+      #affiliation: LANL
+      #length: 1800
+      #abstract: ""
+      #slides: "Pavilion_2.0.pptx"
+
+  - days: monday
+    time: 10:30am
+    title: Session 2
+    talks:
+
+    #- title: "PMU and Linux perf_events"
+      #author: Stefane Eranian
+      #affiliation: Google
+      #length: 1800
+      #slides: "CSCADS 2019 perf_events status update.pdf"
+      #abstract: "There are new features in Icelake PMU which are very good.
+    #Also, time depending, I may be able to discuss data profiling.
+    #(to be updated)"
+
+    #- title: "Utilizing the Latest Features of Intel's Performance Monitoring Unit"
+      #author: Mike Chynoweth
+      #affiliation: Intel
+      #length: 1800
+      #slides: "2019.07.29_ScalableToolsConference_MChynoweth_Final.pdf"
+      #abstract: "We will demonstrate some new methodologies we have developed for usage of
+    #the performance monitoring unit to debug difficult performance issues.
+    #New features including Timed Last Branch Records, Adaptive Precise Event
+    #Based Sampling and Extended PEBS will be utilized to debug real performance
+    #issues encountered and fixed in software."
+
+    #- title: "Does your tool support PAPI SDEs yet?"
+      #author: Anthony Danalis
+      #affiliation: Univ. of Tennessee
+      #length: 1800
+      #slides: "2019_07_ScalableToolsWorkshop_Danalis.pdf"
+      #abstract: "In the past, PAPI development had focused primarily on hardware-specific
+    #performance metrics. However, the rapidly increasing complexity of software
+    #infrastructure poses new measurement and analysis challenges for the
+    #developers of large-scale applications that make use of external libraries
+    #and runtimes. 
+
+    #In this talk, we will discuss our efforts to extend PAPI's role so that it becomes
+    #the de facto standard for exposing Software-Defined Events (SDEs), or in
+    #other words performance-critical events that originate from within layers of
+    #the software stack. Extending PAPI with SDEs enables tools to acquire a more
+    #complete picture regarding application performance, by monitoring both types
+    #of performance events---hardware and software---in a uniform way, through the
+    #same consistent PAPI interface.
+
+    #In addition to describing the functionality we offer through PAPI's SDE interface,
+    #we will show examples of how SDEs have been utilized by different software
+    #packages, and provide a thorough performance analysis of the overhead that
+    #results from inserting SDEs into performance critical codes."
+
+  - days: monday
+    time: 13:30pm
+    title: Session 3
+    talks:
+    #- title: "Diogenes: Looking For An Honest CPU/GPU Performance Measurement Tool"
+      #author: Ben Welton,
+      #affiliation: UW-Madison
+      #length: 1800
+      #abstract: ""
+      #slides: "welton_perfTools_2019_diogenes_update.pdf"
+
+    #- title: "A Tool for Performance Analysis of GPU-Accelerated Applications"
+      #author: Keren Zhou
+      #affiliation: Rice Univ.
+      #length: 1800
+      #abstract: ""
+      #slides: "Optimizing GPU-accelerated Applications with HPCToolkit.pdf"
+
+    #- title: "ASSIST: Using performance analysis tools for driving Feedback Directed Optimization"
+      #author: William Jalby
+      #affiliation: UVSQ
+      #length: 1800
+      #abstract: ""
+      #slides: "tools_WS_S.pdf"
+
+  - days: monday
+    time: 15:30pm
+    title: Session 4
+    talks:
+
+    #- title: "A Common Tools Interface as an MPIR Alternative"
+      #author: Andrew Gontarek
+      #affiliation: Cray 
+      #length: 1800
+      #slides: "cti_presentation.pdf"
+      #abstract: "The Common Tools Interface (CTI) is an infrastructure framework focused on enabling tool developers to interact with,
+#and run tool daemons alongside, applications on HPC systems. CTI is a collection of interfaces along with underlying
+#utilities that export services for use by tools. The goal of CTI is to define a set of interfaces that provide a tight 
+#semantic mapping between tools and the underlying HPC system. Tools have a common set of core functionality required 
+#during bootstrapping to start daemons alongside running application processes. CTI enables vendors to provide 
+#underlying implementations invisible to the interfacing tool to rapidly enable support on their systems. 
+
+#CTI was inspired by the MPIR Process Acquisition Interface and is meant to be a more robust replacement. A problem 
+#with the current MPIR design is that a tool is required to ptrace attach onto the starter process in order to harvest 
+#information about the running application. This is not a good fit for current HPC system designs. Some systems allow 
+#for intermediary nodes between where the user starts their application and where the starter process is actually run, 
+#requiring tools to route themselves to the node where the starter process resides. CTI solves this by providing an 
+#abstract API that allows the underlying implementation to handle the details transparent to the tool.
+
+#Cray recently open sourced CTI as a reference implementation that can be used to explore future work related to 
+#defining a cross vendor tool interface suited for the modern era of HPC systems."
+
+    #- title: "Optimizing Memory Bandwidth by Exploring Cache Utilization Efficiency at a Sub Cache-line Level"
+      #author: Ben Woodard, Will Cohen
+      #affiliation: Red Hat 
+      #length: 1800
+      #abstract: ""
+      #slides: "STW 2019 sub-cacheline.pdf"
+
+    #- title: "Hatchet: Pruning the Overgrowth in Parallel Profiles"
+      #author: Abhinav Bhatele
+      #affiliation:  LLNL
+      #length: 1800
+      #abstract: "Performance analysis of parallel codes is critical to ensure high efficiency and scalability to large process counts. A large number of profiling tools exist to instrument codes and gather performance data. However, analytics and visualization tools to analyze such data that are effective, easy-to-use, and programmable are limited. In this paper, we focus on the analytics of structured profiling data such as that obtained from calling context trees or nested region timers in the code. We present a set of techniques and operations that leverage modern data analysis libraries for parallel profile analysis. We have implemented these techniques in a Python-based library called Hatchet, that allows structured data to be filtered, aggregated, and pruned.  Using performance datasets obtained from profiling parallel codes, we demonstrate how common performance analyses can be performed in a reproducible manner with only a few lines of Hatchet code."
+
+  - days: tuesday
+    time: 08:30am
+    title: Session 5
+    talks:
+
+    #- title: "I/O Recording and Workflow Analysis with Score-P and Vampir"
+      #author: Bill Williams
+      #affiliation: TU Dresden
+      #length: 1800
+      #slides: "Williams_WorkflowIO_STW19.pdf"
+      #abstract: "As HPC tasks become larger and more complex, developers attempt to address
+    #this complexity by decomposing problems into a workflow of simpler applications,
+    #rather than a single application that can handle everything. These workflows
+    #present multiple challenges to the tools community, but one of the chief problems
+    #is the analysis of communication between jobs. In many workflows, the filesystem
+    #plays an analogous role in inter-job communication to that of MPI in interprocess
+    #communication. This suggests that we should adapt familiar techniques from MPI
+    #instrumentation and performance analysis to the I/O domain. We present initial
+    #work in enabling this analysis:
+
+    #* New I/O recording features in the ScoreP measurement system
+    #* A prototype suite of tools for HPC workflow instrumentation
+    #* A prototype visualisation tool for analysing and displaying the results of this
+      #instrumentation
+    #* Preliminary results in automatically determining the I/O dependencies within a
+      #workflow
+
+    #Our ultimate goal is to provide the user with information about how they can
+    #restructure their workflow in order to increase parallelism, improve the
+    #efficiency of their use of HPC resources, and reduce or eliminate false
+    #dependencies between jobs."
+
+    #- title: "Exploiting Modern Hardware Features via Lightweight Profiling"
+      #author: Probir Roy
+      #affiliation: College of William and Mary
+      #length: 1800
+      #slides: "scalable_tools_workshop_probir_for_pdf.pdf"
+      #abstract: "Over the past few decades, computer systems have evolved into two
+    #directions: more parallelism and deeper memory hierarchies. Software
+    #needs to make an adaption to efficiently map itself to the modern
+    #and emerging architectures for the optimal performance. My research
+    #involves building various tools to pinpoint inefficient hardware-
+    #software interactions and guide code optimization. In this talk, I
+    #will discuss different forms of inefficiencies originating from
+    #modern computer architectures: contention across simultaneous
+    #multithreading, cache conflicts, and bandwidth under-utilization. I
+    #will then present novel analysis tools to identify these
+    #inefficiencies with low overhead. Guided by our tools, we can
+    #successfully optimize program inefficiencies, which yields
+    #significant speedups." 
+    
+    #- title: "Ubiquitous Performance Analysis"
+      #author: David Boehme
+      #affiliation: LLNL
+      #length: 1800
+      #abstract: ""
+
+  - days: tuesday
+    time: 10:30am
+    title: Session 6
+    talks:
+
+    #- title: "Performance Analysis of Very Large Shared Memory Systems Using Intel(R) Optane DC
+ #Memory"
+      #author: Ramesh Peri
+      #affiliation: Intel 
+      #length: 1800
+      #slides: "Exascale-tools-workshop.pdf"
+      #abstract: "There is a new kind of memory that was announced recently called Intel(R)
+    #Optane DC memory which is lot more dense than traditional DRAM but with more
+    #access latency. This introduces a new layer in the memory hierarchy and allows
+    #systems with many TB of main memory to be built and use existing DDR4 as
+    #another layer of cache. In this talk I will introduce the tools we built to
+    #analyze performance on such large scale systems. I will also share our
+    #experiences in using the performance tools to optimize  graph analytics
+    #algorithms on very large graphs, containing billions of vertices and trillions
+    #of edges, on this system.
+#"
+
+    #- title: "MuMMI: Exploring Performance and Power Trade-offs"
+      #author: Xingfu Wu, Valerie Taylor
+      #affiliation: ANL
+      #length: 1800
+      #abstract: ""
+      #slides: "Scalable_Tools_2019_Wu.pdf"
+
+    #- title: "Interfaces for Runtime Correctness Checking of Parallel Programs"
+      #author: Joachim Protze
+      #affiliation: RWTH Aachen University
+      #length: 1800
+      #abstract: ""
+      #slides: "2019-07-30_Toolsworkshop_Interfaces.pdf"
+
+  - days: tuesday
+    time: 13:30pm
+    title: Working Group Creation
+    
+  - days: tuesday
+    time: 15:00pm
+    title: Session 7
+    talks:
+    
+     #- title: Hatchet Working Group (Diamond Peak)
+       #author:
+       #slides:
+    
+     #- title: Linux Perf Working Group (Scott Peak)
+       #author: Will Cohen
+       #slides: "WG - Perf Enhancements.pdf"
+
+     #- title: Test suite for compilers Working Group (Granite Peak)
+       #author: Thomas Gruber
+       #slides: "Compiler_testing_working_group.pdf"
+
+  - days: tuesday
+    time: 16:00pm
+    title: Session 8
+    talks:
+    #- title: PMM Working Group (Granite Peak)
+      #author: Ben Woodard
+      #slides: "PPM_WG.pptx"
+    
+  - days: wednesday
+    time: 08:30am
+    title: Session 9
+    talks:
+    
+      #- title: Data Profiling + memory allocators Working Group (Diamond Peak)
+        #author: Michael Chynoweth
+        #slides: "2019.07.31_ScalableToolsDataProfiling.pptx"
+
+      #- title: OMPT Working Group (Scott Peak)
+        #author: Joachim Protze
+        #slides: "2019-07-31_OMPT-working-group.pdf"
+    
+  - days: wednesday
+    time: 10:30am
+    title: Session 10
+    talks:
+
+    #- title: Data Profiling + memory allocators Working Group - Cont. (Diamond Peak)
+      #author: Michael Chynoweth 
+      #slides: "2019.07.31_ScalableToolsDataProfiling.pptx"
+          
+    #- title: Ubiquitous Performance Analysis Working Group (Scott Peak)
+      #author: Matt Legendre
+      #slides: "Ubiquitous Performance Analysis (UPA) Notes.pptx"
+
+    #- title: Cluster-wide Performance Monitoring Working Group (Granite Peak)
+      #author: Thomas Gruber
+      #slides: Cluster_Perf_Monitoring.pdf
+
+  - days: wednesday
+    time: 13:30pm
+    title: Informal Small Group Discussions
+
+  - days: thursday
+    time: 08:30am
+    title: Session 11
+    talks:
+
+    #- title: Tool Interfaces Working Group (Diamond Peak)
+      #author: Andrew Gontarek
+      #slides: "tool_interfaces_WG.pdf"
+    
+    #- title: Providing Actionable Insight Working Group (Scott Peak)
+      #author: Ben Welton
+      #slides: "2019.08.01_ProvidingActionableInsight.pdf"
+
+    #- title: Hardware Counters for non-Intel platforms, Frontier (Granite Peak)
+      #author: Michael Brim
+      #slides: "STW2019-HWCtrsNonIntel.pdf"
+    
+    #- title: Parallel Elfutils
+      #author: John Mellor-Crummey
+      #slides: "ElfutilsInParallel.pdf"
+
+  - days: thursday
+    time: 1:30pm
+    title: Departure
+    class: sbreak
+    
+  - days: sunday
+    time: 12:00pm
+    title: Arrival
+    class: sbreak
+
+  - days: thursday
+    time: 10:30am
+    title: Working Group Outbriefs (Mountain Room)
+    
