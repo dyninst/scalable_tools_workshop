@@ -16,8 +16,8 @@ Costs are as follows:
 <p>
 <table class="prices">
     <tr>
-        <th bgcolor="lightblue">Room Type</th>
-        <th bgcolor="lightblue">Cost (4 nights/daily)</th>
+        <th align="center" bgcolor="lightblue">Room Type</th>
+        <th align="center" bgcolor="lightblue">Cost (4 nights/daily)</th>
     </tr>
     {% for p in site.data[page.year].prices %}
     <tr>
