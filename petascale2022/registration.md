@@ -4,8 +4,11 @@ title: Registration
 ---
 Scalable Tools Workshop 2022 will be held at the
 beautiful <a href="http://www.granlibakken.com">Granlibakken Resort</a> in Lake Tahoe, 
-California. [Registration](www.paradyn.org) will 
-be handled directly by the resort (enter group code "???") and includes lodging and meals. They will also arrange transportation between Reno Airport and the hotel.
+California. [Registration](https://www.secure.granlibakken.net/conference/) will 
+be handled directly by the resort (enter group code "TOOLS22") and includes lodging and meals.
+
+If you need transportation between Reno Airport and the hotel, you must register directly
+through [North Lake Tahoe Express](https://www.northlaketahoeexpress.com/).
 
 <p>
 Costs are as follows:
@@ -14,7 +17,7 @@ Costs are as follows:
 <table class="prices">
     <tr>
         <th bgcolor="lightblue">Room Type</th>
-        <th bgcolor="lightblue">Full Workshop cost</th>
+        <th bgcolor="lightblue">Cost (4 nights/daily)</th>
     </tr>
     {% for p in site.data[page.year].prices %}
     <tr>
