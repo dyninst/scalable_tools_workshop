@@ -5,7 +5,10 @@ _site
 .bundle
 
 assets/slides/~$dyninst9_3.pptx
-
 assets/slides/~$ARM_working_group.pptx
-
 assets/slides/ARM Notes.pdf
+
+# Eclipse files
+.cproject
+.project
+.settings
