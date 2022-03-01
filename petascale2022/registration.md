@@ -7,8 +7,7 @@ beautiful <a href="http://www.granlibakken.com">Granlibakken Resort</a> in Lake 
 California. [Registration](https://www.secure.granlibakken.net/conference/) will 
 be handled directly by the resort (enter group code "TOOLS22") and includes lodging and meals.
 
-If you need transportation between Reno Airport and the hotel, you must register directly
-through [North Lake Tahoe Express](https://www.northlaketahoeexpress.com/).
+If you need transportation between Reno Airport and Granlibakken, you can register directly through [North Lake Tahoe Express](https://www.northlaketahoeexpress.com/).
 
 <p>
 Costs are as follows:
