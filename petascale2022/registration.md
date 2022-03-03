@@ -9,6 +9,8 @@ California.
 <b>[Registration](https://www.secure.granlibakken.net/conference/)</b>: This will 
 be handled directly by the resort (enter group code "TOOLS22"). Note that the cost is all-inclusive, including meeting registration, lodging, and meals.
 
+Once you have registered with Granlibakken, please allow them 1 - 2 business days to process, at which point you should get an email with your confirmation number. If you do not receive a confirmation, you can call them at (530) 583-4242. 
+
 <b>Ground transportation</b>: If you need transportation between Reno Airport and Granlibakken, you can arrange a shuttle by contacting [North Lake Tahoe Express](https://www.northlaketahoeexpress.com/). Theses shuttles are a bit expensive so you might also consider renting a car. Note that the Granlibakken meeting registration page asks about your arrival and departure flights. You can ignore this part of the form as Granlibakken no longer arranges ground transportation.
 
 <p>
