@@ -24,8 +24,12 @@ sessions:
     time: 17:30pm
     days:
       - sunday
-      - monday
       - tuesday
+    class: sbreak
+  - title: "Reception (Mountain Deck)"
+    time: 18:00pm
+    days:
+      - monday
     class: sbreak
   - title: "Reception (Mountain Deck)"
     time: 18:30pm
@@ -38,9 +42,13 @@ sessions:
       - sunday
     class: sbreak
   - title: "Dinner"
-    time: 18:30pm
+    time: 19:00pm
     days:
       - monday
+    class: sbreak
+  - title: "Dinner"
+    time: 18:30pm
+    days:
       - tuesday
     class: sbreak
   - title: "Dinner"
@@ -66,303 +74,404 @@ sessions:
     days:
       - tuesday
     class: sbreak
-  - days: monday
+
+  - title: Talks Session 1
+    days: monday
     time: 08:30am
-    title: Session 1
     talks:
-    - title: "Dyninst Update"
-      author: Xiaozhu Meng and Tim Haines
-      affiliation: Rice Univ. and UW-Madison
-      length: 1800
-      slides:
+     - title: What's New in Dyninst
+       author: Tim Haines, Jim Kupsch, Josef (Bolo) Burger
+       affiliation: UW-Madison
+       length: 1800
+       slides: 
+       abstract: 
+     - title: Preparing HPCToolkit for Performance Analysis for Exascale
+       author: Jonathon Anderson and Yumeng Liu
+       affiliation: Rice University
+       length: 1800
+       slides: 
+       abstract: |
+          Performance tools for emerging heterogeneous exascale platforms must address
+          two principal challenges when analyzing execution measurements. First,
+          measurement of large-scale executions may record mountains of performance data.
+          Second, performance measurements for parallel programs are sparse in two ways:
+          the set of metrics present for any context and the set of contexts present in
+          different threads. For GPU-accelerated applications, an important source of
+          sparsity is that none of the myriad of GPU metrics apply to any of the many
+          CPU contexts.
+          
+          To address these challenges, we developed a novel streaming aggregation
+          approach to postmortem analysis that employs both shared and distributed
+          memory parallelism to aggregate sparse performance measurements from every rank,
+          thread, and GPU stream of an application, and attributes heterogeneous call path
+          profiles and traces to source code. Analysis results are stored in a pair of
+          sparse formats designed for efficient access to related data elements,
+          supporting responsive interactive presentation and scalable data analytics.
+          Using the same amount of resources, our approach analyzes large-scale
+          performance measurements of GPU-accelerated applications over an order of
+          magnitude faster than HPCToolkit and its sparse analysis results are as much as
+          three orders of magnitude smaller than HPCToolkit's dense representation of metrics.
+     - title: "ONEVIEW: Guiding the User Through the Optimization 'Maze'"
+       author: William Jalby
+       affiliation: Université de Versailles Saint-Quentin-en-Yvelines
+       length: 1800
+       slides: 
+       abstract: |
+          We had a continuing effort in the past years has been to improve user guidance
+          throughout the optimization process. This has been achieved through close
+          interactions with code developers. In particular, we are working in the TREX
+          project (focusing on bringing leading QMC Applications to the Exascale Level:
+          https://trex-coe.eu/). This was an excellent opportunity to use our performance
+          toolset but it also forced to change it in major ways to match more closely
+          code developer needs. In this talk, we will present the new organization of our
+          tool set: first, providing the user with a global estimation of code quality
+          including not performance gains estimates but also transformation cost
+          evaluations; second, displaying comparative views such as through different
+          parallel settings, code versions, compilers, hardware; and third, providing
+          user with multilevel analysis of parallel OMP loop constructs.
 
-    #- title: "Software Tools for Mixed-Precision Program Analysis"
-      #author: Mike Lam
-      #affiliation: James Madison University
-      #length: 1800
-      #slides: lam-stw19.pdf
-      #abstract: "Floating-point representation and arithmetic remain the predominant mechanism
-    #for real-valued computation despite many well-known issues such as roundoff
-    #error. As high-performance computing continues to scale, many computational
-    #scientists are seeking to reduce precision when possible to accelerate
-    #performance and alleviate memory requirements. In this talk, I will describe
-    #my recent work that seeks to facilitate such reduction of precision or in
-    #some other way provide insights about the accuracy or behavior of
-    #floating-point code, including a recent experimental prototype of an
-    #end-to-end source-level mixed-precision tuning system for HPC codes."
-
-    #- title: "Pavilion 2.0: A Scalable Tool For Testing Large Scale Systems"
-      #author: Paul Ferrell
-      #affiliation: LANL
-      #length: 1800
-      #abstract: ""
-      #slides: "Pavilion_2.0.pptx"
-
-  - days: monday
+  - title: Talks Session 2
+    days: monday
     time: 10:30am
-    title: Session 2
     talks:
+     - title: What about Threads?
+       author: John Mellor-Crummey
+       affiliation: Rice University
+       length: 1800
+       slides: 
+       abstract: |
+          Runtime systems for GPU-accelerated platforms create a plethora of threads.
+          Thread-aware first-party tools must decide how to handle them. Can all thread
+          creations be observed? Can each thread be monitored safely? Should a thread be
+          monitored? Today, developers of thread-aware tools must observe vendor runtimes
+          and determine how to respond to threads on a case-by-case basis during tool
+          development. This is a fragile and unsustainable approach as vendor runtimes are
+          rapidly changing. This talk will describe concerns about threads in detail and
+          sketch a possible path forward for the community.
+     - title: "Possible Malleability Support in MPI 5: What Does it Mean for Tools?"
+       author: Martin Schulz
+       affiliation: Technical University of Munich
+       length: 1800
+       slides: 
+       abstract: |
+          The Sessions working group of the MPI forum is currently working on
+          extensions to the MPI standard that would enable applications to
+          become malleable, i.e., be able to change the number of processes
+          being used during the application's execution. This is driven, in
+          part, by work in two large European projects focusing on a future
+          European exascale software stack. While this would bring a new level
+          of flexibility to write MPI applications, this would also make it
+          harder for tools to capture, process and analyze information gathered
+          from such applications. In this talk I will highlight the current
+          proposals in the working group and will discuss possible consequences
+          for tools.
+     - title: LD_AUDIT and New Tools Interfaces
+       author: Ben Woodard
+       affiliation: Red Hat
+       length: 1800
+       slides: 
+       abstract: |
+          The UNIX dynamic linker has had at least the specification an auditing
+          interface since the heyday of Solaris. However, the quality of the
+          implementation in both Solaris and glibc really did not live up to the design
+          of the specification. Recently, a lot of work has gone into the LD_AUDIT
+          interface in glibc to make it usable. This talk is an introduction to the
+          LD_AUDIT interface, how it can be used to overcome weaknesses in the dynamic
+          linker that impact HPC applications and tools. It concludes with some
+          practical observations using LD_AUDIT as it now exists, and introduces the
+          question about where it is not sufficient and where glibc tools interfaces
+          need to go in the future.
 
-    #- title: "PMU and Linux perf_events"
-      #author: Stefane Eranian
-      #affiliation: Google
-      #length: 1800
-      #slides: "CSCADS 2019 perf_events status update.pdf"
-      #abstract: "There are new features in Icelake PMU which are very good.
-    #Also, time depending, I may be able to discuss data profiling.
-    #(to be updated)"
-
-    #- title: "Utilizing the Latest Features of Intel's Performance Monitoring Unit"
-      #author: Mike Chynoweth
-      #affiliation: Intel
-      #length: 1800
-      #slides: "2019.07.29_ScalableToolsConference_MChynoweth_Final.pdf"
-      #abstract: "We will demonstrate some new methodologies we have developed for usage of
-    #the performance monitoring unit to debug difficult performance issues.
-    #New features including Timed Last Branch Records, Adaptive Precise Event
-    #Based Sampling and Extended PEBS will be utilized to debug real performance
-    #issues encountered and fixed in software."
-
-    #- title: "Does your tool support PAPI SDEs yet?"
-      #author: Anthony Danalis
-      #affiliation: Univ. of Tennessee
-      #length: 1800
-      #slides: "2019_07_ScalableToolsWorkshop_Danalis.pdf"
-      #abstract: "In the past, PAPI development had focused primarily on hardware-specific
-    #performance metrics. However, the rapidly increasing complexity of software
-    #infrastructure poses new measurement and analysis challenges for the
-    #developers of large-scale applications that make use of external libraries
-    #and runtimes. 
-
-    #In this talk, we will discuss our efforts to extend PAPI's role so that it becomes
-    #the de facto standard for exposing Software-Defined Events (SDEs), or in
-    #other words performance-critical events that originate from within layers of
-    #the software stack. Extending PAPI with SDEs enables tools to acquire a more
-    #complete picture regarding application performance, by monitoring both types
-    #of performance events---hardware and software---in a uniform way, through the
-    #same consistent PAPI interface.
-
-    #In addition to describing the functionality we offer through PAPI's SDE interface,
-    #we will show examples of how SDEs have been utilized by different software
-    #packages, and provide a thorough performance analysis of the overhead that
-    #results from inserting SDEs into performance critical codes."
-
-  - days: monday
+  - title: Talks Session 3
+    days: monday
     time: 13:30pm
-    title: Session 3
     talks:
-    #- title: "Diogenes: Looking For An Honest CPU/GPU Performance Measurement Tool"
-      #author: Ben Welton,
-      #affiliation: UW-Madison
-      #length: 1800
-      #abstract: ""
-      #slides: "welton_perfTools_2019_diogenes_update.pdf"
+     - title: A Software Microscope
+       author: Richard L. Sites
+       affiliation: 
+       length: 1800
+       slides: 
+       abstract: |
+          Observation tools for understanding occasionally-slow performance in
+          large-scale distributed transaction systems are not keeping up with the
+          complexity of the environment. The same applies to large database systems, to
+          real-time control systems in cars and airplanes, and to operating system
+          design.
+          
+          Extremely low-overhead tracing can reveal the true execution and
+          non-execution (waiting) dynamics of such software, running in situ with live
+          traffic. KUtrace is such a tool, based on small Linux kernel patches recording
+          and timestamping every transition between kernel- and user-mode execution
+          across all CPUs of a datacenter or vehicle computer. The resulting displays
+          show exactly what each transaction is doing every nanosecond, and hence shows
+          why unpredictable ones are slow, all with tracing overhead well under 1%.
+          Recent additions to KUtrace also show interference between programs and show
+          profiles within long execution stretches that have no transitions.
+          
+          The net result is deep insight into the dynamics of complex software, leading
+          to often-simple changes to improve performance.
+          
+          Bio:
+          Richard L. Sites wrote his first computer program in 1959 and has spent most of
+          his career at the boundary between hardware and software, with a particular
+          interest in CPU/software performance. His past work includes  VAX microcode,
+          DEC Alpha co-architect, and inventing the performance counters found in nearly
+          all processors today. He has done low-overhead microcode and software tracing
+          at DEC, Adobe, Google, and Tesla. Dr. Sites earned his PhD at Stanford in 1974;
+          he holds 66 patents and is a member of the National Academy of Engineering.
+     - title: Recent Advances in PAPI
+       author: Anthony Danalis
+       affiliation: University of Tennessee, Knoxville
+       length: 1800
+       slides: 
+       abstract: |
+          PAPI has been a layer that provides a consistent interface to hardware
+          performance counters for over two decades. This talk will outline the
+          newest developments and the future directions of PAPI.  GPUs have been
+          critical to achieving high performance on modern systems, and multiple
+          vendors have been producing solutions with different characteristics
+          and APIs. Consequently, PAPI has been extending its support for GPUs
+          across vendors to enable tools and application developers to access
+          performance information on GPUs with minimum effort. Another focus of
+          PAPI development has been the effort to categorize and understand the
+          numerous counters that exist in modern hardware platforms. Lastly, we
+          will discuss new features integrated in the Software Defined Events
+          layer of PAPI and lessons learned from our efforts so far.
+     - title: "LIKWID with GPUs: Node-Level Performance and Energy Engineering for Systems with GPUs"
+       author: Karlo Kraljic
+       affiliation: HPE/TU Munich
+       length: 1800
+       slides: 
+       abstract: |
+          LIKWID is a set of command line utilities being designed for probing
+          thread/cache topology on shared-memory nodes and exposing easy-to-understand
+          hardware performance metrics from underlying hardware in pre-defined, but
+          customizable, performance groups. Initially, LIKWID focused on x86
+          architectures and their performance and energy metrics.
+          
+          This talk discusses recent efforts in extending LIKWID to support GPUs with
+          regards to performance and energy related metrics. It first shows how to use
+          LIKWID to get insights into performance and energy related metrics of an
+          application without having to modify the code by making use of LIKWIDs wrapper
+          mode. It then provides an example of how to modify an application to make use
+          of the "Marker API" for getting fine-grained insights into performance and
+          energy related metrics of an application by utilizing custom performance and
+          energy groups specifically tailored for heterogeneous systems consisting GPUs.
 
-    #- title: "A Tool for Performance Analysis of GPU-Accelerated Applications"
-      #author: Keren Zhou
-      #affiliation: Rice Univ.
-      #length: 1800
-      #abstract: ""
-      #slides: "Optimizing GPU-accelerated Applications with HPCToolkit.pdf"
-
-    #- title: "ASSIST: Using performance analysis tools for driving Feedback Directed Optimization"
-      #author: William Jalby
-      #affiliation: UVSQ
-      #length: 1800
-      #abstract: ""
-      #slides: "tools_WS_S.pdf"
-
-  - days: monday
+  - title: Talks Session 4
+    days: monday
     time: 15:30pm
-    title: Session 4
     talks:
+     - title: Noise-resilient Performance Measurement and Analysis of HPC Applications
+       author: Bernd Mohr
+       affiliation: Forschung Zentrum Juelich
+       length: 1800
+       slides: 
+       abstract: |
+          Key to understanding and ultimately improving the performance of HPC
+          applications is performance measurement. Unfortunately, many HPC
+          systems expose their jobs to substantial amounts of interference
+          (aka noise), leading to significant run-to-run variation. This makes
+          performance measurements generally irreproducible, heavily complicating
+          performance analysis and modelling. On noisy systems, performance
+          analysts usually have to repeat performance measurements several times
+          and then apply statistical analysis to capture trends. Firstly, this is
+          expensive and secondly, extracting trends from a limited series of
+          experiments is far from trivial, as the noise can follow quite irregular
+          patterns.
+          
+          In the German DFG project ExtraNoise we will develop noise-resilient
+          performance measurement and analysis tools for HPC applications based
+          on the well-known tools Score-P and Scalasca. The basic idea is to use
+          logical timers, which are noise-insensitive, for measurement and
+          analysis. We investigate logical timers on various levels: (1)
+          function, communication, synchronization events, (2) basic blocks,
+          (3) statements, and (4) noise-insensitive HW counters. We will present
+          early results on the effectiveness of using logical timers for a
+          noise-resilient performance measurement and analysis. We also will
+          present NOIGENA, a noise generator application, we developed for
+          testing our approach.
+     - title: Comparative Evaluation of Call Graph Generation by Profiling Tools
+       author: Onur Cankur
+       affiliation: University of Maryland
+       length: 1800
+       slides: 
+       abstract: |
+          Call graphs generated by profiling tools are critical to dissecting the
+          performance of parallel programs.  Although many mature and sophisticated
+          profiling tools record call graph data, each tool is different in its
+          runtime overheads, memory consumption, and output data generated. In this
+          work, we perform a comparative evaluation study on the call graph data
+          generation capabilities of several popular profiling tools -- Caliper,
+          HPCToolkit, TAU, and Score-P.  We evaluate their runtime overheads, memory
+          consumption, and generated call graph data (size and quality).  We perform
+          this comparison empirically by executing several proxy applications, AMG,
+          LULESH, and Quicksilver on a parallel cluster. Our results show which tool
+          results in the lowest overheads and produces the most meaningful call
+          graph data under different conditions.
+     - title: "EasyView: Bridging Software Developers with Dynamic Program Analysis"
+       author: Xu Liu
+       affiliation: NCSU
+       length: 1800
+       slides: 
+       abstract: |
+          Profiling is well-known for its powerful capabilities of identifying
+          performance inefficiencies in complex code bases. Existing profilers
+          suffer from several usability issues. First, the profilers are
+          disjoint from the coding environments such as IDEs; frequently
+          switching focus between them significantly complicates the entire
+          cycle of software development. Second, mastering multiple tools to
+          interpret their analysis results requires substantial efforts;
+          moreover, many tools have their own design of graphic user interfaces
+          (GUI) for data presentation, which deepens the learning curves. Third,
+          most existing tools expose few interfaces to support user-defined
+          analysis, which makes the tools less customizable to fulfill the
+          diverse user demands.
+          
+          We develop EasyView, a general solution to integrate the
+          interpretation and visualization of various profiling results in the
+          coding environments, which bridges software developers with profilers
+          to provide easy and intuitive dynamic analysis during the code
+          development cycle.
+     - title: Autotuning MPI/OpenMP ECP Proxy Applications at Large Scales
+       author: Xingfu Wu
+       affiliation: Argonne National Lab
+       length: 1800
+       slides: 
+       abstract: |
+          As we enter the exascale computing era, efficiently utilizing power and
+          optimizing the performance of scientific applications under power and
+          energy constraints has become critical and challenging. In this talk, we
+          propose a low-overhead, scalable autotuning framework to autotune both
+          performance and energy for various hybrid MPI/OpenMP applications at
+          large scales. We use the proposed autotuning framework to tune four
+          MPI/OpenMP ECP proxy applications - XSBench, AMG, SWFFT, and SW4lite. Our
+          approach uses Bayesian optimization with a Random Forest surrogate model
+          to effectively search parameter spaces with up to 6 million different
+          configurations on two large-scale production systems, the Cray XC40 Theta
+          at Argonne National Laboratory and the IBM Power9 heterogeneous system
+          Summit at Oak Ridge National Laboratory. The experimental results show
+          that our autotuning framework at large scales has low overhead and
+          achieves good scalability.
 
-    #- title: "A Common Tools Interface as an MPIR Alternative"
-      #author: Andrew Gontarek
-      #affiliation: Cray 
-      #length: 1800
-      #slides: "cti_presentation.pdf"
-      #abstract: "The Common Tools Interface (CTI) is an infrastructure framework focused on enabling tool developers to interact with,
-#and run tool daemons alongside, applications on HPC systems. CTI is a collection of interfaces along with underlying
-#utilities that export services for use by tools. The goal of CTI is to define a set of interfaces that provide a tight 
-#semantic mapping between tools and the underlying HPC system. Tools have a common set of core functionality required 
-#during bootstrapping to start daemons alongside running application processes. CTI enables vendors to provide 
-#underlying implementations invisible to the interfacing tool to rapidly enable support on their systems. 
-
-#CTI was inspired by the MPIR Process Acquisition Interface and is meant to be a more robust replacement. A problem 
-#with the current MPIR design is that a tool is required to ptrace attach onto the starter process in order to harvest 
-#information about the running application. This is not a good fit for current HPC system designs. Some systems allow 
-#for intermediary nodes between where the user starts their application and where the starter process is actually run, 
-#requiring tools to route themselves to the node where the starter process resides. CTI solves this by providing an 
-#abstract API that allows the underlying implementation to handle the details transparent to the tool.
-
-#Cray recently open sourced CTI as a reference implementation that can be used to explore future work related to 
-#defining a cross vendor tool interface suited for the modern era of HPC systems."
-
-    #- title: "Optimizing Memory Bandwidth by Exploring Cache Utilization Efficiency at a Sub Cache-line Level"
-      #author: Ben Woodard, Will Cohen
-      #affiliation: Red Hat 
-      #length: 1800
-      #abstract: ""
-      #slides: "STW 2019 sub-cacheline.pdf"
-
-    #- title: "Hatchet: Pruning the Overgrowth in Parallel Profiles"
-      #author: Abhinav Bhatele
-      #affiliation:  LLNL
-      #length: 1800
-      #abstract: "Performance analysis of parallel codes is critical to ensure high efficiency and scalability to large process counts. A large number of profiling tools exist to instrument codes and gather performance data. However, analytics and visualization tools to analyze such data that are effective, easy-to-use, and programmable are limited. In this paper, we focus on the analytics of structured profiling data such as that obtained from calling context trees or nested region timers in the code. We present a set of techniques and operations that leverage modern data analysis libraries for parallel profile analysis. We have implemented these techniques in a Python-based library called Hatchet, that allows structured data to be filtered, aggregated, and pruned.  Using performance datasets obtained from profiling parallel codes, we demonstrate how common performance analyses can be performed in a reproducible manner with only a few lines of Hatchet code."
-
-  - days: tuesday
+  - title: Talks Session 5
+    days: tuesday
     time: 08:30am
-    title: Session 5
     talks:
+     - title: A Fine-grained CPU-GPU Analysis Framework
+       author: Yueming Hao
+       affiliation: North Carolina State University
+       length: 1800
+       slides: 
+       abstract: |
+          General-purpose GPUs have become common in modern computing systems
+          to accelerate applications in many domains. However, inefficiencies
+          abound in GPU-accelerated applications, which prevent them from
+          obtaining bare-metal performance. Performance tools play an important
+          role in understanding performance inefficiencies in complex code bases.
+          Many GPU performance tools pinpoint time-consuming code and provide
+          high-level performance insights but overlook one important performance
+          issue - value-related inefficiencies, which exist in many GPU code
+          bases. What's more, those GPU performance tools usually only focus on
+          GPU kernels which may lose optimization opportunities of CPU-GPU
+          interactions. In this talk, we will present our fine-grained CPU-GPU
+          analysis framework which pinpoints value-related inefficiencies and
+          optimizable CPU-GPU interactions.
+          
+          This framework monitors application execution to capture values
+          produced and used by each load and store operation in both CPU
+          functions and GPU kernels, recognizes multiple value patterns, and
+          provides intuitive optimization guidance. We address systemic
+          challenges in collecting, maintaining, and analyzing voluminous
+          performance data from CPU functions and many GPU threads to make
+          it applicable to complex applications. We evaluate our framework
+          on a wide range of well-tuned benchmarks and applications.
+     - title: Fine Grained Binary Instrumentation for GPU Profiling
+       author: Hsuan-Heng Wu
+       affiliation: UW-Madison
+       length: 1800
+       slides: 
+       abstract: |
+          tba
+     - title: Using Hybrid Cores to Maximize Performance, Power and Throughput
+       author: Michael Chynoweth
+       affiliation: Intel
+       length: 1800
+       slides: 
+       abstract: |
+          We are targeting using P-Cores for maximum performance in
+          limited threading scenarios and E-Cores for scaling multi-threaded
+          performance and when power is required by other IPs. This talk is
+          going to cover how we are optimizing code generation, core
+          selection and scheduling utilizing both online and offline telemetry
+          to make the best decisions possible for the software. It will also
+          give some hints on where Intel is taking hybrid performance going
+          forward into the future.
 
-    #- title: "I/O Recording and Workflow Analysis with Score-P and Vampir"
-      #author: Bill Williams
-      #affiliation: TU Dresden
-      #length: 1800
-      #slides: "Williams_WorkflowIO_STW19.pdf"
-      #abstract: "As HPC tasks become larger and more complex, developers attempt to address
-    #this complexity by decomposing problems into a workflow of simpler applications,
-    #rather than a single application that can handle everything. These workflows
-    #present multiple challenges to the tools community, but one of the chief problems
-    #is the analysis of communication between jobs. In many workflows, the filesystem
-    #plays an analogous role in inter-job communication to that of MPI in interprocess
-    #communication. This suggests that we should adapt familiar techniques from MPI
-    #instrumentation and performance analysis to the I/O domain. We present initial
-    #work in enabling this analysis:
-
-    #* New I/O recording features in the ScoreP measurement system
-    #* A prototype suite of tools for HPC workflow instrumentation
-    #* A prototype visualisation tool for analysing and displaying the results of this
-      #instrumentation
-    #* Preliminary results in automatically determining the I/O dependencies within a
-      #workflow
-
-    #Our ultimate goal is to provide the user with information about how they can
-    #restructure their workflow in order to increase parallelism, improve the
-    #efficiency of their use of HPC resources, and reduce or eliminate false
-    #dependencies between jobs."
-
-    #- title: "Exploiting Modern Hardware Features via Lightweight Profiling"
-      #author: Probir Roy
-      #affiliation: College of William and Mary
-      #length: 1800
-      #slides: "scalable_tools_workshop_probir_for_pdf.pdf"
-      #abstract: "Over the past few decades, computer systems have evolved into two
-    #directions: more parallelism and deeper memory hierarchies. Software
-    #needs to make an adaption to efficiently map itself to the modern
-    #and emerging architectures for the optimal performance. My research
-    #involves building various tools to pinpoint inefficient hardware-
-    #software interactions and guide code optimization. In this talk, I
-    #will discuss different forms of inefficiencies originating from
-    #modern computer architectures: contention across simultaneous
-    #multithreading, cache conflicts, and bandwidth under-utilization. I
-    #will then present novel analysis tools to identify these
-    #inefficiencies with low overhead. Guided by our tools, we can
-    #successfully optimize program inefficiencies, which yields
-    #significant speedups." 
-    
-    #- title: "Ubiquitous Performance Analysis"
-      #author: David Boehme
-      #affiliation: LLNL
-      #length: 1800
-      #abstract: ""
-
-  - days: tuesday
+  - title: Talks Session 6
+    days: tuesday
     time: 10:30am
-    title: Session 6
     talks:
-
-    #- title: "Performance Analysis of Very Large Shared Memory Systems Using Intel(R) Optane DC
- #Memory"
-      #author: Ramesh Peri
-      #affiliation: Intel 
-      #length: 1800
-      #slides: "Exascale-tools-workshop.pdf"
-      #abstract: "There is a new kind of memory that was announced recently called Intel(R)
-    #Optane DC memory which is lot more dense than traditional DRAM but with more
-    #access latency. This introduces a new layer in the memory hierarchy and allows
-    #systems with many TB of main memory to be built and use existing DDR4 as
-    #another layer of cache. In this talk I will introduce the tools we built to
-    #analyze performance on such large scale systems. I will also share our
-    #experiences in using the performance tools to optimize  graph analytics
-    #algorithms on very large graphs, containing billions of vertices and trillions
-    #of edges, on this system.
-#"
-
-    #- title: "MuMMI: Exploring Performance and Power Trade-offs"
-      #author: Xingfu Wu, Valerie Taylor
-      #affiliation: ANL
-      #length: 1800
-      #abstract: ""
-      #slides: "Scalable_Tools_2019_Wu.pdf"
-
-    #- title: "Interfaces for Runtime Correctness Checking of Parallel Programs"
-      #author: Joachim Protze
-      #affiliation: RWTH Aachen University
-      #length: 1800
-      #abstract: ""
-      #slides: "2019-07-30_Toolsworkshop_Interfaces.pdf"
+     - title: "sys-sage: A Fresh View on the Topology of HPC Systems"
+       author: Stepan Vanecek
+       affiliation: Technical University of Munich
+       length: 1800
+       slides: 
+       abstract: |
+          In order to use modern HPC systems efficiently, one has to be aware of the
+          architectural details, in particular details of the hardware topology.
+          hwloc has been used as a de-facto standard solution for determining the
+          hardware topology of a system and for scheduling by runtime systems, such
+          as the ones of OpenMP or MPI, or even by applications themselves. However,
+          on ever-growing systems and with growing application complexity and
+          increasingly more dynamic behavior, knowing the static hardware topology
+          alone is not sufficient anymore.
+          
+          I will present our approach, called sys-sage, and its library implementation
+          that goes beyond hwloc's functionality to provide a more complete view of a
+          node or a system. It can represent the dynamic state of the system and
+          increases the degree of detail compared to static hardware topology views.
+          The novelty of our approach lies in the ability to capture dynamic
+          environments as well as systems' complexities, and in enabling greater
+          flexibility in its usage.
+     - title: Spack
+       author: tba
+       affiliation: Lawrence Livermore National Lab
+       length: 1800
+       slides: 
+       abstract: |
+          tba
+     - title: BUILD SI
+       author: Todd Gamblin
+       affiliation: Lawrence Livermore National Lab
+       length: 1800
+       slides: 
+       abstract: |
+          tba
 
   - days: tuesday
     time: 13:30pm
-    title: Working Group Creation
+    title: Working Groups Creation
     
   - days: tuesday
     time: 15:00pm
-    title: Session 7
+    title: Working Groups Session 7
     talks:
     
-     #- title: Hatchet Working Group (Diamond Peak)
-       #author:
-       #slides:
-    
-     #- title: Linux Perf Working Group (Scott Peak)
-       #author: Will Cohen
-       #slides: "WG - Perf Enhancements.pdf"
-
-     #- title: Test suite for compilers Working Group (Granite Peak)
-       #author: Thomas Gruber
-       #slides: "Compiler_testing_working_group.pdf"
-
   - days: tuesday
     time: 16:00pm
-    title: Session 8
+    title: Working Groups Session 8
     talks:
-    #- title: PMM Working Group (Granite Peak)
-      #author: Ben Woodard
-      #slides: "PPM_WG.pptx"
     
   - days: wednesday
     time: 08:30am
-    title: Session 9
+    title: Working Groups Session 9
     talks:
-    
-      #- title: Data Profiling + memory allocators Working Group (Diamond Peak)
-        #author: Michael Chynoweth
-        #slides: "2019.07.31_ScalableToolsDataProfiling.pptx"
-
-      #- title: OMPT Working Group (Scott Peak)
-        #author: Joachim Protze
-        #slides: "2019-07-31_OMPT-working-group.pdf"
     
   - days: wednesday
     time: 10:30am
-    title: Session 10
+    title: Working Groups Session 10
     talks:
-
-    #- title: Data Profiling + memory allocators Working Group - Cont. (Diamond Peak)
-      #author: Michael Chynoweth 
-      #slides: "2019.07.31_ScalableToolsDataProfiling.pptx"
-          
-    #- title: Ubiquitous Performance Analysis Working Group (Scott Peak)
-      #author: Matt Legendre
-      #slides: "Ubiquitous Performance Analysis (UPA) Notes.pptx"
-
-    #- title: Cluster-wide Performance Monitoring Working Group (Granite Peak)
-      #author: Thomas Gruber
-      #slides: Cluster_Perf_Monitoring.pdf
 
   - days: wednesday
     time: 13:30pm
@@ -370,24 +479,8 @@ sessions:
 
   - days: thursday
     time: 08:30am
-    title: Session 11
+    title: Working Groups Session 11
     talks:
-
-    #- title: Tool Interfaces Working Group (Diamond Peak)
-      #author: Andrew Gontarek
-      #slides: "tool_interfaces_WG.pdf"
-    
-    #- title: Providing Actionable Insight Working Group (Scott Peak)
-      #author: Ben Welton
-      #slides: "2019.08.01_ProvidingActionableInsight.pdf"
-
-    #- title: Hardware Counters for non-Intel platforms, Frontier (Granite Peak)
-      #author: Michael Brim
-      #slides: "STW2019-HWCtrsNonIntel.pdf"
-    
-    #- title: Parallel Elfutils
-      #author: John Mellor-Crummey
-      #slides: "ElfutilsInParallel.pdf"
 
   - days: thursday
     time: 1:30pm
