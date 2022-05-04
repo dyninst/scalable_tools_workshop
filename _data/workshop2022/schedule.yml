@@ -455,22 +455,22 @@ sessions:
     
   - days: tuesday
     time: 15:00pm
-    title: Working Groups Session 7
+    title: Working Groups Session 1
     talks:
     
   - days: tuesday
     time: 16:00pm
-    title: Working Groups Session 8
+    title: Working Groups Session 2
     talks:
     
   - days: wednesday
     time: 08:30am
-    title: Working Groups Session 9
+    title: Working Groups Session 3
     talks:
     
   - days: wednesday
     time: 10:30am
-    title: Working Groups Session 10
+    title: Working Groups Session 4
     talks:
 
   - days: wednesday
@@ -479,7 +479,7 @@ sessions:
 
   - days: thursday
     time: 08:30am
-    title: Working Groups Session 11
+    title: Working Groups Session 5
     talks:
 
   - days: thursday
