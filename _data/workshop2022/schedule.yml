@@ -99,7 +99,7 @@ sessions:
           different threads. For GPU-accelerated applications, an important source of
           sparsity is that none of the myriad of GPU metrics apply to any of the many
           CPU contexts.
-          
+          <p>
           To address these challenges, we developed a novel streaming aggregation
           approach to postmortem analysis that employs both shared and distributed
           memory parallelism to aggregate sparse performance measurements from every rank,
@@ -197,7 +197,7 @@ sessions:
           complexity of the environment. The same applies to large database systems, to
           real-time control systems in cars and airplanes, and to operating system
           design.
-          
+          <p>
           Extremely low-overhead tracing can reveal the true execution and
           non-execution (waiting) dynamics of such software, running in situ with live
           traffic. KUtrace is such a tool, based on small Linux kernel patches recording
@@ -207,10 +207,10 @@ sessions:
           why unpredictable ones are slow, all with tracing overhead well under 1%.
           Recent additions to KUtrace also show interference between programs and show
           profiles within long execution stretches that have no transitions.
-          
+          <p>
           The net result is deep insight into the dynamics of complex software, leading
           to often-simple changes to improve performance.
-          
+          <p>
           Bio:
           Richard L. Sites wrote his first computer program in 1959 and has spent most of
           his career at the boundary between hardware and software, with a particular
@@ -248,7 +248,7 @@ sessions:
           hardware performance metrics from underlying hardware in pre-defined, but
           customizable, performance groups. Initially, LIKWID focused on x86
           architectures and their performance and energy metrics.
-          
+          <p>
           This talk discusses recent efforts in extending LIKWID to support GPUs with
           regards to performance and energy related metrics. It first shows how to use
           LIKWID to get insights into performance and energy related metrics of an
@@ -279,7 +279,7 @@ sessions:
           expensive and secondly, extracting trends from a limited series of
           experiments is far from trivial, as the noise can follow quite irregular
           patterns.
-          
+          <p>
           In the German DFG project ExtraNoise we will develop noise-resilient
           performance measurement and analysis tools for HPC applications based
           on the well-known tools Score-P and Scalasca. The basic idea is to use
@@ -327,7 +327,7 @@ sessions:
           most existing tools expose few interfaces to support user-defined
           analysis, which makes the tools less customizable to fulfill the
           diverse user demands.
-          
+          <p>
           We develop EasyView, a general solution to integrate the
           interpretation and visualization of various profiling results in the
           coding environments, which bridges software developers with profilers
@@ -377,7 +377,7 @@ sessions:
           interactions. In this talk, we will present our fine-grained CPU-GPU
           analysis framework which pinpoints value-related inefficiencies and
           optimizable CPU-GPU interactions.
-          
+          <p>
           This framework monitors application execution to capture values
           produced and used by each load and store operation in both CPU
           functions and GPU kernels, recognizes multiple value patterns, and
@@ -391,8 +391,7 @@ sessions:
        affiliation: UW-Madison
        length: 1800
        slides: 
-       abstract: |
-          tba
+       abstract: tba
      - title: Using Hybrid Cores to Maximize Performance, Power and Throughput
        author: Michael Chynoweth
        affiliation: Intel
@@ -426,7 +425,7 @@ sessions:
           on ever-growing systems and with growing application complexity and
           increasingly more dynamic behavior, knowing the static hardware topology
           alone is not sufficient anymore.
-          
+          <p>
           I will present our approach, called sys-sage, and its library implementation
           that goes beyond hwloc's functionality to provide a more complete view of a
           node or a system. It can represent the dynamic state of the system and
@@ -439,15 +438,13 @@ sessions:
        affiliation: Lawrence Livermore National Lab
        length: 1800
        slides: 
-       abstract: |
-          tba
+       abstract: tba
      - title: BUILD SI
        author: Todd Gamblin
        affiliation: Lawrence Livermore National Lab
        length: 1800
        slides: 
-       abstract: |
-          tba
+       abstract: tba
 
   - days: tuesday
     time: 13:30pm
