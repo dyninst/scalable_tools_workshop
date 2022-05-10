@@ -83,8 +83,41 @@ sessions:
        author: Tim Haines, Jim Kupsch, Josef (Bolo) Burger
        affiliation: UW-Madison
        length: 1800
-       slides: 
-       abstract: 
+       slides:
+       abstract: |
+          Binary analysis and instrumentation is a key technology to support performance
+          profiling, debugging, testing, software security, and auditing. Dyninst is an
+          open source suite of libraries providing binary analysis, instrumentation and
+          control capabilities across several hardware architectures with an
+          architecture-independent abstraction. It supports both dynamic (runtime) and
+          static (binary rewriting) instrumentation of a binary program. Dyninst is
+          opportunistic in that it uses symbol and debug information when it is available,
+          but can operate without it, even on stripped binaries. Dyninst's analysis
+          capabilities produce a control- and data-flow analysis of the program,
+          identifying functions, loops, and basic blocks in the code. Dyninst allows
+          fine-grained program instrumentation and modification based on a high-level
+          (control flow graph) abstraction of a program.
+          <p>
+          Dyninst is structured as a suite of toolkit libraries, providing architecture
+          independent interfaces to features such as instruction decoding, control flow
+          analysis, data flow analysis, code generation, code patching (splicing) and
+          symbol table processing. On the dynamic side, it also includes process control
+          and stack walking support.
+          <p>
+          Dyninst has been used as the foundation for products from companies like Cray
+          and Red Hat, as the basis for tools from national labs and research groups, and
+          as a key component in hundreds of academic research projects. It continues to
+          have the due role of providing a foundation for new instrumentation and analysis
+          research combined with support for key applications of binary analysis and
+          instrumentation.
+          <p>
+          Since the last workshop in 2019, Dyninst has seen myriad improvements to
+          functionality and code quality.  Examples include support for instructions on
+          the newly-minted Intel and AMD GPUs, parsing PIE binaries, and a wealth of
+          correctness and usability enhancements discovered via user feedback, bug
+          reports, our expanded test suites, and improved release testing. In this talk,
+          we will provide a brief tutorial on how you can use Dyninst to take advantage of
+          its capabilities and describe its new features and upcoming plans.
      - title: Preparing HPCToolkit for Performance Analysis for Exascale
        author: Jonathon Anderson and Yumeng Liu
        affiliation: Rice University
