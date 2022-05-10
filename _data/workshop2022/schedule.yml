@@ -83,7 +83,7 @@ sessions:
        author: Tim Haines, Jim Kupsch, Josef (Bolo) Burger
        affiliation: UW-Madison
        length: 1800
-       slides:
+       slides: 
        abstract: |
           Binary analysis and instrumentation is a key technology to support performance
           profiling, debugging, testing, software security, and auditing. Dyninst is an
@@ -293,12 +293,12 @@ sessions:
 
   - title: Talks Session 4
     days: monday
-    time: 15:30pm
+    time: 15:20pm
     talks:
      - title: Noise-resilient Performance Measurement and Analysis of HPC Applications
        author: Bernd Mohr
-       affiliation: Forschung Zentrum Juelich
-       length: 1800
+       affiliation: Forschung Zentrum Juelich; and Felix Wolf, TU Darmstadt
+       length: 2400
        slides: 
        abstract: |
           Key to understanding and ultimately improving the performance of HPC
@@ -424,7 +424,27 @@ sessions:
        affiliation: UW-Madison
        length: 1800
        slides: 
-       abstract: tba
+       abstract: |
+          Instrumentation of binary code is a powerful technique that has been applied
+          in many areas, including collecting fine-grained execution data for
+          application performance tuning. Our experiences with the Dyninst binary
+          analysis and instrumentation toolkits have shown that performance data can
+          be collected efficiently for CPUs, and we are now applying these techniques
+          to GPUs, specifically to the AMD family of GPUs.
+          <p>
+          We will first give a brief introduction to the AMD GPU environment. Then we
+          will discuss our design for efficient GPU kernel instrumentation, including:
+          device side resource allocation for storing performance data, efficient
+          transfer of performance data from the GPU to CPU, and keeping the
+          instrumentation overhead low compared to other approaches. We use binary
+          instrumentation to avoid the need to recompile the kernel.
+          <p>
+          In our early experiments with these techniques, we have collected
+          branch-divergence information, which can be used as an indicator of GPU
+          hardware utilization, on several GPU kernels. We have also compared our
+          instrumentation overhead to NVIDIA’s CUTPI for gathering similar
+          information, and our overhead is consistently much lower than this other
+          tool.
      - title: Using Hybrid Cores to Maximize Performance, Power and Throughput
        author: Michael Chynoweth
        affiliation: Intel
