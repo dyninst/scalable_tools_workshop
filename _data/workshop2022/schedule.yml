@@ -297,33 +297,37 @@ sessions:
     talks:
      - title: Noise-resilient Performance Measurement and Analysis of HPC Applications
        author: Bernd Mohr
-       affiliation: Forschung Zentrum Juelich; and Felix Wolf, TU Darmstadt
+       affiliation: Forschungszentrum Jülich; Felix Wolf, Technical University of Darmstadt
        length: 2400
        slides: 
        abstract: |
-          Key to understanding and ultimately improving the performance of HPC
-          applications is performance measurement. Unfortunately, many HPC
-          systems expose their jobs to substantial amounts of interference
-          (aka noise), leading to significant run-to-run variation. This makes
-          performance measurements generally irreproducible, heavily complicating
-          performance analysis and modelling. On noisy systems, performance
-          analysts usually have to repeat performance measurements several times
-          and then apply statistical analysis to capture trends. Firstly, this is
-          expensive and secondly, extracting trends from a limited series of
-          experiments is far from trivial, as the noise can follow quite irregular
-          patterns.
+          The key to understanding and ultimately improving the performance of HPC
+          applications is performance measurement. Unfortunately, many HPC systems
+          expose their jobs to substantial amounts of interference (aka noise),
+          leading to significant run-to-run variation. This makes performance
+          measurements generally irreproducible, heavily complicating performance
+          analysis and modeling. On noisy systems, performance analysts usually have
+          to repeat performance measurements several times and then apply statistical
+          analysis to capture trends. Firstly, this is expensive and secondly,
+          extracting trends from a limited series of experiments is far from trivial,
+          as the noise can follow quite irregular patterns.
           <p>
-          In the German DFG project ExtraNoise we will develop noise-resilient
-          performance measurement and analysis tools for HPC applications based
-          on the well-known tools Score-P and Scalasca. The basic idea is to use
-          logical timers, which are noise-insensitive, for measurement and
-          analysis. We investigate logical timers on various levels: (1)
-          function, communication, synchronization events, (2) basic blocks,
-          (3) statements, and (4) noise-insensitive HW counters. We will present
-          early results on the effectiveness of using logical timers for a
-          noise-resilient performance measurement and analysis. We also will
-          present NOIGENA, a noise generator application, we developed for
-          testing our approach.
+          In the DFG project ExtraNoise we will develop noise-resilient performance
+          measurement, analysis, and modeling methods for HPC applications based on
+          the well-known tools Score-P, Scalasca, and Extra-P. One idea is to use
+          logical timers, which are noise-insensitive, for measurement and analysis.
+          We investigate logical timers on various levels: (1) function,
+          communication, synchronization events, (2) basic blocks, (3) statements, and
+          (4) noise-insensitive HW counters. We will present early results on the
+          effectiveness of using logical timers for noise-resilient performance
+          measurement and analysis. We also will present NOIGENA, a noise generator
+          application, we developed for testing our approach. Another goal is to
+          empower the performance-modeling toolchain around Extra-P to deal with noisy
+          performance data. The central idea is to introduce a stronger prior into the
+          learning process. The prior will be derived from more or less noise-immune
+          analyses, including both static and dynamic techniques, and support the
+          model search for noise-affected performance metrics such as time, but also
+          energy.
      - title: Comparative Evaluation of Call Graph Generation by Profiling Tools
        author: Onur Cankur
        affiliation: University of Maryland
@@ -486,18 +490,39 @@ sessions:
           The novelty of our approach lies in the ability to capture dynamic
           environments as well as systems' complexities, and in enabling greater
           flexibility in its usage.
-     - title: Spack
-       author: tba
-       affiliation: Lawrence Livermore National Lab
-       length: 1800
-       slides: 
-       abstract: tba
-     - title: BUILD SI
+     - title: "Answer Set Solving in Spack: Tackling combinatorial software complexity head-on"
        author: Todd Gamblin
        affiliation: Lawrence Livermore National Lab
        length: 1800
        slides: 
-       abstract: tba
+       abstract: |
+          The number of ways that software can be built and composed is not getting
+          any smaller. These days every software language, ecosystem, and developer
+          community has a package manager to help manage the growing number of
+          libraries. Package managers convert abstract requests for software into
+          concrete build or installation instructions.  This involves: 1) managing
+          complex compatibility constraints, 2) finding optimal solutions, and 3)
+          solving an NP-complete problem.
+          <p>
+          Modeling compatibility semantics and optimization criteria in a way a solver
+          can understand is a daunting task.  This talk will describe our recent work
+          to include increasingly complex package compatibility data in Spack using
+          Answer Set Solving, and it will outline the remaining challenges we face as
+          we try to model the low-level details of the HPC software ecosystem.
+     - title: Building a DSL for ABI compatibility
+       author: Nate Hanford and Greg Becker
+       affiliation: Lawrence Livermore National Lab
+       length: 1800
+       slides: 
+       abstract: |
+          Most package management systems use semantic versioning or similar
+          conventions to describe the compatibility of packages. On the BUILD project,
+          we are working to incorporate ABI compatibility information derived from
+          binary analysis in order to get a more accurate picture of how binaries can
+          be composed.  Additionally, we are working on a domain-specific language
+          (DSL) so that package authors can describe ABI breaks and other version
+          incompatibilities without vain detailed analysis. This talk will cover our
+          DSL and its potential use going forward in Spack and the broader community.
 
   - days: tuesday
     time: 13:30pm
