@@ -167,20 +167,25 @@ sessions:
     days: monday
     time: 10:30am
     talks:
-     - title: What about Threads?
-       author: John Mellor-Crummey
-       affiliation: Rice University
+     - title: Improving Tool Support for Nested Parallel Regions with Introspection Consistency
+       author: Vladimir Indic
+       affiliation: University of Novi Sad
        length: 1800
        slides: 
        abstract: |
-          Runtime systems for GPU-accelerated platforms create a plethora of threads.
-          Thread-aware first-party tools must decide how to handle them. Can all thread
-          creations be observed? Can each thread be monitored safely? Should a thread be
-          monitored? Today, developers of thread-aware tools must observe vendor runtimes
-          and determine how to respond to threads on a case-by-case basis during tool
-          development. This is a fragile and unsustainable approach as vendor runtimes are
-          rapidly changing. This talk will describe concerns about threads in detail and
-          sketch a possible path forward for the community.
+          The OpenMP 5 standard defines OMPT—an application programming interface for tools
+          that includes a set of introspection routines. At any point in time, a sampling-based
+          performance tool may invoke these introspection routines from a signal handler to
+          inquire about the nesting of parallel regions and tasks. Unfortunately, the OpenMP 5
+          standard doesn’t precisely specify what one may observe with these routines when monitoring
+          a program as it executes nested parallel regions. To address this shortcoming, we propose
+          that the OpenMP standard require that an OpenMP implementation supports introspection
+          consistency. In this talk, we definee introspection consistency, describes why tools need
+          it, and explains a novel strategy for implementing it using wait-free coordination between
+          an OpenMP implementation and its OMPT introspection routines. Additionally, we describe an
+          implementation of this technique in the LLVM OpenMP runtime and evaluate the runtime
+          overhead of supporting introspection consistency in LLVM OpenMP using microbenchmarks
+          for nested parallel regions.
      - title: "Possible Malleability Support in MPI 5: What Does it Mean for Tools?"
        author: Martin Schulz
        affiliation: Technical University of Munich
