@@ -290,7 +290,7 @@ sessions:
        author: Felix Wolf
        affiliation: Technical University of Darmstadt
        length: 1800
-       slides: 
+       slides: "ScalableToolsWS_Wolf_20220620.pdf"
        abstract: |
           The key to understanding and ultimately improving the performance of HPC
           applications is performance measurement. Unfortunately, many HPC systems
