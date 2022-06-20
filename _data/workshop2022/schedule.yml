@@ -279,7 +279,7 @@ sessions:
        author: Bernd Mohr
        affiliation: Forschungszentrum Jülich
        length: 1800
-       slides: 
+       slides: "mohr-extranoise-tools-2022.pdf"
 #       abstract: |
 
   - title: Talks Session 4
