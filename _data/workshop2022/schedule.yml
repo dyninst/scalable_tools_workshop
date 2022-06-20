@@ -171,7 +171,7 @@ sessions:
        author: Vladimir Indic
        affiliation: University of Novi Sad
        length: 1800
-       slides: 
+       slides: "valdimir_indic.pdf"
        abstract: |
           The OpenMP 5 standard defines OMPT—an application programming interface for tools
           that includes a set of introspection routines. At any point in time, a sampling-based
