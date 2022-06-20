@@ -148,7 +148,7 @@ sessions:
        author: William Jalby
        affiliation: Université de Versailles Saint-Quentin-en-Yvelines
        length: 1800
-       slides: 
+       slides: "OV_Scalable_Tools_2022_V3a.pdf"
        abstract: |
           We had a continuing effort in the past years has been to improve user guidance
           throughout the optimization process. This has been achieved through close
