@@ -301,24 +301,17 @@ sessions:
           to repeat performance measurements several times and then apply statistical
           analysis to capture trends. Firstly, this is expensive and secondly,
           extracting trends from a limited series of experiments is far from trivial,
-          as the noise can follow quite irregular patterns.
+          as the noise can follow quite irregular patterns. In the DFG project
+          ExtraNoise we will develop noise-resilient performance measurement,
+          analysis, and modeling methods for HPC applications based on the well-known
+          tools Score-P, Scalasca, and Extra-P.
           <p>
-          In the DFG project ExtraNoise we will develop noise-resilient performance
-          measurement, analysis, and modeling methods for HPC applications based on
-          the well-known tools Score-P, Scalasca, and Extra-P. One idea is to use
-          logical timers, which are noise-insensitive, for measurement and analysis.
-          We investigate logical timers on various levels: (1) function,
-          communication, synchronization events, (2) basic blocks, (3) statements, and
-          (4) noise-insensitive HW counters. We will present early results on the
-          effectiveness of using logical timers for noise-resilient performance
-          measurement and analysis. We also will present NOIGENA, a noise generator
-          application, we developed for testing our approach. Another goal is to
-          empower the performance-modeling toolchain around Extra-P to deal with noisy
-          performance data. The central idea is to introduce a stronger prior into the
-          learning process. The prior will be derived from more or less noise-immune
-          analyses, including both static and dynamic techniques, and support the
-          model search for noise-affected performance metrics such as time, but also
-          energy.
+          This talk focuses on one of the project tasks – to empower the
+          performance-modeling toolchain around Extra-P to deal with noisy performance
+          data. The central idea is to introduce a stronger prior into the learning
+          process. The prior will be derived from more or less noise-immune analyses,
+          including both static and dynamic techniques, and support the model search
+          for noise-affected performance metrics such as time, but also energy.
      - title: "sys-sage: A Fresh View on the Topology of HPC Systems"
        author: Stepan Vanecek
        affiliation: Technical University of Munich
