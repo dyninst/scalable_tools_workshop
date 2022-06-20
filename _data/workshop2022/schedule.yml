@@ -83,7 +83,7 @@ sessions:
        author: Tim Haines, Jim Kupsch, Josef (Bolo) Burger
        affiliation: UW-Madison
        length: 1800
-       slides: 
+       slides: "Dyninst2022.pdf"
        abstract: |
           Binary analysis and instrumentation is a key technology to support performance
           profiling, debugging, testing, software security, and auditing. Dyninst is an
