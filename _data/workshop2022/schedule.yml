@@ -316,7 +316,7 @@ sessions:
        author: Stepan Vanecek
        affiliation: Technical University of Munich
        length: 1800
-       slides: 
+       slides: "22_06_sys-sage_scalable_tools_2022.pdf"
        abstract: |
           In order to use modern HPC systems efficiently, one has to be aware of the
           architectural details, in particular details of the hardware topology.
