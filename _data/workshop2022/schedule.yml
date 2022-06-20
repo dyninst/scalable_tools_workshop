@@ -207,7 +207,7 @@ sessions:
        author: Ben Woodard
        affiliation: Red Hat
        length: 1800
-       slides: 
+       slides: "glibc_and_ld_audit.pdf"
        abstract: |
           The UNIX dynamic linker has had at least the specification an auditing
           interface since the heyday of Solaris. However, the quality of the
