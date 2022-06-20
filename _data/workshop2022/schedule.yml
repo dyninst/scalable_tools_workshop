@@ -122,7 +122,7 @@ sessions:
        author: Jonathon Anderson and Yumeng Liu
        affiliation: Rice University
        length: 1800
-       slides: 
+       slides: "anderson_rice.pdf"
        abstract: |
           Performance tools for emerging heterogeneous exascale platforms must address
           two principal challenges when analyzing execution measurements. First,
