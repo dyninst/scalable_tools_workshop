@@ -228,7 +228,7 @@ sessions:
        author: Richard L. Sites
        affiliation: 
        length: 1800
-       slides: 
+       slides: "A_Software_Microscope.pdf"
        abstract: |
           Observation tools for understanding occasionally-slow performance in
           large-scale distributed transaction systems are not keeping up with the
