@@ -275,35 +275,21 @@ sessions:
           numerous counters that exist in modern hardware platforms. Lastly, we
           will discuss new features integrated in the Software Defined Events
           layer of PAPI and lessons learned from our efforts so far.
-     - title: "LIKWID with GPUs: Node-Level Performance and Energy Engineering for Systems with GPUs"
-       author: Karlo Kraljic
-       affiliation: HPE/TU Munich
+     - title: Noise-resilient Performance Measurement and Analysis of HPC Applications
+       author: Bernd Mohr
+       affiliation: Forschungszentrum Jülich
        length: 1800
        slides: 
-       abstract: |
-          LIKWID is a set of command line utilities being designed for probing
-          thread/cache topology on shared-memory nodes and exposing easy-to-understand
-          hardware performance metrics from underlying hardware in pre-defined, but
-          customizable, performance groups. Initially, LIKWID focused on x86
-          architectures and their performance and energy metrics.
-          <p>
-          This talk discusses recent efforts in extending LIKWID to support GPUs with
-          regards to performance and energy related metrics. It first shows how to use
-          LIKWID to get insights into performance and energy related metrics of an
-          application without having to modify the code by making use of LIKWIDs wrapper
-          mode. It then provides an example of how to modify an application to make use
-          of the "Marker API" for getting fine-grained insights into performance and
-          energy related metrics of an application by utilizing custom performance and
-          energy groups specifically tailored for heterogeneous systems consisting GPUs.
+#       abstract: |
 
   - title: Talks Session 4
     days: monday
-    time: 15:20pm
+    time: 15:30pm
     talks:
-     - title: Noise-resilient Performance Measurement and Analysis of HPC Applications
-       author: Bernd Mohr
-       affiliation: Forschungszentrum Jülich; Felix Wolf, Technical University of Darmstadt
-       length: 2400
+     - title: Noise-Resilient Performance Modeling of HPC Applications
+       author: Felix Wolf
+       affiliation: Technical University of Darmstadt
+       length: 1800
        slides: 
        abstract: |
           The key to understanding and ultimately improving the performance of HPC
