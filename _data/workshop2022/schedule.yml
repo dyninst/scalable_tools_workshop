@@ -362,7 +362,7 @@ sessions:
        author: Xingfu Wu
        affiliation: Argonne National Lab
        length: 1800
-       slides: 
+       slides: "yopt-Autotuning-atLargeScales.pdf"
        abstract: |
           As we enter the exascale computing era, efficiently utilizing power and
           optimizing the performance of scientific applications under power and
