@@ -435,7 +435,7 @@ sessions:
        author: Hsuan-Heng Wu
        affiliation: UW-Madison
        length: 1800
-       slides: 
+       slides: "Hsuan-Heng-Wu.pdf"
        abstract: |
           Instrumentation of binary code is a powerful technique that has been applied
           in many areas, including collecting fine-grained execution data for
