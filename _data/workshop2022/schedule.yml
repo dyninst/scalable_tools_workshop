@@ -536,13 +536,13 @@ sessions:
     time: 15:00pm
     title: Working Groups Session 1
     talks:
-     - title: AMD GPU development: random topics (Emerald Bay)
+     - title: "AMD GPU development: random topics (Emerald Bay)"
        author: Bolo
        slides:
-     - title: High-level analysis and visualization (Crystal Bay)
+     - title: "High-level analysis and visualization (Crystal Bay)"
        author: Liu
        slides:
-     - title: Community-wide benchmarking effort (Agate Bay)
+     - title: "Community-wide benchmarking effort (Agate Bay)"
        author: Danalis
        slides:
 
@@ -564,10 +564,10 @@ sessions:
     time: 08:30am
     title: Working Groups Session 3
     talks:
-     - title: Tools and testing: validation, continuous integration (CI) (Emerald Bay)
+     - title: "Tools and testing: validation, continuous integration (CI) (Emerald Bay)"
        author: Knapp
        slides:
-     - title: Tools and GPU runtimes: initialization and monitoring of threads (Crystal Bay)
+     - title: "Tools and GPU runtimes: initialization and monitoring of threads (Crystal Bay)"
        author: Mellor-Crummey
        slides:
      - title:  (Agate Bay)
@@ -578,7 +578,7 @@ sessions:
     time: 10:30am
     title: Working Groups Session 4
     talks:
-     - title: Needs and requests for tools and tool interfaces: libthread_db, libgotcha, autotools, DWARF6 (Emerald Bay)
+     - title: "Needs and requests for tools and tool interfaces: libthread_db, libgotcha, autotools, DWARF6 (Emerald Bay)"
        author: Woodard, Wesarg
        slides:
      - title:  (Crystal Bay)
@@ -599,7 +599,7 @@ sessions:
      - title: Integrate tools with sys-sage (Emerald Bay)
        author: Vanecek
        slides:
-     - title: Modern MPI and tools: malleability and sessions (Crystal Bay)
+     - title: "Modern MPI and tools: malleability and sessions (Crystal Bay)"
        author: Schulz
        slides:
      - title: ABI (Agate Bay)
