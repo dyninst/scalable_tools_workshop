@@ -358,7 +358,7 @@ sessions:
        author: Xu Liu
        affiliation: NCSU
        length: 1800
-       slides: 
+       slides: "easyview-toolworkshop.pdf"
        abstract: |
           Profiling is well-known for its powerful capabilities of identifying
           performance inefficiencies in complex code bases. Existing profilers
