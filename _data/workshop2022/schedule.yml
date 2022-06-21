@@ -407,7 +407,7 @@ sessions:
        author: Yueming Hao
        affiliation: North Carolina State University
        length: 1800
-       slides: 
+       slides: "Yueming-Hao.pdf"
        abstract: |
           General-purpose GPUs have become common in modern computing systems
           to accelerate applications in many domains. However, inefficiencies
