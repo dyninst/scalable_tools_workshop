@@ -560,7 +560,10 @@ sessions:
     time: 08:30am
     title: Working Groups Session 5
     talks:
-
+  - days: thursday
+    time: 10:30am
+    title: Working Group Outbriefs (Mountain Room)
+    
   - days: thursday
     time: 1:30pm
     title: Departure
@@ -570,8 +573,3 @@ sessions:
     time: 12:00pm
     title: Arrival
     class: sbreak
-
-  - days: thursday
-    time: 10:30am
-    title: Working Group Outbriefs (Mountain Room)
-    
