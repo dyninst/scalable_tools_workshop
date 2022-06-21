@@ -261,7 +261,7 @@ sessions:
        author: Anthony Danalis
        affiliation: University of Tennessee, Knoxville
        length: 1800
-       slides: 
+       slides: "2022_06_ScalableToolsWorkshop_PAPI.pdf"
        abstract: |
           PAPI has been a layer that provides a consistent interface to hardware
           performance counters for over two decades. This talk will outline the
