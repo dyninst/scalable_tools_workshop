@@ -536,21 +536,57 @@ sessions:
     time: 15:00pm
     title: Working Groups Session 1
     talks:
-    
+     - title: AMD GPU development: random topics (Emerald Bay)
+       author: Bolo
+       slides:
+     - title: High-level analysis and visualization (Crystal Bay)
+       author: Liu
+       slides:
+     - title: Community-wide benchmarking effort (Agate Bay)
+       author: Danalis
+       slides:
+
   - days: tuesday
     time: 16:00pm
     title: Working Groups Session 2
     talks:
+     - title: User perspectives on GPU performance (Emerald Bay)
+       author: Itzkowitz
+       slides:
+     - title:  (Crystal Bay)
+       author:
+       slides:
+     - title: Spack, tools, and dependencies (Agate Bay)
+       author: Gamblin
+       slides:
     
   - days: wednesday
     time: 08:30am
     title: Working Groups Session 3
     talks:
+     - title: Tools and testing: validation, continuous integration (CI) (Emerald Bay)
+       author: Knapp
+       slides:
+     - title: Tools and GPU runtimes: initialization and monitoring of threads (Crystal Bay)
+       author: Mellor-Crummey
+       slides:
+     - title:  (Agate Bay)
+       author: 
+       slides:
     
   - days: wednesday
     time: 10:30am
     title: Working Groups Session 4
     talks:
+     - title: Needs and requests for tools and tool interfaces: libthread_db, libgotcha, autotools, DWARF6 (Emerald Bay)
+       author: Woodard, Wesarg
+       slides:
+     - title:  (Crystal Bay)
+       author:
+       slides:
+     - title: Noise resilience or mitigation for HPC measurements & noise generation (Agate Bay)
+       author: Mohr
+       slides:
 
   - days: wednesday
     time: 13:30pm
@@ -560,6 +596,16 @@ sessions:
     time: 08:30am
     title: Working Groups Session 5
     talks:
+     - title: Integrate tools with sys-sage (Emerald Bay)
+       author: Vanecek
+       slides:
+     - title: Modern MPI and tools: malleability and sessions (Crystal Bay)
+       author: Schulz
+       slides:
+     - title: ABI (Agate Bay)
+       author: Woodard, Legendre
+       slides:
+
   - days: thursday
     time: 10:30am
     title: Working Group Outbriefs (Mountain Room)
