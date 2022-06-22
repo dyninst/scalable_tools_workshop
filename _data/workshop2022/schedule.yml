@@ -461,7 +461,7 @@ sessions:
        author: Michael Chynoweth
        affiliation: Intel
        length: 1800
-       slides: 
+       slides: "Chynoweth-2022_ScalableToolsPresentation.pdf"
        abstract: |
           We are targeting using P-Cores for maximum performance in
           limited threading scenarios and E-Cores for scaling multi-threaded
