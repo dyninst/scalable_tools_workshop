@@ -517,7 +517,7 @@ sessions:
        author: Nate Hanford and Greg Becker
        affiliation: Lawrence Livermore National Lab
        length: 1800
-       slides: 
+       slides: "Spack_ABI_DSL.pdf"
        abstract: |
           Most package management systems use semantic versioning or similar
           conventions to describe the compatibility of packages. On the BUILD project,
