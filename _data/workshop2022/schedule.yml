@@ -457,7 +457,7 @@ sessions:
           instrumentation overhead to NVIDIA’s CUTPI for gathering similar
           information, and our overhead is consistently much lower than this other
           tool.
-     - title: Using Hybrid Cores to Maximize Performance, Power and Throughput
+     - title: "Using Hybrid Cores to Optimize Performance, Power and Throughput"
        author: Michael Chynoweth
        affiliation: Intel
        length: 1800
