@@ -559,6 +559,9 @@ sessions:
      - title: Spack, tools, and dependencies (Agate Bay)
        author: Gamblin
        slides: "working_groups/spack-scalable-tools-wg-outbrief.pdf"
+    - title: "Improve DWARF parallelism (small group)"
+      author: Woodard
+      slides: 
   - days: wednesday
     time: 08:30am
     title: Working Groups Session 3
