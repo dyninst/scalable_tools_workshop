@@ -538,7 +538,7 @@ sessions:
     talks:
      - title: "AMD GPU development: random topics (Emerald Bay)"
        author: Bolo
-       slides:
+       slides: "working_groups/amd-gpu-dev-breakout.pdf"
      - title: "High-level analysis and visualization (Crystal Bay)"
        author: Liu
        slides:
@@ -559,7 +559,7 @@ sessions:
      - title: Spack, tools, and dependencies (Agate Bay)
        author: Gamblin
        slides:
-    
+
   - days: wednesday
     time: 08:30am
     title: Working Groups Session 3
