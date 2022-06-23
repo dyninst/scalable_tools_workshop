@@ -599,7 +599,7 @@ sessions:
     talks:
      - title: Integrate tools with sys-sage (Emerald Bay)
        author: Vanecek
-       slides:
+       slides: "working_groups/breakout_Integrating_Tools_With_sys-sage.pdf"
      - title: "Modern MPI and tools: malleability and sessions (Crystal Bay)"
        author: Schulz
        slides:
