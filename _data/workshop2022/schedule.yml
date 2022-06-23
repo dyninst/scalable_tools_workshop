@@ -558,7 +558,7 @@ sessions:
        slides:
      - title: Spack, tools, and dependencies (Agate Bay)
        author: Gamblin
-       slides:
+       slides: "working_groups/spack-scalable-tools-wg-outbrief.pdf"
 
   - days: wednesday
     time: 08:30am
