@@ -544,7 +544,7 @@ sessions:
        slides: "working_groups/High-level_Data_Analysis_and_Visualization.pdf"
      - title: "Community-wide benchmarking effort (Agate Bay)"
        author: Danalis
-       slides:
+       slides: "working_groups/danalis-benchmarking.pdf"
 
   - days: tuesday
     time: 16:00pm
@@ -566,7 +566,7 @@ sessions:
     talks:
      - title: "Tools and testing: validation, continuous integration (CI) (Emerald Bay)"
        author: Knapp
-       slides:
+       slides: "working_groups/2022_scalable-tools-wkshp_Tools-testing-CI-CD-atScale.report-out.pdf"
      - title: "Tools and GPU runtimes: initialization and monitoring of threads (Crystal Bay)"
        author: Mellor-Crummey
        slides: "working_groups/2022-06-STW-Tools-GPU-Runtimes-WG.pdf"
