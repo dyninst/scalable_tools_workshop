@@ -498,7 +498,7 @@ sessions:
        author: Todd Gamblin
        affiliation: Lawrence Livermore National Lab
        length: 1800
-       slides: 
+       slides: "spack-scalable-tools-solving.pdf"
        abstract: |
           The number of ways that software can be built and composed is not getting
           any smaller. These days every software language, ecosystem, and developer
