@@ -569,7 +569,7 @@ sessions:
        slides:
      - title: "Tools and GPU runtimes: initialization and monitoring of threads (Crystal Bay)"
        author: Mellor-Crummey
-       slides:
+       slides: "working_groups/2022-06-STW-Tools-GPU-Runtimes-WG.pdf"
      - title:  (Agate Bay)
        author: 
        slides:
