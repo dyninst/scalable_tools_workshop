@@ -545,7 +545,6 @@ sessions:
      - title: "Community-wide benchmarking effort (Agate Bay)"
        author: Danalis
        slides: "working_groups/danalis-benchmarking.pdf"
-
   - days: tuesday
     time: 16:00pm
     title: Working Groups Session 2
@@ -559,9 +558,9 @@ sessions:
      - title: Spack, tools, and dependencies (Agate Bay)
        author: Gamblin
        slides: "working_groups/spack-scalable-tools-wg-outbrief.pdf"
-    - title: "Improve DWARF parallelism (small group)"
-      author: Woodard
-      slides: 
+     - title: "Improve DWARF parallelism (small group)"
+       author: Woodard
+       slides: 
   - days: wednesday
     time: 08:30am
     title: Working Groups Session 3
