@@ -541,7 +541,7 @@ sessions:
        slides: "working_groups/amd-gpu-dev-breakout.pdf"
      - title: "High-level analysis and visualization (Crystal Bay)"
        author: Liu
-       slides:
+       slides: "working_groups/High-level_Data_Analysis_and_Visualization.pdf"
      - title: "Community-wide benchmarking effort (Agate Bay)"
        author: Danalis
        slides:
