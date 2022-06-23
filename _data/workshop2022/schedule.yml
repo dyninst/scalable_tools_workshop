@@ -586,7 +586,7 @@ sessions:
        slides:
      - title: Noise resilience or mitigation for HPC measurements & noise generation (Agate Bay)
        author: Mohr
-       slides:
+       slides: "working_groups/ToolsWS-2022-Noise-Breakout.pdf"
 
   - days: wednesday
     time: 13:30pm
