@@ -560,7 +560,7 @@ sessions:
        slides: "working_groups/spack-scalable-tools-wg-outbrief.pdf"
      - title: "Improve DWARF parallelism (small group)"
        author: Woodard
-       slides: 
+       slides: "working_groups/Parallel_DWARF_Parsing_Outbrief.pdf"
   - days: wednesday
     time: 08:30am
     title: Working Groups Session 3
@@ -581,7 +581,7 @@ sessions:
     talks:
      - title: "Needs and requests for tools and tool interfaces: libthread_db, libgotcha, autotools, DWARF6 (Emerald Bay)"
        author: Woodard, Wesarg
-       slides:
+       slides: "working_groups/Tool_Needs_outbrief.pdf"
      - title:  (Crystal Bay)
        author:
        slides:
