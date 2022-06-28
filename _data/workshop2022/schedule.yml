@@ -602,7 +602,7 @@ sessions:
        slides: "working_groups/breakout_Integrating_Tools_With_sys-sage.pdf"
      - title: "Modern MPI and tools: malleability and sessions (Crystal Bay)"
        author: Schulz
-       slides:
+       slides: "working_groups/2022-06-toolsws-mpioutbrief.pdf"
      - title: ABI (Agate Bay)
        author: Woodard, Legendre
        slides:
