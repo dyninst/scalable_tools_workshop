@@ -605,7 +605,7 @@ sessions:
        slides: "working_groups/2022-06-toolsws-mpioutbrief.pdf"
      - title: ABI (Agate Bay)
        author: Woodard, Legendre
-       slides: "working_groups/ABI_Working_Group.pptx"
+       slides: "working_groups/ABI_Working_Group.pdf"
 
   - days: thursday
     time: 10:30am
