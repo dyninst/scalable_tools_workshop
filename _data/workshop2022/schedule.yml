@@ -559,7 +559,7 @@ sessions:
        author: Gamblin
        slides: "working_groups/spack-scalable-tools-wg-outbrief.pdf"
      - title: "Improve DWARF parallelism (small group)"
-       author: Woodard
+       author: Bolo (scribe/slides by Woodard)
        slides: "working_groups/Parallel_DWARF_Parsing_Outbrief.pdf"
   - days: wednesday
     time: 08:30am
