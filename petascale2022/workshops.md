@@ -8,6 +8,7 @@ The Scalable Tools Workshop/Petascale Tools Workshop started as part of the Cent
 Software, as one of its series of four summer workshops. The programs of all past workshops, going back to the initial CScADS
 series, are below:
 
+* [Petascale Tools Workshop 2020](http://www.paradyn.org/petascale2020)
 * [Petascale Tools Workshop 2019](http://www.paradyn.org/petascale2019)
 * [Petascale Tools Workshop 2018](http://www.paradyn.org/petascale2018)
 * [Petascale Tools Workshop 2017](http://www.paradyn.org/petascale2017)
