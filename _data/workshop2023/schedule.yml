@@ -1,0 +1,266 @@
+---
+sessions:
+  - title: "Breakfast"
+    time: 07:30am
+    days:
+      - monday
+      - tuesday
+      - thursday
+    class: sbreak
+  - title: "Breakfast"
+    time: 07:30am
+    days:
+      - wednesday
+    class: sbreak
+  - title: "Lunch"
+    time: 12:00pm
+    days:
+      - monday
+      - tuesday
+      - wednesday
+      - thursday
+    class: sbreak
+  - title: "Reception (Mountain Deck)"
+    time: 17:30pm
+    days:
+      - sunday
+      - tuesday
+    class: sbreak
+  - title: "Reception (Mountain Deck)"
+    time: 18:00pm
+    days:
+      - monday
+    class: sbreak
+  - title: "Reception (Mountain Deck)"
+    time: 18:30pm
+    days:
+      - wednesday
+    class: sbreak
+  - title: "Dinner"
+    time: 18:30pm
+    days:
+      - sunday
+    class: sbreak
+  - title: "Dinner"
+    time: 19:00pm
+    days:
+      - monday
+    class: sbreak
+  - title: "Dinner"
+    time: 18:30pm
+    days:
+      - tuesday
+    class: sbreak
+  - title: "Dinner"
+    time: 19:30pm
+    days:
+      - wednesday
+    class: sbreak
+  - title: Break
+    time: 10:00am
+    days:
+      - monday
+      - tuesday
+      - wednesday
+      - thursday
+    class: sbreak
+  - title: Break
+    time: 15:00pm
+    days:
+      - monday
+    class: sbreak
+  - title: Break
+    time: 14:30pm
+    days:
+      - tuesday
+    class: sbreak
+
+  - title: Talks Session 1
+    days: monday
+    time: 08:30am
+    talks:
+      - title:
+        author:
+        affiliation:
+        length: 1800
+        slides:
+        abstract:
+      - title:
+        author:
+        affiliation:
+        length: 1800
+        slides:
+        abstract:
+      - title:
+        author:
+        affiliation:
+        length: 1800
+        slides:
+        abstract:
+
+  - title: Talks Session 2
+    days: monday
+    time: 10:30am
+    talks:
+      - title:
+        author:
+        affiliation:
+        length: 1800
+        slides:
+        abstract:
+      - title:
+        author:
+        affiliation:
+        length: 1800
+        abstract:
+      - title:
+        author:
+        affiliation:
+        length: 1800
+        slides:
+        abstract:
+
+  - title: Talks Session 3
+    days: monday
+    time: 13:30pm
+    talks:
+      - title:
+        author:
+        affiliation:
+        length: 1800
+        slides:
+        abstract:
+      - title:
+        author:
+        affiliation:
+        length: 1800
+        slides:
+        abstract:
+      - title:
+        author:
+        affiliation:
+        length: 1800
+        slides:
+        abstract: |
+
+  - title: Talks Session 4
+    days: monday
+    time: 15:30pm
+    talks:
+      - title:
+        author:
+        affiliation:
+        length: 1800
+        slides:
+        abstract: |
+      - title:
+        author:
+        affiliation:
+        length: 1800
+        slides:
+        abstract:
+      - title:
+        author:
+        affiliation:
+        length: 1800
+        slides:
+        abstract:
+      - title:
+        author:
+        affiliation:
+        length: 1800
+        slides:
+        abstract:
+
+  - title: Talks Session 5
+    days: tuesday
+    time: 08:30am
+    talks:
+      - title:
+        author:
+        affiliation:
+        length: 1800
+        slides:
+        abstract:
+      - title:
+        author:
+        affiliation:
+        length: 1800
+        slides:
+        abstract:
+      - title:
+        author:
+        affiliation:
+        length: 1800
+        slides:
+        abstract:
+
+  - title: Talks Session 6
+    days: tuesday
+    time: 10:30am
+    talks:
+      - title:
+        author:
+        affiliation:
+        length: 1800
+        slides:
+        abstract:
+      - title:
+        author:
+        affiliation:
+        length: 1800
+        slides:
+        abstract:
+      - title:
+        author:
+        affiliation:
+        length: 1800
+        slides:
+        abstract:
+
+  - days: tuesday
+    time: 13:30pm
+    title: Working Groups Creation
+
+  - days: tuesday
+    time: 15:00pm
+    title: Working Groups Session 1
+    talks:
+
+  - days: tuesday
+    time: 16:00pm
+    title: Working Groups Session 2
+    talks:
+
+  - days: wednesday
+    time: 08:30am
+    title: Working Groups Session 3
+    talks:
+
+  - days: wednesday
+    time: 10:30am
+    title: Working Groups Session 4
+    talks:
+
+  - days: wednesday
+    time: 13:30pm
+    title: Informal Small Group Discussions
+
+  - days: thursday
+    time: 08:30am
+    title: Working Groups Session 5
+    talks:
+
+  - days: thursday
+    time: 1:30pm
+    title: Departure
+    class: sbreak
+
+  - days: sunday
+    time: 12:00pm
+    title: Arrival
+    class: sbreak
+
+  - days: thursday
+    time: 10:30am
+    title: Working Group Outbriefs (Mountain Room)

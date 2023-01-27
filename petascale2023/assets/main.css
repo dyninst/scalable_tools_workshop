@@ -1,0 +1,191 @@
+table.banner {
+	width: 100%;
+	height: 80px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+}
+td.logo {
+	vertical-align: top;
+	width:200px;
+	height:77px;
+}
+img.logo {
+	width:200px;
+}
+
+
+table a:link, table a:visited {
+	color: #DC143C;
+}
+table th a:link {
+	color: #047;
+}
+table a:active {
+	color: #000;
+}
+
+table.prices {
+    border: 1px solid #87CEFA;
+	text-align: right;
+	border-collapse: collapse;
+}
+table.prices td,th {
+	border: 1px solid #87CEFA;
+	margin: 10px;
+}
+
+body,td {
+	font-family: 'Times', serif;
+}
+
+table.sitepages {
+	text-align: left;
+	background-color: #F0F8FF;
+	width: 100%;
+	height: 28px;
+	border: 1px solid #87CEFA;
+}
+table.sitepages tr {
+	border: 1px solid #87CEFA;
+}
+table.sitepages td {
+	vertical-align: center;
+	text-align: center;
+	width: 10%;
+	white-space: nowrap;
+	margin: 0.3em;
+   border-left: 1px solid #87CEFA;
+}
+table.sitepages td.internall { 
+	vertical-align: center;
+   text-align: center;
+	width: 6%;
+	white-space: nowrap;
+   border-left: 1px solid #87CEFA;
+}
+table.sitepages td.internalr { 
+	vertical-align: center;
+   text-align: center;
+	width: 6%;
+	white-space: nowrap;
+   border: none
+}
+table.sitepages td.active {
+	background-color: #87CEFA;
+	font-weight: bold;
+}
+table.sitepages td.activebg {
+	background-color: #87CEFA;
+}
+
+div.mainbody {
+	margin-left: 148px;
+	width: 85%;
+	margin-top: 40px;
+}
+img.leftdecoration {
+	float: left;
+	margin-top: 77px;
+	margin-left: 5px;
+}
+
+h1 {
+	text-align: center;
+	font-size: +3;
+	font-weight: bold;
+}
+h3 {
+	text-align: center;
+	font-size: +1;
+	font-weight: bold;
+}
+
+table.pdschedule { 
+   width: 100%;
+	vertical-align: center;
+	border: 1px solid #87CEFA;
+	border-collapse: collapse;
+}
+table.pdschedule td, table.pdschedule th {
+	text-align: left;
+	border: 1px solid #87CEFA;
+	margin: 10px;
+}
+th.time, tr.time, td.time {
+	width: 18%;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+div.time {
+	visibility: hidden;
+	width: 0%;
+	height: 0%;
+}
+
+td.event {
+	vertical-align: top;
+}
+td.event > table {
+	width: 100%;
+	border: none;
+}
+td.event tr, td.event td {
+	border: none;
+}
+td.title {
+	width: 90%;
+	font-style: italic;
+	font-weight: bold;
+}
+td.author {
+	width: 90%;
+}
+td.abstract, td.slides {
+	width: 10%;
+	align: center;
+}
+.ampm {
+	font-variant: small-caps;
+}
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+	color: #DC143C;
+	text-decoration: underline;
+}
+
+.abstract_text {
+	visibility: hidden;
+	width: 400px;
+	background-color: white;
+	color: black;
+	text-align: left;
+	padding: 5px;
+	border-radius: 0px;
+	border: solid;
+	border-color: #87CEFA;
+	position: absolute;
+	z-index: 1;
+	top: -5px;
+	right: 105%
+}
+
+.visible {
+	visibility: visible;
+}
+
+tr.sbreak {
+	text-align: left;
+	background-color: rgb(144, 238, 144);
+}
+tr.sbreak th {
+   	font-style: italic;
+}
+
+img[alt=HikeGenevieve]{
+	width: 1152px;
+	height:768px;
+}
