@@ -2,12 +2,12 @@
 layout: info
 title: Registration
 ---
-Scalable Tools Workshop 2022 will be held at the
+Scalable Tools Workshop 2023 will be held at the
 beautiful <a href="http://www.granlibakken.com">Granlibakken Resort</a> in Lake Tahoe, 
 California.
 
 <b>[Registration](https://www.secure.granlibakken.net/conference/forms/TOOLS23_form.asp)</b>: This will 
-be handled directly by the resort (enter group code "TOOLS23"). Note that the cost is all-inclusive, including meeting registration, lodging, and meals.
+be handled directly by the resort. Note that the cost is all-inclusive, including meeting registration, lodging, and meals.
 
 Once you have registered with Granlibakken, please allow them 1 - 2 business days to process, at which point you should get an email with your confirmation number. If you do not receive a confirmation, you can call them at (530) 583-4242. 
 
