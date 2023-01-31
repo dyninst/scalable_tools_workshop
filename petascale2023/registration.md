@@ -36,7 +36,7 @@ Costs are as follows:
 <p>
 Meals, lodging, and workshop attendance are covered by the registration fee.
 If you are traveling with companions who are not attending the workshop,
-their meals and lodging will cost an additional $84 per person per day.
+their meals and lodging will cost an additional $126.86 per person per day.
 If you are staying beyond the workshop dates, you will need to call Granlibakken
 to make arrangements.
 </p>
