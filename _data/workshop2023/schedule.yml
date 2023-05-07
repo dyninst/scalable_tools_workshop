@@ -79,144 +79,487 @@ sessions:
     days: monday
     time: 08:30am
     talks:
-      - title:
-        author:
-        affiliation:
-        length: 1800
-        slides:
-        abstract:
-      - title:
-        author:
-        affiliation:
-        length: 1800
-        slides:
-        abstract:
-      - title:
-        author:
-        affiliation:
-        length: 1800
-        slides:
-        abstract:
+     - title: What's New in Dyninst?
+       author: Tim Haines, James Kupsch, Josef (Bolo) Burger
+       affiliation: University of Wisconsin-Madison
+       length: 1800
+       slides: 
+       abstract: |
+          Binary analysis and instrumentation is a key technology to support
+          performance profiling, debugging, testing, software security, and
+          auditing. Dyninst is an open source suite of libraries providing binary
+          analysis, instrumentation and control capabilities across several hardware
+          architectures with an architecture-independent abstraction. It supports
+          both dynamic (runtime) and static (binary rewriting) instrumentation of a
+          binary program. Dyninst is opportunistic in that it uses symbol and debug
+          information when it is available, but can operate without it, even on
+          stripped binaries. Dyninst's analysis capabilities produce a control- and
+          data-flow analysis of the program, identifying functions, loops, and basic
+          blocks in the code. Dyninst allows fine-grained program instrumentation
+          and modification based on a high-level (control flow graph) abstraction of
+          a program.
+          <p>
+          Dyninst is structured as a suite of toolkit libraries, providing
+          architecture independent interfaces to features such as instruction
+          decoding, control flow analysis, data flow analysis, code generation, code
+          patching (splicing) and symbol table processing. On the dynamic side, it
+          also includes process control and stack walking support.
+          <p>
+          Dyninst has been used as the foundation for products from companies like
+          Cray and Red Hat, as the basis for tools from national labs and research
+          groups, and as a key component in hundreds of academic research projects.
+          It continues to have the dual role of providing a foundation for new
+          instrumentation and analysis research combined with support for key
+          applications of binary analysis and instrumentation.
+          <p>
+          Since the last workshop in 2022, Dyninst has seen myriad improvements to
+          functionality and code quality. Examples include support for AMD MI100 and
+          MI200 GPUs; updates to support the latest compilers, language standards,
+          libraries, and build tools; improvements to testing; and a wealth of
+          correctness, performance, and usability enhancements discovered via user
+          feedback, bug reports, our expanded test suites, and improved release
+          testing. In this talk, we will provide a brief tutorial on how you can use
+          Dyninst to take advantage of its capabilities and describe its new
+          features and upcoming plans.
+          <p>
+          In this talk, we will review the features and structure of Dyninst,
+          summarize the new developments, and present some practical examples of how
+          you can use it.
+     - title: "Score-P: Beyond the Infinite HPC domain"
+       author: Bert Wesarg, Bill Williams
+       affiliation: TU Dresden
+       length: 1800
+       slides: 
+       abstract: |
+          Score-P is a well-established framework for instrumentation and
+          measurement of parallel codes. It has its origin in the classic HPC
+          field. The HPC field is characterized by providing tightly coupled
+          communication methods and shared file systems to applications, which
+          Score-P also profits from. These are, and always will be, key features
+          for HPC applications and measurement frameworks to achieve exceptional
+          performance and scale on HPC systems. However, in recent years, other
+          distributed frameworks have entered the HPC domain, which do not rely
+          on these properties, but require immense computing power and energy
+          consumption. Providing state-of-the-art performance analysis tools
+          from the HPC community to these new communities will be very
+          beneficial for them. Examples of such frameworks are common machine
+          learning/AI frameworks like PyTorch or TensorFlow; or Java-based
+          frameworks such as Hadoop.
+          <p>
+          We are in the process of extending Score-P to provide its own
+          distributed communication layer via a client/server model based on
+          TCP. In contrast with the common MPI communication used in HPC
+          application, where Score-P uses the same communication layer as the
+          application, this communication layer will be used only by Score-P.
+          This allows it to support future frameworks, independent of what new
+          communication methods those frameworks may use. We foresee a wide
+          range of applications for such models, including, but not limited to
+          commercial cloud infrastructure, embedded development, and lastly
+          Jupyter Notebooks.
+     - title: "HPCToolkit: Experiences at Exascale"
+       author: Jonathan Anderson
+       affiliation: Rice University
+       length: 1800
+       slides: 
+       abstract: |
+          With the arrival of Frontier, we have successfully used HPCToolkit to
+          collect instruction-level call path profiles and traces for GPU-accelerated
+          programs at exascale. To date, we have measured the performance of 65K MPI
+          ranks of GPU-accelerated LAMMPS running for 15 minutes. HPCToolkit collected
+          5.5TB of CPU and GPU traces for this execution. Out-of-core strategies for
+          data analysis and interactive presentation recently added to HPCToolkit make
+          working with data at this scale practical. This talk will highlight these
+          strategies and include a live demo.
 
   - title: Talks Session 2
     days: monday
     time: 10:30am
     talks:
-      - title:
-        author:
-        affiliation:
-        length: 1800
-        slides:
-        abstract:
-      - title:
-        author:
-        affiliation:
-        length: 1800
-        abstract:
-      - title:
-        author:
-        affiliation:
-        length: 1800
-        slides:
-        abstract:
+     - title: Interactive Visualization of Binary Code for Investigating Compiler Optimizations
+       author: Shadmaan Hye or Kate Isaacs
+       affiliation: University of Utah
+       length: 1800
+       slides: 
+       abstract: |
+          Investigating compiler optimizations requires navigating thousands of
+          lines of disassembly and matching them to their generating source code.
+          To alleviate this problem, we develop a web-based tool to interactive
+          visual source and disassembly in a more intuitive way. Our tool
+          incorporates automated analysis through the Dyninst library to present
+          translations in the disassembly such as re-naming registers by variables,
+          identifying functions, and displaying the structure of loops. We provide
+          linked selection between source and disassembly, multiple source code
+          files, and multiple disassembly interfaces to better support analysis
+          processes. We are actively developing these interfaces to improve manual
+          analysis of compiler optimizations.
+     - title: Interactive Performance Visualization in Notebooks
+       author: Connor Scully-Allison
+       affiliation: University of Utah
+       length: 1800
+       slides: 
+       abstract: |
+          In this talk, I will discuss the motivations and benefits for designing
+          visualizations specifically to be embedded in literate programming
+          environments like Jupyter notebooks. More specifically, I will detail
+          how this intentional approach to visual + scripting design aids
+          performance analysis in particular and demonstrate examples of
+          visualizations I have developed for this purpose. I will also discuss
+          some of the implementation details of loading these visualizations and
+          passing data between the code used to render the visualization
+          (Javascript) and the notebook's native language (Python). Finally, I
+          will discuss some current and future directions of work in this space.
+     - title: Towards Agile Development of High Performance Deep Learning Operators
+       author: Keren Zhou
+       affiliation: Open AI
+       length: 1800
+       slides: 
+       abstract: |
+          Deep learning programming models, such as TensorFlow and PyTorch,
+          facilitate the development of innovative artificial intelligence
+          applications. These models contain comprehensive libraries, which allow
+          for efficient data manipulation, algorithm implementation, and model
+          training. Nevertheless, these high-level programming models can sometimes
+          fall short regarding computational efficiency. Low-level programming
+          languages, such as CUDA and HIP, are often better for exploiting
+          hardware-specific features, which can improve performance. However, to
+          create custom operators - individual components of an algorithm -
+          developers must put in considerable effort. In this talk, we introduce
+          Triton, a Python-like language, specifically designed to streamline the
+          development of deep learning operators. We will discuss the reasons
+          behind Triton's development, its grammar, and the progress we have made so
+          far. Triton differs from existing kernel programming languages in that it
+          allows users to write understandable and high-performance GPU kernels.
+          Triton has already been used in many popular open-source projects, such
+          as PyTorch, PyTorch-Geometrics, and DeepSpeed.
 
   - title: Talks Session 3
     days: monday
     time: 13:30pm
     talks:
-      - title:
-        author:
-        affiliation:
-        length: 1800
-        slides:
-        abstract:
-      - title:
-        author:
-        affiliation:
-        length: 1800
-        slides:
-        abstract:
-      - title:
-        author:
-        affiliation:
-        length: 1800
-        slides:
-        abstract: |
+     - title: Conquering Noise with Hardware Counters on HPC Systems
+       author: Felix Wolf
+       affiliation: TU Darmstadt
+       length: 1800
+       slides: 
+       abstract: |
+          With increasing system performance and complexity, it is becoming
+          increasingly crucial to examine the scaling behavior of an application
+          and thus determine performance bottlenecks at early stages.
+          Unfortunately, modeling this trend is a challenging task in the presence
+          of noise, as the measurements can become irreproducible and misleading,
+          thus resulting in strong deviations from the actual behavior. While
+          noise impacts the application runtime, it has little to no effect on
+          some hardware counters like floating-point operations. However,
+          selecting the appropriate counters for performance modeling demands some
+          investigation. In this paper, we perform a noise analysis on various
+          hardware counters. Using our noise generator, we add additional noise on
+          top of the system noise to inspect the counters' variability. We perform
+          the analysis on five systems with three applications in the presence of
+          various noise patterns and categorize the counters across the systems
+          according to their noise resilience.
+     - title: PAPI 7.0 and Beyond
+       author: Anthony Danalis
+       affiliation: University of Tennessee, Knoxville
+       length: 1800
+       slides: 
+       abstract: |
+          PAPI 7.0 marks a major update in the Performance API. With this
+          release, PAPI extends the functionality it provides to its users
+          further than ever before. Performance events and metrics originating
+          in GPUs from all three major vendors are now fully supported through
+          the same PAPI_start/PAPI_stop API. A brand new "sysdetect"
+          functionality has been added, which is accessible to the users through
+          both a new API and a new command line utility. Using this
+          functionality, a user can detect a machine's architectural details,
+          including the hardware's topology, specific aspects of the memory
+          hierarchy, the number and type of GPUs and CPUs, etc. This paves the
+          way for complex applications and runtime systems to programmatically
+          discover the environment in which they are running and adapt their
+          behavior accordingly. The Software Defined Events (SDE) functionality
+          developed by PAPI has now become a stand-alone library. It offers
+          multiple features that extend the notion of an event beyond the simple
+          counter found in hardware devices. Using such events in conjunction
+          with traditional counters offers application writers and tool
+          developers opportunities for new types of analyses but also creates
+          challenges in integrating the newly available information into
+          existing performance analysis tools.
+          <p>
+          In this talk, we will discuss several of these new features, present
+          findings related to the analysis of performance data and the effect of
+          noise in performance counters, and initiate discussions with other
+          tool developers on how to better integrate novel SDEs into their
+          tools.
+     - title: Detecting/Analyzing Unstable Performance Behavior
+       author: William Jalby
+       affiliation: University Paris SACLAY/UVSQ
+       length: 1800
+       slides: 
+       abstract: |
+          Typically, the same loop or code region is executed billions of time
+          during a whole application execution. Its execution time may vary
+          significantly between each separate invocation (instance). However,
+          classical (sampling) measurement techniques aggregate individual measurements
+          making impossible to detect such “unstable” behavior across various instances.
+          We will show how MAQAO/ONEVIEW provide mechanisms for detecting such
+          instabilities and more generally how sampling and tracing techniques are
+          used to improve measurement quality.
 
   - title: Talks Session 4
     days: monday
     time: 15:30pm
     talks:
-      - title:
-        author:
-        affiliation:
-        length: 1800
-        slides:
-        abstract: |
-      - title:
-        author:
-        affiliation:
-        length: 1800
-        slides:
-        abstract:
-      - title:
-        author:
-        affiliation:
-        length: 1800
-        slides:
-        abstract:
-      - title:
-        author:
-        affiliation:
-        length: 1800
-        slides:
-        abstract:
+     - title: Efficient Branch Divergence Analysis Using Fine-Grained Binary Instrumentation on the AMD GPU
+       author: Hsuan-Heng Wu
+       affiliation: University of Wisconsin-Madison
+       length: 1800
+       slides: 
+       abstract: |
+          The instrumentation of binary code is a potent technique that has
+          widespread applications, including the collection of fine-grained
+          execution data for optimizing application performance. Our team's
+          experience with the Dyninst binary analysis and instrumentation toolkits
+          has demonstrated that performance data can be gathered efficiently for
+          CPUs. We are now leveraging these techniques to gather performance data
+          for AMD GPUs, thereby enhancing our understanding of their performance
+          characteristics.
+          <p>
+          We begin by providing a brief introduction to the AMD ROCM environment
+          and the necessary steps to support static GPU binary instrumentation for
+          HIP applications. Subsequently, we discuss our strategies for reducing
+          instrumentation overhead and outline the limitations of our approach.
+          Finally, we evaluate our instrumentation overhead for collecting
+          branch-divergence information (which can serve as an indicator of GPU
+          hardware utilization)and benchmark it against that of NVIDIA's NVBIT and
+          Intel's GTPIN, providing a comparative analysis.
+     - title: minitest - a Framework for Testing a GPU Performance Tool
+       author: Marty Itzkovitz
+       affiliation: Rice University
+       length: 1800
+       slides: 
+       abstract: |
+          One of the challenges in developing GPU performance tools is measuring
+          offloading on the GPU under various programming models, understanding the
+          details of the offloading, including data copies, kernel launches and
+          callstack attributions, and correlating those details with the CPU
+          behavior. To address that challenge, we have developed minitest, a
+          framework for testing HPCToolkit's GPU performance measurements. The
+          framework consists of various scripts, and a set of directories for
+          building a set of isomorphic applications whose behavior is well-understood.
+          <p>
+          Each application consists of a front-end and a back-end, compiled and
+          linked with a particular compiler.  The front-ends are either an
+          OpenMP-threaded main program, a Posix-threaded main program, or a
+          single-threaded main program.  The back-ends support OpenMP-offloading to
+          a GPU, vendor-specific offloading to a GPU, or non-offloading
+          implementations. The applications are represented by a directory in a
+          GPU-specific subdirectory of minitest, named by
+          <front-end>.<back-end>.<compiler>. Each such directory contains only a
+          Makefile. The GPU kernels are defined in an include file, included in all
+          back-ends, thus ensuring that all the applications behave identically.
+          <p>
+          The minitest script takes a list of directories to traverse, and a list of
+          tests to run in each directory. Each test is described by a
+          data-descriptor, giving the number of worker-threads to invoke, and items
+          specifying the arbitrary combination of data-collection options desired.
+          As each test runs, it creates a log file, a measurements directory
+          generated by hpcrun, and a database directory containing the results, as
+          processed by hpcstruct and hpcprof.  Those files and directories are all
+          named with the data-descriptor, and each step of the data collection and
+          processing is checked for errors. A mechanism is available to run each
+          test under any of a list of GPU vendor versions.
+     - title: Heterogeneous HPC Performance Analysis with trace Compass
+       author: Sebastien Darche  [there is an accent over the first "e" in Sebastien]
+       affiliation: Polytechnique Montréal
+       length: 1800
+       slides: 
+       abstract: |
+          The DORSAL group at Polytechnique Montréal, in collaboration with
+          Ericsson, Ciena, AMD and EfficiOS, is conducting research on tracing,
+          profiling, debugging and performance analysis tools, for large Cloud and
+          HPC distributed applications. We will present our work on LTTng, Theia
+          and Trace Compass, including support for analyzing the performance of HPC
+          languages and frameworks such as MPI, OpenCL and HIP. Our work focuses on
+          Trace Compass scalability, to handle large traces from hundreds or
+          thousands of nodes, and low-overhead GPU tracing and profiling, by
+          interfacing with ROCm.
 
   - title: Talks Session 5
     days: tuesday
     time: 08:30am
     talks:
-      - title:
-        author:
-        affiliation:
-        length: 1800
-        slides:
-        abstract:
-      - title:
-        author:
-        affiliation:
-        length: 1800
-        slides:
-        abstract:
-      - title:
-        author:
-        affiliation:
-        length: 1800
-        slides:
-        abstract:
+     - title: "Pipit: Enabling Programmatic Analysis of Parallel Execution Traces"
+       author: Abhinav Bhatele [ REQUEST TUESDAY ]
+       affiliation: University of Maryland
+       length: 1800
+       slides: 
+       abstract: |
+          Performance analysis is an important part of the oft-repeated, iterative
+          process of performance tuning during the development of parallel programs.
+          Per-process per-thread traces (detailed logs of events with timestamps)
+          enable in-depth analysis of parallel program execution to identify various
+          kinds of performance issues.  Often times, trace collection tools provide
+          a graphical tool to analyze the trace output. However, these GUI-based
+          tools only support specific file formats, are difficult to scale when the
+          data is large, limit data exploration to the implemented graphical views,
+          and do not support automated comparisons of two or more datasets. In this
+          talk, we present a programmatic approach to analyzing parallel execution
+          traces by leveraging pandas, a powerful Python-based data analysis
+          library. We have developed a Python library, Pipit, on top of pandas that
+          can read traces in different file formats (OTF2, HPCToolkit, Projections,
+          Nsight, etc.) and provide a uniform data structure in the form of a pandas
+          DataFrame. Pipit provides operations to aggregate, filter, and transform
+          the events in a trace to present the data in different ways. We also
+          provide several functions to quickly identify performance issues in
+          parallel executions.
+     - title: Rapid and Effective Load-Level Memory Trace Analysis
+       author: Nathan Tallent
+       affiliation: PNNL
+       length: 1800
+       slides: 
+       abstract: |
+          A challenge of memory trace analysis is combining detailed analysis and
+          low overhead measurement. Currently, hardware/software-based analysis of
+          load-level sequences easily incurs time slowdowns of 100×. We will discuss
+          MemGaze, a tool for low-overhead, high-resolution memory trace analysis.
+          MemGaze uses Intel's Processor Tracing (PT) instruction ptwrite to collect
+          sampled and compressed memory address traces for load-level,
+          sequence-aware analysis of data reuse. We describe multi-resolution
+          analysis for locations vs. operations, accesses vs. spatio-temporal reuse,
+          and reuse (distance, rate, volume) vs. access patterns. Both trace size
+          and resolution are controllable.
+     - title: "DeepProf: Interpreting Performance Profiles with Deep Learning"
+       author: Qidong Zhao
+       affiliation: NC State University
+       length: 1800
+       slides: 
+       abstract: |
+          Nowadays, profilers have been adopted as part of the software stack in
+          most system environments, ranging from embedded systems and laptops to
+          supercomputers and clouds. However, even for experts, leveraging
+          profilers to identify actionable optimization opportunities in program
+          source code is challenging. The main reason is that profiles are typically
+          disconnected from program semantics; users need substantial manual efforts
+          to map profiles to program source code and identify actionable
+          optimization opportunities for source code refactoring.
+          <p>
+          In this talk, we introduce DeepProf, the first end-to-end tool that
+          combines performance profiles and program semantics with a deep learning
+          approach. Our key idea is to associate code summary, which is obtained
+          from deep learning models, with profiles to understand performance
+          inefficiencies better. DeepProf supports multiple profilers, various
+          programming languages, and different deep learning models. We evaluate
+          DeepProf with microbenchmarks and production applications, showing that
+          DeepProf can give an extra dimension of information to facilitate
+          performance analysis and optimization. As a practical tool, DeepProf has
+          been implemented as a Visual Studio Code (vscode) extension, which can be
+          directly installed via the vscode marketplace.
 
   - title: Talks Session 6
     days: tuesday
     time: 10:30am
     talks:
-      - title:
-        author:
-        affiliation:
-        length: 1800
-        slides:
-        abstract:
-      - title:
-        author:
-        affiliation:
-        length: 1800
-        slides:
-        abstract:
-      - title:
-        author:
-        affiliation:
-        length: 1800
-        slides:
-        abstract:
+     - title: E4S
+       author: Sameer Shende
+       affiliation: University of Oregon / Paratools
+       length: 1800
+       slides: 
+       abstract: |
+          The Extreme-scale Scientific Software Stack (E4S) [https://e4s.io] is a
+          curated, Spack based software distribution of 100+ HPC and AI/ML
+          packages. The Spack package manager is a core component of E4S and it is
+          a platform for product integration and deployment of performance
+          evaluation tools such as TAU, HPCToolkit, DyninstAPI, PAPI, etc. and
+          supports both bare-metal and containerized deployment for CPU and GPU
+          platforms. E4S provides a Spack binary cache and a set of base and
+          full-featured container images with vendor runtimes to support GPU
+          architectures from NVIDIA, Intel, and AMD. E4S is a community effort to
+          provide open-source software packages for developing, deploying, and
+          running scientific applications and tools on HPC platforms. It has built
+          a comprehensive, coherent software stack that enables application
+          developers to productively develop highly parallel applications that
+          effectively target diverse exascale architectures. E4S supports
+          commercial cloud platforms, including AWS with multiple MPI
+          implementations and containers with a Remote Desktop DCV application
+          that simplifies performance tool integration and deployment. It also
+          includes a container launch tool (e4s-cl) that allows binary
+          distribution of applications by substituting MPI in the containerized
+          application with the system MPI. It features tools to customize base
+          container images provided by E4S by adding packages using Spack and OS
+          package managers. These containers are available for download from the
+          E4S website and DockerHub. This talk will describe performance tool and
+          runtime systems integration issues with GPU runtimes in E4S and
+          instrumentation APIs exposed for performance evaluation tools.
+          <p>
+          Bio:
+          <p>
+          Sameer Shende serves as a Research Professor and the Director of the
+          Performance Research Laboratory at the University of Oregon and the
+          President and Director of ParaTools, Inc. (USA) and ParaTools, SAS
+          (France). He serves as the lead developer of the Extreme-scale
+          Scientific Software Stack (E4S), TAU Performance System, Program
+          Database Toolkit (PDT), and HPC Linux. His research interests include
+          scientific software stacks, performance instrumentation, compiler
+          optimizations, measurement, and analysis tools for HPC. He leads the
+          SDK project for the Exascale Computing Project (ECP), in the
+          Programming Models and Runtime (PMR) area.
+     - title: "Thicket: Seeing the Performance Experiment Forest for the Individual Run Trees"
+       author: Stephanie Brink
+       affiliation: Lawrence Livermore National Lab
+       length: 1800
+       slides: 
+       abstract: |
+          Thicket is an open-source Python toolkit for Exploratory Data Analysis
+          (EDA) of multi-run performance experiments. It enables an understanding of
+          optimal performance configuration for large- scale application codes. Most
+          performance tools focus on a single execution (e.g., single platform,
+          single measurement tool, single scale). Thicket bridges the gap to
+          convenient analysis in multi- dimensional, multi-scale, multi-architecture,
+          and multi-tool performance datasets by providing an interface for
+          interacting with the performance data. We demonstrate the power and
+          flexibility of Thicket through two case studies, first with the open-source
+          RAJA Performance Suite on CPU and GPU clusters and another with a  large
+          physics simulation run on both a traditional HPC cluster and an AWS
+          Parallel Cluster instance.
+     - title: Acceptance Testing with Pavilion
+       author: Paul Ferrel
+       affiliation: Los Alamos National Lab
+       length: 1800
+       slides: 
+       abstract: |
+          Testing new clusters for operability, performance, and contract compliance,
+          otherwise known as acceptance testing, generally requires a great deal of
+          time and effort from a significant number of staff. Tests must be scripted,
+          made compatible with the new cluster, and calibrated for optimal
+          performance. Documentation for running these tests is typically lacking,
+          with expertise spread across disparate individuals who each have their own
+          methodologies and organization.  Everything from test build scripts to
+          results are in custom, incompatible formats, necessitating a substantial
+          amount of coordination when performing acceptance testing.
+          <p>
+          Pavilion 2.0 was developed with the goal of streamlining the day-to-day
+          operational and regression testing of production clusters at Los Alamos
+          National Laboratory (LANL). Pavilion provides a standardized, YAML config
+          based method which automatically handles many of the complicated and system
+          dependent tasks involved in building and running tests and performance
+          metrics. Results are gathered automatically into a common JSON format which
+          can be displayed or graphed directly via Pavilion, or fed into Splunk or
+          similar tools. Pavilion has allowed our team to drastically improve the
+          quality and quantity of the tests we run to ensure consistent functionality
+          of our systems.
+          <p>
+          With the advent of Crossroads, our new flagship Advanced Technology System
+          (ATS) and its associated smaller clusters, we sought to simplify our
+          acceptance testing processes as well.  While this has involved the addition
+          of new features in Pavilion itself, it has primarily entailed the
+          development of Pavilion test configs for a wide variety of performance and
+          functionality tests. By developing the test configurations under Pavilion,
+          we were able to take advantage of Pavilion’s ability to modularize the
+          process, allowing these tests to be easily adapted to each of the new
+          clusters. Moreover, the standardization under Pavilion makes it so that
+          anyone on our testing team can now build, run, and gather standardized
+          results for any of the acceptance tests.  These new test configurations
+          were written with more than just LANL in mind - they are intended for
+          incorporation into Pavilion itself as a library adaptable to any new cluster.
 
   - days: tuesday
     time: 13:30pm
