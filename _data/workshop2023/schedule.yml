@@ -332,7 +332,7 @@ sessions:
           hardware utilization)and benchmark it against that of NVIDIA's NVBIT and
           Intel's GTPIN, providing a comparative analysis.
      - title: minitest - a Framework for Testing a GPU Performance Tool
-       author: Marty Itzkovitz
+       author: Marty Itzkowitz
        affiliation: Rice University
        length: 1800
        slides: 
