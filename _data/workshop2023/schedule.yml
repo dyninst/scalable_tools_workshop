@@ -368,7 +368,7 @@ sessions:
           processing is checked for errors. A mechanism is available to run each
           test under any of a list of GPU vendor versions.
      - title: Heterogeneous HPC Performance Analysis with trace Compass
-       author: Sebastien Darche  [there is an accent over the first "e" in Sebastien]
+       author: Sébastien Darche
        affiliation: Polytechnique Montréal
        length: 1800
        slides: 
@@ -388,7 +388,7 @@ sessions:
     time: 08:30am
     talks:
      - title: "Pipit: Enabling Programmatic Analysis of Parallel Execution Traces"
-       author: Abhinav Bhatele [ REQUEST TUESDAY ]
+       author: Abhinav Bhatele
        affiliation: University of Maryland
        length: 1800
        slides: 
@@ -521,7 +521,7 @@ sessions:
           physics simulation run on both a traditional HPC cluster and an AWS
           Parallel Cluster instance.
      - title: Acceptance Testing with Pavilion
-       author: Paul Ferrel
+       author: Paul Ferrell
        affiliation: Los Alamos National Lab
        length: 1800
        slides: 
