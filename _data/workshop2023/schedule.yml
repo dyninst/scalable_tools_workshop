@@ -16,9 +16,13 @@ sessions:
     time: 12:00pm
     days:
       - monday
-      - tuesday
       - wednesday
       - thursday
+    class: sbreak
+  - title: "Lunch"
+    time: 12:30pm
+    days:
+      - tuesday
     class: sbreak
   - title: "Reception (Mountain Deck)"
     time: 17:30pm
@@ -589,6 +593,23 @@ sessions:
           results for any of the acceptance tests.  These new test configurations
           were written with more than just LANL in mind - they are intended for
           incorporation into Pavilion itself as a library adaptable to any new cluster.
+     - title: Levels of Detail in Performance Analysis. A RISCV Vector codesign case
+       author: Jesus Labarta
+       affiliation: Barcelona Supercomputer Center
+       length: 1800
+       slides: 
+       abstract: |
+          Computers, as with many other complex systems, can be described and
+          analyzed at many levels.  In these systems, it is desirable for tools to be
+          able to cover a huge dynamic range of granularities (scale) and to present
+          detailed metrics and advanced statistics at all those levels.  I will
+          present a tool infrastructure to analyze the behavior of applications on
+          the RISC-V long vector processor being designed in the EPI project. The
+          framework is used to derive co-design insight for steering the work of
+          application, compiler and RTL developers.  The infrastructure uses Paraver
+          to gain understanding on the behavior of  programs from the coarse grain of
+          user functions or runtime calls to the microscopic level of instruction
+          execution.
 
   - days: tuesday
     time: 13:30pm
