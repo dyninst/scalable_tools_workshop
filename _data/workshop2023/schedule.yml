@@ -382,6 +382,35 @@ sessions:
           Trace Compass scalability, to handle large traces from hundreds or
           thousands of nodes, and low-overhead GPU tracing and profiling, by
           interfacing with ROCm.
+     - title: "AMD ROCm Tools Progress: Profiler/Tracer, Debugger, OMPT and Binary Instrumentation Support"
+       author: Timour Paltashev
+       affiliation: Advanced Micro Devices
+       length: 1800
+       slides: 
+       abstract: |
+          ROCm is a brand name for the AMD ROCm open software platform or the ROCm
+          open platform ecosystem (includes hardware like FPGAs or other CPU/GPU
+          architectures). ROCm is focused on using AMD GPUs to accelerate
+          computational tasks such as machine learning, engineering workloads, and
+          scientific computing. ROCm supports a targeted set of hardware
+          configurations with CPU accelerated by GPUs and FPGAs (expected). Along
+          with support of HIP, OpenMP and OpenCL programming models, ROCm provides
+          the set of profiling, tracing, and debugging APIs, tools and components
+          supporting 3rd party HPC instrumentation tools like PAPI, Caliper, TAU,
+          HPCToolkit, Score-P, TraceCompass/ Theia,  LIKWID, ARM Forge and Perforce
+          TotalView.
+          <p>
+          In this talk we will present the latest updates on rocprofiler V2
+          development which merges existing rocprofiler and roctracer libraries with
+          new advanced functionality added. It will be followed by a brief overview
+          of ROCm Debugger API and ROCGDB tool status. ROCm OMPT functionality
+          support is necessary to enable HPCToolkit, TAU and Score-P working with
+          OpenMP programming model on AMD platforms. We will also present few details
+          about machine-readable XML ISA specification and related API project for
+          AMD GPU product lines. It is targeted to support dynamic binary analysis
+          and instrumentation of graphics and compute code objects in a variety of
+          internal and 3rd party external code instrumentation tools, like Dyninst
+          and others.
 
   - title: Talks Session 5
     days: tuesday
