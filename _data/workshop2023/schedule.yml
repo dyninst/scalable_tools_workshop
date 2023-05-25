@@ -161,7 +161,7 @@ sessions:
           commercial cloud infrastructure, embedded development, and lastly
           Jupyter Notebooks.
      - title: "HPCToolkit: Experiences at Exascale"
-       author: Jonathan Anderson
+       author: Jonathon Anderson
        affiliation: Rice University
        length: 1800
        slides: 
