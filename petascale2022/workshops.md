@@ -8,14 +8,14 @@ The Scalable Tools Workshop/Petascale Tools Workshop started as part of the Cent
 Software, as one of its series of four summer workshops. The programs of all past workshops, going back to the initial CScADS
 series, are below:
 
-* [Petascale Tools Workshop 2020](http://www.paradyn.org/petascale2020)
-* [Petascale Tools Workshop 2019](http://www.paradyn.org/petascale2019)
-* [Petascale Tools Workshop 2018](http://www.paradyn.org/petascale2018)
-* [Petascale Tools Workshop 2017](http://www.paradyn.org/petascale2017)
-* [Petascale Tools Workshop 2016](http://www.paradyn.org/petascale2016)
-* [Petascale Tools Workshop 2015](http://www.paradyn.org/petascale2015)
-* [Petascale Tools Workshop 2014](http://www.paradyn.org/petascale2014)
-* [Petascale Tools Workshop 2013](http://www.paradyn.org/petascale2013)
+* [Petascale Tools Workshop 2020](../petascale2020)
+* [Petascale Tools Workshop 2019](../petascale2019)
+* [Petascale Tools Workshop 2018](../petascale2018)
+* [Petascale Tools Workshop 2017](../petascale2017)
+* [Petascale Tools Workshop 2016](https://www.paradyn.org/petascale2016)
+* [Petascale Tools Workshop 2015](https://www.paradyn.org/petascale2015)
+* [Petascale Tools Workshop 2014](https://www.paradyn.org/petascale2014)
+* [Petascale Tools Workshop 2013](https://www.paradyn.org/petascale2013)
 * [CSCADS Tools Workshop 2012](http://cscads.rice.edu/performance-tools.htm)
 * [CSCADS Tools Workshop 2011](http://cscads.rice.edu/performance-tools-1.htm)
 * [CSCADS Tools Workshop 2010](http://cscads.rice.edu/performance-tools-2.htm)
