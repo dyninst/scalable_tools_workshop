@@ -3,7 +3,7 @@ layout: info
 title: Registration
 ---
 Scalable Tools Workshop 2022 will be held at the
-beautiful <a href="http://www.granlibakken.com">Granlibakken Resort</a> in Lake Tahoe, 
+beautiful <a href="https://www.granlibakken.com">Granlibakken Resort</a> in Lake Tahoe, 
 California.
 
 <b>[Registration](https://www.secure.granlibakken.net/conference/)</b>: This will 

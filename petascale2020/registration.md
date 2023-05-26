@@ -3,7 +3,7 @@ layout: info
 title: Registration
 ---
 Scalable Tools Workshop 2020 will be held at the
-beautiful <a href="http://www.granlibakken.com">Granlibakken Resort</a> in Lake Tahoe, 
+beautiful <a href="https://www.granlibakken.com">Granlibakken Resort</a> in Lake Tahoe, 
 California. [Registration](https://www.secure.granlibakken.net/conference/?_ga=2.78346973.831171572.1550188711-1057628974.1512516825) will 
 be handled directly by the resort (enter group code "Scalable") and includes lodging and meals. They will also arrange transportation between Reno Airport and the hotel.
 

@@ -8,7 +8,7 @@ already have the username and password to use on the Granlibakken site.
 If you do not have this information, please email
 Bart or John to ask for it.
 The registration web page can be found
-[here](http://granlibakken.com), on the Event/Group Reservations link.
+[here](https://granlibakken.com), on the Event/Group Reservations link.
 
 Meals, lodging, and workshop attendance are covered by the registration fee.
 If you are traveling with companions who are not attending the workshop,
