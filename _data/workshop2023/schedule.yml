@@ -298,29 +298,37 @@ sessions:
     days: monday
     time: 15:30pm
     talks:
-     - title: Efficient Branch Divergence Analysis Using Fine-Grained Binary Instrumentation on the AMD GPU
-       author: Hsuan-Heng Wu
-       affiliation: University of Wisconsin-Madison
+     - title: OSACA – A Multi-Platform Static Code Analyzer for In-core Performance Prediction
+       author: Jan Laukemann
+       affiliation: Friedrich Alexander Universität
        length: 1800
        slides: 
        abstract: |
-          The instrumentation of binary code is a potent technique that has
-          widespread applications, including the collection of fine-grained
-          execution data for optimizing application performance. Our team's
-          experience with the Dyninst binary analysis and instrumentation toolkits
-          has demonstrated that performance data can be gathered efficiently for
-          CPUs. We are now leveraging these techniques to gather performance data
-          for AMD GPUs, thereby enhancing our understanding of their performance
-          characteristics.
+          The Open-Source Architecture Code Analyzer (OSACA) is a static analysis
+          tool for in-core performance prediction of inner-most loop assembly loops.
+          It is heavily inspired by the Intel Architecture Code Analyzer (IACA), an
+          Intel-proprietary tool that unfortunately reached end-of-life in 2019 and
+          only supports Intel microarchitectures. We therefore developed OSACA as
+          Open-Source alternative, supporting various Intel, AMD, and ARM-based
+          micro-architectures for code analysis. These analyses can be used to
+          identify bottlenecks in performance-critical passages, as well as for
+          performance modeling and performance engineering, for example as more
+          accurate ceiling in the Roofline model or as in-core contribution in the
+          Execution-Cache-Memory (ECM) model. Furthermore, OSACA was developed in a
+          way that it does not require executable code and to allow the user to
+          change the underlying hardware model in an easy and fast way, thus, being
+          able to provide architectural exploration of novel, non-existing
+          micro-architectures. It is not only available as standalone Python-based
+          command line tool, but is also integrated in Godbolt’s Compiler Explorer
+          and consequently easy to access for any user. While there do exist
+          alternatives, most prominently the LLVM Machine Code Analyzer (llvm-mca) or
+          uiCA, OSACA tries to combine accuracy and versatility.
           <p>
-          We begin by providing a brief introduction to the AMD ROCM environment
-          and the necessary steps to support static GPU binary instrumentation for
-          HIP applications. Subsequently, we discuss our strategies for reducing
-          instrumentation overhead and outline the limitations of our approach.
-          Finally, we evaluate our instrumentation overhead for collecting
-          branch-divergence information (which can serve as an indicator of GPU
-          hardware utilization)and benchmark it against that of NVIDIA's NVBIT and
-          Intel's GTPIN, providing a comparative analysis.
+          In this talk, we will introduce OSACA to the workshop community, explain
+          its usage in our group both for academic research, as well as in
+          educational tutorials, and want to discuss new features. We are very
+          interested in discussing potential future paths of OSACA and requirement
+          requests from the tools community.
      - title: minitest - a Framework for Testing a GPU Performance Tool
        author: Marty Itzkowitz
        affiliation: Rice University
