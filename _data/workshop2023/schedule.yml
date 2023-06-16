@@ -129,37 +129,23 @@ sessions:
           In this talk, we will review the features and structure of Dyninst,
           summarize the new developments, and present some practical examples of how
           you can use it.
-     - title: "Score-P: Beyond the Infinite HPC domain"
-       author: Bert Wesarg, Bill Williams
-       affiliation: TU Dresden
+     - title: Levels of Detail in Performance Analysis. A RISCV Vector codesign case
+       author: Jesus Labarta
+       affiliation: Barcelona Supercomputer Center
        length: 1800
        slides: 
        abstract: |
-          Score-P is a well-established framework for instrumentation and
-          measurement of parallel codes. It has its origin in the classic HPC
-          field. The HPC field is characterized by providing tightly coupled
-          communication methods and shared file systems to applications, which
-          Score-P also profits from. These are, and always will be, key features
-          for HPC applications and measurement frameworks to achieve exceptional
-          performance and scale on HPC systems. However, in recent years, other
-          distributed frameworks have entered the HPC domain, which do not rely
-          on these properties, but require immense computing power and energy
-          consumption. Providing state-of-the-art performance analysis tools
-          from the HPC community to these new communities will be very
-          beneficial for them. Examples of such frameworks are common machine
-          learning/AI frameworks like PyTorch or TensorFlow; or Java-based
-          frameworks such as Hadoop.
-          <p>
-          We are in the process of extending Score-P to provide its own
-          distributed communication layer via a client/server model based on
-          TCP. In contrast with the common MPI communication used in HPC
-          application, where Score-P uses the same communication layer as the
-          application, this communication layer will be used only by Score-P.
-          This allows it to support future frameworks, independent of what new
-          communication methods those frameworks may use. We foresee a wide
-          range of applications for such models, including, but not limited to
-          commercial cloud infrastructure, embedded development, and lastly
-          Jupyter Notebooks.
+          Computers, as with many other complex systems, can be described and
+          analyzed at many levels.  In these systems, it is desirable for tools to be
+          able to cover a huge dynamic range of granularities (scale) and to present
+          detailed metrics and advanced statistics at all those levels.  I will
+          present a tool infrastructure to analyze the behavior of applications on
+          the RISC-V long vector processor being designed in the EPI project. The
+          framework is used to derive co-design insight for steering the work of
+          application, compiler and RTL developers.  The infrastructure uses Paraver
+          to gain understanding on the behavior of  programs from the coarse grain of
+          user functions or runtime calls to the microscopic level of instruction
+          execution.
      - title: "HPCToolkit: Experiences at Exascale"
        author: Jonathon Anderson
        affiliation: Rice University
@@ -593,23 +579,37 @@ sessions:
           results for any of the acceptance tests.  These new test configurations
           were written with more than just LANL in mind - they are intended for
           incorporation into Pavilion itself as a library adaptable to any new cluster.
-     - title: Levels of Detail in Performance Analysis. A RISCV Vector codesign case
-       author: Jesus Labarta
-       affiliation: Barcelona Supercomputer Center
+     - title: "Score-P: Beyond the Infinite HPC domain"
+       author: Bert Wesarg, Bill Williams
+       affiliation: TU Dresden
        length: 1800
        slides: 
        abstract: |
-          Computers, as with many other complex systems, can be described and
-          analyzed at many levels.  In these systems, it is desirable for tools to be
-          able to cover a huge dynamic range of granularities (scale) and to present
-          detailed metrics and advanced statistics at all those levels.  I will
-          present a tool infrastructure to analyze the behavior of applications on
-          the RISC-V long vector processor being designed in the EPI project. The
-          framework is used to derive co-design insight for steering the work of
-          application, compiler and RTL developers.  The infrastructure uses Paraver
-          to gain understanding on the behavior of  programs from the coarse grain of
-          user functions or runtime calls to the microscopic level of instruction
-          execution.
+          Score-P is a well-established framework for instrumentation and
+          measurement of parallel codes. It has its origin in the classic HPC
+          field. The HPC field is characterized by providing tightly coupled
+          communication methods and shared file systems to applications, which
+          Score-P also profits from. These are, and always will be, key features
+          for HPC applications and measurement frameworks to achieve exceptional
+          performance and scale on HPC systems. However, in recent years, other
+          distributed frameworks have entered the HPC domain, which do not rely
+          on these properties, but require immense computing power and energy
+          consumption. Providing state-of-the-art performance analysis tools
+          from the HPC community to these new communities will be very
+          beneficial for them. Examples of such frameworks are common machine
+          learning/AI frameworks like PyTorch or TensorFlow; or Java-based
+          frameworks such as Hadoop.
+          <p>
+          We are in the process of extending Score-P to provide its own
+          distributed communication layer via a client/server model based on
+          TCP. In contrast with the common MPI communication used in HPC
+          application, where Score-P uses the same communication layer as the
+          application, this communication layer will be used only by Score-P.
+          This allows it to support future frameworks, independent of what new
+          communication methods those frameworks may use. We foresee a wide
+          range of applications for such models, including, but not limited to
+          commercial cloud infrastructure, embedded development, and lastly
+          Jupyter Notebooks.
 
   - days: tuesday
     time: 13:30pm
