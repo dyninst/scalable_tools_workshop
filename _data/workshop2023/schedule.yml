@@ -159,7 +159,7 @@ sessions:
        author: Jonathon Anderson
        affiliation: Rice University
        length: 1800
-       slides: 
+       slides: "STW '23 Talk_Demo.pdf"
        abstract: |
           With the arrival of Frontier, we have successfully used HPCToolkit to
           collect instruction-level call path profiles and traces for GPU-accelerated
