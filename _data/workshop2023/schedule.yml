@@ -178,7 +178,7 @@ sessions:
        author: Connor Scully-Allison
        affiliation: University of Utah
        length: 1800
-       slides: 
+       slides: "Leveraging Jupyter Notebooks to Compliment Existing Workflows.pdf"
        abstract: |
           In this talk, I will discuss the motivations and benefits for designing
           visualizations specifically to be embedded in literate programming
