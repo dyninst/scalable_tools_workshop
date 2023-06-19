@@ -377,7 +377,7 @@ sessions:
        author: Sébastien Darche
        affiliation: Polytechnique Montréal
        length: 1800
-       slides: 
+       slides: "scalable_2023_darche.pdf"
        abstract: |
           The DORSAL group at Polytechnique Montréal, in collaboration with
           Ericsson, Ciena, AMD and EfficiOS, is conducting research on tracing,
