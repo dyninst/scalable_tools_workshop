@@ -142,7 +142,7 @@ sessions:
        author: Jesus Labarta
        affiliation: Barcelona Supercomputer Center
        length: 1800
-       slides: 
+       slides: "LOD_in_PA.final.pdf"
        abstract: |
           Computers, as with many other complex systems, can be described and
           analyzed at many levels.  In these systems, it is desirable for tools to be
@@ -341,7 +341,7 @@ sessions:
        author: Marty Itzkowitz
        affiliation: Rice University
        length: 1800
-       slides: 
+       slides: "minitest.2023.pdf"
        abstract: |
           One of the challenges in developing GPU performance tools is measuring
           offloading on the GPU under various programming models, understanding the
