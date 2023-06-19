@@ -174,23 +174,6 @@ sessions:
     days: monday
     time: 10:30am
     talks:
-     - title: Interactive Visualization of Binary Code for Investigating Compiler Optimizations
-       author: Shadmaan Hye or Kate Isaacs
-       affiliation: University of Utah
-       length: 1800
-       slides: 
-       abstract: |
-          Investigating compiler optimizations requires navigating thousands of
-          lines of disassembly and matching them to their generating source code.
-          To alleviate this problem, we develop a web-based tool to interactive
-          visual source and disassembly in a more intuitive way. Our tool
-          incorporates automated analysis through the Dyninst library to present
-          translations in the disassembly such as re-naming registers by variables,
-          identifying functions, and displaying the structure of loops. We provide
-          linked selection between source and disassembly, multiple source code
-          files, and multiple disassembly interfaces to better support analysis
-          processes. We are actively developing these interfaces to improve manual
-          analysis of compiler optimizations.
      - title: Interactive Performance Visualization in Notebooks
        author: Connor Scully-Allison
        affiliation: University of Utah
@@ -230,7 +213,23 @@ sessions:
           allows users to write understandable and high-performance GPU kernels.
           Triton has already been used in many popular open-source projects, such
           as PyTorch, PyTorch-Geometrics, and DeepSpeed.
-
+     - title: Interactive Visualization of Binary Code for Investigating Compiler Optimizations
+       author: Shadmaan Hye or Kate Isaacs
+       affiliation: University of Utah
+       length: 1800
+       slides: 
+       abstract: |
+          Investigating compiler optimizations requires navigating thousands of
+          lines of disassembly and matching them to their generating source code.
+          To alleviate this problem, we develop a web-based tool to interactive
+          visual source and disassembly in a more intuitive way. Our tool
+          incorporates automated analysis through the Dyninst library to present
+          translations in the disassembly such as re-naming registers by variables,
+          identifying functions, and displaying the structure of loops. We provide
+          linked selection between source and disassembly, multiple source code
+          files, and multiple disassembly interfaces to better support analysis
+          processes. We are actively developing these interfaces to improve manual
+          analysis of compiler optimizations.
   - title: Talks Session 3
     days: monday
     time: 13:30pm
