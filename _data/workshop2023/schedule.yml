@@ -61,9 +61,13 @@ sessions:
       - wednesday
     class: sbreak
   - title: Break
-    time: 10:00am
+    time: 10:05am
     days:
       - monday
+    class: sbreak
+  - title: Break
+    time: 10:00am
+    days:
       - tuesday
       - wednesday
       - thursday
@@ -79,9 +83,14 @@ sessions:
       - tuesday
     class: sbreak
 
-  - title: Talks Session 1
+  - title: Welcome and Introduction
     days: monday
     time: 08:30am
+    class: sbreak
+
+  - title: Talks Session 1
+    days: monday
+    time: 08:35am
     talks:
      - title: What's New in Dyninst?
        author: Tim Haines, James Kupsch, Josef (Bolo) Burger
