@@ -541,7 +541,7 @@ sessions:
        author: Stephanie Brink
        affiliation: Lawrence Livermore National Lab
        length: 1800
-       slides: 
+       slides: "2023_06_20_Thicket_ScalableTools.pdf"
        abstract: |
           Thicket is an open-source Python toolkit for Exploratory Data Analysis
           (EDA) of multi-run performance experiments. It enables an understanding of
