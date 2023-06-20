@@ -635,31 +635,69 @@ sessions:
     time: 15:00pm
     title: Working Groups Session 1
     talks:
-     - title: "Programmatic analysis of performance data - APIs, uses, visualization strategies (and data collection) - Mountain"
-       author: John Mellor-Crummey
-       slides:
-
-     - title: "GPU instrumentation - Agate Bay"
+     - title: "[Agate Bay] GPU instrumentation"
        author: Sebastien Darche
+       slides:
+     - title: "[Crystal Bay] Open for small/medium discussions"
+       author: 
+       slides:
+     - title: "[Emerald Bay] Open for small/medium discussions"
+       author: 
+       slides:
+     - title: "[Mountain Room] Programmatic analysis of performance data - APIs, uses, visualization strategies (and data collection)"
+       author: John Mellor-Crummey
        slides:
  
   - days: tuesday
     time: 16:00pm
     title: Working Groups Session 2
     talks:
-     - title: "Dwarf Writer API in Elfutils - Emerald Bay"
+     - title: "[Agate Bay] Open for small/medium discussions"
+       author: 
+       slides:
+     - title: "[Crystal Bay] Open for small/medium discussions"
+       author: 
+       slides:
+     - title: "[Emerald Bay] Dwarf Writer API in Elfutils"
        author: Ben Woodard
        slides:
-
+     - title: "[Mountain Room] Programmatic analysis of performance data - APIs, uses, visualization strategies (and data collection)"
+       author: John Mellor-Crummey
+       slides:
+ 
   - days: wednesday
     time: 08:30am
     title: Working Groups Session 3
     talks:
+     - title: "[Agate Bay] Methods to seamlessly mediate conflicts between the incongruous software stacks present on HPC systems"
+       author: Jonathan Anderson
+       slides:
+     - title: "[Crystal Bay] Open for small/medium discussions"
+       author: 
+       slides:
+     - title: "[Emerald Bay] Measurement and analysis of Distributed Workflows"
+       author: Nathan Tallent
+       slides:
+     - title: "[Mountain Room] Assumptions that tools make about other tools"
+       author: Anthony Danalis
+       slides:
 
   - days: wednesday
     time: 10:30am
     title: Working Groups Session 4
     talks:
+     - title: "[Agate Bay] MPI and Tools"
+       author: Martin Schulz
+       slides:
+     - title: "[Crystal Bay] Available for small/medium discussions"
+       author: 
+       slides:
+     - title: "[Emerald Bay] Binary Visualization: Needs and Directions"
+       author: Matt Legendre and Shadmaan Hye
+       slides:
+     - title: "[Mountain Room] ROCm Tools Ecosystem (3rd party tools support in ROCm)"
+       author: Vladimir Indic
+       slides:
 
   - days: wednesday
     time: 13:30pm
@@ -669,6 +707,22 @@ sessions:
     time: 08:30am
     title: Working Groups Session 5
     talks:
+     - title: "[Agate Bay] Tools issues for emerging hardware (esp AI)"
+       author: Thomas Gruber
+       slides:
+     - title: "[Crystal Bay] Available for small/medium discussions"
+       author: 
+       slides:
+     - title: "[Emerald Bay] What's new in DWARF and why you care"
+       author: Ben Woodard
+       slides:
+     - title: "[Mountain Room] Human-Oriented Discussions on Performance Analysis"
+       author: Connor Scully-Allison
+       slides:
+
+  - days: thursday
+    time: 10:30am
+    title: Working Group Outbriefs (Mountain Room)
 
   - days: thursday
     time: 1:30pm
@@ -679,7 +733,3 @@ sessions:
     time: 12:00pm
     title: Arrival
     class: sbreak
-
-  - days: thursday
-    time: 10:30am
-    title: Working Group Outbriefs (Mountain Room)
