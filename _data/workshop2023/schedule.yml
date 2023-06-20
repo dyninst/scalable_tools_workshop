@@ -497,7 +497,7 @@ sessions:
        author: Sameer Shende
        affiliation: University of Oregon / Paratools
        length: 1800
-       slides: 
+       slides: "E4S_Scalable_Tools23.pdf"
        abstract: |
           The Extreme-scale Scientific Software Stack (E4S) [https://e4s.io] is a
           curated, Spack based software distribution of 100+ HPC and AI/ML
