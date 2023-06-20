@@ -194,7 +194,7 @@ sessions:
        author: Keren Zhou
        affiliation: Open AI
        length: 1800
-       slides: 
+       slides: "kerenz.pdf"
        abstract: |
           Deep learning programming models, such as TensorFlow and PyTorch,
           facilitate the development of innovative artificial intelligence
