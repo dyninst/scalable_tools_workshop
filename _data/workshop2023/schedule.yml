@@ -310,7 +310,7 @@ sessions:
        author: Jan Laukemann
        affiliation: Friedrich Alexander Universität
        length: 1800
-       slides: 
+       slides: "OSACA-ScalableTools2023.pdf"
        abstract: |
           The Open-Source Architecture Code Analyzer (OSACA) is a static analysis
           tool for in-core performance prediction of inner-most loop assembly loops.
