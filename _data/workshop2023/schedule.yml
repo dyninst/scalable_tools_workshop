@@ -635,8 +635,16 @@ sessions:
     time: 15:00pm
     title: Working Groups Session 1
     talks:
-     - title: 
-       author: 
+     - title: "Programmatic analysis of performance data - APIs, uses, visualization strategies (and data collection) - Mountain"
+       author: John Mellor-Crummey
+       slides:
+
+     - title: "GPU instrumentation - Agate Bay"
+       author: Sebastien Darche
+       slides:
+
+     - title: "Dwarf Writer API in Elfutils"
+       author: Ben Woodard
        slides:
  
   - days: tuesday
