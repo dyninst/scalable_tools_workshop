@@ -291,7 +291,7 @@ sessions:
        author: William Jalby
        affiliation: University Paris SACLAY/UVSQ
        length: 1800
-       slides: 
+       slides: "OV_Scalable_Tools_2023_V4_S.pdf"
        abstract: |
           Typically, the same loop or code region is executed billions of time
           during a whole application execution. Its execution time may vary
