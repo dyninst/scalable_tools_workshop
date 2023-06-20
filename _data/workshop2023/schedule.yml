@@ -217,7 +217,7 @@ sessions:
        author: Shadmaan Hye or Kate Isaacs
        affiliation: University of Utah
        length: 1800
-       slides: 
+       slides: "Scalable_Tools_Shadmaan_Hye.pdf"
        abstract: |
           Investigating compiler optimizations requires navigating thousands of
           lines of disassembly and matching them to their generating source code.
