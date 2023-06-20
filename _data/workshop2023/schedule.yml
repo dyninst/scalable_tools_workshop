@@ -466,7 +466,7 @@ sessions:
        author: Qidong Zhao
        affiliation: NC State University
        length: 1800
-       slides: 
+       slides: "zqd_deepprof.pdf"
        abstract: |
           Nowadays, profilers have been adopted as part of the software stack in
           most system environments, ranging from embedded systems and laptops to
