@@ -238,7 +238,7 @@ sessions:
        author: Felix Wolf
        affiliation: TU Darmstadt
        length: 1800
-       slides: 
+       slides: "Wolf_Scalable_Tools_Workshop.pdf"
        abstract: |
           With increasing system performance and complexity, it is becoming
           increasingly crucial to examine the scaling behavior of an application
