@@ -642,15 +642,14 @@ sessions:
      - title: "GPU instrumentation - Agate Bay"
        author: Sebastien Darche
        slides:
-
-     - title: "Dwarf Writer API in Elfutils"
-       author: Ben Woodard
-       slides:
  
   - days: tuesday
     time: 16:00pm
     title: Working Groups Session 2
     talks:
+     - title: "Dwarf Writer API in Elfutils"
+       author: Ben Woodard
+       slides:
 
   - days: wednesday
     time: 08:30am
