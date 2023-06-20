@@ -450,7 +450,7 @@ sessions:
        author: Nathan Tallent
        affiliation: PNNL
        length: 1800
-       slides: 
+       slides: "Nathan_Tallent.pdf"
        abstract: |
           A challenge of memory trace analysis is combining detailed analysis and
           low overhead measurement. Currently, hardware/software-based analysis of
