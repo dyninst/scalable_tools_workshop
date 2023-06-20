@@ -559,7 +559,7 @@ sessions:
        author: Paul Ferrell
        affiliation: Los Alamos National Lab
        length: 1800
-       slides: 
+       slides: "Paul_Ferrell.pdf"
        abstract: |
           Testing new clusters for operability, performance, and contract compliance,
           otherwise known as acceptance testing, generally requires a great deal of
@@ -635,7 +635,10 @@ sessions:
     time: 15:00pm
     title: Working Groups Session 1
     talks:
-
+     - title: 
+       author: 
+       slides:
+ 
   - days: tuesday
     time: 16:00pm
     title: Working Groups Session 2
