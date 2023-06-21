@@ -259,7 +259,7 @@ sessions:
        author: Anthony Danalis
        affiliation: University of Tennessee, Knoxville
        length: 1800
-       slides: 
+       slides: "2023_06_ScalableToolsWorkshop_PAPI.pdf"
        abstract: |
           PAPI 7.0 marks a major update in the Performance API. With this
           release, PAPI extends the functionality it provides to its users
