@@ -599,7 +599,7 @@ sessions:
        author: Bert Wesarg, Bill Williams
        affiliation: TU Dresden
        length: 1800
-       slides: 
+       slides: "Score-P - Beyond the Infinite HPC Domain.pdf"
        abstract: |
           Score-P is a well-established framework for instrumentation and
           measurement of parallel codes. It has its origin in the classic HPC
