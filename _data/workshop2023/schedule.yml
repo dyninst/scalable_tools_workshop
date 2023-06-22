@@ -637,7 +637,7 @@ sessions:
     talks:
      - title: "[Agate Bay] GPU instrumentation"
        author: Sebastien Darche
-       slides:
+       slides: "outbriefs/gpu-instrumentation-outbrief.pdf"
      - title: "[Crystal Bay] Open for small/medium discussions"
        author: 
        slides:
