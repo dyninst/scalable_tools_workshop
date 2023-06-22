@@ -660,7 +660,7 @@ sessions:
        slides:
      - title: "[Emerald Bay] Dwarf Writer API in Elfutils"
        author: Ben Woodard
-       slides:
+       slides: "outbriefs/DWARF_rewriting.pdf"
      - title: "[Mountain Room] Programmatic analysis of performance data - APIs, uses, visualization strategies (and data collection)"
        author: John Mellor-Crummey
        slides:
