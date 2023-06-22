@@ -671,7 +671,7 @@ sessions:
     talks:
      - title: "[Agate Bay] Methods to seamlessly mediate conflicts between the incongruous software stacks present on HPC systems"
        author: Jonathan Anderson
-       slides:
+       slides: "outbriefs/StackConflicts-STW23.pdf"
      - title: "[Crystal Bay] Open for small/medium discussions"
        author: 
        slides:
