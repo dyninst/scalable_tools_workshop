@@ -718,7 +718,7 @@ sessions:
        slides:
      - title: "[Mountain Room] Human-Oriented Discussions on Performance Analysis"
        author: Connor Scully-Allison
-       slides:
+       slides: "Human-Oriented_Discussion_on_Performance_Analysis.pdf"
 
   - days: thursday
     time: 10:30am
