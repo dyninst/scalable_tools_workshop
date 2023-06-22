@@ -709,7 +709,7 @@ sessions:
     talks:
      - title: "[Agate Bay] Tools issues for emerging hardware (esp AI)"
        author: Thomas Gruber
-       slides:
+       slides: "outbriefs/STW-WG-Emerging-HW.pdf"
      - title: "[Crystal Bay] Available for small/medium discussions"
        author: 
        slides:
