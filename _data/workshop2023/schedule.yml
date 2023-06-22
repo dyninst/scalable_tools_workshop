@@ -694,7 +694,7 @@ sessions:
        slides:
      - title: "[Emerald Bay] Binary Visualization: Needs and Directions"
        author: Matt Legendre and Shadmaan Hye
-       slides:
+       slides: "outbriefs/Binary_Visualization_Needs_and_Directions.pdf"
      - title: "[Mountain Room] ROCm Tools Ecosystem (3rd party tools support in ROCm)"
        author: Vladimir Indic
        slides: "outbriefs/ROCm-tools-ecosystem-outbrief.pdf"
