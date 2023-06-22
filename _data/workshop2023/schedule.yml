@@ -697,7 +697,7 @@ sessions:
        slides:
      - title: "[Mountain Room] ROCm Tools Ecosystem (3rd party tools support in ROCm)"
        author: Vladimir Indic
-       slides:
+       slides: "outbriefs/ROCm-tools-ecosystem-outbrief.pdf"
 
   - days: wednesday
     time: 13:30pm
