@@ -677,7 +677,7 @@ sessions:
        slides:
      - title: "[Emerald Bay] Measurement and analysis of Distributed Workflows"
        author: Nathan Tallent
-       slides:
+       slides: "outbriefs/outbrief-workflows.pdf"
      - title: "[Mountain Room] Assumptions that tools make about other tools"
        author: Anthony Danalis
        slides:
