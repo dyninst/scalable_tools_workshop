@@ -688,7 +688,7 @@ sessions:
     talks:
      - title: "[Agate Bay] MPI and Tools"
        author: Martin Schulz
-       slides:
+       slides: "outbriefs/ScalablaTools23-MPI-Breakout.pdf"
      - title: "[Crystal Bay] Available for small/medium discussions"
        author: 
        slides:
