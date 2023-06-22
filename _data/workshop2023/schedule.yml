@@ -646,7 +646,7 @@ sessions:
        slides:
      - title: "[Mountain Room] Programmatic analysis of performance data - APIs, uses, visualization strategies (and data collection)"
        author: John Mellor-Crummey
-       slides:
+       slides: "outbriefs/Programmatic_Analysis_of_Performance_Data.pdf"
  
   - days: tuesday
     time: 16:00pm
