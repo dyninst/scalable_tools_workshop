@@ -680,7 +680,7 @@ sessions:
        slides: "outbriefs/outbrief-workflows.pdf"
      - title: "[Mountain Room] Assumptions that tools make about other tools"
        author: Anthony Danalis
-       slides:
+       slides: "outbriefs/assumptions_break_out_notes.pdf"
 
   - days: wednesday
     time: 10:30am
