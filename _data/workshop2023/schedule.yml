@@ -426,7 +426,7 @@ sessions:
        author: Abhinav Bhatele
        affiliation: University of Maryland
        length: 1800
-       slides: 
+       slides: "202306-tools-pipit.pdf"
        abstract: |
           Performance analysis is an important part of the oft-repeated, iterative
           process of performance tuning during the development of parallel programs.
