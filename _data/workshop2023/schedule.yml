@@ -597,7 +597,7 @@ sessions:
           incorporation into Pavilion itself as a library adaptable to any new cluster.
      - title: "Score-P: Beyond the Infinite HPC domain"
        author: Bert Wesarg, Bill Williams
-       affiliation: TU Dresden
+       affiliation: GWT-TUD GmbH, TU Dresden
        length: 1800
        slides: "Score-P - Beyond the Infinite HPC Domain.pdf"
        abstract: |
