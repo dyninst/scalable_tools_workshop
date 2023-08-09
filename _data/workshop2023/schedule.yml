@@ -392,7 +392,7 @@ sessions:
        author: Timour Paltashev
        affiliation: Advanced Micro Devices
        length: 1800
-       slides: 
+       slides: "AMD-2023-06-19-ROCm Tools Update.pdf"
        abstract: |
           ROCm is a brand name for the AMD ROCm open software platform or the ROCm
           open platform ecosystem (includes hardware like FPGAs or other CPU/GPU
