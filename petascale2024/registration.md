@@ -6,7 +6,7 @@ Scalable Tools Workshop 2024 will be held at the
 beautiful <a href="https://www.granlibakken.com">Granlibakken Resort</a> in Lake Tahoe,
 California.
 
-<b>[Registration COMING SOON](https://www.secure.granlibakken.net/conference/forms/TOOLS24_form.asp)</b>: This will
+<b>[Registration](https://www.secure.granlibakken.net/conference/forms/TOOLS24XXX_form.asp)</b>: This will
 be handled directly by the resort. Note that the cost is all-inclusive, including meeting registration, lodging, and meals.
 
 Once you have registered with Granlibakken, please allow them 1 - 2 business days to process, at which point you should get an email with your confirmation number. If you do not receive a confirmation, you can call them at (530) 583-4242.
