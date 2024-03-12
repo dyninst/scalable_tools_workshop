@@ -29,6 +29,7 @@ Costs are as follows:
 
     {% endfor %}
 </table>
+<sup>*</sup><i>Use the "Special Requests" section on the registration page to request workshop attendance with off grounds lodging.</i>
 
 </p>
 </p>
