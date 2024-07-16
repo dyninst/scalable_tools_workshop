@@ -294,7 +294,7 @@ sessions:
     time: 15:30pm
     talks:
      - title: Programmatic Analysis of Large-Scale Performance Data
-       author: Daragana Grbic
+       author: Dragana Grbic
        affiliation: Lawrence Livermore National Lab
        length: 1800
        slides: 
