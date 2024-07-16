@@ -92,139 +92,383 @@ sessions:
     days: monday
     time: 08:35am
     talks:
-     - title: 
-       author: 
-       affiliation: 
+     - title: What's New in Dyninst
+       author: "Dyninst Team: James Kupsch, Ronak Chauham, Hsuan-Heng Wu, Angus He"
+       affiliation: University of Wisconsin-Madison
        length: 1800
        slides: 
-       abstract: 
-     - title: 
-       author: 
-       affiliation: 
+       abstract: |
+          Binary analysis and instrumentation is a key technology to support
+          performance profiling, debugging, testing, software security, and auditing.
+          Dyninst is an open source suite of libraries providing binary analysis,
+          instrumentation and control capabilities across several hardware
+          architectures with an architecture-independent abstraction. It supports
+          both dynamic (runtime) and static (binary rewriting) instrumentation of a
+          binary program. Dyninst is opportunistic in that it uses symbol and debug
+          information when it is available, but can operate without it, even on
+          stripped binaries. Dyninst's analysis capabilities produce a control- and
+          data-flow analysis of the program, identifying functions, loops, and basic
+          blocks in the code. Dyninst allows fine-grained program instrumentation and
+          modification based on a high-level (control flow graph) abstraction of a
+          program.
+          <p>
+          Dyninst is structured as a suite of toolkit libraries, providing
+          architecture independent interfaces to features such as instruction
+          decoding, control flow analysis, data flow analysis, code generation, code
+          patching (splicing) and symbol table processing. On the dynamic side, it
+          also includes process control and stack walking support.
+          <p>
+          Dyninst has been used as the foundation for products from companies like
+          AMD, Cray, and Red Hat, as the basis for tools from national labs and
+          research groups, and as a key component in hundreds of academic research
+          projects. It continues to have the dual role of providing a foundation for
+          new instrumentation and analysis research combined with support for key
+          applications of binary analysis and instrumentation.
+          <p>
+          Since the last workshop, Dyninst has seen myriad improvements to
+          functionality and code quality. Examples include AMD MI300 GPU support; AMD
+          GPU indirect branch support; improved x86 instruction parsing, mnemonics,
+          missing instructions, and properties (syscall, interrupt, NOP); improved
+          instruction formatting; improved DWARF type and CU parsing; improved
+          parsing line maps; new compiler and glibc support; and CI improvements.
+          <p>
+          In this talk, we will review the features and structure of Dyninst,
+          summarize the new developments, and present some practical examples of how
+          you can use it.
+     - title: "HPCToolkit: New Support for GPU Measurement"
+       author: John Mellor-Crummey
+       affiliation: Rice University
        length: 1800
        slides: 
-       abstract: 
-     - title: 
-       author: 
-       affiliation: 
+       abstract: |
+          There have been significant developments in performance monitoring support
+          for GPUs from AMD and Intel over the last year. In this talk, we will
+          describe a prototype implementation of HPCToolkit atop AMD’s emerging
+          rocprofiler-sdk and new support for PC sampling for Intel GPUs.
+     - title: HPC Application Performance Monitoring and Analysis with LDMS
+       author: Jennifer Green and Ann Gentile
+       affiliation: Sandia National Lab
        length: 1800
        slides: 
-       abstract: 
+       abstract: |
+          The Lightweight Distributed Metric Service (LDMS) is an open-source,
+          state-of-the-art monitoring system widely used on large-scale systems
+          across DOE labs. It provides scalable, “always-on”, time-correlated
+          collection of both system and application resource utilization and
+          performance information. It collects data at frequencies enabling
+          resolution of features of interest, while still having minimal negative
+          performance impact. This talk will present an overview of LDMS and its
+          design features. It will include a deep-dive into a new design for scalable
+          event transmission that is foundational to enabling runtime,
+          analysis-driven feedback for low-latency response to performance degrading
+          circumstances. We further present production use cases showing how LDMS has
+          been, and is being, utilized to provide insights for both application
+          users/developers and system operations staff.
 
   - title: Talks Session 2
     days: monday
     time: 10:30am
     talks:
-     - title: 
-       author: 
-       affiliation: 
+     - title: "ZeroSum: User Space Monitoring of Resource Utilization and Contention on Heterogeneous HPC Systems"
+       author: Kevin Huck
+       affiliation: University of Oregon
        length: 1800
        slides: 
-       abstract: 
-     - title: 
-       author: 
-       affiliation: 
+       abstract: |
+          Heterogeneous High Performance Computing (HPC) systems are highly
+          specialized, complex, powerful, and expensive systems. Efficient
+          utilization of these systems requires monitoring tools to confirm that
+          users have configured their jobs, workflows, and applications correctly
+          to consume the limited allocations they have been awarded. Historically
+          system monitoring tools are designed for - and only available to - system
+          administrators and facilities personnel to ensure that the system is
+          healthy, utilized, and operating within acceptable parameters. However,
+          there is a demand for user space monitoring capabilities to address the
+          configuration validation and optimization problem. In this paper, we
+          describe a prototype tool, ZeroSum, designed to provide user space
+          monitoring of application processes, lightweight processes (threads), and
+          hardware resources on heterogeneous, distributed HPC systems. ZeroSum is
+          designed to be used either as a limited-use porting tool or as an
+          always-on monitoring library. With increasing system performance and
+          complexity, it is becoming
+     - title: GPU compute kernel instrumentation and performance analysis for HPC
+       author: Sébastien Darche
+       affiliation: Polytechnique Montréal
        length: 1800
        slides: 
-       abstract: 
-     - title: 
-       author: 
-       affiliation: 
+       abstract: |
+          The DORSAL group at Polytechnique Montréal, in collaboration with
+          Ericsson, Ciena, AMD and EfficiOS, is conducting research on tracing,
+          profiling, debugging and performance analysis tools, for large Cloud and
+          HPC distributed applications.
+          <p>
+          We present in this talk ongoing work in our group on the HPC tracing
+          ecosystem and the scalability of trace processing in the TraceCompass
+          trace analysis framework. We will focus on low-overhead tracing
+          techniques for GPU compute kernels, which enable the kernel developers to
+          gather traces directly on the device. Our method features a reduced
+          instrumentation noise compared to similar approaches, thus allowing for
+          precise time measurements. We also present current work on buffering
+          techniques on the device which would allow for continuous tracing on the
+          GPU.
+     - title: "Triton Updates: Debugger, Profiler, Visualizer"
+       author: Keren Zhou
+       affiliation: George Mason University
        length: 1800
        slides: 
-       abstract: 
+       abstract: |
+          Over the past year, there has been substantial development on Triton,
+          including third-party plugins, performance optimizations on NVIDIA Hopper
+          GPUs, and the creation of several tools. In this presentation, we will
+          focus on Triton's debugger, profiler, and visualizer. We will introduce
+          an interactive debugging tool for easily running kernels written in
+          Triton without the need for GPUs. This tool, supporting most Triton
+          operations, allows users to instrument code and check results as NumPy
+          arrays. We will also discuss Triton's kernel-level profiler, which
+          provides low-overhead kernel-level profiling on NVIDIA and AMD GPUs. It
+          can collect user annotations and program context, and then aggregate
+          performance information into a concise profile for quick analysis.
+          Additionally, we will introduce a visualization tool that displays tensor
+          operations, such as memory load, store, and tensor computation, as 1D to
+          3D arrays. Invalid memory accesses are masked and highlighted to aid
+          debugging in the visualizer. Furthermore, it allows for the examination
+          of individual program instances through an interactive button.
 
   - title: Talks Session 3
     days: monday
     time: 13:30pm
     talks:
-     - title: 
-       author: 
-       affiliation: 
+     - title: Register Availability Analysis in Support of Instrumentation of GPU Kernels
+       author: Hsuan-Heng Wu
+       affiliation: University of Wisconsin-Madison
        length: 1800
        slides: 
-       abstract: 
-     - title: 
-       author: 
-       affiliation: 
+       abstract: TBA
+     - title: "GPUscout: Locating Data Movement-related Bottlenecks on (for now NVidia) GPUs"
+       author: Stepan Vanacek
+       affiliation: Technical University of Munich
        length: 1800
        slides: 
-       abstract: 
-     - title: 
-       author: 
-       affiliation: 
+       abstract: |
+          GPUs pose an attractive opportunity for delivering high-performance
+          applications. However, GPU codes are often limited due to memory
+          contention, resulting in overall performance degradation. Since GPU
+          scheduling is transparent to the user, and GPU memory architectures are
+          very complex compared to ones on CPUs, finding these bottlenecks can be a
+          very cumbersome process.
+          <p>
+          GPUscout is a novel method of systematically detecting the root cause of
+          frequent memory performance bottlenecks on NVIDIA GPUs. It connects three
+          approaches to analyzing performance - static CUDA SASS code analysis,
+          sampling warp stalls, and kernel performance metrics. Connecting these
+          approaches, GPUscout can identify the problem, locate the code segment
+          where it originates, and assess its importance. Therefore, the user is
+          informed both about the type of the issue and where exactly it is located
+          in the source code. Combined with additional selected kernel-wide metrics,
+          it provides the necessary information to evaluate the severity of the
+          potential bottleneck, and in the next step, the effect that the
+          implemented fix has had.
+     - title: "AMD ROCm Tools Update: The New RocProfiler-SDK and Updates to Debugger, OMPT, and Binary Instrumentation Support"
+       author: Benjamin Welton
+       affiliation: AMD
        length: 1800
        slides: 
-       abstract: 
+       abstract: |
+          Approximately one year ago, we started soliciting feedback on how we could
+          better improve the performance tool experience in the HPC and AI workload
+          space. That feedback resulted in a ground up re-write of our profiler and
+          tracing libraries to resolve the common pain points tool developers faced
+          when using these libraries as well as improvements in both performance and
+          data quality. Rocprofiler-sdk, the upcoming replacement for tools like
+          rocprofiler and roctracer, corrects initialization ordering issues and
+          allows multiple APIs/tools requiring simultaneous use of the library.
+          Rocprofiler-SDK also adds concurrency support, buffer management, while
+          improving the performance or profiling on both tracing and counter
+          collection workloads. We will be giving an overview of Rocprofiler-SDK and
+          discussing the performance changes you can expect when the beta is released
+          in ROCM 6.3. We will also be giving updates to the debugger, OMPT, and
+          binary instrumentation support.
 
   - title: Talks Session 4
     days: monday
     time: 15:30pm
     talks:
-     - title: 
-       author: 
-       affiliation: 
+     - title: Programmatic Analysis of Large-Scale Performance Data
+       author: Daragana Grbic
+       affiliation: Lawrence Livermore National Lab
        length: 1800
        slides: 
-       abstract: 
-     - title: 
-       author: 
-       affiliation: 
+       abstract: |
+          HPCToolkit typically measures entire program executions, capturing
+          fine-grained measurement data, which may include instruction-level samples
+          on CPUs and GPUs. When analyzing applications running at exascale,
+          HPCToolkit’s performance databases can become huge, making manual inspection
+          difficult and time-consuming. We explored existing tools including Hatchet
+          and Thicket for programmatic analysis of performance data to automate this
+          process. However, HPCToolkit’s calling context trees are difficult to
+          interpret and visualize using these tools because they often contain many
+          nodes that represent contexts where little cost has been incurred. Moreover,
+          importing HPCToolkit databases for multiple application runs into Thicket
+          was slow as unifying calling context trees for all runs was costly for large
+          trees. To accelerate matching of calling context trees, we employ filtering
+          to reduce the calling context trees to the most valuable sections for
+          analysis. Additionally, we developed a new API to efficiently extract slices
+          of HPCToolkit’s performance data specified by query expressions. We plan to
+          integrate use of the new API into Hatchet and Thicket to provide users with
+          efficient techniques to programmatically analyze large-scale performance data.
+     - title: "Thicket: Growth of the Heterogeneous Performance Experiment Forest"
+       author: Dewi Yokelson
+       affiliation: University of Oregon
        length: 1800
        slides: 
-       abstract: 
-     - title: 
-       author: 
-       affiliation: 
+       abstract: |
+          Comparison and analysis of large-scale application codes across multiple
+          runs can enable deeper understanding of the optimal performance
+          configuration. Thicket is an open-source Python toolkit that provides
+          support for this type of comparative analysis across diverse architectures
+          and tools. This talk provides background on Thicket as well as sharing
+          recent updates and upcoming features. First, we discuss how Thicket works,
+          and demonstrate its capabilities in two case studies. Then we discuss new
+          functionality — including the support of heterogeneous (GPU) computing
+          resources, extended statistical and query language functionality, and
+          time series performance analysis and visualization.
+     - title: HPC Utilization with PIKA and Vampir
+       author: Bert Wesarg, Bill Williams
+       affiliation: TU Dresden
        length: 1800
        slides: 
-       abstract: 
+       abstract: |
+          We present preliminary results on our work to visualize and analyze HPC
+          utilization. Our continuous job monitoring framework, PIKA, collects
+          metadata and performance metrics from SLURM jobs. A convenient web
+          interface is provided for users and admins to analyze jobs. Additionally,
+          Vampir, a scalable framework for timeline visualization, is used to
+          visualize a mapping of cluster events into traditional tracing events.
+          This provides a cluster-level overview of HPC utilization and scheduling
+          decisions made by the workload manager along with the scalability and
+          analysis features of a traditional performance tool. Score-P is a
+          well-established framework for instrumentation and
 
   - title: Talks Session 5
     days: tuesday
     time: 08:30am
     talks:
-     - title: 
-       author: 
-       affiliation: 
+     - title: Assessing CPU Code Quality
+       author: Emmanuel Oseret, Cedric Valensi, William Jalby
+       affiliation: Univ. de Versailles Saint-Quentin-en-Yvelines
        length: 1800
        slides: 
-       abstract: 
-     - title: 
-       author: 
-       affiliation: 
+       abstract: |
+          Code quality is essential for getting high performance: for various
+          reasons (poor performance models, lack of adequate transformations, …)
+          compilers are often producing suboptimal codes, which can significantly
+          hurt performance.
+          <p>
+          MAQAO is a performance analysis framework offering features designed for
+          assessing CPU (X86 and ARM) code quality, detecting potential compiler
+          “mistakes” and suggesting workarounds (inserting compiler flags,
+          rewriting loops, ...).
+          <p>
+          In our presentation, we will focus on some of these features and in
+          particular on how they can be used to compare compilers and import
+          optimizations between them. These MAQAO capabilities will be illustrated
+          through real code examples.
+     - title: Validating the Performance of GPU-Offloading with Differential Performance Models
+       author: Alexander Geiss
+       affiliation: TU Darmstadt
        length: 1800
        slides: 
-       abstract: 
-     - title: 
-       author: 
-       affiliation: 
+       abstract: |
+          Offloading work to the GPU is crucial to leverage many of today’s
+          supercomputers. We do that expecting the offloaded part of an application
+          to run faster than the pure CPU implementation, but is that true for your
+          application – especially – when scaling up? We propose a semi-automatic
+          workflow based on differential performance modeling to answer this
+          question, even for individual parts of the application, so that potential
+          issues are easier to locate. Our approach combines generation of empirical
+          performance models based on combined CPU--GPU profiles with hardware
+          characteristics to derive differential performance models that can be
+          compared across device types. To complement the workflow, we have
+          integrated the method into Extra-P and extended it with new features for
+          interactive exploration of differential performance models.
+     - title: Memory-Based, Locality-Driven Supercomputer Affinity
+       author: Edgar Leon
+       affiliation: LLNL
        length: 1800
        slides: 
-       abstract: 
+       abstract: |
+          Computer systems are becoming increasingly complex and may include
+          many-core technologies, hybrid machines with throughput-optimized
+          cores and latency-optimized cores, and multiple levels of memory. The
+          complexity involved in extracting the performance benefits these
+          systems offer challenges the productivity of computational scientists
+          greatly. A significant part of this challenge involves mapping
+          parallel applications efficiently to the underlying hardware. A poor
+          mapping may result in dramatic performance loss. Furthermore, an
+          application mapping is often machine-dependent breaking portability to
+          favor performance.
+          <p>
+          In this talk, I will present mpibind, a memory-driven algorithm to map
+          parallel hybrid applications to the underlying architecture
+          transparently from the point of view of applications. This tool
+          employs a simple interface for computational scientists and results in
+          a full mapping of MPI tasks, threads, and GPU kernels to hardware
+          processing units and memory domains. Furthermore, scientists do not
+          have to deal with intricate details of the hardware topology and thus
+          increasing their productivity. At Lawrence Livermore National
+          Laboratory, we use mpibind to bridge the gap between performance and
+          portability on commodity technology systems as well as advanced
+          technology systems.
 
   - title: Talks Session 6
     days: tuesday
     time: 10:30am
     talks:
-     - title: 
-       author: 
-       affiliation: 
+     - title: Invited Talk
+       author: Timour Paltashev
+       affiliation: Advanced Micro Devices
        length: 1800
        slides: 
-       abstract: 
-     - title: 
-       author: 
-       affiliation: 
+       abstract: TBA
+     - title: Modeling compiler dependencies in Spack
+       author: Todd Gamblin
+       affiliation: Lawrence Livermore National Lab
        length: 1800
        slides: 
-       abstract: 
-     - title: 
-       author: 
-       affiliation: 
+       abstract: |
+          Spack originally modeled compilers as simple node attributes, to allow
+          users to easily swap compilers in and out of builds, and to allow users to
+          link with packages built with different compilers. This model was flexible,
+          but made it very hard to model the many ABI and consistency requirements
+          that compiler toolchains impose on the code they build. It has been an
+          effort over many years, but we are finally close to having compilers, their
+          runtime libraries, and many of the relevant constraints that come with them
+          modeled formally.  This talk will cover the tractability challenges that we
+          had to overcome to model toolchains properly, as well as the user-facing
+          mechanisms Spack is starting to offer to model compilers, low-level runtime
+          libraries, and their ABIs.
+          RAJA Performance Suite on CPU and GPU clusters and another with a  large
+          physics simulation run on both a traditional HPC cluster and an AWS
+          Parallel Cluster instance.
+     - title: "PerfFlowAspect: End to end Performance Analysis of Multi-Binary, Multi-Cluster Workflows"
+       author: Tapasya Patki
+       affiliation: LLNL
        length: 1800
        slides: 
-       abstract: 
+       abstract: |
+          High-Performance Computing (HPC) applications are evolving from the
+          traditional bulk-synchronous parallel paradigms to complex, coordinated
+          workflows with multiple distinct components that leverage AI/ML. Such
+          workflows often have multiple dependencies and distinct binaries, and
+          operate across multiple HPC clusters and cloud platforms. This makes it
+          challenging to understand their critical path and their performance
+          bottlenecks. Exploring the large configuration space of such workflows for
+          fine-grained performance tuning is equally challenging. In this talk, we
+          will present PerfFlowAspect, an aspect-oriented, low-overhead and
+          open-source tool designed to analyze the performance of complex workflows.
+          We will present a detailed analysis of the applicability of this tool
+          using a modern workflow such as the Merlin or the  Autonomous Multi-Scale
+          (AMS) workflow at Lawrence Livermore National Laboratory.
 
   - days: tuesday
     time: 13:30pm
