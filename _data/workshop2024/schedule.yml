@@ -424,6 +424,23 @@ sessions:
     days: tuesday
     time: 10:30am
     talks:
+     - title: "AMD MI300A APU Architecture: Shader ISA Extension, Profiling and Instrumentation Support in ROCm"
+       author: Timour Paltashev (speaker), Vladimir Indic and Nursultan Kabylkas
+       affiliation: Advanced Micro Devices
+       length: 1800
+       slides:
+       abstract: |
+          The AMD Instinct™ MI300A APU is the 5th implementation of Exascale
+          Heterogeneous Processor Concept. It consists of a mix of CPU and GPU
+          chiplets along with a shared AMD Infinity Cache memory-side cache, eight
+          stacks of HBM, I/O interfaces, and Infinity Fabric (IF) interconnect to
+          provide the data movement among all these components.
+          <p>
+          Shader ISA were significantly updated to the CDNA-3 level, new counters and
+          metrics added to support performance analysis model as well special
+          hardware support for PC sampling mode of ROCm HPC/ML application
+          monitoring. Machine-readable XML ISA specification with helper API is
+          available with pending executable semantic description of GPU instructions.
      - title: Invited Talk
        author: Timour Paltashev
        affiliation: Advanced Micro Devices
