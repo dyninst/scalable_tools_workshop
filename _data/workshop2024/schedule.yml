@@ -441,12 +441,6 @@ sessions:
           hardware support for PC sampling mode of ROCm HPC/ML application
           monitoring. Machine-readable XML ISA specification with helper API is
           available with pending executable semantic description of GPU instructions.
-     - title: Invited Talk
-       author: Timour Paltashev
-       affiliation: Advanced Micro Devices
-       length: 1800
-       slides: 
-       abstract: TBA
      - title: Modeling compiler dependencies in Spack
        author: Todd Gamblin
        affiliation: Lawrence Livermore National Lab
