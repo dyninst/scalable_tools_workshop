@@ -424,7 +424,7 @@ sessions:
     days: tuesday
     time: 10:30am
     talks:
-     - title: "AMD MI300A APU Architecture: Shader ISA Extension, Profiling and Instrumentation Support in ROCm"
+     - title: "Invited Talk:  AMD MI300A APU Architecture: Shader ISA Extension, Profiling and Instrumentation Support in ROCm"
        author: Timour Paltashev (speaker), Vladimir Indic and Nursultan Kabylkas
        affiliation: Advanced Micro Devices
        length: 1800
