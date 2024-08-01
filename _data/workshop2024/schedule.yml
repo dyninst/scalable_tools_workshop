@@ -136,7 +136,7 @@ sessions:
           summarize the new developments, and present some practical examples of how
           you can use it.
      - title: "HPCToolkit: New Support for GPU Measurement"
-       author: John Mellor-Crummey
+       author: John Mellor-Crummey and Yuning Xia
        affiliation: Rice University
        length: 1800
        slides: 
