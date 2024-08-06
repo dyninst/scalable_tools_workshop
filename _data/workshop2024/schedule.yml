@@ -332,22 +332,25 @@ sessions:
           functionality — including the support of heterogeneous (GPU) computing
           resources, extended statistical and query language functionality, and
           time series performance analysis and visualization.
-     - title: HPC Utilization with PIKA and Vampir
-       author: Bert Wesarg, Bill Williams
-       affiliation: TU Dresden
+     - title: Spack-Based Production Programming Environments on Cray Shasta
+       author: Francine Lapid
+       affiliation: Los Alamos National Laboratory
        length: 1800
        slides: 
        abstract: |
-          We present preliminary results on our work to visualize and analyze HPC
-          utilization. Our continuous job monitoring framework, PIKA, collects
-          metadata and performance metrics from SLURM jobs. A convenient web
-          interface is provided for users and admins to analyze jobs. Additionally,
-          Vampir, a scalable framework for timeline visualization, is used to
-          visualize a mapping of cluster events into traditional tracing events.
-          This provides a cluster-level overview of HPC utilization and scheduling
-          decisions made by the workload manager along with the scalability and
-          analysis features of a traditional performance tool. Score-P is a
-          well-established framework for instrumentation and
+          The High Performance Computing (HPC) Programming and Runtime Environments
+          Team (PRETeam) at Los Alamos National Laboratory (LANL) supports
+          mission-critical science by providing and maintaining user software. As the
+          current fleet of supercomputers at LANL transitions to being exclusively
+          Cray Shastas, providing software poses new challenges. Particularly, making
+          the software stack compatible with the Cray Programming Environment often
+          requires additional steps. To improve the legacy process of installing
+          individual applications via their own custom scripts, the PRETeam has opted
+          to take advantage of Spack’s many features including its vast library of
+          package recipes, automatic modulefile generation, buildcache production,
+          etc. In this presentation we detail how the PRETeam is implementing
+          solutions, resolving challenges encountered, the benefits to the PRETeam
+          and the users, and future improvements to the workflow.
 
   - title: Talks Session 5
     days: tuesday
