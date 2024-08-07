@@ -211,28 +211,26 @@ sessions:
           precise time measurements. We also present current work on buffering
           techniques on the device which would allow for continuous tracing on the
           GPU.
-     - title: "Triton Updates: Debugger, Profiler, Visualizer"
-       author: Keren Zhou
-       affiliation: George Mason University
+     - title: Assessing CPU Code Quality
+       author: Emmanuel Oseret, Cedric Valensi, William Jalby
+       affiliation: Univ. de Versailles Saint-Quentin-en-Yvelines
        length: 1800
        slides: 
        abstract: |
-          Over the past year, there has been substantial development on Triton,
-          including third-party plugins, performance optimizations on NVIDIA Hopper
-          GPUs, and the creation of several tools. In this presentation, we will
-          focus on Triton's debugger, profiler, and visualizer. We will introduce
-          an interactive debugging tool for easily running kernels written in
-          Triton without the need for GPUs. This tool, supporting most Triton
-          operations, allows users to instrument code and check results as NumPy
-          arrays. We will also discuss Triton's kernel-level profiler, which
-          provides low-overhead kernel-level profiling on NVIDIA and AMD GPUs. It
-          can collect user annotations and program context, and then aggregate
-          performance information into a concise profile for quick analysis.
-          Additionally, we will introduce a visualization tool that displays tensor
-          operations, such as memory load, store, and tensor computation, as 1D to
-          3D arrays. Invalid memory accesses are masked and highlighted to aid
-          debugging in the visualizer. Furthermore, it allows for the examination
-          of individual program instances through an interactive button.
+          Code quality is essential for getting high performance: for various
+          reasons (poor performance models, lack of adequate transformations, …)
+          compilers are often producing suboptimal codes, which can significantly
+          hurt performance.
+          <p>
+          MAQAO is a performance analysis framework offering features designed for
+          assessing CPU (X86 and ARM) code quality, detecting potential compiler
+          “mistakes” and suggesting workarounds (inserting compiler flags,
+          rewriting loops, ...).
+          <p>
+          In our presentation, we will focus on some of these features and in
+          particular on how they can be used to compare compilers and import
+          optimizations between them. These MAQAO capabilities will be illustrated
+          through real code examples.
 
   - title: Talks Session 3
     days: monday
@@ -356,26 +354,28 @@ sessions:
     days: tuesday
     time: 08:30am
     talks:
-     - title: Assessing CPU Code Quality
-       author: Emmanuel Oseret, Cedric Valensi, William Jalby
-       affiliation: Univ. de Versailles Saint-Quentin-en-Yvelines
+     - title: "Triton Updates: Debugger, Profiler, Visualizer"
+       author: Keren Zhou
+       affiliation: George Mason University
        length: 1800
        slides: 
        abstract: |
-          Code quality is essential for getting high performance: for various
-          reasons (poor performance models, lack of adequate transformations, …)
-          compilers are often producing suboptimal codes, which can significantly
-          hurt performance.
-          <p>
-          MAQAO is a performance analysis framework offering features designed for
-          assessing CPU (X86 and ARM) code quality, detecting potential compiler
-          “mistakes” and suggesting workarounds (inserting compiler flags,
-          rewriting loops, ...).
-          <p>
-          In our presentation, we will focus on some of these features and in
-          particular on how they can be used to compare compilers and import
-          optimizations between them. These MAQAO capabilities will be illustrated
-          through real code examples.
+          Over the past year, there has been substantial development on Triton,
+          including third-party plugins, performance optimizations on NVIDIA Hopper
+          GPUs, and the creation of several tools. In this presentation, we will
+          focus on Triton's debugger, profiler, and visualizer. We will introduce
+          an interactive debugging tool for easily running kernels written in
+          Triton without the need for GPUs. This tool, supporting most Triton
+          operations, allows users to instrument code and check results as NumPy
+          arrays. We will also discuss Triton's kernel-level profiler, which
+          provides low-overhead kernel-level profiling on NVIDIA and AMD GPUs. It
+          can collect user annotations and program context, and then aggregate
+          performance information into a concise profile for quick analysis.
+          Additionally, we will introduce a visualization tool that displays tensor
+          operations, such as memory load, store, and tensor computation, as 1D to
+          3D arrays. Invalid memory accesses are masked and highlighted to aid
+          debugging in the visualizer. Furthermore, it allows for the examination
+          of individual program instances through an interactive button.
      - title: Validating the Performance of GPU-Offloading with Differential Performance Models
        author: Alexander Geiss
        affiliation: TU Darmstadt
@@ -431,7 +431,7 @@ sessions:
        author: Timour Paltashev (speaker), Vladimir Indic and Nursultan Kabylkas
        affiliation: Advanced Micro Devices
        length: 1800
-       slides:
+       slides: 
        abstract: |
           The AMD Instinct™ MI300A APU is the 5th implementation of Exascale
           Heterogeneous Processor Concept. It consists of a mix of CPU and GPU
