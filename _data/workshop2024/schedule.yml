@@ -471,16 +471,16 @@ sessions:
     talks:
      - title: "<span style=\"color:blue\">[Mountain]</span> Using HW counters on AMD GPUs with rocprofiler-sdk"
        author: TBD
-       affiliation: 
+       affiliation:
        length: 0
-       slides: 
-       abstract: 
+       slides:
+       abstract:
      - title: "<span style=\"color:blue\">[Lake]</span> Designing a clean-sheet API for tooling/interception in the dynamic linker"
        author: TBD
-       affiliation: 
+       affiliation:
        length: 0
-       slides: 
-       abstract: 
+       slides:
+       abstract:
 
   - title: Working Groups Session 2
     days: tuesday
@@ -488,95 +488,66 @@ sessions:
     talks:
      - title: "<span style=\"color:blue\">[Mountain]</span> Python 3.12 measurement (and/or python measurement in general)/perfstubs"
        author: TBD
-       affiliation: 
+       affiliation:
        length: 0
-       slides: 
-       abstract: 
+       slides:
+       abstract:
      - title: "<span style=\"color:blue\">[Lake]</span> Triton for HPC"
        author: TBD
-       affiliation: 
+       affiliation:
        length: 0
-       slides: 
-       abstract: 
+       slides:
+       abstract:
 
   - title: Working Groups Session 3
     days: wednesday
     time: 08:30am
     talks:
-     - title: "[Mountain] WG 3.1"
+     - title: "<span style=\"color:blue\">[Mountain]</span> Designs/options for feedback from tools to improve performance etc. &<br>System monitoring / utilization - integration of mapping, validation, visualization &<br>How can more of our tooling become more interoperable?"
        author: TBD
-       affiliation: 
+       affiliation:
        length: 0
-       slides: 
-       abstract: 
-     - title: "[Lake] WG 3.2"
+       slides:
+       abstract:
+     - title: "<span style=\"color:blue\">[Lake]</span> Scalable launch vs. application and tool software stacks"
        author: TBD
-       affiliation: 
+       affiliation:
        length: 0
-       slides: 
-       abstract: 
-     - title: "[Alumni] WG 3.3"
+       slides:
+       abstract:
+     - title: "<span style=\"color:blue\">[Alumni]</span> SIMT control and data flow representation"
        author: TBD
-       affiliation: 
+       affiliation:
        length: 0
-       slides: 
-       abstract: 
+       slides:
+       abstract:
 
-  - days: wednesday
-    time: 08:30am
-    title: Working Groups Session 3
-    talks:
-     - title: 
-       author: 
-       slides: 
-     - title: 
-       author: 
-       slides: 
-     - title: 
-       author: 
-       slides: 
-     - title: 
-       author: 
-       slides: 
-
-  - days: wednesday
+  - title: Working Groups Session 4
+    days: wednesday
     time: 10:30am
-    title: Working Groups Session 4
     talks:
-     - title: 
-       author: 
-       slides: 
-     - title: 
-       author: 
-       slides: 
-     - title: 
-       author: 
-       slides: 
-     - title: 
-       author: 
-       slides: 
+     - title: "<span style=\"color:blue\">[Lake]</span> Mapping PC samples to source lines for Intel GPUs using Dyninst and libdwfl"
+       author: TBD
+       affiliation:
+       length: 0
+       slides:
+       abstract:
 
   - days: wednesday
     time: 13:30pm
     title: Informal Small Group Discussions
     talks:
 
-  - days: thursday
+  - title: Working Groups Session 5
+    days: thursday
     time: 08:30am
-    title: Working Groups Session 5
     talks:
-     - title: 
-       author: 
-       slides: 
-     - title: 
-       author: 
-       slides: 
-     - title: 
-       author: 
-       slides: 
-     - title: 
-       author: 
-       slides: 
+     - title: "<span style=\"color:blue\">[Mountain]</span> CPU/GPU communication for tools"
+       author: TBD
+       affiliation:
+       length: 0
+       slides:
+       abstract:
 
   - days: thursday
     time: 10:30am
