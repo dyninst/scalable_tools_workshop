@@ -210,7 +210,7 @@ sessions:
        author: Emmanuel Oseret, Cedric Valensi, William Jalby
        affiliation: Univ. de Versailles Saint-Quentin-en-Yvelines
        length: 1800
-       slides: 
+       slides: Scalable_Tools_Workshop_Jalby.pdf
        abstract: |
           Code quality is essential for getting high performance: for various
           reasons (poor performance models, lack of adequate transformations, …)
@@ -393,7 +393,7 @@ sessions:
        author: Edgar Leon
        affiliation: LLNL
        length: 1800
-       slides: 
+       slides: leon-stoolsw24.pdf
        abstract: |
           Computer systems are becoming increasingly complex and may include
           many-core technologies, hybrid machines with throughput-optimized
@@ -426,7 +426,7 @@ sessions:
        author: Timour Paltashev (speaker), Vladimir Indic and Nursultan Kabylkas
        affiliation: Advanced Micro Devices
        length: 1800
-       slides: 
+       slides: STW-2024-MI300A_Arch_Tools_Final.pdf
        abstract: |
           The AMD Instinct™ MI300A APU is the 5th implementation of Exascale
           Heterogeneous Processor Concept. It consists of a mix of CPU and GPU
@@ -443,7 +443,7 @@ sessions:
        author: Todd Gamblin
        affiliation: Lawrence Livermore National Lab
        length: 1800
-       slides: 
+       slides: spack-compiler-deps-scalable-tools-2024.pdf
        abstract: |
           Spack originally modeled compilers as simple node attributes, to allow
           users to easily swap compilers in and out of builds, and to allow users to
