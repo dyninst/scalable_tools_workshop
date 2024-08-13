@@ -457,9 +457,6 @@ sessions:
           had to overcome to model toolchains properly, as well as the user-facing
           mechanisms Spack is starting to offer to model compilers, low-level runtime
           libraries, and their ABIs.
-          RAJA Performance Suite on CPU and GPU clusters and another with a  large
-          physics simulation run on both a traditional HPC cluster and an AWS
-          Parallel Cluster instance.
      - title: "PerfFlowAspect: End to end Performance Analysis of Multi-Binary, Multi-Cluster Workflows"
        author: Tapasya Patki
        affiliation: LLNL
