@@ -92,7 +92,7 @@ sessions:
        author: "Dyninst Team: James Kupsch, Ronak Chauham, Angus He"
        affiliation: University of Wisconsin-Madison
        length: 1800
-       slides: 
+       slides: Dyninst-STW-2024.pdf
        abstract: |
           Binary analysis and instrumentation is a key technology to support
           performance profiling, debugging, testing, software security, and auditing.
@@ -135,7 +135,7 @@ sessions:
        author: John Mellor-Crummey and Yuning Xia
        affiliation: Rice University
        length: 1800
-       slides: 
+       slides: HPCToolkit-STW-2024.pdf
        abstract: |
           There have been significant developments in performance monitoring support
           for GPUs from AMD and Intel over the last year. In this talk, we will
@@ -169,7 +169,7 @@ sessions:
        author: Kevin Huck
        affiliation: University of Oregon
        length: 1800
-       slides: 
+       slides: 2024-Scalable-Tools-Workshop-ZeroSum-Huck.pdf
        abstract: |
           Heterogeneous High Performance Computing (HPC) systems are highly
           specialized, complex, powerful, and expensive systems. Efficient
@@ -191,7 +191,7 @@ sessions:
        author: Sébastien Darche
        affiliation: Polytechnique Montréal
        length: 1800
-       slides: 
+       slides: scalable-tools-presentation-darche.pdf
        abstract: |
           The DORSAL group at Polytechnique Montréal, in collaboration with
           Ericsson, Ciena, AMD and EfficiOS, is conducting research on tracing,
@@ -236,13 +236,13 @@ sessions:
        author: Hsuan-Heng Wu
        affiliation: University of Wisconsin-Madison
        length: 1800
-       slides: 
+       slides: AMDGPU-Reg-Analysis-STW-2024.pdf
        abstract: TBA
      - title: "GPUscout: Locating Data Movement-related Bottlenecks on (for now NVidia) GPUs"
        author: Stepan Vanacek
        affiliation: Technical University of Munich
        length: 1800
-       slides: 
+       slides: gpuscout_tahoe_24_08_2.pdf
        abstract: |
           GPUs pose an attractive opportunity for delivering high-performance
           applications. However, GPU codes are often limited due to memory
@@ -266,7 +266,7 @@ sessions:
        author: Benjamin Welton
        affiliation: AMD
        length: 1800
-       slides: 
+       slides: STWS_Rocprofiler-SDK_Export.pdf
        abstract: |
           Approximately one year ago, we started soliciting feedback on how we could
           better improve the performance tool experience in the HPC and AI workload
@@ -314,7 +314,7 @@ sessions:
        author: Dewi Yokelson
        affiliation: University of Oregon
        length: 1800
-       slides: 
+       slides: 2024_08_12_Thicket_ScalableTools.pdf
        abstract: |
           Comparison and analysis of large-scale application codes across multiple
           runs can enable deeper understanding of the optimal performance
@@ -330,7 +330,7 @@ sessions:
        author: Francine Lapid
        affiliation: Los Alamos National Laboratory
        length: 1800
-       slides: 
+       slides: 2024-scalabletools-tce-lapid.pdf
        abstract: |
           The High Performance Computing (HPC) Programming and Runtime Environments
           Team (PRETeam) at Los Alamos National Laboratory (LANL) supports
