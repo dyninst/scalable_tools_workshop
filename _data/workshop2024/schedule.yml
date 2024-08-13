@@ -290,7 +290,7 @@ sessions:
        author: Dragana Grbic
        affiliation: Lawrence Livermore National Lab
        length: 1800
-       slides: 
+       slides: STW-2024-Grbic.pdf
        abstract: |
           HPCToolkit typically measures entire program executions, capturing
           fine-grained measurement data, which may include instruction-level samples
