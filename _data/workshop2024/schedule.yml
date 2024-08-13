@@ -465,40 +465,63 @@ sessions:
     time: 13:30pm
     title: Working Groups Creation
 
-  - days: tuesday
-    time: 15:00pm
-    title: Working Groups Session 1
+  - title: Working Groups Session 1
+    days: tuesday
+    time: 14:30pm
     talks:
-     - title: 
-       author: 
+     - title: "<span style=\"color:blue\">[Mountain]</span> Using HW counters on AMD GPUs with rocprofiler-sdk"
+       author: TBD
+       affiliation: 
+       length: 0
        slides: 
-     - title: 
-       author: 
+       abstract: 
+     - title: "<span style=\"color:blue\">[Lake]</span> Designing a clean-sheet API for tooling/interception in the dynamic linker"
+       author: TBD
+       affiliation: 
+       length: 0
        slides: 
-     - title: 
-       author: 
-       slides: 
-     - title: 
-       author: 
-       slides: 
- 
-  - days: tuesday
+       abstract: 
+
+  - title: Working Groups Session 2
+    days: tuesday
     time: 16:00pm
-    title: Working Groups Session 2
     talks:
-     - title: 
-       author: 
+     - title: "<span style=\"color:blue\">[Mountain]</span> Python 3.12 measurement (and/or python measurement in general)/perfstubs"
+       author: TBD
+       affiliation: 
+       length: 0
        slides: 
-     - title: 
-       author: 
+       abstract: 
+     - title: "<span style=\"color:blue\">[Lake]</span> Triton for HPC"
+       author: TBD
+       affiliation: 
+       length: 0
        slides: 
-     - title: 
-       author: 
+       abstract: 
+
+  - title: Working Groups Session 3
+    days: wednesday
+    time: 08:30am
+    talks:
+     - title: "[Mountain] WG 3.1"
+       author: TBD
+       affiliation: 
+       length: 0
        slides: 
-     - title: 
-       author: 
+       abstract: 
+     - title: "[Lake] WG 3.2"
+       author: TBD
+       affiliation: 
+       length: 0
        slides: 
- 
+       abstract: 
+     - title: "[Alumni] WG 3.3"
+       author: TBD
+       affiliation: 
+       length: 0
+       slides: 
+       abstract: 
+
   - days: wednesday
     time: 08:30am
     title: Working Groups Session 3
