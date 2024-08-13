@@ -89,7 +89,7 @@ sessions:
     time: 08:35am
     talks:
      - title: What's New in Dyninst
-       author: "Dyninst Team: James Kupsch, Ronak Chauham, Angus He"
+       author: "Dyninst Team: James Kupsch, Ronak Chauhan, Angus He"
        affiliation: University of Wisconsin-Madison
        length: 1800
        slides: Dyninst-STW-2024.pdf
