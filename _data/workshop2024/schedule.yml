@@ -185,8 +185,7 @@ sessions:
           monitoring of application processes, lightweight processes (threads), and
           hardware resources on heterogeneous, distributed HPC systems. ZeroSum is
           designed to be used either as a limited-use porting tool or as an
-          always-on monitoring library. With increasing system performance and
-          complexity, it is becoming
+          always-on monitoring library.
      - title: GPU compute kernel instrumentation and performance analysis for HPC
        author: Sébastien Darche
        affiliation: Polytechnique Montréal
