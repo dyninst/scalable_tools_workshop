@@ -457,25 +457,10 @@ sessions:
           had to overcome to model toolchains properly, as well as the user-facing
           mechanisms Spack is starting to offer to model compilers, low-level runtime
           libraries, and their ABIs.
-     - title: "PerfFlowAspect: End to end Performance Analysis of Multi-Binary, Multi-Cluster Workflows"
-       author: Tapasya Patki
-       affiliation: LLNL
-       length: 1800
-       slides: 
-       abstract: |
-          High-Performance Computing (HPC) applications are evolving from the
-          traditional bulk-synchronous parallel paradigms to complex, coordinated
-          workflows with multiple distinct components that leverage AI/ML. Such
-          workflows often have multiple dependencies and distinct binaries, and
-          operate across multiple HPC clusters and cloud platforms. This makes it
-          challenging to understand their critical path and their performance
-          bottlenecks. Exploring the large configuration space of such workflows for
-          fine-grained performance tuning is equally challenging. In this talk, we
-          will present PerfFlowAspect, an aspect-oriented, low-overhead and
-          open-source tool designed to analyze the performance of complex workflows.
-          We will present a detailed analysis of the applicability of this tool
-          using a modern workflow such as the Merlin or the  Autonomous Multi-Scale
-          (AMS) workflow at Lawrence Livermore National Laboratory.
+
+  - days: tuesday
+    time: 11:30pm
+    title: Working Groups Planning
 
   - days: tuesday
     time: 13:30pm
