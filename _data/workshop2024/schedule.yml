@@ -375,7 +375,7 @@ sessions:
        author: Alexander Geiss
        affiliation: TU Darmstadt
        length: 1800
-       slides: 
+       slides: Validating the Performance of GPU-Offloading with Differential Performance.pdf
        abstract: |
           Offloading work to the GPU is crucial to leverage many of today’s
           supercomputers. We do that expecting the offloaded part of an application
