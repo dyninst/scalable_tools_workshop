@@ -353,7 +353,7 @@ sessions:
        author: Keren Zhou
        affiliation: George Mason University
        length: 1800
-       slides: 
+       slides: Proton - Scalable Tools Workshop.pdf
        abstract: |
           Over the past year, there has been substantial development on Triton,
           including third-party plugins, performance optimizations on NVIDIA Hopper
