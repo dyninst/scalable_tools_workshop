@@ -145,7 +145,7 @@ sessions:
        author: Jennifer Green and Ann Gentile
        affiliation: Sandia National Lab
        length: 1800
-       slides: 
+       slides: ScalableTools2024_GentileFINAL.pdf
        abstract: |
           The Lightweight Distributed Metric Service (LDMS) is an open-source,
           state-of-the-art monitoring system widely used on large-scale systems
