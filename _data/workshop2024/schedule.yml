@@ -236,7 +236,33 @@ sessions:
        affiliation: University of Wisconsin-Madison
        length: 1800
        slides: AMDGPU-Reg-Analysis-STW-2024.pdf
-       abstract: TBA
+       abstract: |
+          Binary code instrumentation has a long history for being used for
+          performance analysis, debugging, software reliability and security
+          purposes on CPU binaries. In contrast to CPU binary instrumentation,
+          instrumenting GPU binaries poses some unique challenges: 1. GPU kernels
+          do not necessarily have access to a general purpose stack or heap,
+          which is commonly used in conventional CPU instrumentation. 2. Highly
+          optimized GPU kernels can use up all architecturally available
+          registers, and if these kernels have no stack available to support
+          register spilling, we end up with little or none registers available
+          for instrumentation.
+          <p>
+          In this talk, we attempt to address the two challenges at the same time
+          by answering the following question: What is the minimal register
+          requirement required to enable access to a general-purpose stack and
+          heap, which in turn support the "conventional" instrumentation. Based
+          on whether the kernel is compiled with scratch(stack), and based on the
+          number of registers available for instrumentation, we come up with
+          different instrumentation strategies to support conventional
+          instrumentation with increasing overheads.
+          <p>
+          We inspect the 738 kernels in the MIOpen library across the MI100,
+          MI200 and MI300 GPU architectures,  categorize them based on the
+          instrumentation strategies (with default allocation or by increasing
+          the register allocation when possible), and show that conventional
+          instrumentation can be supported for more than 97% of the kernels in
+          this vendor-provided hardware-optimized machine learning library.
      - title: "GPUscout: Locating Data Movement-related Bottlenecks on (for now NVidia) GPUs"
        author: Stepan Vanacek
        affiliation: Technical University of Munich
