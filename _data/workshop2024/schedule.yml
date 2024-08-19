@@ -516,13 +516,13 @@ sessions:
        author: " "
        affiliation:
        length: 0
-       slides:
+       slides: outbriefs/stw24-wg-pstubs.pdf
        abstract:
      - title: "<span style=\"color:blue\">[Lake]</span> Triton for HPC"
        author: " "
        affiliation:
        length: 0
-       slides:
+       slides: outbriefs/triton_for_hpc.pdf
        abstract:
 
   - title: Working Groups Session 3
@@ -533,7 +533,7 @@ sessions:
        author: " "
        affiliation:
        length: 0
-       slides:
+       slides: outbriefs/stw24-wg-monitoring.pdf
        abstract:
      - title: "<span style=\"color:blue\">[Lake]</span> Scalable launch vs. application and tool software stacks"
        author: " "
@@ -545,7 +545,7 @@ sessions:
        author: " "
        affiliation:
        length: 0
-       slides:
+       slides: outbriefs/simt-instrumentation-outbrief.pdf
        abstract:
 
   - title: Working Groups Session 4
@@ -572,7 +572,7 @@ sessions:
        author: " "
        affiliation:
        length: 0
-       slides:
+       slides: outbriefs/stw24-wg-cpu-gpu-comm.pdf
        abstract:
 
   - days: thursday
