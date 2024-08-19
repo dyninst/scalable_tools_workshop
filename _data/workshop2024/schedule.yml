@@ -496,13 +496,13 @@ sessions:
     time: 14:30pm
     talks:
      - title: "<span style=\"color:blue\">[Mountain]</span> Using HW counters on AMD GPUs with rocprofiler-sdk"
-       author: TBD
+       author: " "
        affiliation:
        length: 0
        slides:
        abstract:
      - title: "<span style=\"color:blue\">[Lake]</span> Designing a clean-sheet API for tooling/interception in the dynamic linker"
-       author: TBD
+       author: " "
        affiliation:
        length: 0
        slides:
@@ -513,13 +513,13 @@ sessions:
     time: 16:00pm
     talks:
      - title: "<span style=\"color:blue\">[Mountain]</span> Python 3.12 measurement (and/or python measurement in general)/perfstubs"
-       author: TBD
+       author: " "
        affiliation:
        length: 0
        slides:
        abstract:
      - title: "<span style=\"color:blue\">[Lake]</span> Triton for HPC"
-       author: TBD
+       author: " "
        affiliation:
        length: 0
        slides:
@@ -530,19 +530,19 @@ sessions:
     time: 08:30am
     talks:
      - title: "<span style=\"color:blue\">[Mountain]</span> Designs/options for feedback from tools to improve performance etc. &<br>System monitoring / utilization - integration of mapping, validation, visualization &<br>How can more of our tooling become more interoperable?"
-       author: TBD
+       author: " "
        affiliation:
        length: 0
        slides:
        abstract:
      - title: "<span style=\"color:blue\">[Lake]</span> Scalable launch vs. application and tool software stacks"
-       author: TBD
+       author: " "
        affiliation:
        length: 0
        slides:
        abstract:
      - title: "<span style=\"color:blue\">[Alumni]</span> SIMT control and data flow representation"
-       author: TBD
+       author: " "
        affiliation:
        length: 0
        slides:
@@ -553,7 +553,7 @@ sessions:
     time: 10:30am
     talks:
      - title: "<span style=\"color:blue\">[Lake]</span> Mapping PC samples to source lines for Intel GPUs using Dyninst and libdwfl"
-       author: TBD
+       author: " "
        affiliation:
        length: 0
        slides:
@@ -569,7 +569,7 @@ sessions:
     time: 08:30am
     talks:
      - title: "<span style=\"color:blue\">[Mountain]</span> CPU/GPU communication for tools"
-       author: TBD
+       author: " "
        affiliation:
        length: 0
        slides:
