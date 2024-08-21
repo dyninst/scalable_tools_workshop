@@ -505,7 +505,7 @@ sessions:
        author: " "
        affiliation:
        length: 0
-       slides:
+       slides: outbriefs/stw24-wg-design-new-dynamic-linker-tooling-API.pdf
        abstract:
 
   - title: Working Groups Session 2
