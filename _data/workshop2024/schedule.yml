@@ -499,7 +499,7 @@ sessions:
        author: " "
        affiliation:
        length: 0
-       slides:
+       slides: outbriefs/STW24-AMD-GPU-Counters.pdf
        abstract:
      - title: "<span style=\"color:blue\">[Lake]</span> Designing a clean-sheet API for tooling/interception in the dynamic linker"
        author: " "
@@ -539,7 +539,7 @@ sessions:
        author: " "
        affiliation:
        length: 0
-       slides:
+       slides: outbriefs/STW24-Scalable-Launch.pdf
        abstract:
      - title: "<span style=\"color:blue\">[Alumni]</span> SIMT control and data flow representation"
        author: " "
@@ -556,7 +556,7 @@ sessions:
        author: " "
        affiliation:
        length: 0
-       slides:
+       slides: outbriefs/STW24-Intel-PC.pdf
        abstract:
 
   - days: wednesday
