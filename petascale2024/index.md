@@ -15,5 +15,6 @@ for the second half of the workshop.
 
 On Sunday evening, the welcome reception starts at 5:30pm and dinner at 6:30pm.
 
-<img src="assets/images/hiking_group_photo.jpg" style="width:100%; height:auto; max-width:100%; border:solid">
-
+<p>
+<img src="assets/images/stw2024.jpg" style="width:42.93%; height:auto; max-width:42.93%; border:solid">
+<img src="assets/images/hiking_group_photo.jpg" style="width:55.27%; height:auto; max-width:55.27%; border:solid">
