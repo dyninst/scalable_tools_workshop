@@ -61,6 +61,13 @@ defaults:
       left_image: '<img width="125" height="398" alt="picture of Tahoe" src="../assets/images/tahoe_2.JPG" class="leftdecoration">'
   -
     scope:
+      path: "petascale2026"
+    values:
+      year: "workshop2026"
+      separate_lodging: true
+      left_image: '<img width="140" alt="picture of Picnic Point" src="../assets/images/Aerial_Picnic_Point_2023-10-14JM_1691.jpg" class="leftdecoration">'
+  -
+    scope:
       path: "petascale2025"
     values:
       year: "workshop2025"
