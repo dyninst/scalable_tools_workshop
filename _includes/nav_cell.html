@@ -1,0 +1,1 @@
+{%capture html_name%}{{page.name | replace: ".md", ".html" | replace: "index.html", "." }}{%endcapture%}<td {% if include.url == html_name %} class="current"{% endif %}><a href="{{include.url}}">{{include.label}}</a></td>

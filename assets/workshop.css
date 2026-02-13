@@ -58,6 +58,10 @@ table.sitepages td {
 	margin: 0.3em;
    border-left: 1px solid #87CEFA;
 }
+table.sitepages td.current {
+    font-weight: bold;
+    background-color: #f6f2d7;
+}
 table.sitepages td.internall {
 	vertical-align: center;
    text-align: center;

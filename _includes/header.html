@@ -22,17 +22,18 @@
 
 <table align="center" class="sitepages" border="0" 	cellspacing="0" cellpadding="3px">
     <tr>
-      <td><a href="index.html">Overview</a></td>
-      <td><a href="registration.html">Registration</a></td>
-      <td><a href="workshops.html">Past Workshops</a></td>
+      {% include nav_cell.html url="." label="Overview" %}
+      {% include nav_cell.html url="registration.html" label="Registration" %}
+      {% if page.separate_lodging %}
+        {% include nav_cell.html url="lodging.html" label="Lodging" %}
+      {% endif %}
+      {% include nav_cell.html url="workshops.html" label="Past Workshops" %}
         {% for day in (0..4) %}
-        <td>
             {% assign offset = one_day | times: day %}
             {% assign sched_date = startdate | date: "%s" | plus: offset %}
-            {{sched_date | date: "%A, %B %-d"}}<br>
-            <a href="{{sched_date | date: "%A" | downcase }}.html">{{sched_date | date: "%A"}} Schedule</a>
-        </td>
-
+	    {% assign day_url = sched_date | date: "%A.html" | downcase %}
+	    {% assign day_label = sched_date | date: "%A, %B %-d<br>Schedule" %}
+            {% include nav_cell.html url=day_url label=day_label %}
         {% endfor %}
     </tr>
 </table>
