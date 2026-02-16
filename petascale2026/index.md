@@ -13,7 +13,7 @@ As in previous years, we will begin with presentations of people's work,
 and will then break up into working groups to tackle real technical problems
 for the second half of the workshop.
 
-On Sunday evening, the welcome reception starts at 5:30pm and dinner at 6:30pm at the [Great Dane Pub & Brewing](https://www.greatdanepub.com/locations/downtown-madison/), [123 E Doty St, Madison, WI](http://maps.apple.com/?address=123+E+Doty+St,Madison,WI+53703).
+On Sunday evening, the welcome reception and dinner starts at 5:30pm at the [Great Dane Pub & Brewing](https://www.greatdanepub.com/locations/downtown-madison/), [123 E Doty St, Madison, WI](http://maps.apple.com/?address=123+E+Doty+St,Madison,WI+53703).
 
 <!--
 <p style="text-align:center">

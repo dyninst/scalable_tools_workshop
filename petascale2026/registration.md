@@ -8,9 +8,9 @@ Scalable Tools Workshop 2026 will be held at
 This year the conference registration includes the Sunday reception and dinner, conference attendance, lunches and breaks.
 This year [booking lodging](lodging.html) is separate from the workshop registration.
 
-The cost of registration will be $300 (PLACEHOLDER_AMOUNT):
+The cost of registration will be $350 and can be made using the online form:
 
-**[Workshop Registration PLACEHOLDER_LINK](https://REGISTRATION_LINK)**
+[**Workshop Registration**](https://uwmadison.eventsair.com/scalable-tools-workshop/reg)
 
 **Air transportation to Madison:** [Dane County Region Airport (airport code MSN)](https://www.msnairport.com) is [located](http://maps.apple.com/?q=Dane+County+Regional+Airport) a convenient 6 miles from lodging and the venue.  Alternative airports are Milwuakee Mitchell Field (MKE) and Chicago O'Hare Airport (ORD). There is bus service from both [ORD](https://www.coachusa.com) and [MKE](https://www.busbud.com) to Madison with a stop near the lodging and venue at North Lake St.
 

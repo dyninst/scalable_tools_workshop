@@ -12,13 +12,8 @@ sessions:
     days:
       - tuesday
     class: sbreak
-  - title: "Welcome Reception (<a href='https://www.greatdanepub.com/locations/downtown-madison/'>Great Dane Pub and Brewing</a>, <a href='http://maps.apple.com/?address=123+E+Doty+St,Madison,WI+53703'>123 E Doty St, Madison, WI</a>)"
+  - title: "Welcome Reception and Dinner (<a href='https://www.greatdanepub.com/locations/downtown-madison/'>Great Dane Pub and Brewing</a>, <a href='http://maps.apple.com/?address=123+E+Doty+St,Madison,WI+53703'>123 E Doty St, Madison, WI</a>)"
     time: 17:30pm
-    days:
-      - sunday
-    class: sbreak
-  - title: "Dinner (<a href='https://www.greatdanepub.com/locations/downtown-madison/'>Great Dane Pub and Brewing</a>, <a href='http://maps.apple.com/?address=123+E+Doty+St,Madison,WI+53703'>23 E Doty St, Madison, WI</a>)"
-    time: 18:30pm
     days:
       - sunday
     class: sbreak
