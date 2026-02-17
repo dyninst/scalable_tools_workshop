@@ -33,12 +33,40 @@ whitelist:
 exclude:
   - Gemfile
   - Gemfile.lock
+venues:
+  granlib:
+    site: Ganlibakken Resort
+    city: Lake Tahoe
+    state: California
+  sb:
+    site: Snowbird Ski & Summer Resort
+    city: Snow Bird
+    state: Utah
+  sr:
+    site: Solitude Resort
+    city: Solitude
+    state: Utah
+  mh:
+    site: Morgridge Hall, University of Wisconsin-Madison
+    city: Madison
+    state: Wisconsin
+  cs:
+    site: University of Wisconsin
+    city: Madison
+    state: Wisconsin
+
 defaults:
   -
     scope:
       path: "*"
     values:
       top_assets: "assets"
+      workshop_page: true
+  -
+    scope:
+      path: "index.md"
+    values:
+      workshop_page: false
   -
     scope:
       path: "*/"
@@ -64,45 +92,228 @@ defaults:
       path: "petascale2026"
     values:
       year: "workshop2026"
+      num_days: 5
       separate_lodging: true
       left_image: '<img width="140" alt="picture of Picnic Point" src="../assets/images/Aerial_Picnic_Point_2023-10-14JM_1691.jpg" class="leftdecoration">'
+      workshop:
+        start_date: "2026-07-26"
+        year: 2026
+        num_days: 5
+        name: Scalable Tools Workshop
+        ordinal: 19th
+        venue: mh
   -
     scope:
       path: "petascale2025"
     values:
       year: "workshop2025"
+      workshop:
+        start_date: "2025-07-06"
+        year: 2025
+        num_days: 5
+        name: Scalable Tools Workshop
+        ordinal: 18th
+        venue: granlib
   -
     scope:
       path: "petascale2024"
     values:
       year: "workshop2024"
+      workshop:
+        start_date: "2024-08-11"
+        year: 2024
+        num_days: 5
+        name: Scalable Tools Workshop
+        ordinal: 17th
+        venue: granlib
   -
     scope:
       path: "petascale2023"
     values:
       year: "workshop2023"
+      workshop:
+        start_date: "2023-06-18"
+        year: 2023
+        num_days: 5
+        name: Scalable Tools Workshop
+        ordinal: 16th
+        venue: granlib
   -
     scope:
       path: "petascale2022"
     values:
       year: "workshop2022"
+      workshop:
+        start_date: "2022-06-19"
+        year: 2022
+        num_days: 5
+        name: Scalable Tools Workshop
+        ordinal: 15th
+        venue: granlib
   -
     scope:
       path: "petascale2020"
     values:
       year: "workshop2020"
+      workshop:
+        start_date: "2020-08-23"
+        year: 2020
+        num_days: 5
+        name: Scalable Tools Workshop
+        ordinal: 14th
+        venue: granlib
   -
     scope:
       path: "petascale2019"
     values:
       year: "workshop2019"
+      workshop:
+        start_date: "2019-07-28"
+        year: 2019
+        num_days: 5
+        name: Scalable Tools Workshop
+        ordinal: 13th
+        venue: granlib
   -
     scope:
       path: "petascale2018"
     values:
       year: "workshop2018"
+      workshop:
+        start_date: "2018-07-08"
+        year: 2018
+        num_days: 5
+        name: Scalable Tools Workshop
+        ordinal: 12th
+        venue: sr
   -
     scope:
       path: "petascale2017"
     values:
       year: "workshop2017"
+      workshop:
+        start_date: "2017-08-06"
+        year: 2017
+        num_days: 5
+        name: Scalable Tools Workshop
+        ordinal: 11th
+        venue: granlib
+  -
+    scope:
+      path: "petascale2016"
+    values:
+      workshop:
+        start_date: "2016-07-31"
+        year: 2016
+        name: Scalable Tools Workshop
+        ordinal: 10th
+        venue: granlib
+        url: https://www.paradyn.org/petascale2016/
+  -
+    scope:
+      path: "petascale2015"
+    values:
+      workshop:
+        start_date: "2015-08-02"
+        year: 2015
+        num_days: 5
+        name: Scalable Tools Workshop
+        ordinal: 9th
+        venue: granlib
+        url: https://www.paradyn.org/petascale2015/
+  -
+    scope:
+      path: "petascale2014"
+    values:
+      workshop:
+        start_date: "2014-08-04"
+        year: 2014
+        num_days: 4
+        name: Petascale Tools Workshop
+        ordinal: 8th
+        venue: cs
+        url: https://www.paradyn.org/petascale2014/
+  -
+    scope:
+      path: "petascale2013"
+    values:
+      workshop:
+        start_date: "2013-07-15"
+        year: 2013
+        num_days: 3
+        name: Petascale Tools Workshop
+        ordinal: 7th
+        venue: cs
+        url: https://www.paradyn.org/petascale2013/
+  -
+    scope:
+      path: "petascale2012"
+    values:
+      workshop:
+        start_date: "2012-06-26"
+        year: 2012
+        num_days: 4
+        name:  CSCADS Tools Workshop
+        ordinal: 6th
+        venue: sb
+        url: http://cscads.rice.edu/performance-tools.htm
+  -
+    scope:
+      path: "petascale2011"
+    values:
+      workshop:
+        start_date: "2011-07-31"
+        year: 2011
+        num_days: 6
+        name:  CSCADS Tools Workshop
+        ordinal: 5th
+        venue: granlib
+        url: http://cscads.rice.edu/performance-tools-1.htm
+  -
+    scope:
+      path: "petascale2010"
+    values:
+      workshop:
+        start_date: "2010-08-02"
+        year: 2010
+        num_days: 4
+        name:  CSCADS Tools Workshop
+        ordinal: 4th
+        venue: sb
+        url: http://cscads.rice.edu/performance-tools-2.htm
+  -
+    scope:
+      path: "petascale2009"
+    values:
+      workshop:
+        start_date: "2009-07-19"
+        year: 2009
+        num_days: 5
+        name:  CSCADS Tools Workshop
+        ordinal: 3rd
+        venue: granlib
+        url: http://cscads.rice.edu/performance-tools-3.htm
+  -
+    scope:
+      path: "petascale2008"
+    values:
+      workshop:
+        start_date: "2008-07-21"
+        year: 2008
+        num_days: 4
+        name:  CSCADS Tools Workshop
+        ordinal: 2nd
+        venue: sb
+        url: http://cscads.rice.edu/performance-tools-4.htm
+  -
+    scope:
+      path: "petascale2007"
+    values:
+      workshop:
+        start_date: "2007-07-16"
+        year: 2007
+        num_days: 4
+        name:  CSCADS Tools Workshop
+        ordinal: 1st
+        venue: sb
+        url: http://cscads.rice.edu/perf-workshop-07.htm

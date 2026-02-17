@@ -27,7 +27,7 @@
       {% if page.separate_lodging %}
         {% include nav_cell.html url="lodging.html" label="Lodging" %}
       {% endif %}
-      {% include nav_cell.html url="workshops.html" label="Past Workshops" %}
+      {% include nav_cell.html url="workshops.html" label="All Workshops" %}
         {% for day in (0..4) %}
             {% assign offset = one_day | times: day %}
             {% assign sched_date = startdate | date: "%s" | plus: offset %}

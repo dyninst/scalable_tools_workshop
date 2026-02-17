@@ -1,0 +1,14 @@
+The Scalable Tools Workshop/Petascale Tools Workshop started as part of the
+Center for Scalable Application Development Software, as one of its series of
+four summer workshops. The programs of all past workshops, going back to the
+initial CScADS series, are below:
+
+{% assign workshops = site.defaults | where_exp: "i", "i.values contains 'workshop'" | sort: "values.workshop.start_date" | reverse %}
+{% for w in workshops %}{% assign workshop = w.values.workshop %}
+{%- if workshop.url %}
+{%-   assign url = workshop.url %}
+{%- else %}
+{%- capture url %}../{{ w.scope.path }}{% endcapture %}
+{%- endif %}
+* [{{workshop.name}} {{workshop.year}}]({{url}})
+{%- endfor %}
