@@ -60,6 +60,7 @@ defaults:
     scope:
       path: "*"
     values:
+      top_dir: "."
       top_assets: "assets"
       workshop_page: true
   -
@@ -71,16 +72,19 @@ defaults:
     scope:
       path: "*/"
     values:
+      top_dir: ".."
       top_assets: "../assets"
   -
     scope:
       path: "*/*/"
     values:
+      top_dir: "../.."
       top_assets: "../../assets"
   -
     scope:
       path: ""
     values:
+      top_dir: "DIR_TOO_DEEP_MODIFY_CONFIG_YML"
       top_assets: "DIR_TOO_DEEP_MODIFY_CONFIG_YML"
   -
     scope:

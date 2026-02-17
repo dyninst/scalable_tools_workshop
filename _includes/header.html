@@ -5,6 +5,7 @@
        <a href="https://www.wisc.edu"><img class="logo" alt="UW logo" src="{{page.top_assets}}/images/uwlogo.png"></a>
       </td>
       <td style="vertical-align: top; text-align: center;">
+	  {% if page.workshop_page %}
           <h1>Scalable Tools Workshop</h1>
           <h3>{{site.data[page.year].dates.location}}<br>
 {{site.data[page.year].dates.city}}, {{site.data[page.year].dates.state}}<br>
@@ -12,6 +13,9 @@
           {% assign workshop_len = 345600 %}
           {% assign startdate = site.data[page.year].dates.startdate %}
           {{startdate |  date: "%A, %B %-d"}} through {{startdate | date: "%s" | plus: workshop_len |  date: "%A, %B %-d, %Y"}}</h3><br>
+	  {% else %}
+	  <h1>{{page.title}}</hi>
+	  {% endif %}
       </td>
       <td class="logo">
           <a href="https://www.rice.edu"><img class="logo" alt="Rice logo" src="{{page.top_assets}}/images/ricelogo.jpg"></a>
@@ -20,6 +24,7 @@
   </tbody>
 </table>
 
+{% if page.workshop_page %}
 <table align="center" class="sitepages" border="0" 	cellspacing="0" cellpadding="3px">
     <tr>
       {% include nav_cell.html url="." label="Overview" %}
@@ -59,4 +64,5 @@
 
     -->
 </script>
+{% endif %}
 

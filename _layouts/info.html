@@ -3,6 +3,7 @@
 {% include head.html %}
 <body>
 {% include header.html %}
+{% if page.workshop_page %}
 {{ page.left_image }}
 <div class="mainbody">
     <h3>{{page.title}}</h3>
@@ -10,6 +11,9 @@
         {{ content }}
     </div>
 </div>
+{% else %}
+{{ content }}
+{% endif %}
 {% include footer.html %}
 </body>
 </html>

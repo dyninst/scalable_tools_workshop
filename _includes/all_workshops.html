@@ -8,7 +8,7 @@ initial CScADS series, are below:
 {%- if workshop.url %}
 {%-   assign url = workshop.url %}
 {%- else %}
-{%- capture url %}../{{ w.scope.path }}{% endcapture %}
+{%- capture url %}{{page.top_dir}}/{{ w.scope.path }}{% endcapture %}
 {%- endif %}
 * [{{workshop.name}} {{workshop.year}}]({{url}})
 {%- endfor %}
