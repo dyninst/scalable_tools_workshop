@@ -1,3 +1,4 @@
+{% include set_vars -%}
 <table class="banner">
   <tbody>
     <tr>
@@ -5,17 +6,14 @@
        <a href="https://www.wisc.edu"><img class="logo" alt="UW logo" src="{{page.top_assets}}/images/uwlogo.png"></a>
       </td>
       <td style="vertical-align: top; text-align: center;">
-	  {% if page.workshop_page %}
-          <h1>Scalable Tools Workshop</h1>
-          <h3>{{site.data[page.year].dates.location}}<br>
-{{site.data[page.year].dates.city}}, {{site.data[page.year].dates.state}}<br>
-          {% assign one_day = 86400 %}
-          {% assign workshop_len = 345600 %}
-          {% assign startdate = site.data[page.year].dates.startdate %}
-          {{startdate |  date: "%A, %B %-d"}} through {{startdate | date: "%s" | plus: workshop_len |  date: "%A, %B %-d, %Y"}}</h3><br>
-	  {% else %}
-	  <h1>{{page.title}}</hi>
-	  {% endif %}
+        {% if page.workshop_page %}
+          <h1>{{workshop.name}} {{workshop.year}}</h1>
+          <h3>{{venue.site}}<br>
+{{venue.city}}, {{venue.state}}<br>
+          {{workshop_date_range_string}}</h3><br>
+        {% else %}
+          <h1>{{page.title}}</hi>
+        {% endif %}
       </td>
       <td class="logo">
           <a href="https://www.rice.edu"><img class="logo" alt="Rice logo" src="{{page.top_assets}}/images/ricelogo.jpg"></a>
@@ -29,17 +27,16 @@
     <tr>
       {% include nav_cell.html url="." label="Overview" %}
       {% include nav_cell.html url="registration.html" label="Registration" %}
-      {% if page.separate_lodging %}
-        {% include nav_cell.html url="lodging.html" label="Lodging" %}
-      {% endif %}
-      {% include nav_cell.html url="workshops.html" label="All Workshops" %}
-        {% for day in (0..4) %}
-            {% assign offset = one_day | times: day %}
-            {% assign sched_date = startdate | date: "%s" | plus: offset %}
-	    {% assign day_url = sched_date | date: "%A.html" | downcase %}
-	    {% assign day_label = sched_date | date: "%A, %B %-d<br>Schedule" %}
-            {% include nav_cell.html url=day_url label=day_label %}
-        {% endfor %}
+      {%- if page.separate_lodging %}
+      {%-   include nav_cell.html url="lodging.html" label="Lodging" %}
+      {%- endif %}
+      {%  include nav_cell.html url="workshops.html" label="All Workshops" %}
+      {%- for day in (0..workshop_num_days_0_based) %}
+      {%-   assign day_ts = sec_per_day | times: day | plus: first_day_ts %}
+      {%-   assign day_url = day_ts | date: "%A.html" | downcase %}
+      {%-   assign day_label = day_ts | date: "%A, %B %-d<br>Schedule" %}
+      {%    include nav_cell.html url=day_url label=day_label %}
+      {%- endfor %}
     </tr>
 </table>
 

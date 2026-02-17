@@ -2,8 +2,8 @@
 layout: info
 title: Registration
 ---
-Scalable Tools Workshop 2026 will be held at
-[Morgridge Hall](https://cdis.wisc.edu/about-morgridge-hall), 1205 University Av, Madison, Wisconsin on the University of Wisconsin campus.
+{% include set_vars -%}
+Scalable Tools Workshop 2026 will be held at {{venue.location}}
 
 This year the conference registration includes the Sunday reception and dinner, conference attendance, lunches and breaks.
 This year [booking lodging](lodging.html) is separate from the workshop registration.

@@ -5,22 +5,19 @@
 {% include header.html %}
 {{ page.left_image }}
 <div class="mainbody">
-    {% assign one_day = 86400 %}
-    {% assign workshop_len = 345600 %}
-    {% assign startdate = site.data[page.year].dates.startdate %}
-    {% assign offset = one_day | times: page.day %}
-    {% assign sched_date = startdate | date: "%s" | plus: offset %}
-	{% assign sched_key = sched_date | date: "%A" | downcase %}
-    <h3 align="center">{{sched_date | date: "%A, %B %-d"}}<br>{{page.title}}</h3>
+    {% include set_vars %}
+    {%- assign day_ts = page.day | times: sec_per_day | plus: first_day_ts %}
+    {%- assign day_name = day_ts | date: "%A" | downcase %}
+    <h3 align="center">{{day_ts | date: "%A, %B %-d"}}<br>{{page.title}}</h3>
     <h3 align="center">{{page.location}}</h3>
     
-	{% assign today = site.data[page.year].schedule.sessions | where_exp: 'item', 'item.days contains sched_key' %}
-	{% if today %}
-		{% assign sched = today | sort: 'time' %}
-		{% for session in sched %}
+	{% assign today = site.data[page.year].schedule.sessions | where_exp: 'item', 'item.days contains day_name' %}
+	{%- if today %}
+		{%- assign sched = today | sort: 'time' %}
+		{%- for session in sched %}
 		{% include session.html session=session %}
-		{% endfor %}
-    {% endif %}
+		{%- endfor %}
+    {%- endif %}
 </div>
 <script>
     $("a.tooltip").click(function() {

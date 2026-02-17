@@ -50,6 +50,7 @@ venues:
     site: Morgridge Hall, University of Wisconsin-Madison
     city: Madison
     state: Wisconsin
+    location: "[Morgridge Hall](https://cdis.wisc.edu/about-morgridge-hall/), [1205 University Avenue, Madison, Wisconsin](http://maps.apple.com/?address=1205+University+Av,Madison,WI+54220) on the University of Wisconsin Campus"
   cs:
     site: University of Wisconsin
     city: Madison

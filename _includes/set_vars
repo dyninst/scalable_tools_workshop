@@ -1,0 +1,17 @@
+{% assign tz_suffix = "now" | date: " %z" %}
+{%- assign workshop = page.workshop %}
+{%- assign venue = site.venues[workshop.venue] %}
+{%- assign noon_tz_suffix = " 12:00:00" | append: tz_suffix %}
+{%- assign sec_per_day = 86400 %}
+{%- assign start_date = workshop.start_date | append: noon_tz_suffix %}
+{%- assign first_day_ts = start_date | date: '%s' %}
+{%- assign workshop_num_days_0_based = workshop.num_days | minus: 1 %}
+{%- assign last_day_ts = workshop_num_days_0_based | times: sec_per_day | plus: first_day_ts %}
+{%- assign first_day_string = first_day_ts | date: '%A, %B %-d' %}
+{%- assign last_day_string = last_day_ts | date: "%A, %B %-d" %}
+{%- assign last_day_string_with_year = last_day_ts | date: "%A, %B %-d, %Y" %}
+{%- capture workshop_date_range_string %}{{first_day_string}} through {{last_day_string_with_year}}{% endcapture %}
+{%- assign venue_location = venue.location %}
+{%- unless venue_location %}
+{%-   capture venue_location %}the {{venue.site}} in {{venue.city}}, {{venue.state}}{% endcapture %}
+{%- endunless %}
