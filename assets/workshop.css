@@ -106,6 +106,10 @@ h3 {
 	font-weight: bold;
 }
 
+table.pdschedule thead {
+	background-color: #EFFFFF;
+}
+
 table.pdschedule {
    width: 100%;
 	vertical-align: center;
