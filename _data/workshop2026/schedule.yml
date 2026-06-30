@@ -278,9 +278,9 @@ sessions:
         length: 1800
         slides: 
         abstract: tba
-      - title: Towards Truly Dynamic Binary Instrumentation With Luthier
+      - title: Towards Truly Dynamic Binary Instrumentation on AMD GPUs With Luthier
         author: Matin Raayai Ardakani
-        affiliation: Northeaster University
+        affiliation: Northeastern University
         length: 1800
         slides: 
         abstract: |
