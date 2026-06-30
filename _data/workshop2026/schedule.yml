@@ -45,144 +45,371 @@ sessions:
     time: 08:30am
     class: sbreak
 
-  - title: Talks Session 1
+  - title: Talk Session 1
     days: monday
     time: 08:35am
     talks:
-     - title: 
-       author: 
-       affiliation: 
-       length: 1800
-       slides: 
-       abstract: 
-     - title: 
-       author: 
-       affiliation: 
-       length: 1800
-       slides: 
-       abstract: 
-     - title: 
-       author: 
-       affiliation: 
-       length: 1800
-       slides: 
-       abstract: 
+      - title: What's New in Dyninst
+        author: James Kupsch and Hsuan-Heng Wu
+        affiliation: University of Wisconsin-Madison
+        length: 1800
+        slides: 
+        abstract: tba
+      - title: Toward Instruction-Level Top-Down Microarchitecture Analysis in HPCToolkit
+        author: Laksono Adhianto
+        affiliation: Rice University
+        length: 1800
+        slides: 
+        abstract: |
+          The Top-Down Microarchitecture Analysis (TMA) methodology provides a
+          systematic framework for identifying CPU performance bottlenecks by
+          hierarchically categorizing pipeline slots into four root causes: Frontend
+          Bound, Backend Bound, Bad Speculation, and Retiring. Originally designed
+          for coarse-grain measurement at the application or function level, TMA has
+          seen broad adoption across modern Intel microarchitectures, including
+          Skylake, Ice Lake, and Sapphire Rapids, as well as analogous implementations
+          on AMD (RDTSC-based pipeline analysis) and Arm (Neoverse TMA). Its strength
+          lies in its structured, metric-driven diagnosis; its principal limitation is
+          the sheer number of hardware performance counters it demands, making
+          full-tree evaluation costly and, in many configurations, impractical within
+          a single profiling run.
+          <p>
+          HPCToolkit is a sampling-based performance analysis tool designed for
+          fine-grain, instruction-level measurement on large-scale HPC systems. By
+          attributing performance metrics to individual instructions within full
+          calling-context trees, HPCToolkit exposes bottlenecks invisible to function-
+          or application-level profilers. Integrating TMA into this paradigm, however,
+          introduces fundamental tensions. TMA's slot-based metrics are defined over
+          aggregate pipeline behavior, whereas HPCToolkit's sampling model captures
+          point-in-time hardware state at the instruction level — a mismatch in both
+          granularity and temporal semantics.
+          <p>
+          This talk describes our ongoing work to reconcile these two models. We
+          present an implementation of TMA for Intel Sapphire Rapids in HPCToolkit
+          that uses hardware counter sampling to collect per-instruction observations
+          and then attributes the resulting metrics upward to loops, functions, and
+          whole programs. To manage counter multiplexing overhead, we expose a
+          selective subtree interface — allowing users to target a specific branch of
+          the TMA hierarchy — so that the required counter budget remains within the
+          available PMU's constraints.
+      - title: What's New in Caliper
+        author: David Boehm
+        affiliation: Lawrence Livermore National Lab
+        length: 1800
+        slides: 
+        abstract: |
+          Caliper is LLNL's instrumentation and profiling library that integrates
+          performance analysis capabilities directly into HPC codes, supporting a
+          wide range of performance engineering use cases, from always-on runtime
+          profiling to detailed performance debugging and large-scale run-to-run
+          performance comparison studies. This talk gives a short recap of Caliper's
+          capabilities, and provides an overview of many new (and some not-so-new)
+          features in Caliper and its surrounding software ecosystem, including
+          memory allocation profiling, MPI communication statistics, Python support,
+          updates to AMD GPU support, and run metadata capture. We cover these
+          features from a tool developer's perspective and discuss issues we found,
+          open questions, and lessons learned.
 
-  - title: Talks Session 2
+  - title: Talk Session 2
     days: monday
     time: 10:30am
     talks:
-     - title: 
-       author: 
-       affiliation: 
-       length: 1800
-       slides: 
-       abstract: 
-     - title: 
-       author: 
-       affiliation: 
-       length: 1800
-       slides: 
-       abstract: 
-     - title: 
-       author: 
-       affiliation: 
-       length: 1800
-       slides: 
-       abstract: 
+      - title: Experiences with Top-down Performance Analysis of GPUs
+        author: John Mellor-Crummey
+        affiliation: Rice University
+        length: 1800
+        slides: 
+        abstract: |
+          In 2025, we extended the HPCToolkit performance tools with support for
+          performance analysis within GPU kernels using PC sampling on AMD and Intel
+          GPUs, complementing existing support for NVIDIA GPUs. Hardware support for
+          PC sampling on AMD's MI300A is particularly informative, enabling
+          HPCToolkit to measure and attribute cycles, stalls, and stall reasons, in
+          addition to other metrics such as utilization of wavefronts and individual
+          GPU pipelines. We have been using this information to build top-down
+          performance models for GPUs. In this talk, I will report about our top-down
+          models for AMD, Intel and NVIDIA GPUs, some questions that arose when using
+          them to gain insight into issues degrading application performance, some
+          resulting adjustments to our approach, and feedback for vendors.
+      - title: "PAPI: Tackling AMD and NVIDIA’s Emerging Architectures"
+        author: Treece Burgess
+        affiliation: University of Tennessee, Knoxville
+        length: 1800
+        slides: 
+        abstract: |
+          As AMD and NVIDIA introduce increasingly complex architectures,
+          state-of-the-art profiling tools are needed to analyze them; as a result,
+          PAPI is challenged to stay at the forefront. PAPI has met this challenge
+          for AMD through the amd_smi and rocp_sdk components, and for NVIDIA
+          through the cuda and nvml components. In this talk, we showcase the
+          amd_smi, rocp_sdk, and cuda components by first exploring architecture and
+          API support, next discussing challenges and experiences, and lastly
+          outlining future actions.
+      - title: PAPI Support for AI Architectures, Code Annotation, and PC Sampling
+        author: Daniel Barry
+        affiliation: University of Tennessee, Knoxville
+        length: 1800
+        slides: 
+        abstract: |
+          The rise of specialized hardware for AI workloads has necessitated
+          commensurate support in PAPI. Additionally, applications’ use of code
+          annotation libraries, such as ROCTX, needs to be acknowledged during the
+          event monitoring process. Furthermore, Program Counter (PC)
+          sampling—available for various AMD GPUs and APUs—allows for richer
+          profiling when used in concert with conventional event monitoring. In this
+          presentation, we showcase the recent efforts in PAPI to support AI
+          architectures, interoperate with code annotation, and integrate PC sampling.
 
-  - title: Talks Session 3
+  - title: Talk Session 3
     days: monday
     time: 13:30pm
     talks:
-     - title: 
-       author: 
-       affiliation: 
-       length: 1800
-       slides: 
-       abstract: 
-     - title: 
-       author: 
-       affiliation: 
-       length: 1800
-       slides: 
-       abstract: 
-     - title: 
-       author: 
-       affiliation: 
-       length: 1800
-       slides: 
-       abstract: 
+      - title: Scalable Launch on El Capitan with Spindle
+        author: Matt Legendre
+        affiliation: Lawrence Livermore National Lab
+        length: 1800
+        slides: 
+        abstract: |
+          Job launch on the world's largest supercomputer is fast and scalable thanks
+          to Spindle, which handles scalable library loading for every job that runs
+          on El Capitan. This talk will discuss the new capabilities and scalability
+          improvements needed in Spindle for El Capitan, and it will discuss the
+          adaptations needed by the increasingly AI-centric workloads found on the
+          system. It will highlight some of the remaining complications that need
+          continued R&D, such as integration/combability with other tools and the
+          limitations around using the LD_AUDIT interface. Finally, we will propose
+          paths forward on these issues for further discussion.
+      - title: "STICM: Smart Tools and Interface for Complex Memory"
+        author: Terry Jones
+        affiliation: Oak Ridge National Lab
+        length: 1800
+        slides: 
+        abstract: |
+          Smart Tools and Interfaces for Complex Memory (STICM) is joining the DOE
+          STEP project as a new tool based on the SICM (Simplified Interface to
+          Complex Memory) platform. This talk will describe our previous work with
+          SICM and our planned future directions and stewardship as part of the STEP
+          portfolio.
+      - title: Studying dynamic phenomena in MPI programs with 3D trace visualization
+        author: Georg Hager
+        affiliation: Friedrich-Alexander-Universitaet
+        length: 1800
+        slides: 
+        abstract: |
+          Complex MPI traces are hard to visualize with traditional tracing tools.
+          Even though these tools have matured considerably over decades, some
+          effects, such as de- and resynchronization, idle waves, and
+          computational wavefronts remain elusive. We propose ParaViz3D, a
+          visualization tool that converts an MPI trace into an interactive 3D video.
+          The user can choose between application-centric and hardware-centric
+          renderings, and a variety of metrics and visualization options like color
+          gradients, transparency, and 3D topologies are available. ParaViz3D is
+          especially suited for studying MPI programs out of lockstep, which show
+          intricate dynamic behavior. I will demonstrate examples of real and
+          simulated traces and how ParaViz3D may complement more traditional trace
+          visualization.
 
-  - title: Talks Session 4
+  - title: Talk Session 4
     days: monday
     time: 15:30pm
     talks:
-     - title: 
-       author: 
-       affiliation: 
-       length: 1800
-       slides: 
-       abstract: 
-     - title: 
-       author: 
-       affiliation: 
-       length: 1800
-       slides: 
-       abstract: 
-     - title: 
-       author: 
-       affiliation: 
-       length: 1800
-       slides: 
-       abstract: 
+      - title: "Performance Analysis Tools and SDK for Intel® GPUs: Today and Tomorrow"
+        author: Zhiqiang Ma
+        affiliation: Intel
+        length: 1800
+        slides: 
+        abstract: |
+          Performance analysis tools are essential for understanding application
+          behavior and identifying bottlenecks in AI and HPC workloads. This talk
+          focuses on the open-source PTI SDK and unitrace tool and discusses future
+          directions in performance analysis for Intel® GPUs.
+          <p>
+          The PTI SDK provides APIs that enable developers to build custom profiling
+          tools or add profiling capabilities to existing tools, frameworks, such as
+          PyTorch, and applications. The unitrace is a lightweight and powerful tool
+          for tracing host and device activities, and profiling device hardware
+          performance metrics. We will use practical examples to demonstrate how to
+          use these tools to analyze AI and HPC applications. We will also discuss
+          emerging approaches using AI to process profiling data, identify performance
+          bottlenecks, and accelerate optimization workflows.
+      - title: New Developments in the ROCm Tools Ecosystem
+        author: Anthony Danalis
+        affiliation: AMD
+        length: 1800
+        slides: 
+        abstract: |
+          Effective performance optimization on AMD GPUs depends on having the right
+          tools - and knowing how to use them. This talk gives an overview of the ROCm
+          performance analysis ecosystem: what each tool does, where it fits in an
+          optimization workflow, and especially what's new.
+          <p>
+          We will cover recent developments across the stack, including new features
+          in Rocprofiler-SDK, the foundational library that powers internal and
+          external tools, and highlight new interfaces available for third-party tool
+          authors who want to build on top of it.
+          <p>
+          We will also introduce an experimental effort to make profiling more
+          accessible to both developers and AI agents: a ROCm profiling skill and tool
+          library designed to help collect, interpret, and act on profiling evidence
+          within existing workflows — a step toward treating performance analysis as
+          something that can be reasoned about, not just run.
+      - title: What is Going on with Debugging Info? DWARF6 and Support for GPUs and Vectorized Code
+        author: Ben Woodard
+        affiliation: Red Hat
+        length: 1800
+        slides: 
+        abstract: |
+          Work continues on DWARF6 with the biggest new feature in this forthcoming
+          version of the DWARF standard being standardized debug information for
+          vectorized code and GPUs. With all major GPU vendors now participating in
+          this endeavor there has been lively discussion and considerable progress
+          has been made. Many new features have been accepted while others are still
+          being edited or revised. This talk covers what to expect in the
+          forthcoming DWARF6 standard with a particular focus on the facilities that
+          are being added to support GPUs and vectorized code.
 
-  - title: Talks Session 5
+  - title: Talk Session 5
     days: tuesday
     time: 08:30am
     talks:
-     - title: 
-       author: 
-       affiliation: 
-       length: 1800
-       slides: 
-       abstract: 
-     - title: 
-       author: 
-       affiliation: 
-       length: 1800
-       slides: 
-       abstract: 
-     - title: 
-       author: 
-       affiliation: 
-       length: 1800
-       slides: 
-       abstract: 
+      - title: Binary Code Analysis and Instrumentation for AMD GPUs
+        author: Hsuan-Heng Wu
+        affiliation: University of Wisconsin-Madison
+        length: 1800
+        slides: 
+        abstract: tba
+      - title: Towards Truly Dynamic Binary Instrumentation With Luthier
+        author: Matin Raayai Ardakani
+        affiliation: Northeaster University
+        length: 1800
+        slides: 
+        abstract: |
+          Luthier is a dynamic Binary Instrumentation (DBI) framework for AMD GPUs on
+          the ROCm software stack. Luthier allows its users to inspect and modify the
+          GPU's ISA visible state via its low-level and high-level code injection
+          APIs. In this talk, we will first go over the new features that are being
+          introduced to Luthier, and the challenges they aim to solve. We then
+          conclude the talk by showcasing how these new features will pave the way
+          for supporting additional classes of AMD GPU applications, including those
+          with stripped device code symbols and those directly using the AMD userspace
+      - title: Very Low-Overhead Continuous Profiling of GPU-Accelerated LLM Workloads
+        author: Keren Zhou
+        affiliation: George Mason University
+        length: 1800
+        slides: 
+        abstract: |
+          As large language model (LLM) serving and reinforcement learning (RL)
+          systems increasingly rely on GPUs for acceleration, efficiently utilizing
+          GPU resources has become critically important. Existing monitoring tools
+          such as nvidia-smi provide only coarse-grained utilization metrics,
+          offering little insight into which GPU kernels are underperforming or how
+          close they operate to peak FLOPs. In contrast, traditional profilers such
+          as nsys and rocsys introduce non-trivial overhead (often exceeding 10%),
+          making them impractical for online serving environments where even a 1%
+          performance loss is unacceptable.
+          <p>
+          Achieving continuous, production-grade profiling poses three key
+          challenges: (1) runtime overhead, as kernel-level timing must be collected
+          without GPU synchronization, excessive CPU locking, or Python GIL
+          contention; (2) memory overhead, since long-running services must avoid CPU
+          memory leaks while profiling continuously over days or months; and
+          (3) storage overhead, as modern LLM workloads may invoke millions of
+          kernels across different call paths and input configurations in a short
+          time, making full trace serialization and offline analysis prohibitively
+          expensive.
+          <p>
+          In this talk, we present our latest progress on Proton to enable always-on
+          Monitoring of LLM workloads with less than 1% overhead. Proton provides
+          fine-grained kernel-level performance insights while remaining memory
+          efficient for long-running production deployments. Moreover, Proton offers
+          unique visibility into graph-executed LLM workloads by identifying where
+          kernels are captured and reporting per-kernel FLOPs utilization, enabling
+          practitioners to pinpoint inefficiencies that are invisible to existing
+          tools. We achieve this by co-designing the profiling framework and runtime,
+          exposing multi-layer, multi-level profiling APIs tailored to LLM services,
+          which allow performance data to be selectively collected, aggregated, and
+          interpreted with minimal overhead. Core techniques include selective
+          profiling, phase-based profiling and recycling, copy-on-write updates on
+          metadata, lock-free metrics collection, and lightweight metric kernels that
+          custom statistics directly on the GPU without synchronization.
+          kernel driver.
 
-  - title: Talks Session 6
+  - title: Talk Session 6
     days: tuesday
     time: 10:30am
     talks:
-     - title: 
-       author: 
-       affiliation: 
-       length: 1800
-       slides: 
-       abstract: 
-     - title: 
-       author: 
-       affiliation: 
-       length: 1800
-       slides: 
-       abstract: 
-     - title: 
-       author: 
-       affiliation: 
-       length: 1800
-       slides: 
-       abstract: 
-
+      - title: An Autotuning-based Hyperparameter Optimization Framework for Mixed-kernel SVM Classifications in Science and Engineering on Aurora
+        author: Xingfu Wu
+        affiliation: Argonne National Lab
+        length: 1800
+        slides: 
+        abstract: |
+          Support Vector Machine (SVM) is a state-of-the-art classification method
+          widely used in science and engineering. In this paper, we propose an
+          autotuning-based hyperparameter optimization framework to optimize
+          hyperparameters in mixed-kernel SVMs to identify their optimal choices, and
+          apply the framework to two SVMs applications in high energy physics (HEP)
+          and tunable mixed-kernel heterojunction transistors (MKH) on the exascale
+          Aurora supercomputer at Argonne National Laboratory.
+          <p>
+          Our experimental results show that uninformed choices of the regularization
+          parameter C and the coef0 parameter in the mixed-kernel SVMs result in
+          severely low accuracy (5.2%), and the proposed framework effectively
+          optimizes these hyperparameters in the SVMs to quickly identify their
+          optimal choices to achieve the highest accuracy 94.8% for the HEP
+          application and the highest average accuracy 97.3% for the MKH application
+          on up to 32 Aurora nodes.
+      - title: LLM Agents for Performance Modeling
+        author: Grace McLewee
+        affiliation: Oak Ridge National Lab
+        length: 1800
+        slides: 
+        abstract: |
+          This talk presents an agentic AI ecosystem for performance modeling and
+          prediction, built around the orchestration of specialized agents that
+          collaborate to turn raw HPC code into actionable performance predictions.
+          At its core, a code translation agent uses a fine-tuned model and a
+          context-aware chain-of-thought reasoning pipeline to transform HPC code
+          into abstract application models. These models are then handed off to a
+          performance modeling agent, which coordinates a set of tools that fuse
+          application and machine representations to generate predictions. The
+          orchestration layer manages how these agents communicate, delegate, and
+          pass intermediate results, allowing the workflow to operate end to end with
+          minimal human intervention. We evaluate the approach across a range of
+          essential HPC and AI workloads, benchmarks, and applications, demonstrating
+          accurate prediction of key operations such as floating-point operations,
+          loads, and stores, which in turn yields reliable execution-time predictions
+          on modern NVIDIA and AMD GPUs.
+      - title: Sustainable Application Mapping with mpibind
+        author: Edgar Leon
+        affiliation: Lawrence Livermore National Lab
+        length: 1800
+        slides: 
+        abstract: |
+          As HPC systems continue to evolve toward increasingly heterogeneous
+          architectures with complex memory hierarchies, NUMA domains, and GPU
+          partitioning modes, achieving portable and sustainable performance has
+          become a major challenge for application developers. mpibind is an
+          open-source library that automatically maps MPI processes and their threads
+          to hardware resources based on system topology, eliminating the need for
+          machine-specific launch configurations, manual affinity tuning, or
+          application code changes. Integrated with resource managers such as Slurm
+          and leveraging standard topology discovery interfaces, mpibind provides a
+          lightweight and transparent mechanism for improving locality-aware
+          execution across diverse computing platforms.
+          <p>
+          This presentation will introduce mpibind and describe how it improves
+          software sustainability by reducing architectural dependency, tuning
+          overhead, and deployment complexity. We will discuss how mpibind abstracts
+          hardware details such as NUMA configurations, heterogeneous CPU-GPU
+          topologies, and GPU partitioning modes, enabling applications to achieve
+          consistent performance across systems ranging from small clusters to
+          leadership-class supercomputers, including Frontier and El Capitan. Proven
+          in production on pre-exascale and exascale platforms, mpibind offers a
+          scalable and portable solution that improves performance portability,
+          maintainability, and usability for scientific applications while allowing
+          researchers to focus on their science rather than system-specific
+          optimization.
   - days: tuesday
     time: 13:30pm
     title: Working Groups Creation
