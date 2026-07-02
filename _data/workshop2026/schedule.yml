@@ -54,7 +54,47 @@ sessions:
         affiliation: University of Wisconsin-Madison
         length: 1800
         slides: 
-        abstract: tba
+        abstract: |
+          Binary analysis and instrumentation is a key technology to support
+          performance profiling, debugging, testing, software security, and auditing.
+          Dyninst is an open source suite of libraries providing binary analysis,
+          instrumentation and control capabilities across several hardware
+          architectures with an architecture-independent abstraction. It supports
+          both dynamic (runtime) and static (binary rewriting) instrumentation of a
+          binary program. Dyninst is opportunistic in that it uses symbol and debug
+          information when it is available, but can operate without it, even on
+          stripped binaries. Dyninst's analysis capabilities produce a control- and
+          data-flow analysis of the program, identifying functions, loops, and basic
+          blocks in the code. Dyninst allows fine-grained program instrumentation and
+          modification based on a high-level (control flow graph) abstraction of a
+          program.
+          <p>
+          Dyninst is structured as a suite of toolkit libraries, providing
+          architecture independent interfaces to features such as instruction
+          decoding, control flow analysis, data flow analysis, code generation, code
+          patching (splicing) and symbol table processing. On the dynamic side, it
+          also includes process control and stack walking support.
+          <p>
+          Dyninst has been used as the foundation for products from companies like
+          AMD, Cray, and Red Hat, as the basis for tools from national labs and
+          research groups, and as a key component in hundreds of academic research
+          projects. It continues to have the dual role of providing a foundation for
+          new instrumentation and analysis research combined with support for key
+          applications of binary analysis and instrumentation.
+          <p>
+          Since the last workshop, Dyninst has seen myriad improvements to
+          functionality and code quality.  Examples include more accurate CFGs,
+          significant performance improvements for large binaries, fixes to several
+          instruction's semantics, refactoring to support cross architecture
+          instrumentation, and initial support for AMD GPU and RISC-V architectures.
+          <p>
+          As always, there are updates to testing and a wealth of correctness,
+          performance, and usability enhancements discovered via user feedback, bug
+          reports, and our testing process.
+          <p>
+          In this talk, we will review the features and structure of Dyninst,
+          summarize the new developments, and present some practical examples of how
+          you can use it.
       - title: Toward Instruction-Level Top-Down Microarchitecture Analysis in HPCToolkit
         author: Laksono Adhianto
         affiliation: Rice University
@@ -190,24 +230,20 @@ sessions:
           Complex Memory) platform. This talk will describe our previous work with
           SICM and our planned future directions and stewardship as part of the STEP
           portfolio.
-      - title: Studying dynamic phenomena in MPI programs with 3D trace visualization
-        author: Georg Hager
-        affiliation: Friedrich-Alexander-Universitaet
+      - title: What is Going on with Debugging Info? DWARF6 and Support for GPUs and Vectorized Code
+        author: Ben Woodard
+        affiliation: Red Hat
         length: 1800
         slides: 
         abstract: |
-          Complex MPI traces are hard to visualize with traditional tracing tools.
-          Even though these tools have matured considerably over decades, some
-          effects, such as de- and resynchronization, idle waves, and
-          computational wavefronts remain elusive. We propose ParaViz3D, a
-          visualization tool that converts an MPI trace into an interactive 3D video.
-          The user can choose between application-centric and hardware-centric
-          renderings, and a variety of metrics and visualization options like color
-          gradients, transparency, and 3D topologies are available. ParaViz3D is
-          especially suited for studying MPI programs out of lockstep, which show
-          intricate dynamic behavior. I will demonstrate examples of real and
-          simulated traces and how ParaViz3D may complement more traditional trace
-          visualization.
+          Work continues on DWARF6 with the biggest new feature in this forthcoming
+          version of the DWARF standard being standardized debug information for
+          vectorized code and GPUs. With all major GPU vendors now participating in
+          this endeavor there has been lively discussion and considerable progress
+          has been made. Many new features have been accepted while others are still
+          being edited or revised. This talk covers what to expect in the
+          forthcoming DWARF6 standard with a particular focus on the facilities that
+          are being added to support GPUs and vectorized code.
 
   - title: Talk Session 4
     days: monday
@@ -253,20 +289,12 @@ sessions:
           library designed to help collect, interpret, and act on profiling evidence
           within existing workflows — a step toward treating performance analysis as
           something that can be reasoned about, not just run.
-      - title: What is Going on with Debugging Info? DWARF6 and Support for GPUs and Vectorized Code
-        author: Ben Woodard
-        affiliation: Red Hat
+      - title: Network and Storage Profiling
+        author: Holly Wilper
+        affiliation: NVIDIA
         length: 1800
         slides: 
-        abstract: |
-          Work continues on DWARF6 with the biggest new feature in this forthcoming
-          version of the DWARF standard being standardized debug information for
-          vectorized code and GPUs. With all major GPU vendors now participating in
-          this endeavor there has been lively discussion and considerable progress
-          has been made. Many new features have been accepted while others are still
-          being edited or revised. This talk covers what to expect in the
-          forthcoming DWARF6 standard with a particular focus on the facilities that
-          are being added to support GPUs and vectorized code.
+        abstract: tba
 
   - title: Talk Session 5
     days: tuesday
@@ -410,6 +438,7 @@ sessions:
           maintainability, and usability for scientific applications while allowing
           researchers to focus on their science rather than system-specific
           optimization.
+
   - days: tuesday
     time: 13:30pm
     title: Working Groups Creation
