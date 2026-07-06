@@ -95,7 +95,7 @@ sessions:
           In this talk, we will review the features and structure of Dyninst,
           summarize the new developments, and present some practical examples of how
           you can use it.
-      - title: Toward Instruction-Level Top-Down Microarchitecture Analysis in HPCToolkit
+      - title: Top-Down Microarchitecture Analysis in HPCToolkit
         author: Laksono Adhianto
         affiliation: Rice University
         length: 1800
