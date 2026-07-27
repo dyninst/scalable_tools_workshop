@@ -189,7 +189,7 @@ sessions:
         author: Daniel Barry
         affiliation: University of Tennessee, Knoxville
         length: 1800
-        slides: 
+        slides: Scalable_Tools_Workshop__Barry.pdf
         abstract: |
           The rise of specialized hardware for AI workloads has necessitated
           commensurate support in PAPI. Additionally, applications’ use of code
