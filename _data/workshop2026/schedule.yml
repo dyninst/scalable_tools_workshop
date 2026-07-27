@@ -293,8 +293,21 @@ sessions:
         author: Holly Wilper
         affiliation: NVIDIA
         length: 1800
-        slides: 
-        abstract: tba
+        slides: Devtools for Scalable Tools.pdf
+        abstract: |
+          Performance tooling at scale is an ongoing issue in the HPC and Cloud
+          computing environment. NVIDIA has extended its suite of tools a great deal
+          over the last few years to better support the use cases in this
+          environment.
+          <p>
+          We’ll start with a quick overview of NVIDIA DevTools and new features. Then
+          we will turn to a deeper dive into network hardware support that has been
+          added to Nsight Systems, including NICS, Switches, fabrics, and storage
+          devices.  We’ll touch on improvements in the NVTX annotation library to
+          support arbitrary structured data and how that leads to the plugin
+          methodology that is enabling multiple hardware venders to expose their data
+          through Nsight Systems.  Finally, we’ll touch a little bit on NVIDIA Tools
+          support for AI agents in the modern computing world.
 
   - title: Talk Session 5
     days: tuesday
@@ -408,7 +421,7 @@ sessions:
         author: Xingfu Wu
         affiliation: Argonne National Lab
         length: 1800
-        slides: 
+        slides: ScalableToolWorkshop2026_Xingfu_Wu.pdf
         abstract: |
           Support Vector Machine (SVM) is a state-of-the-art classification method
           widely used in science and engineering. In this paper, we propose an
