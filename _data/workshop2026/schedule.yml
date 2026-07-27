@@ -99,7 +99,7 @@ sessions:
         author: Laksono Adhianto
         affiliation: Rice University
         length: 1800
-        slides: 
+        slides: HPCToolkit CPU topdown 2026.pdf
         abstract: |
           The Top-Down Microarchitecture Analysis (TMA) methodology provides a
           systematic framework for identifying CPU performance bottlenecks by
