@@ -53,7 +53,7 @@ sessions:
         author: James Kupsch and Hsuan-Heng Wu
         affiliation: University of Wisconsin-Madison
         length: 1800
-        slides: 
+        slides: Dyninst-STW-2026.pdf
         abstract: |
           Binary analysis and instrumentation is a key technology to support
           performance profiling, debugging, testing, software security, and auditing.
@@ -136,7 +136,7 @@ sessions:
         author: David Boehm
         affiliation: Lawrence Livermore National Lab
         length: 1800
-        slides: 
+        slides: 2026-07_27 Whats new in Caliper.pdf
         abstract: |
           Caliper is LLNL's instrumentation and profiling library that integrates
           performance analysis capabilities directly into HPC codes, supporting a
@@ -158,7 +158,7 @@ sessions:
         author: John Mellor-Crummey
         affiliation: Rice University
         length: 1800
-        slides: 
+        slides: hpctoolkit-topdown-stw-2026.pdf
         abstract: |
           In 2025, we extended the HPCToolkit performance tools with support for
           performance analysis within GPU kernels using PC sampling on AMD and Intel
@@ -175,7 +175,7 @@ sessions:
         author: Treece Burgess
         affiliation: University of Tennessee, Knoxville
         length: 1800
-        slides: 
+        slides: 2026_Scalable_Tools_Workshop_TreeceBurgess.pdf
         abstract: |
           As AMD and NVIDIA introduce increasingly complex architectures,
           state-of-the-art profiling tools are needed to analyze them; as a result,
@@ -208,7 +208,7 @@ sessions:
         author: Matt Legendre
         affiliation: Lawrence Livermore National Lab
         length: 1800
-        slides: 
+        slides: legendre - spindle on el cap.pdf
         abstract: |
           Job launch on the world's largest supercomputer is fast and scalable thanks
           to Spindle, which handles scalable library loading for every job that runs
@@ -223,7 +223,7 @@ sessions:
         author: Terry Jones
         affiliation: Oak Ridge National Lab
         length: 1800
-        slides: 
+        slides: Scalable Tools Workshop '26 - STICM -v7.pdf
         abstract: |
           Smart Tools and Interfaces for Complex Memory (STICM) is joining the DOE
           STEP project as a new tool based on the SICM (Simplified Interface to
