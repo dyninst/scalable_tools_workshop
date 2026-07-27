@@ -305,7 +305,45 @@ sessions:
         affiliation: University of Wisconsin-Madison
         length: 1800
         slides: 
-        abstract: tba
+        abstract: |
+          Static binary rewriting—patching a compiled binary ahead of execution to
+          insert analysis code—is well established for Dyninst on CPUs, but no
+          comparable capability exists for AMD GPUs. We present a system that
+          extends Dyninst to AMD GPU HIP code objects: it offline-rewrites a
+          kernel's code object to splice in calls to a user-written device-probe
+          library, leaving the application source and toolchain untouched.
+          <p>
+          While Dyninst static binary rewriting requires complex pipelines—spanning
+          control-flow graph construction, AST code generation, basic-block
+          relocation, PC-relative offset patching, and ELF emission—this talk focuses
+          on three key mechanisms enabling AMD GPU mutators that mirror their CPU
+          counterparts:
+          <p>
+          1. An inter-module call path that resolves each spliced call to a
+          separately compiled probe library through a GOT slot and an R_AMDGPU_ABS64
+          relocation, linked when both code objects are frozen into a single HSA
+          executable.
+          <p>
+          2. A GPU→CPU hostcall runtime—implemented as a wait-free,
+          out-of-order-serviced mailbox ring—that allows probes to perform real
+          host-side I/O during kernel execution, enabling live tracing instead of
+          post-execution dumps.
+          <p>
+          3. A per-wavefront variable abstraction, backed by an arena allocator and
+          host-coherent managed memory delivered as a launch-time kernel argument
+          (kernarg), providing probes with race-free per-wave state whose size is
+          derived from usage and carried self-describingly in the rewritten object;
+          additionally, an implicit-argument capture region preserves entry-only ABI
+          values (such as block/thread indices, dispatch, and kernarg pointers) for
+          use at arbitrary insertion points.
+          <p>
+          Deployment is transparent: an LD_PRELOAD shim interposes on the HIP/HSA
+          runtime to substitute the rewritten object at load time, link the runtime,
+          and provision per-wave memory—requiring no application changes or runtime
+          code patching. We demonstrate per-wavefront, per-basic-block execution
+          counters (including on wave-divergent kernels that yield distinct per-wave
+          profiles), per-wave file egress, and call-return capture, scaling to ~16K
+          concurrent wavefronts on an AMD MI100 GPU.
       - title: Towards Truly Dynamic Binary Instrumentation on AMD GPUs With Luthier
         author: Matin Raayai Ardakani
         affiliation: Northeastern University
