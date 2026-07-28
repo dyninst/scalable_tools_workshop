@@ -4,14 +4,48 @@ sessions:
     time: 12:00pm
     days:
       - monday
-      - wednesday
-      - thursday
     class: sbreak
   - title: "Lunch"
-    time: 12:30pm
+    time: 12:00pm
     days:
       - tuesday
     class: sbreak
+  - title: "Lunch"
+    time: 12:00pm
+    days:
+      - wednesday
+    class: sbreak
+    talks:
+      - title: "<span style=\"color:blue\">[rm 7560]</span> Register spilling strategy for Dyninst instrumentation"
+        author: " "
+        affiliation: 
+        length: 0
+        slides: 
+        abstract: 
+      - title: "<span style=\"color:blue\">[rm 7560]</span> API for PC Sampling on Various GPUs in PAPI"
+        author: " "
+        affiliation: 
+        length: 0
+        slides: 
+        abstract: 
+  - title: "Lunch"
+    time: 12:00pm
+    days:
+      - thursday
+    class: sbreak
+    talks:
+      - title: "<span style=\"color:blue\">[rm 7560]</span> Intel Tools (not limited to GPU tools) discussion"
+        author: " "
+        affiliation: 
+        length: 0
+        slides: 
+        abstract: 
+      - title: "<span style=\"color:blue\">[rm 7560]</span> Deeper dive into DWARF"
+        author: " "
+        affiliation: 
+        length: 0
+        slides: 
+        abstract: 
   - title: "Welcome Reception and Dinner (<a href='https://www.greatdanepub.com/locations/downtown-madison/'>Great Dane Pub and Brewing</a>, <a href='http://maps.apple.com/?address=123+E+Doty+St,Madison,WI+53703'>123 E Doty St, Madison, WI</a>)"
     time: 17:30pm
     days:
@@ -494,95 +528,102 @@ sessions:
     time: 13:30pm
     title: Working Groups Creation
 
-  - days: tuesday
+  - title: Working Groups Session 1
+    days: tuesday
     time: 15:00pm
-    title: Working Groups Session 1
     talks:
-     - title: 
-       author: 
-       slides: 
-     - title: 
-       author: 
-       slides: 
-     - title: 
-       author: 
-       slides: 
-     - title: 
-       author: 
-       slides: 
- 
-  - days: tuesday
-    time: 16:00pm
-    title: Working Groups Session 2
-    talks:
-     - title: 
-       author: 
-       slides: 
-     - title: 
-       author: 
-       slides: 
-     - title: 
-       author: 
-       slides: 
-     - title: 
-       author: 
-       slides: 
- 
-  - days: wednesday
-    time: 08:30am
-    title: Working Groups Session 3
-    talks:
-     - title: 
-       author: 
-       slides: 
-     - title: 
-       author: 
-       slides: 
-     - title: 
-       author: 
-       slides: 
-     - title: 
-       author: 
-       slides: 
+      - title: "<span style=\"color:blue\">[rm 6631]</span> Data centric profiling for CPU and GPU"
+        author: " "
+        affiliation: 
+        length: 0
+        slides: 
+        abstract: 
+      - title: "<span style=\"color:blue\">[rm 6618]</span> better tooling interface for ld_audit"
+        author: " "
+        affiliation: 
+        length: 0
+        slides: 
+        abstract: 
+      - title: "<span style=\"color:blue\">[rm 7598]</span> Debugging hpctoolkit + PTI-GPU"
+        author: " "
+        affiliation: 
+        length: 0
+        slides: 
+        abstract: 
 
-  - days: wednesday
-    time: 10:30am
-    title: Working Groups Session 4
+  - title: Working Groups Session 2
+    days: wednesday
+    time: 08:30am
     talks:
-     - title: 
-       author: 
-       slides: 
-     - title: 
-       author: 
-       slides: 
-     - title: 
-       author: 
-       slides: 
-     - title: 
-       author: 
-       slides: 
+      - title: "<span style=\"color:blue\">[rm 6631]</span> Linux kernel support for streaming data"
+        author: " "
+        affiliation: 
+        length: 0
+        slides: 
+        abstract: 
+      - title: "<span style=\"color:blue\">[rm 6618]</span> CUPTI, nsys, other NVIDIA tools discussions"
+        author: " "
+        affiliation: 
+        length: 0
+        slides: 
+        abstract: 
+      - title: "<span style=\"color:blue\">[rm 6530]</span> Investigating rocprofiler-sdk failures"
+        author: " "
+        affiliation: 
+        length: 0
+        slides: 
+        abstract: 
+
+  - title: Working Groups Session 3
+    days: wednesday
+    time: 10:30am
+    talks:
+      - title: "<span style=\"color:blue\">[rm 6631]</span> Quantifying Profiler Overhead"
+        author: " "
+        affiliation: 
+        length: 0
+        slides: 
+        abstract: 
+      - title: "<span style=\"color:blue\">[rm 6618]</span> Opportunities for Improving GPU HW observability"
+        author: " "
+        affiliation: 
+        length: 0
+        slides: 
+        abstract: 
+      - title: "<span style=\"color:blue\">[rm 6530]</span> Parts Nomenclature"
+        author: " "
+        affiliation: 
+        length: 0
+        slides: 
+        abstract: 
+
+  - title: Working Groups Session 4
+    days: thursday
+    time: 08:30am
+    talks:
+      - title: "<span style=\"color:blue\">[rm 6631]</span> GPU ISA Semantics for Instrumentation + GPU Instrumentation related issues + x86"
+        author: " "
+        affiliation: 
+        length: 0
+        slides: 
+        abstract: 
+      - title: "<span style=\"color:blue\">[rm 6618]</span> Benchmarking tool insights"
+        author: " "
+        affiliation: 
+        length: 0
+        slides: 
+        abstract: 
+      - title: "<span style=\"color:blue\">[rm 6530]</span> Dyninst's support for x86_64 instruction decoding"
+        author: " "
+        affiliation: 
+        length: 0
+        slides: 
+        abstract: 
 
   - days: wednesday
     time: 13:30pm
     title: Informal Small Group Discussions
     talks:
-
-  - days: thursday
-    time: 08:30am
-    title: Working Groups Session 5
-    talks:
-     - title: 
-       author: 
-       slides: 
-     - title: 
-       author: 
-       slides: 
-     - title: 
-       author: 
-       slides: 
-     - title: 
-       author: 
-       slides: 
 
   - days: thursday
     time: 10:30am
