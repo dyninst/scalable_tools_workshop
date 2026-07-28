@@ -317,7 +317,7 @@ sessions:
         author: Hsuan-Heng Wu
         affiliation: University of Wisconsin-Madison
         length: 1800
-        slides: 
+        slides: Hsuan-Heng Talk 2026.pdf
         abstract: |
           Static binary rewriting—patching a compiled binary ahead of execution to
           insert analysis code—is well established for Dyninst on CPUs, but no
