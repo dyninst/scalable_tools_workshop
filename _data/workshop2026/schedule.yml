@@ -601,19 +601,13 @@ sessions:
     days: thursday
     time: 08:30am
     talks:
-      - title: "<span style=\"color:blue\">[rm 6631]</span> GPU ISA Semantics for Instrumentation + GPU Instrumentation related issues + x86"
+      - title: "<span style=\"color:blue\">[rm 6631]</span> Dyninst's support for x86_64 instruction decoding & GPU ISA Semantics for Instrumentation & GPU Instrumentation related issues"
         author: " "
         affiliation: 
         length: 0
         slides: 
         abstract: 
       - title: "<span style=\"color:blue\">[rm 6618]</span> Benchmarking tool insights"
-        author: " "
-        affiliation: 
-        length: 0
-        slides: 
-        abstract: 
-      - title: "<span style=\"color:blue\">[rm 6530]</span> Dyninst's support for x86_64 instruction decoding"
         author: " "
         affiliation: 
         length: 0
