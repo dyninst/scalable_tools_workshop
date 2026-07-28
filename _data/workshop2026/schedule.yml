@@ -361,7 +361,7 @@ sessions:
         author: Matin Raayai Ardakani
         affiliation: Northeastern University
         length: 1800
-        slides: 
+        slides: Luthier Tools Workshop 2026 (3).pdf
         abstract: |
           Luthier is a dynamic Binary Instrumentation (DBI) framework for AMD GPUs on
           the ROCm software stack. Luthier allows its users to inspect and modify the
@@ -463,7 +463,7 @@ sessions:
         author: Edgar Leon
         affiliation: Lawrence Livermore National Lab
         length: 1800
-        slides: 
+        slides: leon-stools26.pdf
         abstract: |
           As HPC systems continue to evolve toward increasingly heterogeneous
           architectures with complex memory hierarchies, NUMA domains, and GPU
