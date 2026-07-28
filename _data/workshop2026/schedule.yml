@@ -1,16 +1,16 @@
 ---
 sessions:
-  - title: "Lunch"
+  - title: "Lunch (rm 7560)"
     time: 12:00pm
     days:
       - monday
     class: sbreak
-  - title: "Lunch"
+  - title: "Lunch (rm 7560)"
     time: 12:00pm
     days:
       - tuesday
     class: sbreak
-  - title: "Lunch"
+  - title: "Lunch (rm 7560)"
     time: 12:00pm
     days:
       - wednesday
@@ -28,7 +28,7 @@ sessions:
         length: 0
         slides: 
         abstract: 
-  - title: "Lunch"
+  - title: "Lunch (rm 7560)"
     time: 12:00pm
     days:
       - thursday
