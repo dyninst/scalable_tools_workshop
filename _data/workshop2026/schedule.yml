@@ -306,7 +306,7 @@ sessions:
         author: Anthony Danalis
         affiliation: AMD
         length: 1800
-        slides: 
+        slides: STW - ROCm Developer Tools - July 2026.pdf
         abstract: |
           Effective performance optimization on AMD GPUs depends on having the right
           tools - and knowing how to use them. This talk gives an overview of the ROCm
@@ -476,7 +476,7 @@ sessions:
         author: Grace McLewee
         affiliation: Oak Ridge National Lab
         length: 1800
-        slides: 
+        slides: ScalableTools26-GenASPEN 1-4.pdf
         abstract: |
           This talk presents an agentic AI ecosystem for performance modeling and
           prediction, built around the orchestration of specialized agents that
