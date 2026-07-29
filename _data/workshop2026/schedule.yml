@@ -287,7 +287,7 @@ sessions:
         author: Zhiqiang Ma
         affiliation: Intel
         length: 1800
-        slides: 
+        slides: ScalableTools2026_Intel.pdf
         abstract: |
           Performance analysis tools are essential for understanding application
           behavior and identifying bottlenecks in AI and HPC workloads. This talk
