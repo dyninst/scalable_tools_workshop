@@ -268,7 +268,7 @@ sessions:
         author: Ben Woodard
         affiliation: Red Hat
         length: 1800
-        slides: 
+        slides: What's new in DWARF 2026.pdf
         abstract: |
           Work continues on DWARF6 with the biggest new feature in this forthcoming
           version of the DWARF standard being standardized debug information for
@@ -409,7 +409,7 @@ sessions:
         author: Keren Zhou
         affiliation: George Mason University
         length: 1800
-        slides: 
+        slides: Zhou - Scalable Tools Workshop.pdf
         abstract: |
           As large language model (LLM) serving and reinforcement learning (RL)
           systems increasingly rely on GPUs for acceleration, efficiently utilizing
