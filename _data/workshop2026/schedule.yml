@@ -536,7 +536,7 @@ sessions:
         author: " "
         affiliation: 
         length: 0
-        slides: 
+        slides: outbriefs/Data-centric profiling for CPUs and GPU.pdf
         abstract: 
       - title: "<span style=\"color:blue\">[rm 6618]</span> better tooling interface for ld_audit"
         author: " "
@@ -548,7 +548,7 @@ sessions:
         author: " "
         affiliation: 
         length: 0
-        slides: 
+        slides: outbriefs/stw-2026-hpctoolkit-pti-gpu.pdf
         abstract: 
 
   - title: Working Groups Session 2
@@ -571,7 +571,7 @@ sessions:
         author: " "
         affiliation: 
         length: 0
-        slides: 
+        slides: outbriefs/stw-2026-hpctoolkit-rocprofiler-sdk.pdf
         abstract: 
 
   - title: Working Groups Session 3
@@ -582,13 +582,13 @@ sessions:
         author: " "
         affiliation: 
         length: 0
-        slides: 
+        slides: outbriefs/STW-2026-Quantifying-Profiler-Overhead.pdf
         abstract: 
       - title: "<span style=\"color:blue\">[rm 6618]</span> Opportunities for Improving GPU HW observability"
         author: " "
         affiliation: 
         length: 0
-        slides: 
+        slides: outbriefs/stw-2026-gpu-hw.pdf
         abstract: 
       - title: "<span style=\"color:blue\">[rm 6530]</span> Parts Nomenclature"
         author: " "
@@ -611,7 +611,7 @@ sessions:
         author: " "
         affiliation: 
         length: 0
-        slides: 
+        slides: outbriefs/stw-2026-benchmarking-insights.pdf
         abstract: 
 
   - days: wednesday
