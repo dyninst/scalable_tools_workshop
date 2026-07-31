@@ -26,7 +26,7 @@ sessions:
         author: " "
         affiliation: 
         length: 0
-        slides: 
+        slides: outbriefs/API_for_PC_Sampling_via_PAPI.pdf
         abstract: 
   - title: "Lunch (rm 7560)"
     time: 12:00pm
@@ -594,7 +594,7 @@ sessions:
         author: " "
         affiliation: 
         length: 0
-        slides: 
+        slides: outbriefs/Parts_Nomenclature.pdf
         abstract: 
 
   - title: Working Groups Session 4
