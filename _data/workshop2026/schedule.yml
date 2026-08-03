@@ -565,7 +565,7 @@ sessions:
         author: " "
         affiliation: 
         length: 0
-        slides: 
+        slides: outbriefs/NVIDIA tools discussion.pdf
         abstract: 
       - title: "<span style=\"color:blue\">[rm 6530]</span> Investigating rocprofiler-sdk failures"
         author: " "
