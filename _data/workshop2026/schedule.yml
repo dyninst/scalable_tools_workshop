@@ -542,7 +542,7 @@ sessions:
         author: " "
         affiliation: 
         length: 0
-        slides: 
+        slides: outbriefs/STW26_LD_AUDIT_7_28_3pm.pdf
         abstract: 
       - title: "<span style=\"color:blue\">[rm 7598]</span> Debugging hpctoolkit + PTI-GPU"
         author: " "
