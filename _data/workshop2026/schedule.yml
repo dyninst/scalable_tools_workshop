@@ -33,19 +33,6 @@ sessions:
     days:
       - thursday
     class: sbreak
-    talks:
-      - title: "<span style=\"color:blue\">[rm 7560]</span> Intel Tools (not limited to GPU tools) discussion"
-        author: " "
-        affiliation: 
-        length: 0
-        slides: 
-        abstract: 
-      - title: "<span style=\"color:blue\">[rm 7560]</span> Deeper dive into DWARF"
-        author: " "
-        affiliation: 
-        length: 0
-        slides: 
-        abstract: 
   - title: "Welcome Reception and Dinner (<a href='https://www.greatdanepub.com/locations/downtown-madison/'>Great Dane Pub and Brewing</a>, <a href='http://maps.apple.com/?address=123+E+Doty+St,Madison,WI+53703'>123 E Doty St, Madison, WI</a>)"
     time: 17:30pm
     days:
