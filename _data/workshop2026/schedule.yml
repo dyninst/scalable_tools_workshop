@@ -605,7 +605,7 @@ sessions:
         author: " "
         affiliation: 
         length: 0
-        slides: 
+        slides: outbriefs/Dyninst's future for instruction decoding.pdf
         abstract: 
       - title: "<span style=\"color:blue\">[rm 6618]</span> Benchmarking tool insights"
         author: " "
