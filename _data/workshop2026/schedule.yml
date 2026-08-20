@@ -546,7 +546,7 @@ sessions:
         author: " "
         affiliation: 
         length: 0
-        slides: 
+        slides: outbriefs/EveryoneBuildsTheirOwnPipe_perf.pdf
         abstract: 
       - title: "<span style=\"color:blue\">[rm 6618]</span> CUPTI, nsys, other NVIDIA tools discussions"
         author: " "
